@@ -1,0 +1,5 @@
+2021/04/16-02:39:08.326 8869 Reusing MANIFEST /home/shivanshxyz/.config/google-chrome/Default/IndexedDB/https_docs.echoar.xyz_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/16-02:53:56.321 8e34 Level-0 table #5: started
+2021/04/16-02:53:56.323 8e34 Level-0 table #5: 1325 bytes OK
+2021/04/16-02:53:56.325 8e34 Delete type=0 #3
+2021/04/16-02:53:56.325 8e34 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,34 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Gruvbox Minor Dark Hard",
+  "prettier.useEditorConfig": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+},
+"workbench.editorAssociations": [
+  {
+    "viewType": "jupyter.notebook.ipynb",
+    "filenamePattern": "*.ipynb"
+  }
+],
+"python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe"
+}

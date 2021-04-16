@@ -1,0 +1,26 @@
+<div class="mt-browser-popup-sign-in">
+    <div class="mt-browser-popup-sign-in-header">
+        <img class="mt-browser-popup-sign-in-header-icon" src="/images/icon-32.png" />
+        <div class="mt-browser-popup-sign-in-header-text">
+            <span class="mt-browser-popup-sign-in-mailtrack">Mailtrack</span>
+            <span>{{forBrowser}}</span>
+        </div>
+    </div>
+    <div class="mt-browser-popup-sign-in-content">
+        <div class="mt-browser-popup-sign-in-title">
+            <svg class="mt-svg-icon mt-browser-popup-sign-in-title-icon">
+                <use xlink:href="/images/sprite.svg#alert"></use>
+            </svg>
+            <div class="mt-browser-popup-sign-in-title-text">{{browserSignUpPopupTitle}}</div>
+        </div>
+        <div class="mt-browser-popup-sign-in-explanation">
+            {{browserSignUpPopupExplanation}}
+        </div>
+        <a class="mt-sign-with-google-button" target="_blank" href="{{loginUrl}}">
+            <svg class="mt-svg-icon mt-sign-with-google-button-icon">
+                <use xlink:href="/images/sprite.svg#google"></use>
+            </svg>
+            {{signInWithGoogle}}
+        </a>
+    </div>
+</div>

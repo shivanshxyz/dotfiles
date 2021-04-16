@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- pdm-chrome-wrapper (forked from uget-chrome-wrapper ) is an extension to integrate uGet Download manager
+~ with Google Chrome, Chromium and Vivaldi in Linux and Windows.
+~
+~ Copyright (C) 2016  Gobinath
+~
+~ This program is free software: you can redistribute it and/or modify
+~ it under the terms of the GNU General Public License as published by
+~ the Free Software Foundation, either version 3 of the License, or
+~ (at your option) any later version.
+~
+~ This program is distributed in the hope that it will be useful,
+~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+~ GNU General Public License for more details.
+~
+~ You should have received a copy of the GNU General Public License
+~ along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="css/popup.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/popup.js"></script>
+</head>
+<body>
+<div class="container cont">
+    <div class="row">
+        <img id="img-icon" src="../icons/icon_48.png" /><h5 class="title-text"><a target="_blank" href="http://persepolisdm.github.io"> Persepolis Download Manager</a></h5>
+    </div>
+    <hr class="hr">
+
+    <div class="row">
+        <div class="col s6">
+            <label for="chk-interrupt"><p>Interrupt downloads:</p></label>
+            <div class="switch">
+                <label>
+                    Off
+                    <input type="checkbox" id="chk-interrupt">
+                    <span class="lever"></span>
+                    On
+                </label>
+            </div>
+        </div>
+        <div class="col s6">
+            <label for="context_menu"><p>Context Menu:</p></label>
+            <div class="switch">
+                <label>
+                    Off
+                    <input type="checkbox" id="context_menu">
+                    <span class="lever"></span>
+                    On
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+    <label for="keywords"><p>Exclude URLs containing:</p></label>
+    <div class="input-field">
+        <i class="material-icons prefix">clear_all</i>
+        <input id="keywords" type="text" placeholder="Eg: .jpg, .png, twitter.com"  class="validate material-input">
+    </div>
+    <!--<div class="input-field">-->
+    <!--<i class="material-icons prefix">Minimum Size </i>-->
+    <!--<input id="fileSize" type="text" value="5 MB"  class="validate">-->
+    <!--</div>-->
+    Shortcuts:<br>
+    Disable extension temporary: Hold <div class="chip">Insert</div>or <div class="chip">` (Backquote)</div><br>
+    Toggle enable extension: <div class="chip">Ctrl + Shift + U</div><br>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+   "background": {
+      "scripts": [ "lib/chrome-Storage-largeSync.min.js", "background/background-context-menu.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "Tab Group"
+   },
+   "content_scripts": [ {
+      "js": [ "lib/jquery-3.1.0.min.js", "content_script/end.js" ],
+      "matches": [ "https://*/", "http://*/" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Allow you manage and save your chrome tabs.",
+   "icons": {
+      "128": "images/icon_2_128.png",
+      "16": "images/icon_2_16.png",
+      "48": "images/icon_2_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsuvvuqdX6gUgasF++ge+/mMxk6oVQ4cKLAk2feha9rX5s9D62JDD5akhESHAZ399SbSvkx8++dUp3G4SL5UDyI7CM71LOMDOASHPRQFY9FubIq8QxaGzbNxbbra9UCy+1zhFWptqUbVFyngki8nl8Q9VIwLZHechmYbqsg3bzgItTjYfQ2PxC7MhPMpeM8FTS6s7NDiEkHXSMf6yDEJV/79VSqbc/Zr8Xnnvm3psDUS54gVc4OeeMuvExSMQbe7N3ptz1KQFXrzjwLtJ7aTvSBnF6BKJmV6t4unggNOlk7H35GOLWN4eESN9iqJDF9UnQ4SHrYKwIMMwFF1aEDn+RQIDAQAB",
+   "manifest_version": 2,
+   "name": "Tab Group",
+   "permissions": [ "tabs", "storage", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.2"
+}

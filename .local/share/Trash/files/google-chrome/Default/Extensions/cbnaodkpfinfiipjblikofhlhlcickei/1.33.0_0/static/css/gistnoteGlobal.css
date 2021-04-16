@@ -1,0 +1,460 @@
+/* Color Palette */
+/* Color Palette */
+/* Font */
+/* Font */
+/* TODO refactor to color123 */
+/* Color Variables */
+/* button */
+/* button */
+/* ------- List ------- */
+#weava-ui-wrapper {
+  position: initial !important;
+}
+
+#weava-ui-wrapper > iframe,
+#weava-ui-wrapper > div {
+  pointer-events: all !important;
+  z-index: 2147483647 !important;
+  border: none !important;
+}
+
+#weava-ui-wrapper > #weava-sidebar-iframe {
+  box-shadow: rgba(0, 0, 0, 0.4) -1px 3px 60px 0px !important;
+  position: fixed !important;
+  top: 0 !important;
+  opacity: 0.99 !important;
+  left: initial !important;
+  right: -700px !important;
+  display: block !important;
+  width: 580px !important;
+  min-width: auto !important;
+  height: 100% !important;
+  z-index: 2147483646 !important;
+  background-color: transparent;
+}
+
+#weava-ui-wrapper > #weava-payment-frame,
+#weava-payment-frame {
+  position: fixed !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  text-align: center !important;
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+#weava-ui-wrapper > #weava-social-share-frame,
+#weava-share-website-frame {
+  position: fixed !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  text-align: center !important;
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+#weava-ui-wrapper > #weava-social-share-frame,
+#weava-social-share-frame {
+  position: fixed !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  text-align: center !important;
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+#weava-ui-wrapper > #weava-upgrade-anonymous-frame,
+#weava-upgrade-anonymous-frame {
+  position: fixed !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  text-align: center !important;
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+#weava-ui-wrapper > #weava-local-file-access-frame,
+#weava-local-file-access-frame {
+  position: fixed !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  text-align: center !important;
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+#weava-ui-wrapper > #weava-notification-frame {
+  box-shadow: rgba(0, 0, 0, 0.4) -1px 3px 45px 0px !important;
+  position: fixed !important;
+  left: initial !important;
+  top: 20px !important;
+  right: 20px !important;
+  opacity: 0 !important;
+  width: 300px !important;
+  height: 80px !important;
+  border-radius: 4px !important;
+  background-color: #142834 !important;
+  visibility: hidden !important;
+  transition: all 0.3s ease !important;
+}
+
+#weava-ui-wrapper > #weava-guide-view-frame {
+  box-shadow: none !important;
+  position: fixed !important;
+  left: initial !important;
+  top: 0 !important;
+  right: 0 !important;
+  opacity: 0 !important;
+  width: 310px !important;
+  height: 200px !important;
+  background-color: transparent !important;
+  visibility: hidden !important;
+  transition: all 0.3s ease !important;
+}
+
+#weava-ui-wrapper > #weava-popover-iframe,
+#weava-popover-iframe {
+  display: none;
+  z-index: 2147483645 !important;
+  margin: 0 !important;
+  -webkit-animation-delay: 0s !important;
+  -webkit-animation-direction: normal !important;
+  -webkit-animation-duration: 0.18s !important;
+  -webkit-animation-fill-mode: forwards !important;
+  -webkit-animation-iteration-count: 1 !important;
+  -webkit-animation-name: pop-upwards !important;
+  -webkit-animation-timing-function: linear !important;
+  -webkit-transition-delay: 0s, 0s !important;
+  -webkit-transition-duration: 0.075s, 0.075s !important;
+  -webkit-transition-property: top, left !important;
+  -webkit-transition-timing-function: ease-out, ease-out !important;
+  transition-delay: 0s, 0s !important;
+  transition-duration: 0.075s, 0.075s !important;
+  transition-property: top, left !important;
+  transition-timing-function: ease-out, ease-out !important;
+  position: fixed !important;
+  opacity: 1 !important;
+  background: none !important;
+  top: 50px;
+  right: 50px;
+  width: 178px !important;
+  height: 77px !important;
+  -moz-user-select: -moz-none !important;
+  -khtml-user-select: none !important;
+  -webkit-user-select: none !important;
+  -o-user-select: none !important;
+  user-select: none !important;
+}
+
+.gistnote-highlight {
+  border-top: 0 !important;
+  margin-top: 0 !important;
+  cursor: pointer !important;
+  color: #000 !important;
+  text-shadow: none !important;
+}
+
+.textLayer .gistnote-highlight {
+  color: transparent !important;
+}
+
+@media print {
+  .gistnote-highlight {
+    -webkit-print-color-adjust: exact;
+  }
+  #weava-ui-wrapper {
+    display: none !important;
+  }
+}
+
+.writio-highlight-red {
+  background-color: #ffa4be !important;
+  cursor: pointer !important;
+}
+
+.writio-highlight-orange {
+  background-color: #ffde70 !important;
+  cursor: pointer !important;
+}
+
+.writio-highlight-yellow {
+  background-color: #fffb78 !important;
+  cursor: pointer !important;
+}
+
+.writio-highlight-green {
+  background-color: #b4ffeb !important;
+  cursor: pointer !important;
+}
+
+.writio-highlight-blue {
+  background-color: #fabdff !important;
+  cursor: pointer !important;
+}
+
+.writio-highlight-note {
+  border-bottom: 3px solid lightgray;
+}
+
+/*** TODO refactor these shit ***/
+.writio-highlight-red-hovered {
+  background-color: #ff3e75 !important;
+  cursor: pointer !important;
+}
+
+.writio-highlight-orange-hovered {
+  background-color: #ffc60a !important;
+  cursor: pointer !important;
+}
+
+.writio-highlight-yellow-hovered {
+  background-color: #fff812 !important;
+  cursor: pointer !important;
+}
+
+.writio-highlight-green-hovered {
+  background-color: #4effd0 !important;
+  cursor: pointer !important;
+}
+
+.writio-highlight-blue-hovered {
+  background-color: #f257ff !important;
+  cursor: pointer !important;
+}
+
+.writio-highlight-red-clicked {
+  background-color: #ff3e75 !important;
+  cursor: pointer !important;
+}
+
+.writio-highlight-orange-clicked {
+  background-color: #ffc60a !important;
+  cursor: pointer !important;
+}
+
+.writio-highlight-yellow-clicked {
+  background-color: #fff812 !important;
+  cursor: pointer !important;
+}
+
+.writio-highlight-green-clicked {
+  background-color: #4effd0 !important;
+  cursor: pointer !important;
+}
+
+.writio-highlight-blue-clicked {
+  background-color: #f257ff !important;
+  cursor: pointer !important;
+}
+
+/*** TODO refactor these shit ***/
+/* Chrome PDF Viewer on boarding arrow -- */
+.pdf-onboarding-arrow {
+  position: fixed;
+  top: 52px;
+  right: 205px;
+  padding: 15px;
+  border-radius: 5px;
+  background: white;
+  font-family: Arial, sans-serif;
+  box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.2);
+}
+
+.pdf-onboarding-arrow-pointer {
+  top: 15px;
+  right: -25px;
+  transform: rotate(90deg);
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 18px 18px 18px;
+  border-color: transparent transparent #ffffff transparent;
+  margin-left: -6px;
+}
+
+/* ---- Chrome PDF Viewer Elements ---- */
+.switch-pdf-viewer-button {
+  position: fixed;
+  top: 58px;
+  right: 44px;
+  border-radius: 40px;
+  background: #f2f2f2;
+  padding: 8px 10px;
+  color: #616161;
+  cursor: pointer;
+  opacity: 1;
+  box-shadow: 0px 2px 3px 0 rgba(0, 0, 0, 0.8);
+  transition: all 0.2s ease;
+}
+@media (max-width: 680px) {
+  .switch-pdf-viewer-button {
+    right: 190px;
+  }
+}
+@media (max-width: 570px) {
+  .switch-pdf-viewer-button {
+    right: 150px;
+  }
+}
+
+.switch-pdf-viewer-button:hover {
+  background: #005368;
+  color: #ffffff;
+}
+
+.switch-pdf-viewer-button:active {
+  background: #004356;
+}
+
+.switch-pdf-icon {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+@media (max-width: 800px) {
+  .switch-pdf-icon {
+    padding-right: 0;
+  }
+}
+
+.switch-pdf-viewer-button-text {
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 2px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 500;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: clip;
+}
+@media (max-width: 1080px) {
+  .switch-pdf-viewer-button-text {
+    max-width: 65px;
+  }
+}
+@media (max-width: 800px) {
+  .switch-pdf-viewer-button-text {
+    display: none;
+  }
+}
+
+/* ---- tooltip ---- */
+.gistnote-tooltip {
+  position: absolute;
+  z-index: 100;
+  display: none;
+  padding: 6px;
+  border-radius: 3px;
+  background: #000;
+  color: #ffffff;
+  opacity: 0.9;
+  font-size: 11px;
+  font-weight: lighter;
+  font-weight: 300;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.gistnote-tooltip-text {
+  z-index: 120;
+  font-size: 12px;
+  font-family: Helvetica, sans-serif;
+}
+
+.gistnote-tooltip-pointer {
+  z-index: 110;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  display: block;
+  content: "";
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+  background: #000;
+  transform: rotate(45deg);
+}
+
+.gistnote-tooltip-hover-area:hover > .gistnote-tooltip {
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .switch-pdf-viewer-button-tooltip {
+    right: -110% !important;
+  }
+}
+
+#clipperButton {
+  font-size: 30px !important;
+  line-height: 30px !important;
+  width: 30px !important;
+  height: 30px !important;
+  text-align: center !important;
+  /*vertical-align: middle !important;*/
+  z-index: 2147483647 !important;
+  position: absolute !important;
+  top: 5px !important;
+  right: 5px !important;
+  padding: 0px !important;
+  /*width: 25px !important;*/
+  /*height: 25px !important;*/
+  background: midnightblue !important;
+  color: #fff !important;
+  border: none !important;
+  outline: none !important;
+  border-radius: 50% !important;
+}
+
+.weava-drop-area-wrapper {
+  display: none;
+  position: fixed !important;
+  z-index: 2147483647 !important;
+  top: 50% !important;
+  width: 70px !important;
+  left: -10px;
+  background-color: #142733 !important;
+  transition: left 0.2s !important;
+}
+
+.weava-drop-area {
+  width: inherit !important;
+  height: 50px !important;
+  margin-left: 10px !important;
+  background-color: #142733 !important;
+  background-repeat: no-repeat !important;
+  background-size: 60px 60px !important;
+  background-position: center !important;
+}
+
+.weava-drop-area-text {
+  width: inherit !important;
+  font-weight: bold !important;
+  padding-bottom: 5px !important;
+  margin-left: 10px !important;
+  text-align: center !important;
+  background-color: #142733 !important;
+  color: #cbcbcb !important;
+  font-size: 9px !important;
+}
+
+/*# sourceMappingURL=gistnoteGlobal.scss.map */
+/*# sourceMappingURL=gistnoteGlobal.scss.map */

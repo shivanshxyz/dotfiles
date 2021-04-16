@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<link href="message.css" rel="stylesheet" />
+		
+		<script src="libs/jquery.js"></script>
+		<script src="message.index.js"></script>
+	</head>
+	<body>
+		<script id="message-template" type="text/html">
+			<div class="message">
+				<div class="message-icon hidden"></div>
+				
+				<div class="message-text">
+					<div class="message-title hidden"></div>
+					<div class="message-subtitle hidden"></div>
+				</div>
+
+				<div class="message-hide hidden tooltip" data-tooltip="NTF_DONT_SHOW_AGAIN_TT" data-tooltip-delay="300"></div>
+				<div class="message-resize hidden"></div>
+				<div class="message-close"></div>
+	
+				<div class="message-buttons hidden"></div>
+				
+				<div class="message-stars hidden">
+					<span data-score="5"></span>
+					<span data-score="4"></span>
+					<span data-score="3"></span>
+					<span data-score="2"></span>
+					<span data-score="1"></span>
+	
+					<div class="stars-hint"></div>
+				</div>
+				
+				<div class="message-share hidden">
+					<span class="fb" data-media="facebook"></span>
+					<span class="twtr" data-media="twitter"></span>
+					<span class="link" data-media="link"></span>
+				</div>
+			</div>
+		</script>
+	</body>
+</html>

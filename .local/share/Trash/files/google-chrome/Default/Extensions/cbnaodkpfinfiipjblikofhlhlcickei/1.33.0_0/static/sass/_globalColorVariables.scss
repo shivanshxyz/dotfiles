@@ -1,0 +1,128 @@
+/* Color Palette */
+$white: #fff;
+$grey1: #f9f9f9;
+$grey2: #f7f7f7;
+$grey3: #9f9f9f;
+$grey4: #5d5d5d;
+$grey5: #242424;
+$grey6: #e5e8ed;
+$blue1: #97adbb;
+$red1: #ff6868;
+$black: #000;
+$websiteMainColorSharp: #01dccf;
+$websiteMainColorLightest: #00bfd2;
+$websiteMainColorLighter: #00b8c2;
+$websiteMainColor: #617186;
+$websiteMainColorDarker: #405059;
+$radial: radial-gradient(circle at 30% 107%, #fffc78 0%, #fdf497 5%, #ffc9d4 45%, #ffbce8 60%, #f4d3e1 90%);
+$gradientBackgroundColor: linear-gradient(-180deg, #eaf4f0 7%, #cccedf 98%);
+/* Color Palette */
+
+/* Font */
+$fontFamily: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+$fontColor1: $grey3;
+$fontColor2: $grey4;
+$fontColor3: #303030;
+$hyperlinkColor: #8ccfc9;
+$secondaryTextColor: #405059;
+$invertedFontColor: $white;
+$placeholderFontColor: rgba(0, 0, 0, 0.5);
+/* Font */
+
+/* TODO refactor to color123 */
+$fontColor: #303030;
+$fontColorLight: #5d5d5d;
+$fontColorLightest: #9f9f9f;
+
+$secondaryTextColor: $websiteMainColorDarker;
+$copyAreaHoverBackgroundColor: rgba(0, 0, 0, 0.07);
+
+$modalBackgroundColor: $white;
+$modalBoxShadowColor: rgba(0, 0, 0, 0.14);
+$modalTitleHeaderColor: #dedede;
+$modalBodyTitleColor: #545454;
+$modalBodyDescriptionColor: #989898;
+
+/* Color Variables */
+$gistnoteHighlightColor1: #ffa4be;
+$gistnoteHighlightColor2: #ffde70;
+$gistnoteHighlightColor3: #fffb78;
+$gistnoteHighlightColor4: #b4ffeb;
+$gistnoteHighlightColor5: #fabdff;
+$gistnoteHighlightColor6: #d1ff61;
+$gistnoteHighlightColor7: #a9dfff;
+$gistnoteHighlightColor8: #b9beff;
+$gistnoteHighlightColor9: #ffdee9;
+$gistnoteHighlightColor10: #dadada;
+
+/* button */
+$textButtonHoverBackgroundColor: rgba(245, 171, 255, 0.34);
+$buttonBackgroundColor: #142733;
+$buttonTextColor: #cbcbcb;
+$hyperlinkColor: #8ccfc9;
+
+$textButtonPlainFontBorderColor: #18e3e8;
+$textButtonPlainFontColor: #0fa0a3;
+$textButtonPlainHoverFontColor: $websiteMainColorLightest;
+$textButtonPlainActiveFontColor: #19474a;
+$textButtonPlainFontActiveBorderColor: $websiteMainColorLighter;
+
+$textButtonMainFontColor: #00949a;
+$textButtonOthersFontColor: #19474a;
+$textButtonBorderColor: $websiteMainColorLighter;
+$textButtonBackgroundColor: $websiteMainColorLighter;
+$textButtonBoxShadowColor: #2c807c;
+$textButtonHoverBackgroundColor: $websiteMainColorLightest;
+$textButtonActiveBackgroundColor: $websiteMainColorLighter;
+
+$secondaryTextButtonBackgroundColor: $white;
+$secondaryTextButtonBackgroundLinearGradient: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.03));
+$secondaryTextButtonMainFontColor: #626262;
+$secondaryTextButtonBorderColor: rgba(0, 0, 0, 0.07);
+$secondaryTextButtonBoxShadow: inset 0 0 0 0.5px rgba(0, 0, 0, 0.14), inset 0 -0.5px 0 rgba(0, 0, 0, 0.1);
+$secondaryTextButtonHoverFontColor: #363636;
+$secondaryTextButtonHoverBackgroundColor: #ffffff;
+$secondaryTextButtonHoverBackgroundGradient: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.08));
+$secondaryTextButtonHoverBoxShadow: inset 0 0 0 0.5px rgba(0, 0, 0, 0.24), inset 0 -0.5px 0 rgba(0, 0, 0, 0.17);
+$secondaryTextButtonActiveBackgroundColor: #f2f4f2;
+$secondaryTextButtonInactiveBackgroundColor: #e5e5e5;
+$secondaryTextButtonInactiveBorderColor: #e5e5e5;
+
+$secondaryTextButtonInvertedHoverBackgroundColor: rgba(0, 0, 0, 0.2);
+$secondaryTextButtonInvertedActiveBackgroundColor: rgba(0, 0, 0, 0.6);
+
+$textButtonAlertBackgroundColor: #ff4d5d;
+$textButtonAlertBorderColor: #ff4d5d;
+$textButtonAlertHoverBackgroundColor: #ff5a58;
+$textButtonAlertActiveBackgroundColor: #ff5a58;
+
+$formatButtonBorderColor: #e1e1e1;
+
+$toggleBackgroundColor: #ccc;
+$toggleBeforeBackgroundColor: $white;
+$toggleBoxShadowColor: #2196f3;
+/* button */
+
+$folderNameHoverColor: #efedf0;
+$folderNameActiveHoverColor: #dad8db;
+$folderDropdownListItemHoverColor: rgba(0, 184, 194, 0.7);
+$menuPanelBackgroundColor: #142834;
+$tooltipColor: #ffffff;
+$tooltipBackgroundColor: $black;
+$tooltipPointerColor: $black;
+$warningAlertBackgroundColor: #fffbe6;
+$warningAlertFontColor: #5b3b08;
+$errorAlertBackgroundColor: #ffeaea;
+$errorAlertFontColor: #a65757;
+$notificationBadgeBackgroundColor: #fa3e3e;
+$notificationBadgeFontColor: #ffffff;
+$modalContentBackgroundColor: $white;
+$modalContentBoxShadow: rgba(0, 0, 0, 0.14);
+$modalHeaderBorderBottom: #dedede;
+$rowHoverBackgroundColor: rgba(0, 0, 0, 0.06);
+$rowActiveBackgroundColor: rgba(0, 0, 0, 0.1);
+
+/* ------- List ------- */
+$gistnoteHighlightColorList: $gistnoteHighlightColor1, $gistnoteHighlightColor2, $gistnoteHighlightColor3,
+  $gistnoteHighlightColor4, $gistnoteHighlightColor5, $gistnoteHighlightColor6, $gistnoteHighlightColor7,
+  $gistnoteHighlightColor8, $gistnoteHighlightColor9, $gistnoteHighlightColor10;

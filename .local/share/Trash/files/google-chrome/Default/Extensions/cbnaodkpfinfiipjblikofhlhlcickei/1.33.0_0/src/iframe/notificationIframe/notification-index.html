@@ -1,0 +1,69 @@
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+<style>
+  @import "chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/src/iframe/notificationIframe/notification.css";
+</style>
+
+<div id="body-wrapper">
+  <table width="100%">
+    <tr>
+      <td width="20%" style="text-align: center;">
+        <div id="weava-icon" style="display: none;"></div>
+        <!--<img id="highlighter-mockup-image" style="display: none; height: 50px;padding-top: 5px;" />-->
+        <div id="mock-popover-wrapper">
+          <div class="mock-popover-pointer-wrapper">
+            <div class="mock-popover-pointer"></div>
+          </div>
+
+          <div class="mock-popover-body">
+            <div style="background: #ffcad7; border-color: #f2c0cc;" class="mock-popover-circle"></div>
+            <div style="background: #ffde70; border-color: #ffd158;" class="mock-popover-circle"></div>
+            <div style="background: #fffb78; border-color: #dee150;" class="mock-popover-circle"></div>
+            <div style="background: #b4ffeb; border-color: #59ffd3;" class="mock-popover-circle"></div>
+            <div style="background: #f8ceff; border-color: #fab1f9;" class="mock-popover-circle"></div>
+          </div>
+        </div>
+      </td>
+
+      <td width="80%">
+        <!-- List of available notification -->
+        <span id="prompt-network" class="message">
+          <p>Internet connection lost, please connect to the internet.</p>
+        </span>
+
+        <span id="prompt-login" class="message">
+          <p>Sign in to save your highlights.</p>
+        </span>
+
+        <span id="prompt-connecting" class="message">
+          <p>Please wait until the connection is established.</p>
+        </span>
+
+        <span id="highlight_mode_on" class="message">
+          <p style="display: inline-block;">
+            Highlight mode is
+            <span class="status on-status">
+              <b>ON</b>
+            </span>
+          </p>
+          <div class="tips">Tips: set the shortcut in setting</div>
+        </span>
+
+        <span id="highlight_mode_off" class="message">
+          <p style="display: inline-block;">
+            Highlight mode is
+            <span class="status off-status">
+              <b>OFF</b>
+            </span>
+          </p>
+          <div class="tips">Tips: set the shortcut in setting</div>
+        </span>
+
+        <span id="copy-highlight" class="message">
+          <p>Highlight copied.</p>
+          <div>Paste it anywhere!</div>
+        </span>
+        <!-- End of available notification -->
+      </td>
+    </tr>
+  </table>
+</div>

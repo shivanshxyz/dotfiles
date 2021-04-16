@@ -1,0 +1,100 @@
+.pb-toast-main {
+  z-index: 2147483639 !important;
+  position: fixed !important;
+  right: 20px !important;
+  left: auto !important;
+  width: 327px !important;
+  border-radius: 10px !important;
+  background-color: #ffffff !important;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1) !important;
+  border: solid 1px #eaeff4 !important;
+  transition: top 0.3s;
+}
+
+.pb-toast-maximized {
+  top: -110px;
+  height: 106px !important;
+}
+
+.pb-toast-minimized {
+  top: -44px;
+  height: 40px !important;
+}
+
+.pb-toast-overlay-unavailable {
+  height: 130px !important;
+  top: -188px;
+}
+
+.pb-toast-large {
+  height: 146px !important;
+  top: -150px;
+}
+
+.pb-toast-overlay {
+  height: 184px !important;
+  top: -188px;
+}
+
+.pb-toast-main-move {
+  top: 10px;
+}
+
+.pb-toast-main-show {
+  transition: none;
+  top: 10px;
+}
+
+
+
+#pb_jq_tipsWrapper {
+  position: fixed !important;
+  width: 230px !important;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+  font-family: "Lucida Grande", tahoma, verdana, arial, sans-serif !important;
+  border-radius: 5px !important;
+  color: #ffffff !important;
+  z-index: 2147483641 !important;
+  padding: 15px !important;
+  font-size: 14px !important;
+}
+
+#pb_jq_tipsWrapper:before {
+  position: absolute !important;
+  top: -10px !important;
+  right: 60px !important;
+  display: inline-block !important;
+  border-right: 10px solid transparent !important;
+  border-bottom: 10px solid #000 !important;
+  border-left: 10px solid transparent !important;
+  border-bottom-color: rgba(0, 0, 0, 0.2) !important;
+  content: '' !important;
+}
+
+#pb_jq_tipsWrapper:after {
+  position: absolute !important;
+  top: -9px !important;
+  right: 60px !important;
+  display: inline-block !important;
+  border-right: 9px solid transparent !important;
+  border-bottom: 9px solid #000 !important;
+  border-left: 9px solid transparent !important;
+  content: '' !important;
+}
+
+#pb-link-copied-message {
+  display: none;
+  position: fixed;
+  width: 90px;
+  height: 29px;
+  opacity: 0;
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2147483641;
+  font-family: "Lucida Grande", tahoma, verdana, arial, sans-serif !important;
+  font-size: 13px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+}

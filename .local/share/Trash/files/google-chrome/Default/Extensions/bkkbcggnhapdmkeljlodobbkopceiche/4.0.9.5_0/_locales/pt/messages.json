@@ -1,0 +1,149 @@
+{
+   "NTF_blockPrevSite": {
+      "message": "Pop-up Bloqueada"
+   },
+   "allowAlways": {
+      "message": "Permitir sempre"
+   },
+   "allowButtonLabel": {
+      "message": "Permitir pop-ups"
+   },
+   "allowOnce": {
+      "message": "Permitir desta vez"
+   },
+   "allowOverlaysButtonLabel": {
+      "message": "Permitir Sobreposições"
+   },
+   "autoDetectionButtonLabel": {
+      "message": "Sim, uma vez"
+   },
+   "autoDetectionReportWebsiteButtonLabel": {
+      "message": "Denunciar website"
+   },
+   "autoDetectionYesAlwaysButtonLabel": {
+      "message": "Sim, sempre"
+   },
+   "badgeToggleLabel": {
+      "message": "Mostrar um sinalizador na barra de ferramentas quando uma pop-up é bloqueada."
+   },
+   "blacklistTip": {
+      "message": "Bloquear sempre sobreposições nestes sites:"
+   },
+   "blockAlwaysButtonLabel": {
+      "message": "Bloquear sempre"
+   },
+   "blockButtonLabel": {
+      "message": "Bloquear pop-ups"
+   },
+   "blockDetectedOverlayLabel": {
+      "message": "Foi detetada uma sobreposição. Deseja bloqueá-la?"
+   },
+   "blockOverlayButtonLabel": {
+      "message": "Remover Sobreposição"
+   },
+   "bugLink": {
+      "message": "Reporte um erro"
+   },
+   "contributeButtonLabel": {
+      "message": "Contribuir"
+   },
+   "disableNotifications": {
+      "message": "Desativar notificações"
+   },
+   "emailLink": {
+      "message": "Mande-nos um e-mail"
+   },
+   "extDescription": {
+      "message": "Bloqueie pop-ups e pop-unders independente de onde você clique na página"
+   },
+   "extName": {
+      "message": "Pop up blocker for Chrome™ - Poper Blocker"
+   },
+   "extName_FF": {
+      "message": "Popup blocker for FF: Poper Blocker"
+   },
+   "ignoreLabel": {
+      "message": "Ignorar"
+   },
+   "linksTitle": {
+      "message": "Links"
+   },
+   "needRefresh": {
+      "message": "Refresh open tabs in order for this change to take effect."
+   },
+   "needRefreshGotIt": {
+      "message": "Ok, got it!"
+   },
+   "neverShowRefresh": {
+      "message": "Don't show again"
+   },
+   "notFoundAutoOverlayLabel": {
+      "message": "A deteção automática de sobreposições não encontrou quaisquer sobreposições"
+   },
+   "notFoundOverlayLabel": {
+      "message": "Não foi detetada nenhuma sobreposição. Experimentar a deteção automática?"
+   },
+   "notificationMessage": {
+      "message": "Pop-up Bloqueada"
+   },
+   "notificationSettingsTitle": {
+      "message": "Opções de Notificação"
+   },
+   "notificationToggleLabel": {
+      "message": "Mostrar uma notificação na página quando uma pop-up é bloqueada."
+   },
+   "options": {
+      "message": "Opções"
+   },
+   "overlaySettingsTitle": {
+      "message": "Opções de Bloqueamento de Sobreposições"
+   },
+   "overlayWasBlocked": {
+      "message": "A sobreposição foi bloqueada"
+   },
+   "overlaysToggleLabel": {
+      "message": "Ativar o bloqueio de sobreposições (necessita de uma ligação a uma base de dados remota)."
+   },
+   "pauseButton": {
+      "message": "Pause"
+   },
+   "paused": {
+      "message": "Poper Blocker is off"
+   },
+   "popupsAllowed": {
+      "message": "Pop-ups são permitidas neste site."
+   },
+   "popupsBlocked": {
+      "message": "Pop-ups são bloqueadas neste site."
+   },
+   "popupsBlockedLabel": {
+      "message": "X popups bloqueados"
+   },
+   "rateLink": {
+      "message": "Classifique-nos com 5 estrelas"
+   },
+   "removeAlwaysLabel": {
+      "message": "Remover sempre"
+   },
+   "removeOnceLabel": {
+      "message": "Remover uma vez"
+   },
+   "removeOverlayQLabel": {
+      "message": "Remover Sobreposição?"
+   },
+   "resumeButton": {
+      "message": "Start"
+   },
+   "undoLabel": {
+      "message": "Desfazer"
+   },
+   "undoOnceButtonLabel": {
+      "message": "Desfazer uma vez"
+   },
+   "whitelistTip": {
+      "message": "Para permitir pop-ups / pop-unders de um site, adicione-o a esta lista:"
+   },
+   "whitelistTitle": {
+      "message": "Sites Seguros"
+   }
+}

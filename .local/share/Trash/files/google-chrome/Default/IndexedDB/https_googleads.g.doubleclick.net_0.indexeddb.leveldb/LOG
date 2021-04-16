@@ -1,0 +1,5 @@
+2021/04/16-14:12:15.394 f331 Reusing MANIFEST /home/shivanshxyz/.config/google-chrome/Default/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/16-14:12:36.072 f331 Level-0 table #5: started
+2021/04/16-14:12:36.076 f331 Level-0 table #5: 364 bytes OK
+2021/04/16-14:12:36.083 f331 Delete type=0 #3
+2021/04/16-14:12:36.084 f331 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

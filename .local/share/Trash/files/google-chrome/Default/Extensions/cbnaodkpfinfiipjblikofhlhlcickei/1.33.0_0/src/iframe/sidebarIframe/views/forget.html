@@ -1,0 +1,20 @@
+<div class="forgot-password-wrapper">
+  <div class="back-overall-wrapper">
+    <a class="back-button-wrapper" style="cursor: pointer;" ng-click="toLogin()">
+      <div class="back-icon-wrapper">
+        <img src="../../../static/images/svg/arrow-left.svg" style="width: 20px;" />
+      </div>
+      <div class="back-text-wrapper">
+        <div class="back-text">Back</div>
+      </div>
+    </a>
+  </div>
+
+  <div class="forgot-image-wrapper">
+    <img src="../../../static/images/svg/forgot-key-icon.svg" style="width: 230px;" />
+  </div>
+
+  <input class="text-input-field login-text-input" type="text" ng-model="email" />
+  <button class="login-button" ng-click="sendEmail()">Send to your email</button>
+  <section class="reset-password-status">{{resetPasswordError}}</section>
+</div>

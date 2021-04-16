@@ -1,0 +1,15 @@
+2021/04/17-00:03:17.178 688 Reusing MANIFEST /home/shivanshxyz/.config/google-chrome/Default/Extension State/MANIFEST-000001
+2021/04/17-00:03:17.178 688 Recovering log #26
+2021/04/17-00:03:17.199 688 Reusing old log /home/shivanshxyz/.config/google-chrome/Default/Extension State/000026.log 
+2021/04/17-00:11:28.264 a2c Level-0 table #30: started
+2021/04/17-00:11:28.278 a2c Level-0 table #30: 2984297 bytes OK
+2021/04/17-00:11:28.282 a2c Delete type=0 #26
+2021/04/17-00:11:28.291 a2c Compacting 4@0 + 1@1 files
+2021/04/17-00:11:28.343 a2c Generated table #31@0: 15 keys, 27286 bytes
+2021/04/17-00:11:28.343 a2c Compacted 4@0 + 1@1 files => 27286 bytes
+2021/04/17-00:11:28.351 a2c compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/04/17-00:11:28.351 a2c Delete type=2 #25
+2021/04/17-00:11:28.351 a2c Delete type=2 #22
+2021/04/17-00:11:28.351 a2c Delete type=2 #27
+2021/04/17-00:11:28.351 a2c Delete type=2 #20
+2021/04/17-00:11:28.351 a2c Delete type=2 #30

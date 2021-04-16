@@ -1,0 +1,423 @@
+/* Importing Normalize css */
+
+@import url("normalize.css");
+@import url("reset.css");
+
+/* General */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    color: rgb(76, 174, 255);
+    background: rgb(245, 247, 249);
+}
+
+.flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+
+/* Typography */
+
+h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin: .5rem 0;
+}
+
+h2 {
+    margin-right: 1rem;
+    color: rgb(36, 42, 49);
+}
+
+.sub-header {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.padding {
+    padding: 2rem 0;
+}
+
+
+/* Mode Toggler */
+
+.toggler-container {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+   
+}
+
+.toggler-container .toggler {
+    display: none;
+}
+
+.toggler-container .label-toggler {
+    padding: 0.55em 0.75em;
+    background-color: black;
+    position: relative;
+    border-radius: 50px;
+}
+
+.toggler-container .label-toggler .fa-moon {
+    color: #ffc600;
+}
+
+.toggler-container .label-toggler .fa-sun {
+    color: orange;
+}
+
+.toggler-container .label-toggler .ball {
+    position: absolute;
+    height: 35px;
+    width: 34px;
+    background-color: #fafafa;
+    border-radius: 50%;
+    z-index: 2;
+    top: 7%;
+    left: 3%;
+    transition: transform 0.4s;
+}
+
+.toggler-container .toggler:checked~.label-toggler .ball {
+    transform: translateX(32px);
+}
+
+.para-text{
+    color: black;
+    font-size: 0.9rem;
+}
+
+.dark {
+    background: #2f2e2e;
+    color: whitesmoke;
+}
+
+
+
+
+.off-blue{
+    color: #4da7db;
+}
+
+
+/* Topic Container */
+
+.topic-container {
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+   
+}
+
+.topic {
+    /* border: 1px solid black; */
+    padding: 1em;
+    font-weight: 700;
+    margin: 0.5em 0;
+    cursor: pointer;
+    background: #55b9f3;
+    color: white;
+}
+
+.topic-unselect {
+    background: linear-gradient(145deg, #5bc6ff, #4da7db);
+}
+
+.topic-selected {
+    transition: box-shadow, 100ms;
+    box-shadow: inset 10px 10px 14px #4eaae0, inset -10px -10px 14px #5cc8ff;
+    /* position: relative; */
+    border-left:0.5rem solid darkslategray ;
+}
+
+/* .topic-selected::after{
+    content: "";
+    width: 0.5rem;
+    height: 62.9px;
+    background: darkslategray;
+    position: absolute;
+    right: 0;
+    top: 0;
+} */
+
+.topic-container-move {
+    transform: translateX(-200%);
+    transition: all 700ms ease-in-out;
+}
+
+.instruction {
+    font-size: .9rem;
+    color: rgb(36, 42, 49);
+}
+
+.instruction-anchor{
+    font-weight: 700;
+    /* text-decoration: underline; */
+}
+
+.topic-content-container {
+    position: absolute;
+    width: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    background: #f9f9f9;
+    box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, .3);
+    padding: 1.5em;
+}
+
+.topic-content-flex {
+    display: flex;
+}
+
+.topic-content-list {
+    width: 100%;
+}
+
+.topic-content {
+    position: relative;
+    padding: 0.5em 0;
+}
+
+.checkbox-span {
+    width: 10%;
+    position: relative;
+}
+
+.title-span {
+    width: 90%;
+    /* padding: 0 1rem; */
+}
+
+.content-word-count {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(36, 42, 49);
+}
+
+
+/* Checkbox CSS */
+
+.content-checkbox {
+    display: none;
+}
+
+.checkbox-label {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    background-color: #4da7db;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s ease transform, 0.2s ease background-color, 0.2s ease box-shadow;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.checkbox-label::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    background-color: #fff;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    transition: 0.2s ease width, 0.2s ease height;
+}
+
+.checkbox-label:hover::before {
+    width: 15px;
+    height: 15px;
+}
+
+.checkbox-label:active {
+    transform: translateY(-50%) scale(0.9);
+}
+
+.tick-mark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: -10%;
+    width: 14px;
+    height: 14px;
+    margin: 0 auto;
+    transform: rotateZ(-40deg);
+}
+
+.tick-mark:before,
+.tick-mark:after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    border-radius: 2px;
+    opacity: 0;
+    transition: 0.2s ease transform, 0.2s ease opacity;
+}
+
+.tick-mark:before {
+    left: 0;
+    bottom: 0;
+    width: 3px;
+    height: 8px;
+    /*     box-shadow: -2px 0 5px rgba(0,0,0,0.23); */
+    transform: translateY(-68px)
+}
+
+.tick-mark:after {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    /*     box-shadow: 0 3px 5px rgba(0,0,0,0.23); */
+    transform: translateX(78px)
+}
+
+.content-checkbox:checked+label {
+    background-color: #07d410;
+    /*     box-shadow: 0 7px 10px #92ff97; */
+}
+
+.content-checkbox:checked+label:before {
+    width: 0;
+    height: 0;
+}
+
+.content-checkbox:checked+label .tick-mark:before,
+.content-checkbox:checked+label .tick-mark:after {
+    transform: translate(0);
+    opacity: 1;
+}
+
+
+/* Checkbox end */
+
+.content-title {
+    font-size: 1.25rem;
+    color: rgb(36, 42, 49);
+}
+
+.title-link {
+    align-items: center;
+    padding: 0.5em 0;
+}
+
+
+/* Progress Container */
+
+.progress-container {
+    width: 250px;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    z-index: -5;
+}
+
+.progress-move{
+    left: 79%;
+    transition: all 500ms;
+    opacity: 1;
+}
+
+.progress {
+    width: 90%;
+}
+
+.progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.progress[value]::-webkit-progress-bar {
+    background-color: rgb(36, 42, 49);
+    height: 0.8rem;
+    width: 100%;
+}
+
+.progress[value]::-webkit-progress-value {
+    background-color: #4da7db;
+}
+
+body {
+    transition: background, 500ms;
+}
+
+
+/* Guide */
+
+.guide-container {
+    width: 1000px;
+    margin: 0 auto;
+    color: rgb(36, 42, 49);
+    padding: 2rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.guide-para {
+    padding: 1rem 0;
+    font-weight: 300;
+}
+
+.guide-sub-header {
+    font-weight: 500;
+}
+
+@media all and (max-width:1367px){
+    .progress-move{
+        left: 85%;
+        transition: all 500ms;
+        opacity: 1;
+    }
+}
+
+.footer{
+    color: black;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.9rem;
+}
+
+.text-white{
+    color: whitesmoke;
+
+}

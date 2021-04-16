@@ -1,0 +1,6 @@
+2021/04/17-00:03:15.075 663 Reusing MANIFEST /home/shivanshxyz/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2021/04/17-00:03:15.075 663 Recovering log #80
+2021/04/17-00:03:15.080 663 Reusing old log /home/shivanshxyz/.config/google-chrome/Default/Sync Data/LevelDB/000080.log 
+2021/04/17-00:10:38.443 8ad Level-0 table #84: started
+2021/04/17-00:10:38.447 8ad Level-0 table #84: 131933 bytes OK
+2021/04/17-00:10:38.449 8ad Delete type=0 #80

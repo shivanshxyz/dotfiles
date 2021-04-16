@@ -1,0 +1,356 @@
+{
+   "NTF_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "NTF_blockPrevSite": {
+      "message": "Popup Blocked on this Site"
+   },
+   "NTF_shareUs": {
+      "message": "We like you too! Don't you think it's time to tell your friends about us?"
+   },
+   "OP_overlayList": {
+      "message": "always block overlay list"
+   },
+   "OP_urlExistsInDefaultList": {
+      "message": "This site is already %s by Poper Blocker"
+   },
+   "OP_urlExistsInList": {
+      "message": "This site is already in %s"
+   },
+   "OP_whitelist": {
+      "message": "Whitelist"
+   },
+   "OP_whitelisted": {
+      "message": "whitelisted"
+   },
+   "PP_BlockAnyway": {
+      "message": "Yine de engelle"
+   },
+   "PP_DidWeMiss": {
+      "message": "Birini kaçırdık mı?"
+   },
+   "PP_ExtName": {
+      "message": "Poper Blocker"
+   },
+   "PP_Incognito_GotIt": {
+      "message": "OK, Got it"
+   },
+   "PP_Incognito_Step1": {
+      "message": "Go to"
+   },
+   "PP_Incognito_Step2": {
+      "message": "Find Poper Blocker"
+   },
+   "PP_Incognito_Step3": {
+      "message": "Mark the checkbox next to \u003Ci>\"Allow in incognito\"\u003C/i>"
+   },
+   "PP_Incognito_Title": {
+      "message": "In order to enable Poper Blocker in Chrome's Incognito Mode, follow the next steps:"
+   },
+   "PP_Menu_Incognito": {
+      "message": "Incognito"
+   },
+   "PP_Menu_Options": {
+      "message": "Options"
+   },
+   "PP_Menu_Rate": {
+      "message": "Rate Us"
+   },
+   "PP_Menu_Share": {
+      "message": "Share"
+   },
+   "PP_Menu_Stats": {
+      "message": "Stats"
+   },
+   "PP_NoPopupsBlocked": {
+      "message": "İyi gözüküyor!"
+   },
+   "PP_Overlay": {
+      "message": "Yer paylaşımı"
+   },
+   "PP_Popup": {
+      "message": "Açılır pencere"
+   },
+   "PP_PopupsAllowed": {
+      "message": "Açılıra izin verilir:"
+   },
+   "PP_PopupsEssential": {
+      "message": "Açılır pencereler bu sitede işlevsel görev görürler"
+   },
+   "PP_PopupsFound": {
+      "message": "Aşağıdaki sitede açılır menüler engellenmiştir:"
+   },
+   "PP_PopupsFound_X1": {
+      "message": "Aşağıdaki sitede açılır menüler engellenmiştir:"
+   },
+   "PP_PopupsNotFound": {
+      "message": "Aşağıdakinde henüz hiç\r\naçılır mesaj bulunmadı"
+   },
+   "PP_Rate": {
+      "message": "Rate Poper Blocker"
+   },
+   "PP_Share_Friends": {
+      "message": "Share Poper Blocker\u003Cbr />with friends"
+   },
+   "PP_Share_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "PP_Share_TT_Copy": {
+      "message": "Copy Link"
+   },
+   "PP_Share_TT_Facebook": {
+      "message": "Share on Facebook"
+   },
+   "PP_Share_TT_Twitter": {
+      "message": "Share on Twitter"
+   },
+   "PP_Stats_HowItWorks": {
+      "message": "See how it really works"
+   },
+   "PP_Stats_Overlays": {
+      "message": "Katman"
+   },
+   "PP_Stats_Tabs": {
+      "message": "Etiket"
+   },
+   "PP_Stats_TotalPopsBlocked": {
+      "message": "Engellenen açılır"
+   },
+   "PP_Stats_TotalTimeSaved": {
+      "message": "Toplam kazanılan zaman"
+   },
+   "PP_Stats_Windows": {
+      "message": "Pencere"
+   },
+   "PP_SwitchedOff": {
+      "message": "kapatıldı"
+   },
+   "PP_TooltipAllowPops": {
+      "message": "Bu sitede açılır pencerelere izin vermek için burayı tıklatın. Site özel beyaz listenize eklenir."
+   },
+   "PP_TooltipBlockPops": {
+      "message": "Sorun yok!\r\nGüzel!\r\nTamam!"
+   },
+   "PP_TooltipReportOver": {
+      "message": "Halihazırdaki sayfanın üzerine açılan bir yer paylaşımlı pencereyi kaldırmak için burayı tıklatın"
+   },
+   "PP_TooltipReportPop": {
+      "message": "Kaçırılan bir açılır pencereyi bize yeni bir sekme veya pencerede haber vermek için burayı tıklatın"
+   },
+   "PP_TooltipWhitelistBlockPops": {
+      "message": "We verified that popups are essential functionalities on this site, but feel free to block anyway."
+   },
+   "PP_WhiteListed": {
+      "message": "poper blocker'ın \r\nbeyaz listelediği"
+   },
+   "PP_XPopupsBlocked_1": {
+      "message": "Sorun yok!"
+   },
+   "PP_XPopupsBlocked_2": {
+      "message": "Tamam!"
+   },
+   "PP_XPopupsBlocked_3": {
+      "message": "Güzel!"
+   },
+   "PP_XPopupsBlocked_4": {
+      "message": "Çok Kolay!"
+   },
+   "PP_XPopupsBlocked_5": {
+      "message": "Çocuk Oyuncağı!"
+   },
+   "TS_NoOverlay": {
+      "message": "No overlay found"
+   },
+   "add": {
+      "message": "Ekle"
+   },
+   "allowAlways": {
+      "message": "Her Zaman İzin Ver"
+   },
+   "allowAlwaysTip": {
+      "message": "Bu sitede her zaman açılır pencerelere izin ver. Bu site beyaz listenize eklenir."
+   },
+   "allowButtonLabel": {
+      "message": "Açılır Pencerelere İzin Ver"
+   },
+   "allowOnce": {
+      "message": "Bir Kere İzin Ver"
+   },
+   "allowOnceTip": {
+      "message": "Açılır pencereye sadece bu sefer izin ver. Bu açılır pencereyi yeniden gördüğünüzde yeniden soracağız."
+   },
+   "allowOverlaysButtonLabel": {
+      "message": "Allow Overlays"
+   },
+   "autoDetectionButtonLabel": {
+      "message": "Yes, once"
+   },
+   "autoDetectionReportWebsiteButtonLabel": {
+      "message": "Report website"
+   },
+   "autoDetectionYesAlwaysButtonLabel": {
+      "message": "Yes, always"
+   },
+   "badgeToggleLabel": {
+      "message": "Bir açılır pencere engellendiğinde araç çubuğu düğmesinde bir rozet göster."
+   },
+   "blacklistTip": {
+      "message": "Bu sitelerde yer paylaşımlarını daima engelle:"
+   },
+   "blockAlwaysButtonLabel": {
+      "message": "Block always"
+   },
+   "blockButtonLabel": {
+      "message": "Açılır Pencereleri Engelle"
+   },
+   "blockDetectedOverlayLabel": {
+      "message": "Overlay was detected. Block it ?"
+   },
+   "blockOverlayButtonLabel": {
+      "message": "Remove Overlay"
+   },
+   "bugLink": {
+      "message": "Report a bug"
+   },
+   "contributeButtonLabel": {
+      "message": "Katkıda"
+   },
+   "disableNotifications": {
+      "message": "Disable Notifications"
+   },
+   "disablePB": {
+      "message": "Poper Blocker'ı devre dışı bırak"
+   },
+   "doNotShow": {
+      "message": "Gösterme"
+   },
+   "doNotShowTips": {
+      "message": "Bu sitede açılır pencereler engellendiğinde bu bildirimi gösterme"
+   },
+   "emailLink": {
+      "message": "Bize e-posta gönderin"
+   },
+   "enablePB": {
+      "message": "Poper Blocker'i Etkinleştir"
+   },
+   "extDescription": {
+      "message": "Rahatsız edici açılır pencereleri, üstte ve altta açılan ekranları kolay ve etkili bir şekilde engelleyen 1 numaralı eklenti. Tüm sitelerde rahat bir biçimde dolaşın."
+   },
+   "extName": {
+      "message": "Pop up blocker for Chrome™ - Poper Blocker"
+   },
+   "extName_FF": {
+      "message": "Popup blocker for FF: Poper Blocker"
+   },
+   "ignoreLabel": {
+      "message": "Ignore"
+   },
+   "linksTitle": {
+      "message": "Links"
+   },
+   "needRefresh": {
+      "message": "Refresh open tabs in order for this change to take effect."
+   },
+   "needRefreshGotIt": {
+      "message": "Ok, got it!"
+   },
+   "neverShowRefresh": {
+      "message": "Don't show again"
+   },
+   "notFoundAutoOverlayLabel": {
+      "message": "Overlay auto detection did not find any overlays"
+   },
+   "notFoundOverlayLabel": {
+      "message": "An overlay wasn't found. Try auto detection?"
+   },
+   "notificationMessage": {
+      "message": "Sitede Açılır Mesaj Engelli"
+   },
+   "notificationSettingsTitle": {
+      "message": "Bildirim Ayarları"
+   },
+   "notificationToggleLabel": {
+      "message": "Bir açılır pencere engellendiğinde sayfada bir bildirim göster."
+   },
+   "options": {
+      "message": "Options"
+   },
+   "overlayContextMenuToggleLabel": {
+      "message": "Bağlam menüsünde \"Yer Paylaşımını Kaldır\"ı etkinleştir"
+   },
+   "overlaySettingsTitle": {
+      "message": "Yer Paylaşımı Engelleme Ayarları"
+   },
+   "overlayWasBlocked": {
+      "message": "Sitede Yer Paylaşımı Engelli"
+   },
+   "overlaysToggleLabel": {
+      "message": "Yer Paylaşımı engellemeyi etkinleştir (Geliştiricilere anonim veri gönderir)"
+   },
+   "pauseButton": {
+      "message": "Pause"
+   },
+   "paused": {
+      "message": "Poper Blocker is off"
+   },
+   "popupsAllowed": {
+      "message": "Popups are allowed on this website."
+   },
+   "popupsBlocked": {
+      "message": "Popups are blocked on this website."
+   },
+   "popupsBlockedLabel": {
+      "message": "# açılır pencere engellendi"
+   },
+   "rateLink": {
+      "message": "Bize 5 yıldız verin"
+   },
+   "rateus": {
+      "message": "Poper Blocker'den memnun musunuz? Bize puan verin!"
+   },
+   "removeAlwaysLabel": {
+      "message": "Hep Kaldır"
+   },
+   "removeAlwaysText": {
+      "message": "Bu üst katmanı hep kaldır ve bu bildirimi yeniden gösterme. Bunu seçenekler menüsünden değiştirebilirsiniz."
+   },
+   "removeOnceLabel": {
+      "message": "Remove Once"
+   },
+   "removeOverlayQLabel": {
+      "message": "Remove Overlay?"
+   },
+   "resumeButton": {
+      "message": "Start"
+   },
+   "undoLabel": {
+      "message": "Üst katmanı göster"
+   },
+   "undoOnceButtonLabel": {
+      "message": "Undo once"
+   },
+   "undoTips": {
+      "message": "Bu yer paylaşımını elden kaldırdınız, Yer Paylaşımını Göstermek için tıklayın"
+   },
+   "urlExamplePlaceholder": {
+      "message": "Örnek: twitter.com"
+   },
+   "urlExistsInList": {
+      "message": "This site is already in list"
+   },
+   "urlExistsInPB": {
+      "message": "Bu site zaten Poper Blocker tarafından Beyaz Listeye alınmıştır"
+   },
+   "urlNotValid": {
+      "message": "Lütfen geçerli bir URL girin."
+   },
+   "websiteInWhitelistOverlayMessage": {
+      "message": "This website is whitelisted. No overlay detection made."
+   },
+   "whitelistTip": {
+      "message": "Bir siteden açılır veya altta açılan pencerelere izin vermek için siteyi şu listeye ekleyin:"
+   },
+   "whitelistTitle": {
+      "message": "Beyaz Listeye Alınan Siteler"
+   }
+}

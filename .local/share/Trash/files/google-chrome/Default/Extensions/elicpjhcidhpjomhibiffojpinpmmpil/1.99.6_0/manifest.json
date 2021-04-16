@@ -1,0 +1,31 @@
+{
+   "background": {
+      "page": "extension/background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon19c.png",
+      "default_title": "Video Downloader professional"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "video/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon.png",
+      "48": "icon48.png"
+   },
+   "incognito": "split",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0CYNAmEHsmJjTd4aEBlWHuX8tLLqC+5jGBbnmJAwp43I0Rnjsq8PzjwUGSh1EYNfyQrCMU7WAs1CfF3xP9fC3Fuk5+DkAsXTq46BJs5n+hIloCsrIDTEXdGRPtvijsjuyUa9RYKXwySC3FrUx68KPq1u6cnmnvZfD2Hyoz434EwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "options_page": "startpage/index.html?options=1",
+   "permissions": [ "webRequest", "downloads", "tabs", "storage", "http://*/*", "https://*/*" ],
+   "short_name": "VDP",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.99.6"
+}

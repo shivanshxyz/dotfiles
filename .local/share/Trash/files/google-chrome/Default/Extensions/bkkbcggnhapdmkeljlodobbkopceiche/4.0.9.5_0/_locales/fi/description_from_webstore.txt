@@ -1,0 +1,1 @@
+Estä ponnahdusikkunat ja sivun alle avautuvat ikkunat riippumatta siitä, missä kohtaa sivulla klikkaat.

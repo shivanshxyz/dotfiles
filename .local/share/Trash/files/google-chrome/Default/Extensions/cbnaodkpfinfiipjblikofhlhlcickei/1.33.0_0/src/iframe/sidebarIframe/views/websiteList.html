@@ -1,0 +1,249 @@
+<!-- Create Folder Form -->
+<form ng-if="showInput" ng-submit="onSubmit()">
+  <div class="website-card">
+    <div class="web-icon-wrapper">
+      <img
+        ng-if="folderForm.loading"
+        style="height: 29px; padding: 5px; box-sizing: border-box;"
+        src="../../../static/images/gif/loading-state.gif"
+      />
+
+      <img
+        ng-if="!folderForm.loading"
+        height="29"
+        width="29"
+        style="opacity: 0.7;"
+        ng-src="{{'../../../static/images/svg/'+ (activeFolder.shared ? 'folder-shared-icon.svg' : 'folder-icon.svg')}}"
+      />
+    </div>
+    <div class="website-card-text-wrapper" style="height: 32px;">
+      <input
+        class="text-input-field"
+        ng-disabled="folderForm.loading"
+        autofocus
+        style="font-size: 11px; width: 230px;"
+        ng-model="folderForm.title"
+        type="text"
+        placeholder="Enter folder title..."
+      />
+    </div>
+    <div ng-if="!folderForm.loading" style="margin: 7px 0 0 52px;">
+      <button type="submit" class="action-button">
+        Create
+      </button>
+      <div class="cancel-button" ng-click="onCancelInput()">Cancel</div>
+    </div>
+  </div>
+</form>
+
+<!-- Folder List -->
+<div ng-repeat="(key, folder) in activeFolder.folderMetaMap">
+  <div
+    class="website-card drag-over-{{key}}"
+    can-drop
+    from-folder-id="{{activeFolder.folderId}}"
+    to-folder-id="{{key}}"
+    can-drag
+    dragging-type="FOLDER"
+    dragging-folder-id="{{key}}"
+    ng-click="switchFolder(key)"
+  >
+    <div class="web-icon-wrapper">
+      <img
+        height="27"
+        ng-src="{{'../../../static/images/svg/'+ (folder.shared ? 'folder-shared-icon.svg' : 'folder-icon.svg')}}"
+      />
+    </div>
+
+    <div class="website-card-text-wrapper">
+      <div class="card-title" ng-bind="folder.title"></div>
+      <div class="saved-page-status-wrapper">
+        <div>
+          <div class="highlight-stat">
+            {{formatTime(folder.createDate)}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="website-card-action-icons-wrapper">
+      <div
+        class="website-card-header icon-button hover-target website-button"
+        ng-click="toggleEditPanel($event, key, folder)"
+      >
+        <div class="website-card-action-icons-text">Edit</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Website List-->
+<div
+  ng-repeat="website in websiteList |gistnoteWebsitesOrdering:activeFolder.websiteListPagination.ascending:activeFolder.searchState   track by website.websiteId"
+  ng-if="showWebsiteOrNot(website)"
+  class="website-list"
+>
+  <div
+    class="website-card"
+    can-drag
+    dragging-type="WEBSITE"
+    dragging-website-id="{{website.websiteId}}"
+    ng-click="toggleWebsiteHighlights($event, website.websiteId)"
+  >
+    <div
+      class="expand-website-icon-wrapper"
+      ng-if="website.highlights.length>0"
+      ng-class="{
+             'rotate-90': hidingHighlightsWebpages.indexOf(website.websiteId)==-1,
+              'active': website.active
+              }"
+    >
+      <img style="width: 15px; height: 15px;" src="../../../static/images/svg/md-play-arrow.svg" />
+    </div>
+
+    <div class="web-icon-wrapper">
+      <img
+        ng-if="isPDFFromExtension(website.url)"
+        height="29"
+        width="29"
+        src="../../../static/images/svg/pdf-website-icon.svg"
+      />
+      <img ng-if="!isPDFFromExtension(website.url)" height="29" width="29" ng-src="{{getFavIconUrl(website)}}" />
+    </div>
+    <div class="website-card-text-wrapper">
+      <div style="display: block;">
+        <a
+          class="card-title website-title"
+          style="display: inline-block;"
+          ng-click="goToWebsite(website.url, null)"
+          ng-if="isPDFFromExtension(website.url)"
+          ng-bind="getWebsiteTitle(website.title, website.url)"
+        >
+        </a>
+        <a
+          class="card-title website-title no-select"
+          style="display: inline-block;"
+          ng-click="goToWebsite(website.url, null)"
+          ng-if="!isPDFFromExtension(website.url)"
+          ng-bind-html="getWebsiteTitleHtml(website)"
+        >
+        </a>
+      </div>
+
+      <div class="website-description" ng-bind="website.description"></div>
+
+      <div class="saved-page-status-wrapper">
+        <div ng-if="website.highlights.length > 0" class="highlight-count-wrapper">
+          <div class="highlight-icons">
+            <div
+              class="gistnote-circle-small highlight-small-circle"
+              ng-repeat="colorNum in getColorsOfWebsite(website.highlights)"
+              ng-if="activeColorFilters.indexOf(colorNum) !== -1 || activeColorFilters.length===0"
+            >
+              <div
+                ng-style="{'background-color': getHighlightColorCode(colorNum)}"
+                class="gistnote-circle-small highlight-small-circle"
+              ></div>
+            </div>
+          </div>
+          <div class="highlight-stat no-select">
+            {{highlightsCount(website.highlights)}} highlights |
+          </div>
+        </div>
+
+        <div class="website-date no-select">
+          {{getLatestHighlightDate(website)}}
+        </div>
+      </div>
+    </div>
+
+    <div class="website-card-action-icons-wrapper">
+      <!--<div class="icon-button"-->
+      <!--ng-click="shareWebsite($event, website.websiteId)"-->
+      <!--ng-mouseover="hoverShareWebsite($event)">-->
+      <!--<img-->
+      <!--class="highlight-delete-icon"-->
+      <!--src="../../../static/images/svg/share.svg"-->
+      <!--style="width: 20px;">-->
+      <!--<div class="tooltip main-panel-tooltip"-->
+      <!--style="right: 0; min-width: 35px; padding: 4px; top: 32px;">-->
+      <!--<div class="tooltip-text" style="line-height: 14px;">-->
+      <!--share website-->
+      <!--</div>-->
+      <!--<div class="tooltip-pointer" style="left: 65%;"></div>-->
+      <!--</div>-->
+      <!--</div>-->
+      <div class="icon-button" ng-click="deleteWebsite($event, website.websiteId)">
+        <img class="highlight-delete-icon" src="../../../static/images/svg/delete-icon.svg" style="width: 20px;" />
+        <div class="tooltip main-panel-tooltip" style="right: 0; min-width: 35px; padding: 4px; top: 32px;">
+          <div class="tooltip-text" style="line-height: 14px;">
+            delete
+          </div>
+          <div class="tooltip-pointer" style="left: 65%;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--<li ng-repeat="highlight in website.highlights | filter: { type: 'image'}  | orderBy:'date' track by highlight.highlightId"-->
+  <!--class="main-panel-image-wrapper website-card-left-border"-->
+  <!--ng-click="goToWebsite(website.url, highlight.highlightId, highlight.pdfPageNumber)"-->
+  <!--ng-if="activeColorFilters.length === 0 || activeColorFilters.indexOf(highlight.colorNum) !== -1">-->
+
+  <!--<div ng-if="!highlight.url">-->
+  <!--<img class="main-panel-image-card"-->
+  <!--draggable="false"-->
+  <!--ng-src="{{StaticConstants.GET_IMAGE_API + highlight.highlightId}}"/>-->
+  <!--</div>-->
+
+  <ul class="main-panel-highlights-list" ng-if="hidingHighlightsWebpages.indexOf(website.websiteId)==-1">
+    <highlight-card
+      ng-repeat="highlight in website.highlights | orderBy:'date' | limitTo:100 track by highlight.highlightId"
+      go-to-website="goToWebsite"
+      active-folder-user-meta="activeFolderUserMeta"
+      active-folder="activeFolder"
+      website="website"
+      highlight="highlight"
+      color-codes="colorCodes"
+      trigger-delete-confirmation="triggerDeleteConfirmation"
+    ></highlight-card>
+
+    <div ng-if="website.highlights.length>100" style="padding-left: 15px;">
+      Only 100 highlights are shown, visit
+      <a style="cursor: pointer; color: blue;" ng-click="goToDashboard()">dashboard</a>
+      for more.
+    </div>
+  </ul>
+</div>
+
+<div
+  ng-if="!activeFolder.searchState.searching && maxWebsiteCount() !==0"
+  style="text-align: center; padding-top: 10px;"
+>
+  <div ng-if="loadingMoreWebsites()">
+    <img src="../../../static/images/gif/loading-state.gif" style="width: 30px; height: 30px;" />
+  </div>
+</div>
+
+<!--delete confirmation modal-->
+<div ng-if="deleteConfirmModalShown" class="main-panel-dim-background" ng-click="cancelDelete()"></div>
+
+<div
+  ng-if="deleteConfirmModalShown"
+  class="modal-panel main-panel delete-confirmation-modal"
+  style="position: fixed; top: 30%;"
+  ng-style="showMenu ? {'left' : '240px'} : {'right' : '240px'}"
+>
+  <div style="font-size: 15px; line-height: 20px; text-align: center;">
+    Confirm delete?
+  </div>
+  <section class="bottom-buttons-section" style="text-align: center;">
+    <button class="text-button secondary-text-button" style="margin-right: 8px;" ng-click="cancelDelete()">
+      Cancel
+    </button>
+
+    <button class="text-button alert-text-button" ng-click="confirmDelete()">
+      Delete
+    </button>
+  </section>
+</div>

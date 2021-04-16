@@ -1,0 +1,32 @@
+{
+   "api_console_project_id": "185741998891",
+   "app": {
+      "launch": {
+         "web_url": "https://web.kamihq.com/web/viewer.html"
+      },
+      "urls": [ "https://web.kamihq.com/web/viewer.html" ]
+   },
+   "container": [ "GOOGLE_DRIVE" ],
+   "description": "Best PDF and Document Annotation and Markup Tool. Works with Google Drive and Google Classroom",
+   "gdrive_mime_types": {
+      "http://drive.google.com/intents/opendrivedoc": [ {
+         "disposition": "window",
+         "href": "https://web.kamihq.com/web/viewer.html",
+         "title": "Open",
+         "type": [ "application/pdf", "application/vnd.google.drive.ext-type.pdf" ]
+      } ]
+   },
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3MmUCsoxjChH6IMai7CDReWXRkDWqiRTCGFaD7gj0oryZB8RHA5jVzB4X5ekOZjfH/zvMCGxl4ZZmdilMc55avpZuyaDvwe5f8BpfMimzxh0mQBOKHWf47Ae1SDfSIeIVLGSLJF5OmkooUyhwWQKc699+RnXsfCljxnEk9YzKF1BhV0N/OIY7b/E+SSCoa7x6BiF37F+roa5n5fw2HZ7Wbnp9NVRVitn5GZ+BXtNDZ+P1SW3g0Pgov+iOO+7oXCxS9UdxunlW2BlJBPIVOZYoV0G/Miyt6fmyZ21Q4FHEpA+EX+Cdc8WfheQLPOKi7R5roFxdraH50e2heiVtqKkBwIDAQAB",
+   "manifest_version": 2,
+   "name": "Kami - PDF and Document Annotation",
+   "offline_enabled": true,
+   "permissions": [ "notifications" ],
+   "short_name": "Kami",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.8"
+}

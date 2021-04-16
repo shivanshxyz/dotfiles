@@ -1,0 +1,7 @@
+[2021-04-15 16:22:13.009] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-04-15 17:19:33.636] [sharedprocess] [info] Installing extension: hex-ci.stylelint-plus
+[2021-04-15 17:19:37.587] [sharedprocess] [info] Downloaded extension: hex-ci.stylelint-plus undefined
+[2021-04-15 17:19:43.135] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.09bd32cb-6b2a-442b-8cce-9c7007493eae: hex-ci.stylelint-plus
+[2021-04-15 17:19:43.145] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/hex-ci.stylelint-plus-0.53.4
+[2021-04-15 17:19:43.146] [sharedprocess] [info] Installation completed. hex-ci.stylelint-plus
+[2021-04-15 17:19:43.154] [sharedprocess] [info] Extensions installed successfully: hex-ci.stylelint-plus

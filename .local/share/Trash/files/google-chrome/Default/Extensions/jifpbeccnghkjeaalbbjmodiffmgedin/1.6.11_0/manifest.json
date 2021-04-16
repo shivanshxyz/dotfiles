@@ -1,0 +1,35 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "storage-sync-polyfill.js", "incognito-events.js", "chrome-platform-info.js", "cws_pattern.js", "background.js", "bg-contextmenu.js" ]
+   },
+   "description": "View source code of Chrome extensions, Firefox addons or Opera extensions (crx/nex/xpi) from the Chrome web store and elsewhere.",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "incognito": "split",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCNxbeYbxnMB9L788ALfgWazpSqfHsylFfXpFmeh0eBprnJKzfrqDDpWrrvAoU+nKAJyYPDoEhhE+tZKdXF8auOYJPWCHQ4COsqzjQim44Hv+e8EmSsEB4K3tZGdhaYfd8IRJzZ/vVU1IZzWufV+BGi9NHLgXE+daK2eij1Zjvj4wIDAQAB",
+   "manifest_version": 2,
+   "name": "Chrome extension source viewer",
+   "optional_permissions": [ "\u003Call_urls>" ],
+   "options_page": "options.html",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html#optionsV2"
+   },
+   "page_action": {
+      "default_icon": {
+         "19": "icons/19.png",
+         "38": "icons/38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Inspect contents of the current browser extension"
+   },
+   "permissions": [ "tabs", "webNavigation", "storage", "contextMenus", "declarativeWebRequest", "downloads", "*://clients2.google.com/service/update2/crx*", "*://clients2.googleusercontent.com/crx/download/*" ],
+   "short_name": "CRX Viewer",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.11",
+   "web_accessible_resources": [ "crxviewer.html" ]
+}

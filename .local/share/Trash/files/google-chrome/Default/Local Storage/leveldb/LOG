@@ -1,0 +1,21 @@
+2021/04/17-01:47:27.542 3 Reusing MANIFEST /home/shivanshxyz/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2021/04/17-01:47:27.549 3 Recovering log #3316
+2021/04/17-01:47:27.550 3 Reusing old log /home/shivanshxyz/.config/google-chrome/Default/Local Storage/leveldb/003316.log 
+2021/04/17-01:47:47.671 3 Level-0 table #3320: started
+2021/04/17-01:47:47.678 3 Level-0 table #3320: 17686 bytes OK
+2021/04/17-01:47:47.683 3 Delete type=0 #3316
+2021/04/17-01:54:21.460 3 Level-0 table #3322: started
+2021/04/17-01:54:21.464 3 Level-0 table #3322: 25022 bytes OK
+2021/04/17-01:54:21.468 3 Delete type=0 #3319
+2021/04/17-01:54:21.468 3 Compacting 4@0 + 1@1 files
+2021/04/17-01:54:21.535 3 Generated table #3323@0: 2873 keys, 890957 bytes
+2021/04/17-01:54:21.535 3 Compacted 4@0 + 1@1 files => 890957 bytes
+2021/04/17-01:54:21.542 3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/04/17-01:54:21.543 3 Delete type=2 #3322
+2021/04/17-01:54:21.543 3 Delete type=2 #3317
+2021/04/17-01:54:21.543 3 Delete type=2 #3313
+2021/04/17-01:54:21.543 3 Delete type=2 #3320
+2021/04/17-01:54:21.543 3 Delete type=2 #3315
+2021/04/17-02:12:16.251 d Level-0 table #3325: started
+2021/04/17-02:12:16.258 d Level-0 table #3325: 17074 bytes OK
+2021/04/17-02:12:16.266 d Delete type=0 #3321

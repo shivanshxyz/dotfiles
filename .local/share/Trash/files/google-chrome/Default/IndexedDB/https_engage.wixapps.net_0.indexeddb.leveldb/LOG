@@ -1,0 +1,5 @@
+2021/04/16-02:39:07.342 886a Reusing MANIFEST /home/shivanshxyz/.config/google-chrome/Default/IndexedDB/https_engage.wixapps.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/16-02:53:56.313 8e34 Level-0 table #5: started
+2021/04/16-02:53:56.317 8e34 Level-0 table #5: 16417 bytes OK
+2021/04/16-02:53:56.319 8e34 Delete type=0 #3
+2021/04/16-02:53:56.320 8e34 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

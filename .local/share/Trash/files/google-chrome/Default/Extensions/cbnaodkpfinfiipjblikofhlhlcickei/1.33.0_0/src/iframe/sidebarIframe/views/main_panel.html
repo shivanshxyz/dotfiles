@@ -1,0 +1,1242 @@
+<!-- MAIN PANEL -->
+<div class="no-select gistnote-main-panel" ng-class="{'right' :showMenu}">
+  <div ng-controller="websitesCtrl">
+    <!-- Main Panel Header-->
+    <div class="main-panel-header-wrapper" ng-class="search.show ? 'search-mode' : ''">
+      <div class="navigation">
+        <div class="collection-title-section">
+          <!-- menu button -->
+          <button
+            ng-disabled="!activeFolder&&folderList"
+            class="menu-button icon-button-lighter"
+            style="float: left"
+            ng-click="toggleMenu()"
+          >
+            <img
+              class="menu-icon"
+              ng-src="{{'../../../static/images/svg/' + (search.show ? 'hamburger-menu-icon-white.svg' : 'hamburger-menu-icon.svg')}}"
+            />
+          </button>
+
+          <!-- folder title -->
+          <div ng-if="!currentSwitchingFolderId && !search.show" class="collection-title-section-right-wrapper">
+            <div
+              ng-click="toggleEditPanel($event, activeFolder.folderId, activeFolder)"
+              class="menu-button icon-button-lighter nav-collection-title"
+            >
+              {{activeFolder.title}}
+            </div>
+
+            <div
+              ng-if="activeFolderUserMeta"
+              style="opacity: 1; padding: 6px 0"
+              class="menu-button"
+              ng-click="toggleSharePanel($event, activeFolder.folderId, activeFolder, activeFolderIsRoot, 'MAIN_PANEL')"
+            >
+              <div class="nav-collaborator-wrapper icon-circle-button-wrapper icon-only">
+                <img
+                  class="icon-circle-button-image"
+                  style="padding: 6px"
+                  src="../../../static/images/svg/share-icon.svg"
+                />
+              </div>
+            </div>
+
+            <div
+              class="search-cross-icon-wrapper icon-only icon-circle-button-wrapper nav-icon"
+              ng-click="showSearch()"
+            >
+              <img class="icon-circle-button-image" src="../../../static/images/svg/search-icon.svg" />
+            </div>
+          </div>
+
+          <div ng-if="!currentSwitchingFolderId && search.show" class="collection-title-section-right-wrapper">
+            <form class="search-form ng-pristine ng-valid">
+              <input
+                type="text"
+                class="search-input"
+                autocomplete="off"
+                ng-model="search.input"
+                ng-change="submitSearchStr()"
+                ng-model-options="{ debounce: 500 }"
+                autofocus
+                placeholder="Search in {{ activeFolder.title }}"
+              />
+            </form>
+            <div
+              class="search-cross-icon-wrapper icon-only icon-circle-button-wrapper nav-icon"
+              style="background: none"
+            >
+              <img
+                ng-if="!loadingSearchResult(activeFolder.searchState, search.input, activeColorFilters)"
+                ng-click="hideSearch()"
+                class="icon-circle-button-image"
+                src="../../../static/images/svg/cross-icon-white.svg"
+              />
+
+              <img
+                ng-if="loadingSearchResult(activeFolder.searchState, search.input, activeColorFilters)"
+                src="../../../static/images/gif/loading-state.gif"
+                class="icon-circle-button-image"
+              />
+            </div>
+          </div>
+
+          <div
+            class="home-icon-wrapper icon-circle-button-wrapper nav-icon hover-target"
+            ng-class="{'active': invitationCount > 0, 'search-show': search.show}"
+            ng-click="onHomeButtonClick()"
+          >
+            <img src="../../../static/images/svg/home-icon-white.svg" class="icon-circle-button-image" />
+            <div class="tooltip format-button-tooltip" style="right: 0; top: 35px; width: 80px; line-height: 15px">
+              <div class="tooltip-text" style="line-height: 15px">Go to Dashboard</div>
+              <div class="tooltip-pointer" style="left: 80%"></div>
+            </div>
+
+            <!--notification-->
+            <div ng-if="invitationCount > 0" class="icon-button-badge">{{invitationCount}}</div>
+          </div>
+        </div>
+      </div>
+      <div ng-if="search.show" class="main-panel-filter">
+        <div class="gistnote-filter-color-list">
+          <div
+            class="nav-filter-pill-wrapper"
+            ng-repeat="colorCode in colorCodes track by $index"
+            ng-if="colorCode != null"
+          >
+            <div
+              ng-class="{'active': activeColorFilters.indexOf($index + 1) !== -1}"
+              ng-click="colorCircleClick($index + 1)"
+              ng-style="{'background-color': colorCode}"
+              class="nav-filter-pill gistnote-circle-dim"
+            ></div>
+
+            <div ng-if="activeFolder.colorTags[$index]" class="nav-filter-action-icon-tooltip tooltip">
+              {{activeFolder.colorTags[$index]}}
+            </div>
+          </div>
+        </div>
+        <div ng-if="activeFolder.searchState.searching" class="search-mode-alert warning-area">
+          Search result for "{{activeFolder.searchState.searchResult.searchStr}}"
+        </div>
+      </div>
+
+      <!-- sub-header button groups -->
+      <div ng-if="!currentSwitchingFolderId && !isEmptyFolder()" class="action-selection-wrapper">
+        <div class="format-button-group-left-wrapper">
+          <div class="format-button-group">
+            <div class="format-button" ng-click="toggleNewCollectionInput(true)" style="padding-bottom: 1px">
+              <div style="display: table-cell; vertical-align: middle">
+                <img width="18px" style="opacity: 0.5" src="../../../static/images/svg/folder-create-icon.svg" />
+              </div>
+
+              <!-- Testing Group only -->
+              <div class="format-button-tooltip tooltip" style="top: 26px; left: 1px">
+                <div class="">New sub-folder</div>
+              </div>
+            </div>
+          </div>
+          <div ng-if="!subscription" class="format-button-group">
+            <div class="upgrade-button" ng-click="upgrade()">Upgrade Premium</div>
+          </div>
+        </div>
+
+        <div class="format-button-group-wrapper">
+          <div class="format-button-group">
+            <div
+              class="format-button"
+              ng-click="expandAllHighlights()"
+              ng-class="{'inactive' : hidingHighlightsWebpages === []}"
+            >
+              <img
+                src="../../../static/images/svg/expand-arrow-icon.svg"
+                style="width: 11px; height: 18px; padding: 0 2px"
+              />
+              <div class="tooltip format-button-tooltip" style="right: -25px; top: 26px">
+                <div class="tooltip-text">Show highlights</div>
+              </div>
+            </div>
+            <div class="format-button" ng-click="hideAllHighlights()">
+              <img
+                src="../../../static/images/svg/contract-arrow-icon.svg"
+                style="width: 11px; height: 18px; padding: 0 2px"
+              />
+              <div class="tooltip format-button-tooltip" style="right: -28px; top: 26px">
+                <div class="tooltip-text">Hide highlights</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="format-button-group">
+            <label
+              for="upload-pdf-header-button"
+              class="format-button"
+              ng-class="{'inactive' : hidingHighlightsWebpages === []}"
+              style="padding: 3px 5px"
+            >
+              <!-- Form for file upload -->
+              <form enctype="multipart/form-data" method="post">
+                <input
+                  pdf-upload
+                  accept=".pdf"
+                  user="user"
+                  click-src="'header'"
+                  id="upload-pdf-header-button"
+                  type="file"
+                  multiple
+                  style="display: none"
+                />
+              </form>
+              <img src="../../../static/images/svg/upload-icon.svg" style="width: 18px; height: 18px" />
+              <div class="tooltip format-button-tooltip" style="top: 26px; left: -18px">
+                <div class="tooltip-text">Upload PDFs</div>
+              </div>
+            </label>
+          </div>
+
+          <div class="format-button-group">
+            <div class="format-button" ng-click="showDropDown=!showDropDown">
+              <img src="../../../static/images/svg/order-by-icon.svg" style="width: 18px; height: 18px" />
+              <div class="tooltip" style="right: -10px; top: 26px">
+                <div class="tooltip-text">Order by</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown-menu" ng-class="{active: showDropDown}" style="right: 0">
+            <div class="dropdown-menu-section" id="sort_by">
+              <div class="dropdown-menu-section-header">Order by</div>
+              <div
+                class="dropdown-menu-item no-select"
+                ng-click="clickSortOption(true)"
+                ng-class="{active: activeFolder.websiteListPagination.ascending}"
+              >
+                <img
+                  class="dropdown-menu-checkbox-image"
+                  style="width: 15px; height: 15px"
+                  ng-if="activeFolder.websiteListPagination.ascending"
+                  src="../../../static/images/svg/checkmark-colored.svg"
+                />
+                Old to New
+              </div>
+              <div
+                class="dropdown-menu-item no-select"
+                ng-click="clickSortOption(false)"
+                ng-class="{active: !activeFolder.websiteListPagination.ascending}"
+              >
+                <img
+                  class="dropdown-menu-checkbox-image"
+                  style="width: 15px; height: 15px"
+                  ng-if="!activeFolder.websiteListPagination.ascending"
+                  src="../../../static/images/svg/checkmark-colored.svg"
+                />
+                New to Old
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- pdf upload progress bar -->
+      <div ng-if="pdfUploadProgress && pdfUploadProgress.current !== null" class="pdf-upload-status-bar">
+        <img
+          src="../../../static/images/gif/loading-state.gif"
+          style="width: 25px; height: 25px; display: inline-block; vertical-align: middle; padding: 0 10px"
+        />
+        <span>Uploading PDF Files: {{pdfUploadProgress.current}} / {{pdfUploadProgress.total}}</span>
+      </div>
+    </div>
+
+    <!--Edit Collection Modal-->
+    <div ng-if="editingFolder.id && editingColor===null" ng-style="editPanelStyle" class="modal-panel main-panel">
+      <section class="modal-header-closer">
+        <h3 class="modal-header-title">Edit Folder</h3>
+      </section>
+      <div class="text-input-wrapper">
+        <input
+          ng-model="editingFolder.title"
+          class="collection-title-text-input text-input-field"
+          autofocus
+          type="text"
+          ng-keyup="$event.keyCode == 13 && saveFolderEdit($event)"
+        />
+      </div>
+
+      <div>
+        <div
+          class="color-category-edit-row"
+          ng-repeat="colorCode in editingFolder.colorCodes track by $index"
+          ng-if="colorCode != null"
+        >
+          <div class="table-cell">
+            <div
+              ng-style="{'background-color': colorCode}"
+              class="color-category-pill"
+              ng-click="toggleEditingColors($index)"
+            ></div>
+          </div>
+          <div class="color-category-input-wrapper">
+            <input
+              ng-model="editingFolder.colorTags[$index]"
+              class="text-input-title color-category-text-input"
+              ng-keyup="$event.keyCode == 13 && saveFolderEdit($event)"
+              placeholder="Enter color label"
+            />
+          </div>
+          <div class="table-cell">
+            <img
+              ng-if="$index > 4"
+              class="table-cell color-category-edit-row-cross-icon"
+              src="../../../static/images/svg/cross-icon.svg"
+              style="width: 20px; height: 20px"
+              ng-click="deleteHighlightColor($index+1)"
+            />
+          </div>
+        </div>
+
+        <div
+          class="color-category-edit-row"
+          ng-if="!user.hidePremiumFeatures&&editingFolder.colorCodes && getNextColorNum(editingFolder.colorCodes) <= 10"
+        >
+          <div class="table-cell" ng-click="addToHighlightColors()">
+            <div class="color-category-pill empty">+</div>
+          </div>
+          <div
+            ng-click="addToHighlightColors()"
+            class="table-cell add-new-color modal-action-text"
+            onchange="document.getElementById('chosen-color').value = document.getElementById('background-color').value;"
+          >
+            Add New Color
+          </div>
+        </div>
+      </div>
+      <section class="bottom-buttons-section">
+        <div class="icon-button borderless hover-target">
+          <img
+            src="../../../static/images/svg/delete-icon.svg"
+            style="width: 20px; height: 20px; cursor: pointer"
+            ng-if="showDeleteButton()"
+            ng-click="deleteFolder($event)"
+          />
+        </div>
+
+        <button class="action-button modal-save-button" ng-click="saveFolderEdit($event)">Save</button>
+        <div style="float: right" class="cancel-button" ng-click="toggleEditPanel($event, null)">Cancel</div>
+      </section>
+    </div>
+
+    <!--Customize color modal-->
+    <div ng-if="editingColor != null" style="width: 188px" class="modal-panel main-panel">
+      <section class="modal-header-closer">
+        <h3 class="modal-header-title">Highlight Colors</h3>
+      </section>
+      <div>
+        <div class="modal-description-header">Choose a color</div>
+        <div
+          ng-repeat="colorCode in COLOR_PROFILE"
+          class="table-cell color-category-pill-customized-wrapper"
+          ng-if="$index<5"
+        >
+          <div
+            ng-click="editingFolder.colorCodes[editingColor]=colorCode"
+            ng-style="{'background-color': colorCode}"
+            class="color-category-pill customized pointer"
+          ></div>
+        </div>
+      </div>
+      <div>
+        <div
+          ng-repeat="colorCode in COLOR_PROFILE"
+          class="table-cell color-category-pill-customized-wrapper"
+          ng-if="$index>=5"
+        >
+          <div
+            ng-click="editingFolder.colorCodes[editingColor]=colorCode"
+            ng-style="{'background-color': colorCode}"
+            class="color-category-pill customized pointer"
+          ></div>
+        </div>
+      </div>
+      <div>
+        <div class="modal-description-header">OR Customize...</div>
+        <input type="color" ng-model="editingFolder.colorCodes[editingColor]" style="cursor: pointer" />
+      </div>
+
+      <section class="bottom-buttons-section">
+        <div class="text-button secondary-text-button" ng-click="onEditColorCancel()">Cancel</div>
+
+        <button class="action-button modal-save-button" ng-click="toggleEditingColors(null)">Save</button>
+      </section>
+    </div>
+
+    <!--Share Collection Modal-->
+    <div ng-if="showShareModal" class="modal-panel main-panel folder-share-modal">
+      <section class="modal-header-closer">
+        <h3 class="modal-header-title">Share Folder</h3>
+        <div ng-if="sharingFolderUserMeta && sharingFolderInvitedMeta" style="padding-top: 10px">
+          <span style="display: inline-block; vertical-align: middle; width: 29px; height: 29px">
+            <img style="width: inherit; height: inherit" src="../../../static/images/svg/folder-shared-icon.svg" />
+          </span>
+          <span class="collaborator-details">
+            <span class="collaborator-name">{{sharingFolder.title}}</span>
+            <br />
+            <span>Collaborators: {{numberOfCollaborators}}</span>
+          </span>
+        </div>
+        <!--<div style="padding: 5px 0;font-size: 14px;font-weight: 400;"-->
+        <!--class="modal-collection-title">{{sharingFolder.title}}-->
+        <!--</div>-->
+      </section>
+
+      <!--collaborator list-->
+      <div ng-if="!sharingFolderUserMeta || !sharingFolderInvitedMeta" style="text-align: center">
+        <img
+          src="../../../static/images/gif/loading-state.gif"
+          style="width: 25px; height: 25px; display: inline-block; vertical-align: middle"
+        />
+      </div>
+
+      <div ng-if="sharingFolderUserMeta && sharingFolderInvitedMeta">
+        <div class="collaborator-list-wrapper">
+          <div class="collaborator-list-header">Who has access</div>
+          <div class="collaborator-list">
+            <div
+              ng-repeat="collaborator in sharingFolderUserMeta"
+              class="collaborator-row"
+              ng-class="{deleted: deletedCollaborator.includes(collaborator.uid)}"
+            >
+              <div class="table-cell" style="width: 310px">
+                <span style="display: inline-block; vertical-align: middle; width: 29px; height: 29px">
+                  <img
+                    ng-if="collaborator.photoURL && collaborator.photoURL !==''"
+                    class="collaborator-icon"
+                    ng-src="{{collaborator.photoURL}}"
+                  />
+                  <img
+                    ng-if="!(collaborator.photoURL && collaborator.photoURL !=='')"
+                    class="collaborator-icon"
+                    src="../../../static/images/svg/profile-icon.svg"
+                  />
+                </span>
+                <span class="collaborator-details">
+                  <span class="collaborator-name">{{collaborator.displayName}}</span>
+                  <br />
+                  <span>{{collaborator.email}}</span>
+                </span>
+              </div>
+
+              <div class="table-cell" style="text-align: right; width: 40px">
+                <img
+                  ng-if="sharingFolder.isRoot && collaborator.accessRight !== 'owner' && !deletedCollaborator.includes(collaborator.uid)"
+                  src="../../../static/images/svg/cross-icon.svg"
+                  ng-click="onRemoveCollaborator(collaborator.uid)"
+                  class="cross-icon"
+                  style="width: 20px"
+                />
+                <span ng-if="collaborator.accessRight === 'owner'" class="is-owner">owner</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Invited list-->
+          <div class="collaborator-list-header">Invited</div>
+          <div class="collaborator-list">
+            <div
+              ng-repeat="(key, invitedUser) in sharingFolderInvitedMeta"
+              class="collaborator-row"
+              ng-class="{deleted: deletedInvited.includes(key)}"
+            >
+              <div class="table-cell" style="width: 310px">
+                <span style="display: inline-block; vertical-align: middle; width: 29px; height: 29px">
+                  <img
+                    ng-if="invitedUser.photoURL && invitedUser.photoURL !==''"
+                    class="collaborator-icon"
+                    ng-src="{{invitedUser.photoURL}}"
+                  />
+                  <img
+                    ng-if="!(invitedUser.photoURL && invitedUser.photoURL !=='')"
+                    class="collaborator-icon"
+                    src="../../../static/images/svg/profile-icon.svg"
+                  />
+                </span>
+                <span class="collaborator-details">
+                  <span class="invited-email">{{key}}</span>
+                </span>
+              </div>
+
+              <div class="table-cell" style="text-align: right; width: 40px">
+                <img
+                  ng-if="sharingFolder.isRoot && !deletedInvited.includes(key)"
+                  src="../../../static/images/svg/cross-icon.svg"
+                  ng-click="onRemoveInvited(key)"
+                  class="cross-icon"
+                  style="width: 20px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--input-->
+        <div ng-if="!hasUnsavedChange()">
+          <div ng-if="sharingFolder.isRoot" style="background: #f7f7f7; padding: 10px">
+            <div style="font-size: 10px">Invite people:</div>
+            <div class="collaborator-row">
+              <div class="table-cell" style="width: 315px">
+                <div class="table-cell text-input-wrapper" style="width: inherit">
+                  <input
+                    class="add-collaborator-text-input text-input-field"
+                    ng-model="sharingFolder.emailInput"
+                    ng-blur="setInputFocused(false)"
+                    ng-focus="setInputFocused(true)"
+                    ng-keyup="$event.keyCode == 13 && submitInvitation()"
+                    placeholder="Enter email address..."
+                    style="padding: 8px 5px; width: 100%"
+                  />
+                </div>
+              </div>
+            </div>
+            <div ng-if="sharingFolder.emailInput || inputFocused">
+              <button class="action-button" ng-click="submitInvitation()">Send</button>
+              <div class="cancel-button" ng-click="onCancelInput()">Cancel</div>
+            </div>
+
+            <!--Share link -->
+            <!--<div ng-if="!emailInput && !inputFocused">-->
+            <!--<div class="collaborator-list-header"-->
+            <!--style="padding: 2px 0 9px 0;">OR-->
+            <!--</div>-->
+
+            <!--<div style="font-size: 10px;">Link to share:</div>-->
+            <!--<div class="copy-field-wrapper hover-target"-->
+            <!--ng-click="hoverButtonOnClick()">-->
+            <!--<div style="overflow: hidden;white-space: nowrap;"-->
+            <!--class="copy-field-text"-->
+            <!--ng-bind="shareLink">-->
+            <!--</div>-->
+            <!--<div class="tooltip"-->
+            <!--style="right: 10px;top: 10px; padding: 5px;">-->
+            <!--<div style="font-size: 12px; padding: 2px 3px;">-->
+            <!--{{copyButtonText}}-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+          </div>
+          <div ng-if="!sharingFolder.isRoot" class="error-area" style="padding: 10px 6px; line-height: 16px">
+            <div style="font-size: 11px; font-weight: bold">You can only share root folder</div>
+            <div style="font-size: 10px">(Sharing sub folder is coming soon!)</div>
+          </div>
+        </div>
+      </div>
+
+      <div ng-if="hasUnsavedChange()">
+        <div class="warning-area" style="padding: 10px 6px; line-height: 16px">
+          <div style="font-size: 11px">You have made changes that you need to save.</div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <section ng-if="!sharingFolder.emailInput && !inputFocused" class="bottom-buttons-section">
+        <div ng-if="hasUnsavedChange()" class="bottom-buttons-right-wrapper">
+          <button class="action-button modal-save-button" ng-click="onSave()">Save</button>
+          <div style="float: right" class="cancel-button" ng-click="onCancel()">Cancel</div>
+        </div>
+        <div ng-if="!hasUnsavedChange()" class="bottom-buttons-right-wrapper">
+          <button class="action-button modal-save-button" ng-click="toggleSharePanel($event, null)">Done</button>
+        </div>
+      </section>
+    </div>
+
+    <!-- Main Panel Content -->
+    <section class="website-list-wrapper" ng-class="getWebsiteListWrapperClass(activeFolder.searchState)">
+      <!-- Loading state -->
+      <div
+        ng-if="currentSwitchingFolderId || !activeFolder"
+        style="text-align: center; font-size: 15px; line-height: 40px; margin: 80px; color: rgba(0, 0, 0, 0.6)"
+      >
+        <img
+          src="../../../static/images/gif/loading-state.gif"
+          style="width: 25px; height: 25px; display: inline-block; vertical-align: middle"
+        />
+        <div class="reset-extension-text-wrapper">
+          <div>Loading forever?</div>
+          <div>
+            <a style="font-size: 14px" class="text-link" ng-click="reloadExtension()">Reload</a> or
+            <a
+              style="font-size: 14px"
+              class="text-link"
+              target="_blank"
+              href="https://weavatools.atlassian.net/servicedesk/customer/portals"
+              >Contact Us</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- empty state -->
+      <div ng-if="!currentSwitchingFolderId && isEmptyFolder()">
+        <div class="empty-state-image-wrapper">
+          <img style="width: 285px" src="../../../static/images/gif/highlight-tutorial.gif" />
+          <div style="font-size: 16px; line-height: 24px; margin-bottom: 100px">
+            Check out our
+            <a class="empty-state-link" target="_blank" href="https://www.weavatools.com/tutorial"
+              >Tutorial and Guide</a
+            >
+          </div>
+          <div style="position: absolute; width: 100%; bottom: 100px; font-size: 14px; opacity: 0.5">
+            Need help?
+            <a href="https://weavatools.atlassian.net/servicedesk/customer/portals" target="_blank">Contact Support</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- non-empty state -->
+      <div ng-if="loading.mainPanel" class="main-panel-dim-background"></div>
+
+      <!-- website list -->
+      <div ng-if="activeFolder && !currentSwitchingFolderId && !isEmptyFolder()">
+        <!--Rate us Card-->
+        <div
+          ng-if="showRateUsBanner && !showDiscountCard && !showNewFeatureCard"
+          style="
+            position: relative;
+            font-size: 13px;
+            padding: 10px;
+            text-align: left;
+            background: #405059;
+            color: #ffffff;
+          "
+        >
+          Love Weava?
+          <a
+            href="https://chrome.google.com/webstore/detail/weava-highlighter-pdf-web/cbnaodkpfinfiipjblikofhlhlcickei/reviews"
+            ng-click="clickRateUsBanner()"
+            target="_blank"
+            style="cursor: pointer; color: #ffffff"
+          >
+            Please give us a 5-star rating!</a
+          >
+          <!--<button ng-click="closeRateUsBanner()">close</button>-->
+          <div class="icon-circle-button-wrapper cross-button" ng-click="closeRateUsBanner($event)">
+            <img
+              class="icon-circle-button-image"
+              style="padding: 2px"
+              src="../../../static/images/svg/cross-icon-white.svg"
+            />
+          </div>
+        </div>
+
+        <!--Discount Card-->
+        <ul ng-if="showDiscountCard" class="main-panel-notification-wrapper premium-card">
+          <li class="main-panel-highlight-wrapper">
+            <button ng-click="onDiscountClick($event)">
+              <img class="upgrade-to-premium" src="../../../static/images/png/upgrade-to-premium.png" />
+            </button>
+            <button class="cancel-button" ng-click="closeDiscountModal($event)">Not now</button>
+          </li>
+        </ul>
+
+        <!--Anonymous warning-->
+        <ul ng-if="user.isAnonymous" class="main-panel-notification-wrapper warning-wrapper">
+          <li style="border: none; font-size: 13px; line-height: 17px; border-radius: 5px; cursor: pointer">
+            <img
+              style="display: inline-block; height: 42px; padding-right: 10px; vertical-align: middle"
+              src="../../../static/images/svg/warning-icon.svg"
+            />
+
+            <div style="display: inline-block; vertical-align: middle">
+              <div style="display: inline-block; font-weight: bold; font-size: 15px">
+                You are using a trial account.
+              </div>
+              <div style="padding-top: 4px">
+                Sign up to regain access to your work <br />
+                in the future. It's free!
+              </div>
+            </div>
+
+            <div style="padding-top: 10px; text-align: left">
+              <button
+                class="text-button primary"
+                style="line-height: 15px; font-size: 15px"
+                ng-click="onSignInClick($event)"
+              >
+                Sign up
+              </button>
+              <button
+                class="cancel-button"
+                style="line-height: 15px; font-size: 12px; padding: 10px 12px; vertical-align: top"
+                ng-click="signOut()"
+              >
+                <span>already have an account?</span>
+                <span class="text-link" style="vertical-align: top">Login</span>
+              </button>
+            </div>
+          </li>
+        </ul>
+
+        <!-- New feature card -->
+        <ul ng-if="showNewFeatureCard" class="main-panel-notification-wrapper">
+          <li style="border: none; border-radius: 5px; cursor: default" class="main-panel-highlight-wrapper">
+            <div class="notification-card-header">Important updates</div>
+            <div style="padding: 86px 0; line-height: 1.5; font-size: 20px; font-weight: 200">
+              Desktop App is now ready!
+            </div>
+            <div style="display: inline-block; padding: 4px 0 6px; text-align: left">
+              <button
+                class="text-button alert-text-button"
+                style="line-height: 19px; font-size: 13px; border-radius: 40px"
+                ng-click="onNewFeatureClick($event)"
+              >
+                Download for Free
+              </button>
+            </div>
+            <div style="display: inline-block; padding: 4px 0 6px; float: right">
+              <button
+                class="cancel-button"
+                style="line-height: 19px; font-size: 12px"
+                ng-click="closeNotificationModal($event)"
+              >
+                Not now
+              </button>
+            </div>
+            <br />
+          </li>
+        </ul>
+
+        <website-list
+          user="user"
+          color-codes="colorCodes"
+          active-folder-user-meta="activeFolderUserMeta"
+          active-folder="activeFolder"
+          website-list="activeFolder.websites"
+          hiding-highlights-webpages="hidingHighlightsWebpages"
+          active-color-filters="activeColorFilters"
+          show-menu="showMenu"
+          toggle-new-collection-input="toggleNewCollectionInput"
+          show-input="showInput"
+          toggle-edit-panel="toggleEditPanel"
+        >
+        </website-list>
+      </div>
+
+      <!-- bottom hint button groups -->
+      <div
+        ng-if="!currentSwitchingFolderId && activeFolder && !isEmptyFolder()"
+        class="website-list-bottom-button-wrapper"
+      >
+        <label style="padding-left: 30px" for="upload-pdf-website-list-button" class="website-list-bottom-button-group">
+          <form enctype="multipart/form-data" method="post">
+<!--            <input-->
+<!--              pdf-upload-->
+<!--              accept=".pdf"-->
+<!--              user="user"-->
+<!--              click-src="'list'"-->
+<!--              id="upload-pdf-website-list-button"-->
+<!--              type="file"-->
+<!--              multiple-->
+<!--              style="display: none"-->
+<!--            />-->
+            <input
+                    pdf-upload
+                    user="user"
+                    click-src="'list'"
+                    id="upload-pdf-website-list-button"
+                    type="button"
+                    style="display: none"
+            />
+          </form>
+          <div class="website-list-bottom-button-hint">
+            Highlight PDF <br />
+            from my computer:
+          </div>
+          <div class="text-button secondary-text-button" style="width: max-content; margin: 0 auto">
+            <img
+              width="20px"
+              style="display: inline-block; vertical-align: middle; opacity: 0.7"
+              src="../../../static/images/svg/upload-icon.svg"
+            />
+            <div style="display: inline-block; vertical-align: middle; padding-left: 4px">Upload PDFs</div>
+          </div>
+        </label>
+
+        <div class="website-list-bottom-button-group">
+          <div class="website-list-bottom-button-hint">
+            Manage, export & <br />
+            cite highlights:
+          </div>
+          <div>
+            <div ng-click="onGoToDashboardClick()" class="text-button secondary-text-button">
+              <img
+                width="20px"
+                style="display: inline-block; vertical-align: middle; opacity: 0.7"
+                src="../../../static/images/svg/home-icon.svg"
+              />
+              <div style="display: inline-block; vertical-align: middle; padding-left: 4px">Go to Dashboard</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Questionnaire-->
+    <div ng-if="showQuestionnaireModal">
+      <div class="main-panel-dim-background"></div>
+    </div>
+    <div>
+      <div ng-if="showQuestionnaireModal" class="modal-panel main-panel" style="width: 80%; top: 80px">
+        <div class="login-input-wrapper" style="font-size: 18px; line-height: 24px; margin-top: 15px">Who are you?</div>
+        <div style="text-align: center; padding: 5px 0">
+          <div class="login-input-wrapper login-select-wrapper">
+            <select ng-model="questionnaireForm.userRole" class="login-select" ng-class="{'invalid': false}">
+              <option value="">I'm a :</option>
+              <option ng-repeat="option in userRoleOptions" value="{{option[0]}}">{{option[1]}}</option>
+            </select>
+          </div>
+        </div>
+
+        <div
+          style="text-align: center; padding: 5px 0"
+          ng-if="questionnaireForm.userRole !== 'professional' && questionnaireForm.userRole !== 'leisure'"
+        >
+          <div class="login-input-wrapper login-select-wrapper">
+            <select
+              ng-model="questionnaireForm.studyField"
+              ng-disabled="questionnaireForm.userRole !=='student'"
+              class="login-select"
+              ng-class="{'invalid': false}"
+            >
+              <option value="">Field / Area of Study</option>
+              <option ng-repeat="option in studyFieldsOptions" value="{{option[0]}}">{{option[1]}}</option>
+            </select>
+          </div>
+        </div>
+
+        <div
+          style="text-align: center; padding: 5px 0"
+          ng-if="questionnaireForm.userRole === 'professional' || questionnaireForm.userRole === 'leisure'"
+        >
+          <div class="login-input-wrapper login-select-wrapper">
+            <select ng-model="questionnaireForm.expertField" class="login-select" ng-class="{'invalid': false}">
+              <option value="">Field / Area of Expertise</option>
+              <option ng-repeat="option in expertFieldsOptions" value="{{option[0]}}">{{option[1]}}</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="login-input-wrapper" style="font-size: 18px; line-height: 24px; margin-top: 15px">
+          What contents do you read?
+        </div>
+        <div style="text-align: center; padding: 5px 0">
+          <div class="login-input-wrapper login-select-wrapper">
+            <select ng-model="questionnaireForm.reading" class="login-select" ng-class="{'invalid': false}">
+              <option value="">I want to highlight :</option>
+              <option ng-repeat="option in readingOptions" value="{{option[0]}}">{{option[1]}}</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="login-input-wrapper">
+          <button
+            ng-disabled="questionnaireForm.reading===''
+                    || questionnaireForm.userRole===''
+                    || (questionnaireForm.expertField==='' && (questionnaireForm.userRole === 'professional' || questionnaireForm.userRole === 'leisure'))
+                    || (questionnaireForm.studyField==='' && questionnaireForm.userRole === 'student')"
+            class="login-button"
+            ng-click="submitPersonaQuestionnaire()"
+          >
+            Submit
+          </button>
+          <div class="disabled-description">Please fill out the fields above.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Panel Footer -->
+    <div class="highlight-mode-bar">
+      <div class="highlight-mode-bar-pin-wrapper">
+        <label ng-controller="pinCtrl" class="switch">
+          <input ng-model="pinMode.value" ng-change="togglePinMode()" type="checkbox" />
+          <div class="pin-image" ng-class="{'nav-icon-pinned': pinMode.value}">
+            <img
+              src="../../../static/images/svg/pin-icon.svg"
+              ng-class=" {'opacity-show' : !pinMode.value}"
+              style="position: absolute; width: 20px; height: 20px"
+            />
+            <img
+              src="../../../static/images/svg/pin-icon-white.svg"
+              ng-class="{'opacity-show' : pinMode.value}"
+              style="width: 20px; height: 20px"
+            />
+          </div>
+        </label>
+        <div class="tooltip main-panel-tooltip pin-bottom-tooltip pin-left-tooltip">
+          <div class="tooltip-text">
+            Pin sidebar
+            <span ng-if="workspace && workspace.commands && workspace.commands['PIN_SIDEBAR_BY_SHORTCUT']!==''">
+              ({{workspace.commands['PIN_SIDEBAR_BY_SHORTCUT']}})</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="highlight-mode-bar-text-wrapper">
+        <div class="highlight-mode-title no-select">Highlight mode</div>
+      </div>
+      <div class="highlight-mode-wrapper" style="position: relative">
+        <label class="switch">
+          <input
+            ng-model="workspace.extensionHighlightModeSettings.highlighter"
+            ng-change="toggleHighlightMode()"
+            type="checkbox"
+          />
+          <div class="toggle round">
+            <div
+              class="toggle-content"
+              ng-class="{'on':workspace.extensionHighlightModeSettings.highlighter}"
+              ng-bind="workspace.extensionHighlightModeSettings.highlighter ? 'ON' : 'OFF'"
+            ></div>
+          </div>
+        </label>
+        <div
+          class="tooltip main-panel-tooltip pin-bottom-tooltip"
+          style="position: absolute; right: 0px; bottom: 40px; z-index: 1000"
+        >
+          <div class="tooltip-text">
+            Show highlighter popup
+            <span
+              ng-if="workspace && workspace.commands
+                          && workspace.commands['TOGGLE_HIGHLIGHT_MODE_BY_SHORTCUT'] !== ''"
+              class="tooltip-text"
+            >
+              ({{workspace.commands['TOGGLE_HIGHLIGHT_MODE_BY_SHORTCUT']}})</span
+            >
+          </div>
+        </div>
+
+        <div ng-if="showHighlightModeGuide" class="highlight-mode-tutorial">
+          <div style="display: inline-block">
+            <div style="color: #cdcdcd; font-weight: 600; padding-bottom: 9px">TIPS</div>
+            <div>
+              You can turn on/off <span style="background: rgb(255, 251, 120); color: #303030">highlight mode</span>
+              here!
+              <div
+                ng-if="workspace && workspace.commands
+                          && workspace.commands['TOGGLE_HIGHLIGHT_MODE_BY_SHORTCUT'] !== ''"
+                style="font-size: 11px; color: #c1c1c1"
+              >
+                Shortcut:
+                <span style="font-weight: bold"> ({{workspace.commands['TOGGLE_HIGHLIGHT_MODE_BY_SHORTCUT']}})</span>
+              </div>
+            </div>
+          </div>
+          <div class="mock-popover-wrapper blinking">
+            <div class="mock-popover-pointer"></div>
+            <div class="mock-popover-body">
+              <div style="background: #ffcad7" class="mock-popover-circle"></div>
+              <div style="background: #ffde70" class="mock-popover-circle"></div>
+              <div style="background: #fffb78" class="mock-popover-circle"></div>
+              <div style="background: #b4ffeb" class="mock-popover-circle"></div>
+              <div style="background: #f8ceff" class="mock-popover-circle"></div>
+            </div>
+          </div>
+          <br />
+          <br />
+
+          <div
+            ng-click="closeHighlightModeGuide()"
+            class="text-link"
+            style="font-size: 11px; text-align: right; display: block; color: #00bfd2; text-decoration: underline"
+          >
+            Don't show this again
+          </div>
+
+          <div class="highlight-mode-off tooltip-pointer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MENU PANEL -->
+<div class="no-select menu-panel" ng-if="showMenu">
+  <section class="menu-header">
+    <div
+      class="folder-header-wrapper"
+      ng-if="!draggingFolder"
+      ng-click="openOrSwitchToUrl('https://www.weavatools.com/app/login', null)"
+    >
+      <div class="folder-header-logo-wrapper">
+        <img src="../../../static/images/svg/w-logo.svg" style="width: 25px" />
+      </div>
+
+      <div class="folder-header-title-wrapper no-select">Weava</div>
+    </div>
+
+    <div class="folder-header-wrapper" can-drop to-folder-id="root" ng-if="draggingFolder">
+      <div class="folder-header-logo-wrapper">
+        <img src="../../../static/images/svg/folder-shared-icon.svg" style="width: 25px" />
+      </div>
+
+      <div class="folder-header-title-wrapper no-select">Drop to Root Level</div>
+    </div>
+  </section>
+
+  <!-- The folder menu -->
+  <div ng-controller="foldersCtrl" style="max-height: 80%; overflow-y: auto">
+    <!--delete confirmation modal-->
+    <div ng-if="deleteConfirmModalShown" class="menu-panel-dim-background"></div>
+
+    <div
+      ng-if="deleteConfirmModalShown"
+      class="modal-panel menu-panel delete-confirmation-modal"
+      ng-style="editPanelStyle"
+    >
+      <div style="font-size: 13px; line-height: 20px; text-align: center">Confirm delete?</div>
+      <section class="bottom-buttons-section" style="text-align: center">
+        <button
+          class="text-button secondary-text-button"
+          style="margin-right: 8px; padding: 5px 6px"
+          ng-click="cancelDelete()"
+        >
+          Cancel
+        </button>
+
+        <button class="text-button alert-text-button" ng-click="confirmDelete()" style="padding: 5px 6px">
+          Delete
+        </button>
+      </section>
+    </div>
+
+    <!-- folder edit modal -->
+    <div ng-if="loading.menuPanel" ng-click="toggleEditPanel($event, null)" class="menu-panel-dim-background"></div>
+
+    <div ng-if="showFolderEditPanel()" ng-style="editPanelStyle" class="modal-panel menu-panel">
+      <section class="modal-header-closer">
+        <h3 class="modal-header-title">Edit Folder</h3>
+      </section>
+      <div class="text-input-wrapper">
+        <input
+          ng-model="editingFolder.title"
+          class="collection-title-text-input text-input-field"
+          type="text"
+          autofocus
+          ng-keyup="$event.keyCode == 13 && saveFolderEdit($event)"
+        />
+      </div>
+
+      <div>
+        <div
+          class="color-category-edit-row"
+          ng-repeat="colorCode in editingFolder.colorCodes track by $index"
+          ng-if="colorCode != null"
+        >
+          <div class="table-cell">
+            <div
+              ng-style="{'background-color': colorCode}"
+              class="color-category-pill"
+              ng-click="toggleEditingColors($index)"
+            ></div>
+          </div>
+          <div class="color-category-input-wrapper">
+            <input
+              ng-model="editingFolder.colorTags[$index]"
+              class="text-input-title color-category-text-input"
+              ng-keyup="$event.keyCode == 13 && saveFolderEdit($event)"
+              placeholder="Enter color label"
+            />
+          </div>
+          <div class="table-cell">
+            <img
+              ng-if="$index > 4"
+              class="table-cell color-category-edit-row-cross-icon"
+              src="../../../static/images/svg/cross-icon.svg"
+              style="width: 20px; height: 20px"
+              ng-click="deleteHighlightColor($index+1)"
+            />
+          </div>
+        </div>
+
+        <div
+          class="color-category-edit-row"
+          ng-if="!user.hidePremiumFeatures && editingFolder.colorCodes && getNextColorNum(editingFolder.colorCodes) <= 10"
+        >
+          <div class="table-cell" ng-click="addToHighlightColors()">
+            <div class="color-category-pill empty">+</div>
+          </div>
+          <div
+            ng-click="addToHighlightColors()"
+            class="table-cell add-new-color modal-action-text"
+            onchange="javascript:document.getElementById('chosen-color').value = document.getElementById('background-color').value;"
+          >
+            Add New Color
+          </div>
+        </div>
+      </div>
+
+      <section class="bottom-buttons-section">
+        <!--<div class="text-button secondary-text-button"-->
+        <!--ng-click="toggleEditPanel($event, null)">-->
+        <!--Cancel-->
+        <!--</div>-->
+        <div class="icon-button borderless hover-target">
+          <img
+            src="../../../static/images/svg/delete-icon.svg"
+            style="width: 20px; height: 20px; cursor: pointer"
+            ng-if="showDeleteButton()"
+            ng-click="deleteFolder($event)"
+          />
+        </div>
+        <div class="bottom-buttons-right-wrapper">
+          <button class="action-button modal-save-button" ng-click="saveFolderEdit($event)">Save</button>
+          <div style="float: right" class="cancel-button" ng-click="toggleEditPanel($event, null)">Cancel</div>
+        </div>
+      </section>
+    </div>
+
+    <!--Edit collection-->
+    <div ng-if="editingColor != null" style="width: 188px" ng-style="editPanelStyle" class="modal-panel menu-panel">
+      <section class="modal-header-closer">
+        <h3 class="modal-header-title">Highlight Colors</h3>
+      </section>
+      <div>
+        <div class="modal-description-header">Choose a color</div>
+        <div
+          ng-repeat="colorCode in COLOR_PROFILE"
+          class="table-cell color-category-pill-customized-wrapper"
+          ng-if="$index<5"
+        >
+          <div
+            ng-click="editingFolder.colorCodes[editingColor]=colorCode"
+            ng-style="{'background-color': colorCode}"
+            class="color-category-pill customized pointer"
+          ></div>
+        </div>
+      </div>
+      <div>
+        <div
+          ng-repeat="colorCode in COLOR_PROFILE"
+          class="table-cell color-category-pill-customized-wrapper"
+          ng-if="$index>=5"
+        >
+          <div
+            ng-click="editingFolder.colorCodes[editingColor]=colorCode"
+            ng-style="{'background-color': colorCode}"
+            class="color-category-pill customized pointer"
+          ></div>
+        </div>
+      </div>
+      <div>
+        <div class="modal-description-header">OR Customize...</div>
+        <input type="color" ng-model="editingFolder.colorCodes[editingColor]" style="cursor: pointer" />
+      </div>
+
+      <section class="bottom-buttons-section">
+        <div class="text-button secondary-text-button" ng-click="onEditColorCancel()">Cancel</div>
+
+        <button class="action-button modal-save-button" ng-click="toggleEditingColors(null)">Save</button>
+      </section>
+    </div>
+
+    <!--bottom-buttons-section-->
+    <folder-list
+      folder-list="folderList"
+      active-folder="activeFolder"
+      open-edit-panel="toggleEditPanel"
+      toggle-share-panel="toggleSharePanel"
+      root="true"
+      user="user"
+      deleting-folder-ids="deletingFolderIds"
+    ></folder-list>
+
+    <div class="new-web-collection-wrapper">
+      <div ng-if="creatingFolder" class="add-web-collection-icon">
+        <img src="/static/images/gif/loading-state.gif" />
+      </div>
+      <div ng-if="!creatingFolder" class="add-web-collection-icon" ng-click="createFolder()">
+        <img src="/static/images/svg/plus-icon-white.svg" />
+      </div>
+      <input
+        id="gistnote-new-web-collection-input"
+        class="new-web-collection-input"
+        ng-model="newFolderName"
+        type="text"
+        placeholder="Enter folder title..."
+        ng-keyup="$event.keyCode == 13 && createFolder()"
+      />
+    </div>
+  </div>
+  <div class="menu-panel-footer" style="background: rgba(0, 0, 0, 0.19); bottom: 41px" ng-if="showRateUs">
+    <div class="menu-footer-text" style="font-size: 13px; color: #01dccf; cursor: pointer">
+      Like it?
+      <a
+        href="https://chrome.google.com/webstore/detail/weava-highlighter-pdf-web/cbnaodkpfinfiipjblikofhlhlcickei/reviews"
+        ng-click="clickRateUs()"
+        target="_blank"
+        style="color: #01dccf"
+      >
+        Please give us a 5-star rating!</a
+      >
+    </div>
+  </div>
+  <div class="menu-panel-footer" ng-controller="menuFooterCtrl">
+    <div class="menu-footer-text">
+      <a
+        style="color: #ffffff; cursor: pointer; text-decoration: none"
+        href="https://weavatools.atlassian.net/servicedesk/customer/portals"
+        target="_blank"
+        >Account Settings</a
+      >
+    </div>
+    <div class="menu-footer-icon-wrapper icon-button-lighter" ng-click="toggleAccountPopover()">
+      <!-- settings -->
+      <img src="../../../static/images/svg/setting-icon-white.svg" class="my-account-icon" />
+    </div>
+    <div class="modal-content" ng-class="accountsPopoverClass">
+      <h3 class="modal-header menu">
+        <div class="modal-header-title no-select">Account</div>
+        <div ng-click="toggleAccountPopover()" class="modal-cross-icon" style="top: 15px; right: 11px">
+          <img src="../../../static/images/svg/cross-icon.svg" style="width: 26px" />
+        </div>
+      </h3>
+      <div class="modal-body menu-item no-select">
+        <div ng-click="openAccountDetails()" class="modal-body-title no-select">Account Details</div>
+      </div>
+      <div class="modal-body menu-item no-select">
+        <div ng-click="openContactSupport()" class="modal-body-title no-select">Contact Support</div>
+      </div>
+      <div class="modal-body menu-item no-select">
+        <div ng-click="openUpvoty()" class="modal-body-title no-select">Request a Feature</div>
+      </div>
+      <div class="modal-body menu-item no-select">
+        <div ng-click="editShortcuts()" class="modal-body-title no-select">Keyboard Shortcuts</div>
+      </div>
+      <div class="modal-body disabled no-select">
+        <label class="highlight-checkbox-label">
+          <input
+            class="highlight-checkbox hidden"
+            type="checkbox"
+            ng-model="workspace.extensionHighlightModeSettings.pdf"
+            ng-change="tooglePdfHighlight()"
+          />
+          <div class="highlight-checkbox-box">
+            <img class="highlight-checkbox-image-light" src="../../../static/images/svg/checkmark-light.svg" />
+            <img class="highlight-checkbox-image" src="../../../static/images/svg/checkmark.svg" />
+          </div>
+        </label>
+        <div class="modal-body-title no-select table-cell" style="padding-left: 10px">Enable Weava PDF viewer</div>
+      </div>
+
+      <button class="user-account-signout-button text-button secondary-text-button" ng-click="signOut()">
+        Sign Out
+      </button>
+      <button
+        class="user-account-signout-button text-button secondary-text-button"
+        ng-if="user.isAnonymous"
+        ng-click="linkToActualAccount()"
+      >
+        Create an account
+      </button>
+    </div>
+  </div>
+</div>

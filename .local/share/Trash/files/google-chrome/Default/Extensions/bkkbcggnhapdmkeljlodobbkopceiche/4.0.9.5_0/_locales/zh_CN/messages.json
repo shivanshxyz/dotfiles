@@ -1,0 +1,356 @@
+{
+   "NTF_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "NTF_blockPrevSite": {
+      "message": "被阻止弹出窗口"
+   },
+   "NTF_shareUs": {
+      "message": "We like you too! Don't you think it's time to tell your friends about us?"
+   },
+   "OP_overlayList": {
+      "message": "always block overlay list"
+   },
+   "OP_urlExistsInDefaultList": {
+      "message": "This site is already %s by Poper Blocker"
+   },
+   "OP_urlExistsInList": {
+      "message": "This site is already in %s"
+   },
+   "OP_whitelist": {
+      "message": "Whitelist"
+   },
+   "OP_whitelisted": {
+      "message": "whitelisted"
+   },
+   "PP_BlockAnyway": {
+      "message": "始终拦截"
+   },
+   "PP_DidWeMiss": {
+      "message": "我们错失了一个弹出窗口吗？"
+   },
+   "PP_ExtName": {
+      "message": "Poper Blocker"
+   },
+   "PP_Incognito_GotIt": {
+      "message": "OK, Got it"
+   },
+   "PP_Incognito_Step1": {
+      "message": "Go to"
+   },
+   "PP_Incognito_Step2": {
+      "message": "Find Poper Blocker"
+   },
+   "PP_Incognito_Step3": {
+      "message": "Mark the checkbox next to \u003Ci>\"Allow in incognito\"\u003C/i>"
+   },
+   "PP_Incognito_Title": {
+      "message": "In order to enable Poper Blocker in Chrome's Incognito Mode, follow the next steps:"
+   },
+   "PP_Menu_Incognito": {
+      "message": "Incognito"
+   },
+   "PP_Menu_Options": {
+      "message": "Options"
+   },
+   "PP_Menu_Rate": {
+      "message": "Rate Us"
+   },
+   "PP_Menu_Share": {
+      "message": "Share"
+   },
+   "PP_Menu_Stats": {
+      "message": "Stats"
+   },
+   "PP_NoPopupsBlocked": {
+      "message": "看起来不错！"
+   },
+   "PP_Overlay": {
+      "message": "覆盖"
+   },
+   "PP_Popup": {
+      "message": "弹出窗口"
+   },
+   "PP_PopupsAllowed": {
+      "message": "允许弹出广告"
+   },
+   "PP_PopupsEssential": {
+      "message": "弹出窗口是此网站的必需功能"
+   },
+   "PP_PopupsFound": {
+      "message": "阻止 的弹出窗口\r\n"
+   },
+   "PP_PopupsFound_X1": {
+      "message": "阻止 的弹出窗口\r\n"
+   },
+   "PP_PopupsNotFound": {
+      "message": "至今未发现弹出广告"
+   },
+   "PP_Rate": {
+      "message": "Rate Poper Blocker"
+   },
+   "PP_Share_Friends": {
+      "message": "Share Poper Blocker\u003Cbr />with friends"
+   },
+   "PP_Share_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "PP_Share_TT_Copy": {
+      "message": "Copy Link"
+   },
+   "PP_Share_TT_Facebook": {
+      "message": "Share on Facebook"
+   },
+   "PP_Share_TT_Twitter": {
+      "message": "Share on Twitter"
+   },
+   "PP_Stats_HowItWorks": {
+      "message": "See how it really works"
+   },
+   "PP_Stats_Overlays": {
+      "message": "覆盖"
+   },
+   "PP_Stats_Tabs": {
+      "message": "标签"
+   },
+   "PP_Stats_TotalPopsBlocked": {
+      "message": "拦截弹出广告总计"
+   },
+   "PP_Stats_TotalTimeSaved": {
+      "message": "节省时间总计"
+   },
+   "PP_Stats_Windows": {
+      "message": "窗口"
+   },
+   "PP_SwitchedOff": {
+      "message": "弹出窗口阻止程序被关闭"
+   },
+   "PP_TooltipAllowPops": {
+      "message": "单击此处允许显示此网站的弹出窗口。它将添加到您的个人白名单中。"
+   },
+   "PP_TooltipBlockPops": {
+      "message": "\r\n没问题！ \r\n不错！ \r\n简单！ "
+   },
+   "PP_TooltipReportOver": {
+      "message": "单击此处删除在当前页面弹出的覆盖"
+   },
+   "PP_TooltipReportPop": {
+      "message": "单击此处为我们提供有关在新选项卡或窗口中错失弹出窗口的最新消息"
+   },
+   "PP_TooltipWhitelistBlockPops": {
+      "message": "We verified that popups are essential functionalities on this site, but feel free to block anyway."
+   },
+   "PP_WhiteListed": {
+      "message": "弹出广告屏蔽助手"
+   },
+   "PP_XPopupsBlocked_1": {
+      "message": "简单！ "
+   },
+   "PP_XPopupsBlocked_2": {
+      "message": "没问题！"
+   },
+   "PP_XPopupsBlocked_3": {
+      "message": "不错！ "
+   },
+   "PP_XPopupsBlocked_4": {
+      "message": "十分简单！"
+   },
+   "PP_XPopupsBlocked_5": {
+      "message": "非常轻松！"
+   },
+   "TS_NoOverlay": {
+      "message": "No overlay found"
+   },
+   "add": {
+      "message": "添加"
+   },
+   "allowAlways": {
+      "message": "始终允许"
+   },
+   "allowAlwaysTip": {
+      "message": "始终允许显示此网站的弹出窗口。此网站将被添加到白名单中。"
+   },
+   "allowButtonLabel": {
+      "message": "允许弹出窗口"
+   },
+   "allowOnce": {
+      "message": "允许一次"
+   },
+   "allowOnceTip": {
+      "message": "只允许弹出一次。 下次您看到此弹出窗口时，我们会再次问你。"
+   },
+   "allowOverlaysButtonLabel": {
+      "message": "允许覆盖"
+   },
+   "autoDetectionButtonLabel": {
+      "message": "是的，一次"
+   },
+   "autoDetectionReportWebsiteButtonLabel": {
+      "message": "举报网站"
+   },
+   "autoDetectionYesAlwaysButtonLabel": {
+      "message": "是的，总是"
+   },
+   "badgeToggleLabel": {
+      "message": "弹出窗口被阻止后，在工具栏按钮上显示徽章。"
+   },
+   "blacklistTip": {
+      "message": "这些网站总是屏蔽覆盖："
+   },
+   "blockAlwaysButtonLabel": {
+      "message": "总是屏蔽"
+   },
+   "blockButtonLabel": {
+      "message": "阻止弹出窗口"
+   },
+   "blockDetectedOverlayLabel": {
+      "message": "已经检测到覆盖，屏蔽它吗？"
+   },
+   "blockOverlayButtonLabel": {
+      "message": "移除覆盖"
+   },
+   "bugLink": {
+      "message": "报告错误"
+   },
+   "contributeButtonLabel": {
+      "message": "有助于"
+   },
+   "disableNotifications": {
+      "message": "禁用通知"
+   },
+   "disablePB": {
+      "message": "禁用 Poper Blocker"
+   },
+   "doNotShow": {
+      "message": "不显示"
+   },
+   "doNotShowTips": {
+      "message": "此网站的弹出窗口被阻止时不显示此通知"
+   },
+   "emailLink": {
+      "message": "给我们发电子邮件"
+   },
+   "enablePB": {
+      "message": "启用 Poper Blocker"
+   },
+   "extDescription": {
+      "message": "以最简单有效的方式拦截令人厌恶的弹出窗口、弹出式广告和弹出覆盖内容的最佳扩展。无干扰地浏览所有网站。"
+   },
+   "extName": {
+      "message": "Pop up blocker for Chrome™ - Poper Blocker"
+   },
+   "extName_FF": {
+      "message": "Popup blocker for FF: Poper Blocker"
+   },
+   "ignoreLabel": {
+      "message": "忽略"
+   },
+   "linksTitle": {
+      "message": "链接"
+   },
+   "needRefresh": {
+      "message": "Refresh open tabs in order for this change to take effect."
+   },
+   "needRefreshGotIt": {
+      "message": "Ok, got it!"
+   },
+   "neverShowRefresh": {
+      "message": "Don't show again"
+   },
+   "notFoundAutoOverlayLabel": {
+      "message": "自动检测覆盖，没有发现任何覆盖"
+   },
+   "notFoundOverlayLabel": {
+      "message": "没有发现覆盖，尝试自动检测吗？"
+   },
+   "notificationMessage": {
+      "message": "被阻止弹出窗口"
+   },
+   "notificationSettingsTitle": {
+      "message": "通知设置"
+   },
+   "notificationToggleLabel": {
+      "message": "弹出窗口被阻止后，在网页上显示通知。"
+   },
+   "options": {
+      "message": "选项"
+   },
+   "overlayContextMenuToggleLabel": {
+      "message": "您手动移除了此覆盖，单击显示此覆盖"
+   },
+   "overlaySettingsTitle": {
+      "message": "覆盖屏蔽设置"
+   },
+   "overlayWasBlocked": {
+      "message": "覆盖已被屏蔽。"
+   },
+   "overlaysToggleLabel": {
+      "message": "启用覆盖拦截（发送匿名数据给弹出广告屏蔽助手开发商）"
+   },
+   "pauseButton": {
+      "message": "暂停"
+   },
+   "paused": {
+      "message": "Poper Blocker 暂停中"
+   },
+   "popupsAllowed": {
+      "message": "允许此网站弹出窗口。"
+   },
+   "popupsBlocked": {
+      "message": "阻止此网站弹出窗口。"
+   },
+   "popupsBlockedLabel": {
+      "message": "已经阻止X个弹出窗口"
+   },
+   "rateLink": {
+      "message": "给我们5星评价"
+   },
+   "rateus": {
+      "message": "愉快使用 Poper Blocker？评价我们！"
+   },
+   "removeAlwaysLabel": {
+      "message": "总是移除"
+   },
+   "removeAlwaysText": {
+      "message": "始终删除此覆盖，并且不再显示此通知。 您可以在选项页面中更改此设置。"
+   },
+   "removeOnceLabel": {
+      "message": "移除一次"
+   },
+   "removeOverlayQLabel": {
+      "message": "移除覆盖?"
+   },
+   "resumeButton": {
+      "message": "启动"
+   },
+   "undoLabel": {
+      "message": "显示覆盖"
+   },
+   "undoOnceButtonLabel": {
+      "message": "撤销一次"
+   },
+   "undoTips": {
+      "message": "您手动移除了此覆盖，单击显示此覆盖"
+   },
+   "urlExamplePlaceholder": {
+      "message": "例如：twitter.com"
+   },
+   "urlExistsInList": {
+      "message": "This site is already in list"
+   },
+   "urlExistsInPB": {
+      "message": "此网站已列入 Poper Blocker 白名单。"
+   },
+   "urlNotValid": {
+      "message": "请输入有效 URL。"
+   },
+   "websiteInWhitelistOverlayMessage": {
+      "message": "This website is whitelisted. No overlay detection made."
+   },
+   "whitelistTip": {
+      "message": "要允许某个网站的弹出窗口/背后弹出式窗口，将其添加到此列表："
+   },
+   "whitelistTitle": {
+      "message": "白名单网站"
+   }
+}

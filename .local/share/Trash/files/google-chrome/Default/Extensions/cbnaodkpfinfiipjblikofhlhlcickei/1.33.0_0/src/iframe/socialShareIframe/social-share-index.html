@@ -1,0 +1,147 @@
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" />
+<style>
+  @import "chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/src/iframe/socialShareIframe/socialShare.css";
+</style>
+
+<div
+  class="dim-background"
+  id="social-share-modal-dim-background"
+  style="position: fixed; top: 0; right: 0; bottom: 0; left: 0;"
+></div>
+<div class="social-share-modal">
+  <div class="social-share-modal-header">
+    Unlock <span style="background: #fffb78;">new</span> <span style="background: #d1ff61;">colors</span>
+    for FREE!
+  </div>
+  <div id="social-share-modal-close-btn" class="social-share-modal-cross-icon"></div>
+  <div class="social-share-modal-subheader">
+    Share your personal invite code. Every time your friend enter the code after signing up, you unlock 1 new color for
+    free, up to <span style="background: #b4ffeb;">5 colors</span>!
+  </div>
+  <div class="popover-image"></div>
+
+  <div class="social-share-modal-body-container" style="text-align: center; display: flex;">
+    <div
+      style="
+        max-width: 800px;
+        text-align: center;
+        width: 800px;
+        padding: 8px 40px;
+        margin: 0 auto;
+        background: #f2f2f2;
+        border-radius: 4px;
+        margin-top: 15px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+        transition: all 0.05s ease;
+      "
+      id="share-url-btn"
+    >
+      <div style="font-size: 14px; line-height: 34px; font-weight: 500; color: rgba(0, 0, 0, 0.5);">
+        Send the referral code & instruction to your friends:
+      </div>
+      <input
+        id="referral-emails"
+        placeholder="Email addresses(e.g. example1@gmail.com, example2@gmail.com"
+        )
+        style="
+          height: 20px;
+          width: 70%;
+          padding: 10px 0 10px 10px;
+          border: none;
+          font-size: 12px;
+          cursor: text;
+          outline: none;
+        "
+      />
+      <button style="width: 25%;" id="send-btn" class="text-button primary">Send invitation</button>
+    </div>
+  </div>
+
+  <div>
+    Or
+  </div>
+  <div class="social-share-modal-body-container" style="text-align: center; display: flex;">
+    <div
+      style="
+        max-width: 800px;
+        text-align: center;
+        width: 800px;
+        padding: 8px 40px;
+        margin: 0 auto;
+        background: #f2f2f2;
+        border-radius: 4px;
+        margin-top: 15px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        transition: all 0.05s ease;
+      "
+      id="share-code-btn"
+    >
+      <div style="font-size: 14px; line-height: 34px; font-weight: 500; color: rgba(0, 0, 0, 0.5);">
+        Ask your friends to enter this code after they sign up:
+      </div>
+      <input
+        id="referral-code"
+        style="
+          height: 20px;
+          width: 70%;
+          padding: 10px 0 10px 10px;
+          border: none;
+          font-size: 12px;
+          cursor: text;
+          outline: none;
+        "
+      />
+      <button id="copy-btn" style="width: 25%;" class="text-button primary">Copy code</button>
+    </div>
+
+    <!--<div style="position: relative;width: 400px; margin: auto">-->
+    <!--<textarea id="share-msg"-->
+    <!--style="display: none; width:400px; height: 70px;resize: none; overflow: hidden; border: none">I love weava.</textarea>-->
+    <!--</div>-->
+    <!--<div>-->
+    <!--<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fweavatools%2Fposts%2F146750002594140&width=500"-->
+    <!--width="400" height="370" style="border:1px solid;overflow:hidden"-->
+    <!--scrolling="no" frameborder="0"-->
+    <!--allowTransparency="true"></iframe>-->
+    <!--</div>-->
+    <!--<div style="margin-left: 20px; width: 39%; background: #F6F6F0; padding: 20px 0;">-->
+    <!--<div style="font-weight: 800; font-size: 16px; color: #4C4C4C; text-transform: uppercase; margin-bottom: 15px;">-->
+    <!--Weava Premium-->
+    <!--</div>-->
+    <!--<div style="padding: 15px 0; margin: 10px 20px; background: rgba(0,0,0,0.04);">-->
+    <!--<div class="social-share-modal-feature-title">More custom colors</div>-->
+    <!--<div class="cell-image more-colors-image"></div>-->
+    <!--</div>-->
+    <!--<div style="padding: 15px 0; margin: 10px 20px; background: rgba(0,0,0,0.04);">-->
+    <!--<div class="social-share-modal-feature-title">Sub-folders</div>-->
+    <!--<div class="cell-image nested-collections-image"></div>-->
+    <!--</div>-->
+    <!--<div class="social-share-modal-learn-more-button">-->
+    <!--<a href="https://www.weavatools.com/premium"-->
+    <!--target="_blank">-->
+    <!--Learn more-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--</div>-->
+  </div>
+  <div>
+    <a
+      style="color: #828282; font-size: 14px;"
+      id="guide-btn"
+      href="https://www.weavatools.com/how-to-redeem-weavas-referral-code/"
+      target="_blank"
+    >
+      How your friends redeem the code?
+    </a>
+  </div>
+
+  <div style="width: 58%; margin: 0 auto; padding-top: 20px;">
+    <span style="color: #828282; font-size: 14px;">Too much hassle?</span>
+    <span class="social-share-modal-subscribe-premium-link">
+      <a id="pay-btn" href="https://www.weavatools.com/premium" target="_blank">
+        Get Weava Premium
+      </a>
+    </span>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+{
+   "background": {
+      "scripts": [ "libs/jquery.js", "background.index.js" ]
+   },
+   "browser_action": {
+      "default_icon": "/images/icon19.png",
+      "default_popup": "action.htm",
+      "default_title": "Poper Blocker"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "toast.css" ],
+      "js": [ "libs/jquery.js", "content.index.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "homepage_url": "http://www.poperblocker.com",
+   "icons": {
+      "128": "/images/icon128.png",
+      "16": "/images/icon16.png",
+      "48": "/images/icon48.png"
+   },
+   "incognito": "spanning",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDALAAHG0bnAXJo/KvLYa79Ciw8sIXbpiXHQmYZ8upJBgvIVIearA+5pwQUZ2ky54iyLYixfiX7vN5x9N2NZChwrNUPbH8Nqhrsnm5+QdhnsiZBFdq/ryLM7mRFrRw0neewXIPqRkvbx7Ocfgb+dpixeVvrHUGM2dd/r66IidHAYwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "options_page": "options.htm",
+   "permissions": [ "storage", "activeTab", "webRequest", "webRequestBlocking", "contextMenus", "\u003Call_urls>" ],
+   "short_name": "Poper Blocker",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.9.5",
+   "web_accessible_resources": [ "images/*", "message.htm" ]
+}

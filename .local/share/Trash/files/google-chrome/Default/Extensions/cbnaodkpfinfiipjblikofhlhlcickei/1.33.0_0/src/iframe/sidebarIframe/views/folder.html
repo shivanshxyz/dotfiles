@@ -1,0 +1,95 @@
+<div class="table-cell" ng-click="unFoldChild($event)">
+  <img
+    src="../../../static/images/svg/md-play-arrow-white.svg"
+    class="nested-collection-arrow"
+    ng-style="{transform: unFolded ? 'rotate(90deg)' : '',
+                 opacity: hasSubFolder ? (isActiveFolder() ? 0.7 : 0.3) : 0}"
+    style="width: 20px; height: 20px;"
+  />
+</div>
+
+<div
+  class="table-cell web-collection-text-section-wrapper"
+  style="cursor: pointer;"
+  can-drop
+  from-folder-id="{{activeFolder.folderId}}"
+  to-folder-id="{{folderId}}"
+  can-drag
+  dragging-type="FOLDER"
+  dragging-folder-id="{{folder.folderId}}"
+  ng-mouseenter="hovered=true"
+  ng-mouseleave="hovered=false"
+  ng-click="switchFolder(folderId)"
+>
+  <div
+    class="active-folder-background-overlay drag-over-{{folder.folderId}}"
+    style="cursor: pointer;"
+    can-drop
+    from-folder-id="{{activeFolder.folderId}}"
+    to-folder-id="{{folderId}}"
+    can-drag
+    dragging-type="FOLDER"
+    dragging-folder-id="{{folder.folderId}}"
+    ng-class="{active: isActiveFolder()}"
+  ></div>
+
+  <div class="table-cell" style="padding-left: 4px; padding-top: 1px;">
+    <img
+      ng-src="{{'../../../static/images/svg/'+ (folder.shared ? 'folder-shared-icon.svg' : 'folder-icon.svg')}}"
+      class="folder-image"
+      ng-class="{active: isActiveFolder()}"
+      style="width: 19px;"
+    />
+  </div>
+
+  <a class="web-collection-option web-collection-text" ng-class="{active: isActiveFolder()}">
+    {{folder.title}}
+  </a>
+
+  <div class="folder-action-icons-wrapper" ng-class="hovered? 'hovered':''">
+    <!-- edit -->
+    <div class="web-collection-icon text-button" ng-click="openEditPanel($event, folderId, folder)">
+      <div>Edit</div>
+    </div>
+
+    <!-- share -->
+    <div class="table-cell" style="padding-left: 5px;">
+      <div
+        class="web-collection-icon-button web-collection-icon text-button"
+        ng-click="toggleSharePanel($event, folderId, folder, root, 'FOLDER_COMPONENT')"
+      >
+        <img src="/static/images/svg/share-icon-white.svg" style="width: 12px;" />
+      </div>
+    </div>
+
+    <!-- nested collection-->
+    <div ng-if="!creatingFolder" class="table-cell" style="padding: 0 5px;">
+      <div
+        class="web-collection-icon-button web-collection-icon text-button"
+        ng-click="createNestedCollection($event, folderId)"
+      >
+        <img src="/static/images/svg/plus-icon-white.svg" style="width: 12px;" />
+      </div>
+    </div>
+
+    <div ng-if="creatingFolder" class="table-cell" style="padding: 0 5px;">
+      <div class="web-collection-icon-button web-collection-icon text-button">
+        <img src="/static/images/gif/loading-state.gif" style="width: 12px; height: 12px;" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--<div class="web-collection-count">-->
+<!--{{folder.websiteIds? Object.keys(folder.websiteIds).length : 0}}-->
+<!--</div>-->
+<folder-list
+  ng-if="folder.folderMetaMap && unFolded"
+  root="false"
+  user="user"
+  folder-list="folder.folderMetaMap"
+  active-folder="activeFolder"
+  open-edit-panel="openEditPanel"
+  toggle-share-panel="toggleSharePanel"
+  deleting-folder-ids="deletingFolderIds"
+></folder-list>

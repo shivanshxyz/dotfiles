@@ -1,0 +1,33 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "ctBackground.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "icon16.png",
+         "24": "icon24.png",
+         "32": "icon32.png"
+      },
+      "default_popup": "ctMenu.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "ctContent.js", "ctMenu.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Chrome may be blocked if this extension is disabled or removed during a locked block.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr5wOR065X4CMZD/54CeUJ+Whqq1be1pihHmlCwvLfFLwNZsD6rSTXP/1PSksN6lqovjz8LCB44KzrSs0fpCK6k7s5OJA0sAeYvDVvXmS60ghaqxZuriPIme0q2oZ1593zZ9RyaXb3C07WL5KGj3IUcEpLghryb5zuglGGzN7ql64JkBe9O/ukaBAvCnZ1JhSyswExgSs3UGYGwCkiNPN6yS4uW/lxd2UaDEG63qhDnvr8fbGHBgFR0fYfZo1bfuLH6HL+Zg1o2o5mLPTxtQETI5a6za/9fZFZIOzqUzZ2+pLl9N02uedR9JAYJJ72Bf+UzQ945eJ/OxbeKIbociW9QIDAQAB",
+   "manifest_version": 2,
+   "name": "Cold Turkey Blocker",
+   "permissions": [ "nativeMessaging", "tabs", "management", "idle", "*://getcoldturkey.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.2.5",
+   "web_accessible_resources": [ "ctFrame.html", "ctFrame.js" ]
+}

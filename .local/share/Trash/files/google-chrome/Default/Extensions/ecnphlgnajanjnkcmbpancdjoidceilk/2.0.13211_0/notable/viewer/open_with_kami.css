@@ -1,0 +1,38 @@
+.kami-open-root {
+  position: absolute;
+  top: 64px;
+}
+
+.kami-open-button {
+  cursor: pointer;
+  padding: 6px;
+  max-width: 40px;
+  transition: max-width 200ms cubic-bezier(0.4, 0.0, 0.2, 1), box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+.kami-open-button:hover {
+  transition: max-width 250ms cubic-bezier(0.4, 0.0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  max-width: 180px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1), 2px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.kami-drive-viewer-toolstrip-open {
+  display: flex;
+  flex-direction: row
+  align-items: center;
+  /* Override the default hardcoded width from classroom styles */
+  width: fit-content;
+}
+
+.kami-drive-viewer-open-app-icon {
+  margin: 0;
+  /* Default value is contain which causes the dimensions to distort during transition */
+  background-size: cover;
+}
+
+.kami-drive-viewer-open-label {
+  width: auto;
+  white-space: pre;
+}

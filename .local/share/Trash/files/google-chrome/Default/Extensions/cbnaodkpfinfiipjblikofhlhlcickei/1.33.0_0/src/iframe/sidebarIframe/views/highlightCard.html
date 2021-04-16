@@ -1,0 +1,187 @@
+<li
+  ng-if="(activeColorFilters.length === 0 || activeColorFilters.indexOf(highlight.colorNum) !== -1)"
+  ng-style="{'border-left-color': getHighlightColorCode(highlight.colorNum)}"
+  ng-class="{'main-panel-highlight-wrapper': highlight.type!=='image',
+            'main-panel-image-wrapper':highlight.type==='image'}"
+  class="website-card-left-border"
+  ng-click="goToWebsite(website.url, highlight.highlightId, highlight.pdfPageNumber)"
+  can-drag
+  dragging-type="HIGHLIGHT"
+  dragging-highlight-id="{{highlight.highlightId}}"
+  dragging-website-id="{{website.websiteId}}"
+>
+  <!--highlight card-->
+  <div ng-if="highlight.type!=='image'" class="highlight-card-wrapper">
+    <div
+      id="{{highlight.highlightId}}-text-wrapper"
+      class="main-panel-highlight-text"
+      ng-class="{'show-less': !showingMore}"
+      ui-draggable="false"
+      ng-bind-html="getHighlightHtml()"
+    ></div>
+    <div ng-if="isOverflown">
+      <div class="text-link main-panel-highlight-overflow-display" ng-if="!showingMore" ng-click="showMore($event)">
+        Show More
+      </div>
+      <div class="text-link main-panel-highlight-overflow-display" ng-if="showingMore" ng-click="showLess($event)">
+        Show Less
+      </div>
+    </div>
+
+    <div
+      ng-if="activeFolder.shared"
+      class="highlight-creator hover-target"
+      ng-style="{'top': getCreatorIconPos() + 'px'}"
+    >
+      <img class="collaborator-icon" ng-src="{{getCreatorPhotoUrl()}}" />
+      <div class="tooltip" style="bottom: -2px; right: 20px; width: max-content;">
+        <div>{{getCreatorName()}}</div>
+      </div>
+    </div>
+
+    <div class="highlight-icons-wrapper">
+      <div ng-if="!highlight.note" class="icon-button" ng-click="addHighlightNote($event)">
+        <img
+          class="highlight-note-icon"
+          src="../../../static/images/svg/note-icon.svg"
+          style="width: 18px; height: 19px;"
+        />
+        <div class="tooltip main-panel-tooltip" style="left: -15px; width: 50px; padding: 4px; top: 32px;">
+          <div class="tooltip-text" style="line-height: 14px;">
+            add note
+          </div>
+          <div class="tooltip-pointer"></div>
+        </div>
+      </div>
+
+      <div class="icon-button" ng-click="copyHighlight($event)">
+        <img
+          class="highlight-copy-icon"
+          src="../../../static/images/svg/copy-icon.svg"
+          style="width: 18px; height: 19px;"
+        />
+        <div class="tooltip main-panel-tooltip" style="left: -8px; min-width: 35px; padding: 4px; top: 32px;">
+          <div class="tooltip-text" style="line-height: 14px;">
+            copy
+          </div>
+          <div class="tooltip-pointer"></div>
+        </div>
+      </div>
+
+      <div class="icon-button" ng-click="deleteHighlight($event)">
+        <img
+          class="highlight-delete-icon"
+          src="../../../static/images/svg/delete-icon.svg"
+          style="width: 19px; height: 19px;"
+        />
+        <div class="tooltip main-panel-tooltip" style="left: -8px; min-width: 35px; padding: 4px; top: 32px;">
+          <div class="tooltip-text" style="line-height: 14px;">
+            delete
+          </div>
+          <div class="tooltip-pointer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      ng-if="editingNote.text != null"
+      ng-cancel-drag
+      ng-click="$event.stopPropagation()"
+      class="main-panel-highlight-note-wrapper no-select"
+      ng-mouseover="onNoteMouseOver(highlight.highlightId)"
+      ng-mouseleave="onNoteMouseLeave()"
+    >
+      <div
+        contenteditable="true"
+        ng-cancel-drag
+        ng-mousedown="$event.stopPropagation()"
+        ng-keyup="saveHighlightNote($event, activeFolder.folderId, website.websiteId, highlight)"
+        ng-attr-id="{{'highlight-note-' + highlight.highlightId}}"
+        ng-model="editingNote.text"
+        class="main-panel-highlight-note-input"
+        data-text="Take a note…"
+      ></div>
+
+      <div class="main-panel-highlight-note-text-link text-link" ng-cancel-drag ng-click="deleteHighlightNote($event)">
+        delete
+      </div>
+      <div
+        class="main-panel-highlight-note-saving-state"
+        ng-cancel-drag
+        ng-if="noteSavingState === highlight.highlightId || highlight.highlightId === hoveringHighlightNoteId"
+        ng-bind="getNoteSavingState()"
+      ></div>
+    </div>
+  </div>
+
+  <!--image card-->
+  <div ng-if="highlight.type==='image'">
+    <div ng-if="!highlight.url">
+      <img
+        class="main-panel-image-card"
+        draggable="false"
+        ng-src="{{StaticConstants.GET_IMAGE_API + highlight.highlightId}}"
+      />
+    </div>
+
+    <div class="highlight-icons-wrapper">
+      <div ng-if="!highlight.note" class="icon-button" ng-click="addHighlightNote($event)">
+        <img
+          class="highlight-note-icon"
+          src="../../../static/images/svg/note-icon.svg"
+          style="width: 18px; height: 19px;"
+        />
+        <div class="tooltip main-panel-tooltip" style="left: -15px; width: 50px; padding: 4px; top: 32px;">
+          <div class="tooltip-text" style="line-height: 14px;">
+            add note
+          </div>
+          <div class="tooltip-pointer"></div>
+        </div>
+      </div>
+
+      <div class="icon-button" ng-click="deleteImage($event)">
+        <img
+          class="highlight-delete-icon"
+          src="../../../static/images/svg/delete-icon.svg"
+          style="width: 19px; height: 19px;"
+        />
+        <div class="tooltip main-panel-tooltip" style="left: -8px; min-width: 35px; padding: 4px; top: 32px;">
+          <div class="tooltip-text" style="line-height: 14px;">
+            delete
+          </div>
+          <div class="tooltip-pointer"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      ng-if="editingNote.text"
+      ng-cancel-drag
+      ng-click="$event.stopPropagation()"
+      class="main-panel-highlight-note-wrapper no-select"
+      ng-mouseover="onNoteMouseOver()"
+      ng-mouseleave="onNoteMouseLeave()"
+    >
+      <div
+        contenteditable
+        ng-cancel-drag
+        ng-mousedown="$event.stopPropagation()"
+        ng-keyup="saveHighlightNote($event, activeFolder.folderId, website.websiteId, highlight)"
+        ng-attr-id="{{'highlight-note-' + highlight.highlightId}}"
+        ng-model="editingNote.text"
+        class="main-panel-highlight-note-input"
+        data-text="Take a note…"
+      ></div>
+
+      <div class="main-panel-highlight-note-text-link text-link" ng-cancel-drag ng-click="deleteHighlightNote($event)">
+        delete
+      </div>
+      <div
+        class="main-panel-highlight-note-saving-state"
+        ng-cancel-drag
+        ng-if="noteSavingState === highlight.highlightId || hovering"
+        ng-bind="getNoteSavingState()"
+      ></div>
+    </div>
+  </div>
+</li>

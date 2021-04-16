@@ -1,0 +1,239 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="libs/font-awesome.min.css" />
+    <link rel="stylesheet" href="libs/hover-min.css" />
+    <link rel="stylesheet" href="libs/reset.css" />
+    <link rel="stylesheet" href="action.css" />
+    <script src="libs/jquery.js"></script>
+    <script src="action.index.js"></script>
+  </head>
+  <body>
+    <div id="container" class="container">
+      <div id="tooltip" class="simple-tooltip">
+        <span class="st-arrow"></span>
+        <span class="st-content"></span>
+      </div>
+
+      <div class="header">
+        <span class="logo"></span>
+        <span class="title" data-translate="PP_ExtName"></span>
+
+        <button id="menu-button" class="menu-button"></button>
+        <button id="pauseSwitch" class="power"></button>
+
+        <ul id="menu" class="menu">
+          <li class="stats" data-translate="PP_Menu_Stats"></li>
+          <li class="options" data-translate="PP_Menu_Options"></li>
+          <li class="rate" data-translate="PP_Menu_Rate"></li>
+          <li class="share" data-translate="PP_Menu_Share"></li>
+          <li class="incognito" data-translate="PP_Menu_Incognito"></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div id="count" class="count"></div>
+        <div id="result-msg"><span class="msg"></span> <span class="url"></span></div>
+
+        <div class="allow-pops">
+          <button id="allow-pops" data-tooltip="PP_TooltipAllowPops" data-translate="allowButtonLabel"></button>
+        </div>
+
+        <div class="contribute-btn">
+          <button
+            id="contribute-btn"
+            data-tooltip="PP_TooltipContributeButton"
+            data-translate="contributeButtonLabel"
+          ></button>
+        </div>
+
+        <div id="footer" class="footer">
+          <div id="report-button" class="report-button hvr-icon-bob">
+            <span data-translate="PP_DidWeMiss"></span>
+          </div>
+
+          <div class="report-container">
+            <div id="report-pop" class="report-pop" data-tooltip="PP_TooltipReportPop">
+              <span data-translate="PP_Popup"></span>
+            </div>
+            <div id="report-over" class="report-over" data-tooltip="PP_TooltipReportOver">
+              <span data-translate="PP_Overlay"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-whitelist">
+        <div class="whitelist-icon"></div>
+        <div class="whitelist-message"><span data-translate="PP_PopupsAllowed"></span> <span class="url"></span></div>
+
+        <div class="block-pops">
+          <button id="block-pops" data-tooltip="PP_TooltipBlockPops" data-translate="blockButtonLabel"></button>
+        </div>
+
+        <div class="contribute-btn">
+          <button
+            id="contribute-btn"
+            data-tooltip="PP_TooltipContributeButton"
+            data-translate="contributeButtonLabel"
+          ></button>
+        </div>
+
+        <div class="internal-whitelist">
+          <div class="iw-title"><span data-translate="PP_WhiteListed"></span></div>
+          <!--<div class="iw-message" data-translate="PP_PopupsEssential"></div>-->
+
+          <button
+            id="whitelist-block-pops"
+            class="iw-block-anyway"
+            data-tooltip="PP_TooltipWhitelistBlockPops"
+            data-tooltip-delay="0"
+            data-translate="PP_BlockAnyway"
+          ></button>
+        </div>
+      </div>
+
+      <div class="main-inactive">
+        <div data-translate="PP_ExtName"></div>
+        <div data-translate="PP_SwitchedOff"></div>
+      </div>
+
+      <div id="main-stats" class="main-stats">
+        <div class="main-stats-container">
+          <div class="stats-header">
+            <div id="stats-close" class="stats-close"></div>
+          </div>
+
+          <div class="stats-total saved">
+            <div data-translate="PP_Stats_TotalTimeSaved"></div>
+            <h1 id="stats-total-saved"></h1>
+          </div>
+
+          <div class="stats-total blocked">
+            <div data-translate="PP_Stats_TotalPopsBlocked"></div>
+            <h1 id="stats-total-blocked"></h1>
+          </div>
+
+          <div class="stats-bars">
+            <div class="stats-bar tabs">
+              <div class="block-count"></div>
+              <div class="type" data-translate="PP_Stats_Tabs"></div>
+              <span id="bar-tabs"></span>
+            </div>
+
+            <div class="stats-bar windows">
+              <div class="block-count"></div>
+              <div class="type" data-translate="PP_Stats_Windows"></div>
+              <span id="bar-windows"></span>
+            </div>
+
+            <div class="stats-bar overlays">
+              <div class="block-count"></div>
+              <div class="type" data-translate="PP_Stats_Overlays"></div>
+              <span id="bar-overlays"></span>
+            </div>
+
+            <div class="stats-seperator"></div>
+
+            <div class="stats-bars-icons">
+              <div class="icon-tabs"></div>
+              <div class="icon-wins"></div>
+              <div class="icon-overs"></div>
+            </div>
+          </div>
+
+          <div class="stats-how-it-works">
+            <span data-translate="PP_Stats_HowItWorks"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-container share">
+        <div class="message-content">
+          <div class="message-close close">&times;</div>
+          <div class="explain-text" data-translate="PP_Share_Friends"></div>
+
+          <ul id="share">
+            <li
+              class="fb"
+              data-media="facebook"
+              data-tooltip="PP_Share_TT_Facebook"
+              data-tooltip-delay="0"
+              data-tooltip-flex="1"
+            ></li>
+            <li
+              class="twtr"
+              data-media="twitter"
+              data-tooltip="PP_Share_TT_Twitter"
+              data-tooltip-delay="0"
+              data-tooltip-flex="1"
+            ></li>
+            <li
+              class="link"
+              data-media="link"
+              data-tooltip="PP_Share_TT_Copy"
+              data-tooltip-delay="0"
+              data-tooltip-flex="1"
+            ></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="message-container rate">
+        <div class="message-content">
+          <div class="message-close close">&times;</div>
+          <div class="explain-text" data-translate="PP_Rate"></div>
+
+          <ul id="rating">
+            <li data-rate="5"></li>
+            <li data-rate="4"></li>
+            <li data-rate="3"></li>
+            <li data-rate="2"></li>
+            <li data-rate="1"></li>
+          </ul>
+
+          <div class="clear"></div>
+        </div>
+      </div>
+
+      <div class="message-container gdpr">
+        <div class="message-content">
+          <div class="message-title">Important Update</div>
+
+          <div class="message-data">
+            Poper Blocker has a new Privacy Policy, effective May 25, 2018.
+            <a
+              href="https://poperblocker.com/privacy/"
+              class="js-link gdpr-gotit"
+              data-url="https://poperblocker.com/privacy/"
+              >Learn more</a
+            >
+          </div>
+
+          <button class="close gdpr-gotit" data-translate="PP_Incognito_GotIt"></button>
+
+          <div class="clear"></div>
+        </div>
+      </div>
+
+      <div class="message-container incognito">
+        <div class="message-content">
+          <div class="message-close close">&times;</div>
+          <div class="explain-text" data-translate="PP_Incognito_Title"></div>
+
+          <ul>
+            <li>
+              <span data-translate="PP_Incognito_Step1"></span>
+              <a href="javascript://" class="js-link" data-url="chrome://extensions">chrome://extensions</a>
+            </li>
+            <li data-translate="PP_Incognito_Step2"></li>
+            <li data-translate="PP_Incognito_Step3"></li>
+          </ul>
+
+          <button class="close" data-translate="PP_Incognito_GotIt"></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

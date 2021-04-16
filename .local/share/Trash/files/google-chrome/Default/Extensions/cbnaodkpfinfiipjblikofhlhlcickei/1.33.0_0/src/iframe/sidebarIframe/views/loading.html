@@ -1,0 +1,29 @@
+<div class="connection-break-background view-loading">
+  <div class="connection-break-text-wrapper top-section-wrap">
+    <div class="top-section">
+      <div class="logo-wrap">
+        <img class="logo" src="../../../static/images/full-logo-black.png" />
+      </div>
+
+      <div class="loading-wrap">
+        <img class="loading" src="/static/images/gif/loading-state.gif" />
+      </div>
+    </div>
+  </div>
+  <div class="reset-extension-text-wrapper bottom-section-wrap" ng-if="!showPleaseWait">
+    <div>Loading forever?</div>
+    <div class="text-link-wrap">
+      <a class="text-link reload-link" ng-click="reloadExtension()">Reload</a> or
+      <a class="text-link contact-link" target="_blank"
+        href="https://weavatools.atlassian.net/servicedesk/customer/portals">Contact Us</a>
+    </div>
+    <br/>
+    <div>You may also navigate directly to the</div>
+    <div class="text-link-wrap">
+      <a class="text-link" ng-click="onGoToDashboard()">Weava Dashboard</a>
+    </div>
+  </div>
+  <div class="reset-extension-text-wrapper bottom-section-wrap" ng-if="showPleaseWait">
+    <div>Please wait for a few seconds...</div>
+  </div>
+</div>

@@ -1,0 +1,133 @@
+.kami-drive-viewer-toolstrip-open-and-openwith {
+  position: absolute;
+  top: 72px;
+  right: 22px;
+  padding: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+.kami-link {
+  cursor: pointer;
+  font-size: 9px!important;
+  font-weight: normal!important;
+  margin-left: 5px;
+  border-left: 1px solid #c7c7c7;
+  padding-left: 17px;
+  background: url(https://web.kamihq.com/web/images/icon48.png) no-repeat 2px 0;
+  background-size: contain;
+}
+
+.kami-open-button-container {
+  display: inline-block;
+}
+
+.kami-open-button {
+  margin-left: 20px;
+  font-weight: bold !important;
+}
+
+.kami-open-button span {
+    background: url(https://web.kamihq.com/web/images/icon128.png);
+    background-size: contain;
+    display: inline-block;
+    float: left;
+    height: 16px;
+    width: 16px;
+    margin: -1px 7px 0 0;
+}
+
+.kami-overlay {
+  width: 100%;
+  height: 600px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kami-overlay-fullscreen {
+  height: 100%;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+
+.kami-overlay div, .kami-overlay h1 {
+  display: block;
+  text-align: center;
+}
+
+#kami-logo {
+  width: 256px;
+  margin: 10px auto;
+}
+
+#kami-status {
+}
+
+#kami-progress-bar {
+  width:50%;
+  margin: 20px auto;
+  height: 16px;
+}
+
+
+.s-grade-item-assignment-submission-app[data-app-nid="kami"] {
+  z-index: 20;
+}
+
+.s-grade-item-assignment-submission-app .kami-tooltip {
+  cursor: default;
+  background: #0677ba;
+  bottom: 100%;
+  color: #fff;
+  display: block;
+  left: -65px;
+  margin-bottom: 15px;
+  opacity: 0;
+  padding: 20px;
+  pointer-events: none;
+  position: absolute;
+  width: 200px;
+  transform: translateY(10px);
+  transition: all .25s ease-out;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+}
+
+.s-grade-item-assignment-submission-app .kami-tooltip  a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* This bridges the gap so you can mouse into the tooltip without it disappearing */
+.s-grade-item-assignment-submission-app .kami-tooltip:before {
+  bottom: -20px;
+  content: " ";
+  display: block;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}  
+
+/* CSS Triangles - see Trevor's post */
+.s-grade-item-assignment-submission-app .kami-tooltip:after {
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-top: solid #0677ba 10px;
+  bottom: -10px;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -13px;
+  position: absolute;
+  width: 0;
+}
+  
+.s-grade-item-assignment-submission-app:hover .kami-tooltip {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0px);
+}

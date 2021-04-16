@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///tmp/mozilla_shivanshxyz0/Lab%2009%20jUnit%20Testing.pdf" added="2021-04-13T04:20:15Z" modified="2021-04-13T04:20:15Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-04-13T04:20:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/.config/i3status/config" added="2021-04-13T04:47:16Z" modified="2021-04-13T04:47:16Z" visited="1969-12-31T23:59:59Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-04-13T04:47:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/google-chrome-stable_current_amd64.deb" added="2021-04-13T06:42:52Z" modified="2021-04-13T06:42:52Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2021-04-13T06:42:52Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/.config/i3/config" added="2021-04-13T07:30:15Z" modified="2021-04-15T11:32:11Z" visited="1969-12-31T23:59:59Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-04-15T11:32:11Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/dotfiles2/a.sh" added="2021-04-13T18:34:34Z" modified="2021-04-13T18:34:34Z" visited="1969-12-31T23:59:59Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-04-13T18:34:34Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/dotfiles2/apps.sh" added="2021-04-13T18:59:08Z" modified="2021-04-13T18:59:08Z" visited="1969-12-31T23:59:59Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-04-13T18:59:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/dejavu-sans.zip" added="2021-04-14T12:00:21Z" modified="2021-04-14T12:00:21Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Engrampa" exec="&apos;engrampa&apos;" modified="2021-04-14T12:00:21Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/.fonts" added="2021-04-14T12:00:57Z" modified="2021-04-14T12:00:57Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Engrampa" exec="&apos;engrampa %u&apos;" modified="2021-04-14T12:00:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/Fira_Code_v5.2.zip" added="2021-04-14T18:48:31Z" modified="2021-04-14T18:48:31Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Engrampa" exec="&apos;engrampa&apos;" modified="2021-04-14T18:48:31Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads" added="2021-04-14T18:48:41Z" modified="2021-04-14T18:48:41Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Engrampa" exec="&apos;engrampa %u&apos;" modified="2021-04-14T18:48:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/softwares/polybar-themes/setup.sh" added="2021-04-14T19:28:11Z" modified="2021-04-14T19:28:11Z" visited="1969-12-31T23:59:59Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-04-14T19:28:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/feather-icons-web.zip" added="2021-04-14T19:32:06Z" modified="2021-04-14T19:32:06Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Engrampa" exec="&apos;engrampa&apos;" modified="2021-04-14T19:32:06Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/code_1.55.1-1617808414_amd64.deb" added="2021-04-14T19:32:19Z" modified="2021-04-14T19:32:24Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Engrampa" exec="&apos;engrampa&apos;" modified="2021-04-14T19:32:24Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/Group%20Project-MSOM188L.docx" added="2021-04-15T09:33:12Z" modified="2021-04-15T09:33:13Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 6.4" exec="&apos;soffice %u&apos;" modified="2021-04-15T09:33:13Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/Group%20Project-MSOM188L%20(1).docx" added="2021-04-15T14:15:21Z" modified="2021-04-15T14:27:44Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 6.4" exec="&apos;soffice %u&apos;" modified="2021-04-15T14:27:44Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/Hint%20-Network%20Design%20(Q.2).docx" added="2021-04-15T14:15:25Z" modified="2021-04-15T14:15:36Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 6.4" exec="&apos;soffice %u&apos;" modified="2021-04-15T14:15:36Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/Hint%20-Network%20Design%20(Q.2)%20(1).docx" added="2021-04-15T14:15:49Z" modified="2021-04-15T14:27:38Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreOffice 6.4" exec="&apos;soffice %u&apos;" modified="2021-04-15T14:27:38Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Desktop/E19CSE444_lab10.zip" added="2021-04-15T18:51:43Z" modified="2021-04-15T18:51:43Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2021-04-15T18:51:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/JUnitTest-master.zip" added="2021-04-15T20:13:07Z" modified="2021-04-15T20:13:07Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Engrampa" exec="&apos;engrampa&apos;" modified="2021-04-15T20:13:07Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/JUnitTest-master/AllTests.java" added="2021-04-15T20:13:22Z" modified="2021-04-15T20:19:34Z" visited="1969-12-31T23:59:59Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-04-15T20:19:34Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/JUnitTest-master/jUnitTesting.java" added="2021-04-15T20:13:26Z" modified="2021-04-15T20:19:39Z" visited="1969-12-31T23:59:59Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-04-15T20:19:39Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/JUnitTest-master/testAddNumber.java" added="2021-04-15T20:13:30Z" modified="2021-04-15T20:19:43Z" visited="1969-12-31T23:59:59Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-04-15T20:19:43Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/JUnitTest-master/testAddString.java" added="2021-04-15T20:14:12Z" modified="2021-04-15T20:19:46Z" visited="1969-12-31T23:59:59Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-04-15T20:19:46Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/JUnitTest-master/E19CSE444_lab9.zip" added="2021-04-15T20:19:11Z" modified="2021-04-15T20:19:11Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Engrampa" exec="&apos;engrampa&apos;" modified="2021-04-15T20:19:11Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/pam.d/login" added="2021-04-15T20:25:00Z" modified="2021-04-15T20:25:00Z" visited="1969-12-31T23:59:59Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-04-15T20:25:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Downloads/discord-canary-0.0.119.deb" added="2021-04-16T04:37:17Z" modified="2021-04-16T04:37:18Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Engrampa" exec="&apos;engrampa&apos;" modified="2021-04-16T04:37:18Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Desktop/bd-gruvbox.css" added="2021-04-16T05:17:42Z" modified="2021-04-16T05:17:42Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2021-04-16T05:17:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Desktop/duvbox.css" added="2021-04-16T05:18:00Z" modified="2021-04-16T05:18:00Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2021-04-16T05:18:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/repos/dotfiles" added="2021-04-16T08:55:45Z" modified="2021-04-16T08:55:45Z" visited="1969-12-31T23:59:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="gitkraken" exec="&apos;gitkraken %u&apos;" modified="2021-04-16T08:55:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/.xsettingsd" added="2021-04-16T09:00:09Z" modified="2021-04-16T09:00:09Z" visited="1969-12-31T23:59:59Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-04-16T09:00:09Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/.xscreensaver" added="2021-04-16T09:00:16Z" modified="2021-04-16T09:00:16Z" visited="1969-12-31T23:59:59Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-04-16T09:00:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/.xsession-errors" added="2021-04-16T09:00:18Z" modified="2021-04-16T09:00:18Z" visited="1969-12-31T23:59:59Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-04-16T09:00:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/.Xresources" added="2021-04-16T09:00:22Z" modified="2021-04-16T09:00:34Z" visited="1969-12-31T23:59:59Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-04-16T09:00:34Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/.Xdefaults" added="2021-04-16T09:00:25Z" modified="2021-04-16T09:00:34Z" visited="1969-12-31T23:59:59Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-04-16T09:00:34Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shivanshxyz/Desktop/a.txt" added="2021-04-16T19:32:15Z" modified="2021-04-16T19:32:15Z" visited="1969-12-31T23:59:59Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2021-04-16T19:32:15Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

@@ -1,0 +1,356 @@
+{
+   "NTF_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "NTF_blockPrevSite": {
+      "message": "Popup Blokeret"
+   },
+   "NTF_shareUs": {
+      "message": "We like you too! Don't you think it's time to tell your friends about us?"
+   },
+   "OP_overlayList": {
+      "message": "always block overlay list"
+   },
+   "OP_urlExistsInDefaultList": {
+      "message": "This site is already %s by Poper Blocker"
+   },
+   "OP_urlExistsInList": {
+      "message": "This site is already in %s"
+   },
+   "OP_whitelist": {
+      "message": "Whitelist"
+   },
+   "OP_whitelisted": {
+      "message": "whitelisted"
+   },
+   "PP_BlockAnyway": {
+      "message": "Blokér alligevel"
+   },
+   "PP_DidWeMiss": {
+      "message": "Overså vi én?"
+   },
+   "PP_ExtName": {
+      "message": "Poper Blocker"
+   },
+   "PP_Incognito_GotIt": {
+      "message": "OK, Got it"
+   },
+   "PP_Incognito_Step1": {
+      "message": "Go to"
+   },
+   "PP_Incognito_Step2": {
+      "message": "Find Poper Blocker"
+   },
+   "PP_Incognito_Step3": {
+      "message": "Mark the checkbox next to \u003Ci>\"Allow in incognito\"\u003C/i>"
+   },
+   "PP_Incognito_Title": {
+      "message": "In order to enable Poper Blocker in Chrome's Incognito Mode, follow the next steps:"
+   },
+   "PP_Menu_Incognito": {
+      "message": "Incognito"
+   },
+   "PP_Menu_Options": {
+      "message": "Options"
+   },
+   "PP_Menu_Rate": {
+      "message": "Rate Us"
+   },
+   "PP_Menu_Share": {
+      "message": "Share"
+   },
+   "PP_Menu_Stats": {
+      "message": "Stats"
+   },
+   "PP_NoPopupsBlocked": {
+      "message": "Det ser godt ud!"
+   },
+   "PP_Overlay": {
+      "message": "Overlay"
+   },
+   "PP_Popup": {
+      "message": "Popup"
+   },
+   "PP_PopupsAllowed": {
+      "message": "Popups er tilladt på"
+   },
+   "PP_PopupsEssential": {
+      "message": "Popups har en nødvendig funktionalitet på denne hjemmeside"
+   },
+   "PP_PopupsFound": {
+      "message": "Popups er blokeret på "
+   },
+   "PP_PopupsFound_X1": {
+      "message": "Popups er blokeret på "
+   },
+   "PP_PopupsNotFound": {
+      "message": "Indtil videre er ingen \r\npopups blevet fundet på"
+   },
+   "PP_Rate": {
+      "message": "Rate Poper Blocker"
+   },
+   "PP_Share_Friends": {
+      "message": "Share Poper Blocker\u003Cbr />with friends"
+   },
+   "PP_Share_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "PP_Share_TT_Copy": {
+      "message": "Copy Link"
+   },
+   "PP_Share_TT_Facebook": {
+      "message": "Share on Facebook"
+   },
+   "PP_Share_TT_Twitter": {
+      "message": "Share on Twitter"
+   },
+   "PP_Stats_HowItWorks": {
+      "message": "See how it really works"
+   },
+   "PP_Stats_Overlays": {
+      "message": "Overlej."
+   },
+   "PP_Stats_Tabs": {
+      "message": "Faner"
+   },
+   "PP_Stats_TotalPopsBlocked": {
+      "message": "Samlet popups blokeret"
+   },
+   "PP_Stats_TotalTimeSaved": {
+      "message": "Samlet tid sparet"
+   },
+   "PP_Stats_Windows": {
+      "message": "Vinduer"
+   },
+   "PP_SwitchedOff": {
+      "message": "er slået fra"
+   },
+   "PP_TooltipAllowPops": {
+      "message": "Klik her for at tillade popups på denne hjemmeside. Den vil blive tilføjet til din personlige hvidliste."
+   },
+   "PP_TooltipBlockPops": {
+      "message": "Intet problem!\r\nEffektivt!\r\nNemt!"
+   },
+   "PP_TooltipReportOver": {
+      "message": "Klik her for at fjerne et overlay, der har dukket op på den aktuelle side"
+   },
+   "PP_TooltipReportPop": {
+      "message": "Klik her for at opdatere os om en popup, som vi overså i en ny fane eller vindue"
+   },
+   "PP_TooltipWhitelistBlockPops": {
+      "message": "We verified that popups are essential functionalities on this site, but feel free to block anyway."
+   },
+   "PP_WhiteListed": {
+      "message": "hvidlistet af \r\nPoper blocker"
+   },
+   "PP_XPopupsBlocked_1": {
+      "message": "Intet problem!"
+   },
+   "PP_XPopupsBlocked_2": {
+      "message": "Nemt!"
+   },
+   "PP_XPopupsBlocked_3": {
+      "message": "Effektivt!"
+   },
+   "PP_XPopupsBlocked_4": {
+      "message": "Så nemt som ingenting!"
+   },
+   "PP_XPopupsBlocked_5": {
+      "message": "Det er legende let!"
+   },
+   "TS_NoOverlay": {
+      "message": "No overlay found"
+   },
+   "add": {
+      "message": "Tilføj"
+   },
+   "allowAlways": {
+      "message": "Tillad altid"
+   },
+   "allowAlwaysTip": {
+      "message": "Tillad altid popups på denne hjemmeside. Denne hjemmeside vil blive tilføjet din hvidliste."
+   },
+   "allowButtonLabel": {
+      "message": "Tillad popups"
+   },
+   "allowOnce": {
+      "message": "Tillad én gang"
+   },
+   "allowOnceTip": {
+      "message": "Tillader popup denne ene gang. Næste gang du ser denne popup, vil vi spørge dig igen."
+   },
+   "allowOverlaysButtonLabel": {
+      "message": "Tillad overlejringer"
+   },
+   "autoDetectionButtonLabel": {
+      "message": "Ja, én gang"
+   },
+   "autoDetectionReportWebsiteButtonLabel": {
+      "message": "Rapporter websted"
+   },
+   "autoDetectionYesAlwaysButtonLabel": {
+      "message": "Ja, altid"
+   },
+   "badgeToggleLabel": {
+      "message": "Vis et badge på knappen på værktøjslinjen, når en popup er blokeret."
+   },
+   "blacklistTip": {
+      "message": "Bloker altid overlejringer på disse websteder:"
+   },
+   "blockAlwaysButtonLabel": {
+      "message": "Bloker altid"
+   },
+   "blockButtonLabel": {
+      "message": "Block popups"
+   },
+   "blockDetectedOverlayLabel": {
+      "message": "Overlejring blev registreret. Bloker den?"
+   },
+   "blockOverlayButtonLabel": {
+      "message": "Fjern overlejring"
+   },
+   "bugLink": {
+      "message": "Rapporter en fejl"
+   },
+   "contributeButtonLabel": {
+      "message": "Bidrage"
+   },
+   "disableNotifications": {
+      "message": "Deaktiver meddelelser"
+   },
+   "disablePB": {
+      "message": "Dekativer Poper Blocker"
+   },
+   "doNotShow": {
+      "message": "Vis ikke"
+   },
+   "doNotShowTips": {
+      "message": "Vis ikke denne notifikation, når popups blokeres på denne hjemmeside"
+   },
+   "emailLink": {
+      "message": "E-mail os"
+   },
+   "enablePB": {
+      "message": "Aktiver Poper Blocker"
+   },
+   "extDescription": {
+      "message": "Nr. 1 udvidelse til blokering af irriterende popup-vinduer, popunder og overlejringer på en nem og effektiv måde. Browse uden indblanding på alle sider."
+   },
+   "extName": {
+      "message": "Pop up blocker for Chrome™ - Poper Blocker"
+   },
+   "extName_FF": {
+      "message": "Popup blocker for FF: Poper Blocker"
+   },
+   "ignoreLabel": {
+      "message": "Ignorer"
+   },
+   "linksTitle": {
+      "message": "Links"
+   },
+   "needRefresh": {
+      "message": "Refresh open tabs in order for this change to take effect."
+   },
+   "needRefreshGotIt": {
+      "message": "Ok, got it!"
+   },
+   "neverShowRefresh": {
+      "message": "Don't show again"
+   },
+   "notFoundAutoOverlayLabel": {
+      "message": "Auto-registrering af overlejring fandt ingen overlejringer"
+   },
+   "notFoundOverlayLabel": {
+      "message": "Ingen overlejring blev fundet. Prøv auto-registrering?"
+   },
+   "notificationMessage": {
+      "message": "Popup Blokeret"
+   },
+   "notificationSettingsTitle": {
+      "message": "Notifikationsindstillinger"
+   },
+   "notificationToggleLabel": {
+      "message": "Vis en meddelelse på siden, når en popup er blokeret."
+   },
+   "options": {
+      "message": "Indstillinger"
+   },
+   "overlayContextMenuToggleLabel": {
+      "message": "Aktivér “Fjern overlejring”-indstillingen i kontekstmenuen"
+   },
+   "overlaySettingsTitle": {
+      "message": "Indstillinger for blokering af overlejring"
+   },
+   "overlayWasBlocked": {
+      "message": "Overlejring blev blokeret"
+   },
+   "overlaysToggleLabel": {
+      "message": "Aktivér overlejringsblokering (Sender anonym data til Poper Blocker-udviklerne)"
+   },
+   "pauseButton": {
+      "message": "Pause"
+   },
+   "paused": {
+      "message": "Poper Blocker is off"
+   },
+   "popupsAllowed": {
+      "message": "Popups er tilladt på denne hjemmeside."
+   },
+   "popupsBlocked": {
+      "message": "Popups blokeres på denne hjemmeside."
+   },
+   "popupsBlockedLabel": {
+      "message": "X pop op-vinduer blev blokeret"
+   },
+   "rateLink": {
+      "message": "Bedøm os 5 stjerner"
+   },
+   "rateus": {
+      "message": "Tilfreds med Poper Blocker? Vurder os!"
+   },
+   "removeAlwaysLabel": {
+      "message": "Fjern altid"
+   },
+   "removeAlwaysText": {
+      "message": "Fjern altid dette overlay og vis ikke denne meddelelse igen. Du kan ændre det på siden med valgmuligheder."
+   },
+   "removeOnceLabel": {
+      "message": "Fjern én gang"
+   },
+   "removeOverlayQLabel": {
+      "message": "Fjern overlejring?"
+   },
+   "resumeButton": {
+      "message": "Start"
+   },
+   "undoLabel": {
+      "message": "Vis overlay"
+   },
+   "undoOnceButtonLabel": {
+      "message": "Fortryd én gang"
+   },
+   "undoTips": {
+      "message": "Du fjernede denne overlejring manuelt. Klik på den for at Vise overlejring"
+   },
+   "urlExamplePlaceholder": {
+      "message": "Eksempel: twitter.com"
+   },
+   "urlExistsInList": {
+      "message": "This site is already in list"
+   },
+   "urlExistsInPB": {
+      "message": "Denne hjemmeside er allerede hvidlistet af Poper Blocker"
+   },
+   "urlNotValid": {
+      "message": "Indtast en gyldig URL."
+   },
+   "websiteInWhitelistOverlayMessage": {
+      "message": "This website is whitelisted. No overlay detection made."
+   },
+   "whitelistTip": {
+      "message": "Hvis du vil tillade popups/popunders fra en hjemmeside, skal den tilføjes til denne liste:"
+   },
+   "whitelistTitle": {
+      "message": "Positivlisten over hjemmesider"
+   }
+}

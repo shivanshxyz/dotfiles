@@ -1,0 +1,24 @@
+<svg width="24px" height="20px" viewBox="0 0 482 359" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polyline id="path-1" points="121.785586 0 0 0 89.8718934 359 211.657479 359"></polyline>
+        <polyline id="path-2" points="121.785586 0 0 0 89.8718934 359 211.657479 359"></polyline>
+    </defs>
+    <g id="Testing-with-sidebar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="W-Logo">
+            <g id="Rectangle-16">
+                <use fill="#FEE94E" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#FFD300" stroke-width="1" d="M121.395326,0.5 L211.01688,358.5 L90.262153,358.5 L0.640599172,0.5 L121.395326,0.5 Z"></path>
+            </g>
+            <polyline id="Rectangle-16" fill="#FF4F95" points="302.091919 90.2831683 180.306333 90.2831683 270.178226 359 391.963812 359"></polyline>
+            <polygon id="Rectangle-16" fill-opacity="0.636973505" fill="#FF8700" points="179.315192 90.2831683 301.100778 90.2831683 211.228885 359 89.443299 359"></polygon>
+            <polygon id="Rectangle-16" fill-opacity="0.555197011" fill="#FF27A1" points="359.621525 0 481.407111 0 391.535218 359 269.749632 359"></polygon>
+            <polygon id="Rectangle-16" fill-opacity="0.5" fill="#FF27A1" points="359.621525 0 481.407111 0 391.535218 359 269.749632 359"></polygon>
+            <g id="Rectangle-16">
+                <use fill="#FEE94E" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <path stroke="#FFD300" stroke-width="20" d="M113.980393,10 L198.845496,349 L97.6770861,349 L12.8119834,10 L113.980393,10 Z"></path>
+            </g>
+            <polyline id="Rectangle-16" fill="#FF4F95" points="302.091919 90.2831683 180.306333 90.2831683 270.178226 359 391.963812 359"></polyline>
+            <polygon id="Rectangle-16" fill-opacity="0.636973505" fill="#FF8700" points="179.315192 90.2831683 301.100778 90.2831683 211.228885 359 89.443299 359"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,163 @@
+.kami-attachment-overlay {
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  user-select: none;
+  padding-top: 93px;
+  background: linear-gradient(180deg, 
+    rgba(63,81,181,1) 0%, 
+    rgba(63,81,181,1) 35%, 
+    rgba(243, 243, 243, 1) 35%, 
+    rgba(247, 247, 247, 1) 100%);
+}
+
+.kami-attachment-overlay .kami-attachment-overlay-card {
+  height: 240px;
+  width: 480px;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background: white;
+  box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 3px 1px;
+  
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 37px;
+  color: #565656;
+}
+
+
+.linear-progress {
+  background: #eee;
+  height: 2px;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 78px;
+  overflow: hidden;
+  animation: start 0.3s ease-in;
+}
+.linear-progress .bar {
+  position: absolute;
+  background: #1565c0;
+  transition: transform 0.2s linear;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.linear-progress .bar1 {
+  animation: progressLinearMovement 2.5s infinite;
+  animation-delay: 0;
+}
+.linear-progress .bar2 {
+  left: -100%;
+  animation: progressLinearMovement 2.5s infinite;
+  animation-delay: 0.7s;
+}
+
+@keyframes growBar1 {
+  0% {
+    animation-timing-function: linear;
+    transform: scaleX(0.1);
+  }
+  36.6% {
+    animation-timing-function: cubic-bezier(0.33473, 0.12482, 0.78584, 1);
+    transform: scaleX(0.1);
+  }
+  69.15% {
+    animation-timing-function: cubic-bezier(0.22573, 0, 0.23365, 1.37098);
+    transform: scaleX(0.83);
+  }
+  100% {
+    transform: scaleX(0.1);
+  }
+}
+@keyframes moveBar1 {
+  0% {
+    left: -105.16667%;
+    animation-timing-function: linear;
+  }
+  20% {
+    left: -105.16667%;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.70173, 0.49582);
+  }
+  69.15% {
+    left: 21.5%;
+    animation-timing-function: cubic-bezier(0.30244, 0.38135, 0.55, 0.95635);
+  }
+  100% {
+    left: 95.44444%;
+  }
+}
+@keyframes growBar2 {
+  0% {
+    animation-timing-function: cubic-bezier(0.20503, 0.05705, 0.57661, 0.45397);
+    transform: scaleX(0.1);
+  }
+  19.15% {
+    animation-timing-function: cubic-bezier(0.15231, 0.19643, 0.64837, 1.00432);
+    transform: scaleX(0.57);
+  }
+  44.15% {
+    animation-timing-function: cubic-bezier(0.25776, -0.00316, 0.21176, 1.38179);
+    transform: scaleX(0.91);
+  }
+  100% {
+    transform: scaleX(0.1);
+  }
+}
+@keyframes moveBar2 {
+  0% {
+    left: -54.88889%;
+    animation-timing-function: cubic-bezier(0.15, 0, 0.51506, 0.40968);
+  }
+  25% {
+    left: -17.25%;
+    animation-timing-function: cubic-bezier(0.31033, 0.28406, 0.8, 0.73372);
+  }
+  48.35% {
+    left: 29.5%;
+    animation-timing-function: cubic-bezier(0.4, 0.62703, 0.6, 0.90203);
+  }
+  100% {
+    left: 117.38889%;
+  }
+}
+@keyframes start {
+  from {
+    max-height: 0;
+    opacity: 0;
+  }
+  to {
+    max-height: 20px;
+    opacity: 1;
+  }
+}
+@keyframes end {
+  from {
+    max-height: 0;
+    opacity: 0;
+  }
+  to {
+    max-height: 2px;
+    opacity: 1;
+  }
+}
+@keyframes progressLinearMovement {
+  0% {
+    left: -100%;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}

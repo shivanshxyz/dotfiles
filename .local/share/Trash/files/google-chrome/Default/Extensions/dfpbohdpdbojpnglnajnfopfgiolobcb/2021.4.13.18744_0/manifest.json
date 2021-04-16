@@ -1,0 +1,37 @@
+{
+   "app": {
+      "display_mode": "minimal-ui",
+      "icon_color": "#AFAFAF",
+      "launch": {
+         "web_url": "https://freddiemeter.withyoutube.com/?utm_source=a2hs"
+      },
+      "linked_icons": [ {
+         "size": 192,
+         "url": "https://freddiemeter.withyoutube.com/icons/favicon-192.png"
+      }, {
+         "size": 512,
+         "url": "https://freddiemeter.withyoutube.com/icons/favicon-512.png"
+      } ],
+      "theme_color": "rgba(255,255,255,1)"
+   },
+   "description": "Can you sing like Freddie?",
+   "icons": {
+      "128": "icons/128.png",
+      "192": "icons/192.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "512": "icons/512.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "/7Uo8jNrMKOcU3tTSzHtDCAPwvSk2dXxRB4iLKaTEyc=",
+   "name": "FreddieMeter",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://freddiemeter.withyoutube.com/*" ],
+         "title": "FreddieMeter"
+      }
+   },
+   "version": "2021.4.13.18744"
+}

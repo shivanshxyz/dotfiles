@@ -1,0 +1,104 @@
+#body-wrapper {
+  margin: 0;
+  margin-right: 5px;
+  margin-left: 5px;
+  opacity: 0.8;
+  color: white;
+  height: 100%;
+  font-family: "Lato", "Helvetica Nueue", "Helvetica", sans-serif;
+  cursor: pointer;
+}
+
+table {
+  height: 100%;
+}
+
+#weava-icon {
+  background: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/64.png") no-repeat center;
+  background-size: cover;
+  margin: auto;
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
+
+.message {
+  color: white;
+  font-size: 12px;
+}
+
+.message > div {
+  font-size: 11px;
+  color: #9f9f9f;
+  line-height: 20px;
+}
+
+.message > p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.status {
+  padding: 3px 4px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.on-status {
+  background-color: #00b8c2;
+}
+
+.off-status {
+  background-color: #4f4f4f;
+}
+
+/* popover mock */
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#mock-popover-wrapper {
+  margin: 10px 11px 0;
+  opacity: 0;
+  /*transition-delay: 0.5s;*/
+}
+
+.mock-popover-body {
+  background: white;
+  text-align: center;
+  border-radius: 3px;
+  width: 103px;
+  height: 30px;
+}
+
+.mock-popover-pointer-wrapper {
+  margin: -5px;
+}
+
+.mock-popover-pointer {
+  background: white;
+  transform: rotate(45deg);
+  width: 9px;
+  margin: 0 auto;
+  height: 9px;
+}
+
+.mock-popover-circle {
+  border-radius: 50%;
+  margin: 7px 1px 1px 1px;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid;
+}
+
+/* popover mock */

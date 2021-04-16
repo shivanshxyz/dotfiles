@@ -1,0 +1,9 @@
+<svg width="24px" height="24px" viewBox="532 -166 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="ic_file_download_black_24px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(532.000000, -166.000000)">
+        <g id="Group">
+            <path d="M3.10384783,3.10384783 L3.10384783,20.9998031 L21,20.9998031 L21,3.10384783 L3.10384783,3.10384783 Z M19.210306,4.89334489 L19.210306,7.83290939 L4.89334489,7.83290939 L4.89334489,4.89334489 L19.210306,4.89334489 Z M19.210306,19.210306 L9.59109468,19.210306 L9.59109468,9.6228003 L19.210306,9.6228003 L19.210306,19.210306 Z M4.89334489,19.210306 L4.89334489,9.6228003 L7.80159762,9.6228003 L7.80159762,19.210306 L4.89334489,19.210306 Z" id="Shape" fill="#000000"></path>
+            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+2021/04/15-16:23:45.014 d31 Reusing MANIFEST /home/shivanshxyz/.config/google-chrome/Default/IndexedDB/https_polkadot-buildathon.devfolio.co_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/15-16:23:45.014 d31 Recovering log #4
+2021/04/15-16:23:45.015 d31 Reusing old log /home/shivanshxyz/.config/google-chrome/Default/IndexedDB/https_polkadot-buildathon.devfolio.co_0.indexeddb.leveldb/000004.log 
+2021/04/15-16:24:18.312 d52 Level-0 table #8: started
+2021/04/15-16:24:18.315 d52 Level-0 table #8: 13200 bytes OK
+2021/04/15-16:24:18.318 d52 Delete type=0 #4
+2021/04/15-16:24:18.318 d52 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/15-16:24:18.318 d52 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\x90\xbb\xa5R\x8dwB\x00\x01-\x00p\x00a\x00g\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00p\x00o\x00l\x00k\x00a\x00d\x00o\x00t\x00-\x00b\x00u\x00i\x00l\x00d\x00a\x00t\x00h\x00o\x00n\x00.\x00d\x00e\x00v\x00f\x00o\x00l\x00i\x00o\x00.\x00c\x00o\x00/' @ 516 : 1
+2021/04/15-16:24:18.318 d52 Compacting 1@1 + 1@2 files
+2021/04/15-16:24:18.321 d52 Generated table #9@1: 54 keys, 3452 bytes
+2021/04/15-16:24:18.321 d52 Compacted 1@1 + 1@2 files => 3452 bytes
+2021/04/15-16:24:18.323 d52 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/15-16:24:18.324 d52 Delete type=2 #5
+2021/04/15-16:24:18.324 d52 Delete type=2 #8
+2021/04/15-16:24:18.324 d52 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\x90\xbb\xa5R\x8dwB\x00\x01-\x00p\x00a\x00g\x00e\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00p\x00o\x00l\x00k\x00a\x00d\x00o\x00t\x00-\x00b\x00u\x00i\x00l\x00d\x00a\x00t\x00h\x00o\x00n\x00.\x00d\x00e\x00v\x00f\x00o\x00l\x00i\x00o\x00.\x00c\x00o\x00/' @ 516 : 1 .. (end); will stop at (end)

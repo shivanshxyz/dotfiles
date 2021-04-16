@@ -1,0 +1,73 @@
+/* ----- Variables ----- */
+/* ------ General CSS ------ */
+* {
+  color: #303030;
+  font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.local-file-modal {
+  position: relative;
+  margin: 5% auto;
+  width: 800px;
+  height: 470px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.local-file-modal-header-section {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.local-file-modal-header {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.local-file-modal-body {
+  padding: 50px 30px;
+}
+
+.local-file-permission-header {
+  padding: 20px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.local-file-permission-description {
+  font-size: 15px;
+  text-align: center;
+  color: #5d5d5d;
+}
+
+.local-file-permission-description-wrapper {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.manage-extensions-img {
+  background: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/svg/manage-extensions.svg")
+    no-repeat center;
+  background-size: cover;
+  height: 120px;
+  width: 175px;
+  margin-right: 30px;
+}
+
+.allow-file-access-img {
+  background: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/svg/allow-file-access.svg")
+    no-repeat center;
+  background-size: cover;
+  height: 120px;
+  width: 495px;
+}

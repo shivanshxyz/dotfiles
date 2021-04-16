@@ -1,0 +1,111 @@
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<style>
+	@font-face {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		src: url('../OpenSans-Regular.ttf') format('truetype');
+	}
+	@font-face {
+		font-family: 'Open Sans';
+		font-style: bold;
+		font-weight: 700;
+		src: url('../OpenSans-Bold.ttf') format('truetype');
+	}
+	html {
+		background: #27272a;		
+	}
+	body {
+		margin: 0;
+		width: max-content;
+		color: #FAFAFA;
+		font-size: 13px;
+		font-weight: bold;
+		font-family: "Open Sans", sans-serif;
+		text-align: center;
+	}
+	#menu {
+		margin: 0;
+		padding: 15px;
+		background: #424247;
+	}
+	#dark-menu {
+		margin: 0;
+		padding: 15px;
+		background: #343438;
+	}
+	img {
+		height: 30px;
+	}
+	ul {
+		padding: 0px;
+	}
+	ul > li {
+		padding: 10px;
+		list-style: none;
+	}
+	select {
+		border-radius: 5px;
+		padding: 5px;
+		width: 250px;
+	}
+	a {
+		background-color: #65a30d;
+		padding: 5px 15px;
+		border-radius: 5px;
+		text-decoration: none;
+		color: #FAFAFA;
+	}
+	a:hover {
+		background-color: #4D7C0F;
+	}
+	p {
+		cursor: default;
+		margin: 5px;
+	}
+	.full-width {
+		display: inline-block;
+		width: 220px;
+	}
+	.spacer {
+		margin-top: 15px;
+	}
+	</style>
+</head>
+<body>
+	<ul id="menu">
+		<li>
+			<img src="logo.png"/>
+		</li>
+		<li>
+			<p id="item-count"> 0 items being blocked right now. </p>
+		</li>
+		<li>
+			<p> <a id="open-blocker" class="full-width" href="#">Open Cold Turkey Blocker...</a> </p>
+		</li>
+		<li>
+			<p> Add this site: </p>
+			<select id="urls">
+				<option value=""></option>
+			</select>
+			<p> to this block: </p> 
+			<select id="lists-addable">
+				<option value=""></option>
+			</select>
+			<p class="spacer"> <a id="add-block" href="#">+ Add</a> </p>
+		</li>
+	</ul>
+	<ul id="dark-menu">
+		<li>
+			<p title="Only available in version 4."> Extension badge displays: </p>
+			<select id="badge-data" title="Only available in version 4.">
+				<option value="hidden">Nothing</option>
+				<option value="total">Total number blocked entries</option>
+			</select>
+		</li>
+	</ul>
+	<script src="ctMenu.js"></script>
+	</body>
+</html>

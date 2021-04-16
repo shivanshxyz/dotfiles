@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+ (c) 2013 Rob Wu <rob@robwu.nl>
+ This Source Code Form is subject to the terms of the Mozilla Public
+ License, v. 2.0. If a copy of the MPL was not distributed with this
+ file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+<html>
+<head>
+<meta charset="utf-8">
+<title>View CRX</title>
+<style>
+    * {box-sizing: border-box;}
+    body {width: 160px;}
+    button {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+    button progress {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 10px;
+        width: 100%;
+    }
+    #download.downloading .idle,
+    #download:not(.downloading) .busy {
+        display: none;
+    }
+</style>
+</head>
+<body>
+<button id="download" title="Download extension in zip format">
+    <span class="idle">Download as zip</span>
+    <span class="busy">Downloading...</span>
+</button>
+<button id="view-source" title="View source of extension in a new tab">View source</button>
+<script src="lib/sha256.js"></script>
+<script src="lib/crx-to-zip.js"></script>
+<script src="chrome-platform-info.js"></script>
+<script src="cws_pattern.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>
+

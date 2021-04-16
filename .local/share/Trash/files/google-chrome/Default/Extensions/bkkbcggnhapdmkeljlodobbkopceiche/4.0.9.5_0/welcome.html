@@ -1,0 +1,35 @@
+<html>
+<head>
+  <link href="welcome.css" rel="stylesheet" />
+
+  <script src="libs/jquery.js"></script>
+  <script src="welcome.index.js"></script>
+</head>
+<body>
+<div class="logo"><img src="images/welcome-logo.svg"></div>
+
+<div id="title" class="title"></div>
+
+<div id="flow-1" class="flow-1">
+  <div id="message-ch" class="message hidden">We will now start blocking pop ups. But, to block annoying overlays, we need access to information on the websites you visit. Click "Agree" to allow access to this information to enable overlay blocking and for use according to our <a class="privacy-policy" target="_blank">Privacy Policy</a>.</div>
+  <div id="message-ff" class="message hidden">We will now start blocking those annoying pop ups. But, to block overlays, we need access to your visited URLs, IP address, operating system, and browser information. Click "Agree" to allow access to this information to enable overlay blocking and for use according to our <a class="privacy-policy" target="_blank">Privacy Policy</a>.</div>
+
+  <div class="buttons">
+    <button id="disagree" class="button grey" tabindex="1" autofocus>Disagree</button>
+    <button id="agree" class="button green" tabindex="2">Agree</button>
+  </div>
+</div>
+
+<div id="flow-2" class="flow-2">
+  <div class="message">Are you sure?</div>
+  <div class="sub-message">The overlay blocking feature requires us to have access to information on the sites you visit in order to detect and choose the correct blocking technique.  Please note that we do not share this data with any third parties for the purposes of marketing or targeting individual users.</div>
+  <div class="buttons">
+    <button id="cancel" class="button grey" tabindex="4">Go Back</button>
+    <button id="disable" class="button red" tabindex="3">Don't Block Overlays</button>
+  </div>
+  <div class="policy">
+    <a class="privacy-policy" target="_blank">Privacy Policy</a>
+  </div>
+</div>
+</body>
+</html>

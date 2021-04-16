@@ -1,0 +1,38 @@
+{
+   "background": {
+      "scripts": [ "backgroundScript.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "static/icon-19-dark.png",
+         "38": "static/icon-38-dark.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "trakkin.me | It's your data, get paid for it"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "contentScript.js" ],
+      "matches": [ "https://trakkin.me/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "It's your data, earn bitcoin for it",
+   "icons": {
+      "128": "static/icon-128.png",
+      "16": "static/icon-16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjeiqyO4ybzy7mvY83ba2/dBWYz36csfBH84qBLJ8CtG6UFrhiWRIHn5j4+O0gvyRP1l3lRzypy/wAIS6S+lEfspgvD9RcNU4VZBD96payqksmluVVhSX+/puy8GQOA/UH0+tIuU48+ZzPova77N/OcyQJLp26fR44ZRmAOqgKO4cWiG72v5c08zSiOQavM78Ipbpb1qXGewmdYpZ4RDbdkCTLY4Ywmd2HxYtiMSEKu3XtF6tEXDVAR2ozNfzKYIvUXHvc/Pbo0HYMACUaKeEnv2aUJmQSmGO8a6cf28Nr9sXClrNc1fDD3hltpcmzlMtUq37pQ7uCP3fbsrIWLpToQIDAQAB",
+   "manifest_version": 2,
+   "name": "Trakkin Extension for trakkin.me",
+   "omnibox": {
+      "keyword": "trakkin"
+   },
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "storage", "notifications", "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.2",
+   "web_accessible_resources": [ "static/icon-48.png" ]
+}

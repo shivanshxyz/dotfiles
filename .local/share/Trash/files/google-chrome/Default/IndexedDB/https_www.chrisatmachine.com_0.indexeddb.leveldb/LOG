@@ -1,0 +1,5 @@
+2021/04/15-02:14:51.836 d962 Reusing MANIFEST /home/shivanshxyz/.config/google-chrome/Default/IndexedDB/https_www.chrisatmachine.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/15-02:15:24.768 d9e9 Level-0 table #5: started
+2021/04/15-02:15:24.770 d9e9 Level-0 table #5: 1806 bytes OK
+2021/04/15-02:15:24.773 d9e9 Delete type=0 #3
+2021/04/15-02:15:24.774 d9e9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,25 @@
+{
+   "author": "Chris Coyier",
+   "browser_action": {
+      "default_icon": "icon32.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_printliminatorName__"
+   },
+   "default_locale": "en",
+   "description": "__MSG_printliminatorDescription__",
+   "homepage_url": "https://github.com/CSS-Tricks/The-Printliminator",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "64": "icon64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo1DiO4WQh4K8JmnBxsyteFGOpME7+v92fjS4A1LSUMLQ0xjpCuSkdtAQO0Q7wl1D2hitWRrU6tBCXpIy9TZe5r+9SV9cqWpddoBD1Y/xdI7nHkATZFXg+vMOUO7A5DHpoxIOIoHHw9xLPSjcWRZuWjU/XinxqycsB0FQT8eLCBIrrTiItbEA7ySoTNzQBbDvaxwexxX4ibQGaRCZWpRE+mGi1fhtrY4IimGow1/Q2sMXb/Z9YsBfqsCFSsi59vcB3W2Quc+vNYXiCzev/xaeYvw3kT9e3+W8NRVfoqwfggmoNh5wfOnCtSmeu0ff0ux/0jJvolW4xfVsq312bZnGvwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_printliminatorName__",
+   "permissions": [ "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.5",
+   "web_accessible_resources": [ "printliminator.js", "printliminator.css" ]
+}

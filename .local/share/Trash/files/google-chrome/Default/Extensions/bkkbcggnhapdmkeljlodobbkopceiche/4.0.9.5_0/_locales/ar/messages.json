@@ -1,0 +1,356 @@
+{
+   "NTF_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "NTF_blockPrevSite": {
+      "message": "تم حظر النافذة المنبثقة"
+   },
+   "NTF_shareUs": {
+      "message": "We like you too! Don't you think it's time to tell your friends about us?"
+   },
+   "OP_overlayList": {
+      "message": "always block overlay list"
+   },
+   "OP_urlExistsInDefaultList": {
+      "message": "This site is already %s by Poper Blocker"
+   },
+   "OP_urlExistsInList": {
+      "message": "This site is already in %s"
+   },
+   "OP_whitelist": {
+      "message": "Whitelist"
+   },
+   "OP_whitelisted": {
+      "message": "whitelisted"
+   },
+   "PP_BlockAnyway": {
+      "message": "احجب على أية حال"
+   },
+   "PP_DidWeMiss": {
+      "message": "هل فاتتنا واحدة؟"
+   },
+   "PP_ExtName": {
+      "message": "Poper Blocker"
+   },
+   "PP_Incognito_GotIt": {
+      "message": "OK, Got it"
+   },
+   "PP_Incognito_Step1": {
+      "message": "Go to"
+   },
+   "PP_Incognito_Step2": {
+      "message": "Find Poper Blocker"
+   },
+   "PP_Incognito_Step3": {
+      "message": "Mark the checkbox next to \u003Ci>\"Allow in incognito\"\u003C/i>"
+   },
+   "PP_Incognito_Title": {
+      "message": "In order to enable Poper Blocker in Chrome's Incognito Mode, follow the next steps:"
+   },
+   "PP_Menu_Incognito": {
+      "message": "Incognito"
+   },
+   "PP_Menu_Options": {
+      "message": "Options"
+   },
+   "PP_Menu_Rate": {
+      "message": "Rate Us"
+   },
+   "PP_Menu_Share": {
+      "message": "Share"
+   },
+   "PP_Menu_Stats": {
+      "message": "Stats"
+   },
+   "PP_NoPopupsBlocked": {
+      "message": "تبدو الصفحة رائعة!"
+   },
+   "PP_Overlay": {
+      "message": "نافذة علوية"
+   },
+   "PP_Popup": {
+      "message": "نافذة منبثقة"
+   },
+   "PP_PopupsAllowed": {
+      "message": "النوافذ مسموحة في"
+   },
+   "PP_PopupsEssential": {
+      "message": "النوافذ المنبثقة ذات وظيفة أساسية على هذا الموقع"
+   },
+   "PP_PopupsFound": {
+      "message": "النوافذ المنبثقة محجوبة على "
+   },
+   "PP_PopupsFound_X1": {
+      "message": "النوافذ المنبثقة محجوبة على "
+   },
+   "PP_PopupsNotFound": {
+      "message": "لم يتم العثور على\r\nنوافذ منبثقة حتى الآن"
+   },
+   "PP_Rate": {
+      "message": "Rate Poper Blocker"
+   },
+   "PP_Share_Friends": {
+      "message": "Share Poper Blocker\u003Cbr />with friends"
+   },
+   "PP_Share_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "PP_Share_TT_Copy": {
+      "message": "Copy Link"
+   },
+   "PP_Share_TT_Facebook": {
+      "message": "Share on Facebook"
+   },
+   "PP_Share_TT_Twitter": {
+      "message": "Share on Twitter"
+   },
+   "PP_Stats_HowItWorks": {
+      "message": "See how it really works"
+   },
+   "PP_Stats_Overlays": {
+      "message": "طبقات"
+   },
+   "PP_Stats_Tabs": {
+      "message": "تبويبات"
+   },
+   "PP_Stats_TotalPopsBlocked": {
+      "message": "إجمالي النوافذ المحجوبة"
+   },
+   "PP_Stats_TotalTimeSaved": {
+      "message": "إجمالي الوقت الموفّر"
+   },
+   "PP_Stats_Windows": {
+      "message": "نوافذ"
+   },
+   "PP_SwitchedOff": {
+      "message": " موقف التشغيل"
+   },
+   "PP_TooltipAllowPops": {
+      "message": "انقر هنا للسماح بالنوافذ المنبثقة في هذا الموقع. ستتم إضافتها إلى قائمتك البيضاء الشخصية."
+   },
+   "PP_TooltipBlockPops": {
+      "message": "لا تعب!\r\nرائع!\r\nسهل!"
+   },
+   "PP_TooltipReportOver": {
+      "message": "انقر هنا لإزالة نافذة علوية انبثقت على الصفحة الحالية"
+   },
+   "PP_TooltipReportPop": {
+      "message": "انقر هنا لإبلاغنا بنافذة منبثقة فاتتنا في تبويب أو نافذة جديدة"
+   },
+   "PP_TooltipWhitelistBlockPops": {
+      "message": "We verified that popups are essential functionalities on this site, but feel free to block anyway."
+   },
+   "PP_WhiteListed": {
+      "message": "على قائمة Poper\r\nBlocker البيضاء"
+   },
+   "PP_XPopupsBlocked_1": {
+      "message": "لا تعب!"
+   },
+   "PP_XPopupsBlocked_2": {
+      "message": "سهل!"
+   },
+   "PP_XPopupsBlocked_3": {
+      "message": "رائع!"
+   },
+   "PP_XPopupsBlocked_4": {
+      "message": "بمنتهى السهولة!"
+   },
+   "PP_XPopupsBlocked_5": {
+      "message": "أمر سهل!"
+   },
+   "TS_NoOverlay": {
+      "message": "No overlay found"
+   },
+   "add": {
+      "message": "إضافة"
+   },
+   "allowAlways": {
+      "message": "السماح دائمًا"
+   },
+   "allowAlwaysTip": {
+      "message": "اسمح دائمًا للنوافذ المنبثقة على هذا الموقع. ستتم إضافة هذا الموقع إلى قائمتك البيضاء."
+   },
+   "allowButtonLabel": {
+      "message": "السماح بالنوافذ المنبثقة"
+   },
+   "allowOnce": {
+      "message": "السماح مرة واحدة"
+   },
+   "allowOnceTip": {
+      "message": "يسمح بالنافذة المنبثقة هذه المرة فقط. في المرة القادمة التي ترى فيها هذه النافذة المنبثقة، سنسألك مجددًا."
+   },
+   "allowOverlaysButtonLabel": {
+      "message": "السماح بالتراكبات"
+   },
+   "autoDetectionButtonLabel": {
+      "message": "نعم، مرة"
+   },
+   "autoDetectionReportWebsiteButtonLabel": {
+      "message": "الإبلاغ عن الموقع"
+   },
+   "autoDetectionYesAlwaysButtonLabel": {
+      "message": "نعم دائما"
+   },
+   "badgeToggleLabel": {
+      "message": "تظهر شارة على زر شريط الأدوات عندما يتم حظر نافذة منبثقة."
+   },
+   "blacklistTip": {
+      "message": "حجب التراكبات دائما عن هذه المواقع:"
+   },
+   "blockAlwaysButtonLabel": {
+      "message": "حجب دائما"
+   },
+   "blockButtonLabel": {
+      "message": "حظر النوافذ المنبثقة"
+   },
+   "blockDetectedOverlayLabel": {
+      "message": "تم الكشف عن تراكب. احجبه؟"
+   },
+   "blockOverlayButtonLabel": {
+      "message": "إزالة التراكب"
+   },
+   "bugLink": {
+      "message": "أبلغ عن خطأ"
+   },
+   "contributeButtonLabel": {
+      "message": "مساهمة"
+   },
+   "disableNotifications": {
+      "message": "تعطيل الإخطارات"
+   },
+   "disablePB": {
+      "message": "تعطيل Poper Blocker"
+   },
+   "doNotShow": {
+      "message": "لا تُظهر"
+   },
+   "doNotShowTips": {
+      "message": "لا تظهر هذا الإشعار عند حجب النوافذ المنبثقة على هذا الموقع"
+   },
+   "emailLink": {
+      "message": "راسلنا بالبريد الإلكتروني"
+   },
+   "enablePB": {
+      "message": "تمكين Poper Blocker"
+   },
+   "extDescription": {
+      "message": "الملحق الأول لحجب النوافذ المزعجة النبثقة فوق الصفحات ووراءها وعليها بشكل سهل وفعّال. تصفح الإنترنت بدون مضايقات على كل المواقع."
+   },
+   "extName": {
+      "message": "Pop up blocker for Chrome™ - Poper Blocker"
+   },
+   "extName_FF": {
+      "message": "Popup blocker for FF: Poper Blocker"
+   },
+   "ignoreLabel": {
+      "message": "تجاهل"
+   },
+   "linksTitle": {
+      "message": "الروابط"
+   },
+   "needRefresh": {
+      "message": "Refresh open tabs in order for this change to take effect."
+   },
+   "needRefreshGotIt": {
+      "message": "Ok, got it!"
+   },
+   "neverShowRefresh": {
+      "message": "Don't show again"
+   },
+   "notFoundAutoOverlayLabel": {
+      "message": "الكشف التقائي لم يجد أي تراكبات"
+   },
+   "notFoundOverlayLabel": {
+      "message": "لم يتم العثور على تراكب. جرب الكشف التلقائي؟"
+   },
+   "notificationMessage": {
+      "message": "تم حظر النافذة المنبثقة"
+   },
+   "notificationSettingsTitle": {
+      "message": "تمكين حجب تراكب (يتطلب الاتصال بقاعدة بيانات"
+   },
+   "notificationToggleLabel": {
+      "message": "عرض إخطار في الصفحة عند حظر نافذة منبثقة."
+   },
+   "options": {
+      "message": "الخيارات"
+   },
+   "overlayContextMenuToggleLabel": {
+      "message": "مكّن خيار \"إزالة الطبقة\" في قائمة السياق"
+   },
+   "overlaySettingsTitle": {
+      "message": "إعدادات حجب التراكب"
+   },
+   "overlayWasBlocked": {
+      "message": "تم حجب التراكب"
+   },
+   "overlaysToggleLabel": {
+      "message": "مكّن حجب الطبقة (يرسل بيانات مجهولة الهوية إلى مطوري Poper Blocker)"
+   },
+   "pauseButton": {
+      "message": "Pause"
+   },
+   "paused": {
+      "message": "Poper Blocker is off"
+   },
+   "popupsAllowed": {
+      "message": "النوافذ المنبثقة مسموح بها على هذا الموقع."
+   },
+   "popupsBlocked": {
+      "message": "النوافذ المنبثقة محظورة على هذا الموقع."
+   },
+   "popupsBlockedLabel": {
+      "message": "تم حجب X نوافذ منبثقة"
+   },
+   "rateLink": {
+      "message": "قيّمنا بـ 5 نجوم"
+   },
+   "rateus": {
+      "message": "مسرور بأداء Poper Blocker؟ قيّمنا!"
+   },
+   "removeAlwaysLabel": {
+      "message": "إزالة دائما"
+   },
+   "removeAlwaysText": {
+      "message": "إزالة هذه الصفحة العلوية دائمًا وعدم عرض هذا الإشعار مرة أخرى. يمكنك تغيير هذا في صفحة الخيارات."
+   },
+   "removeOnceLabel": {
+      "message": "إزالة مرة"
+   },
+   "removeOverlayQLabel": {
+      "message": "إزالة التراكب?"
+   },
+   "resumeButton": {
+      "message": "Start"
+   },
+   "undoLabel": {
+      "message": "اعرض الصفحة العلوية"
+   },
+   "undoOnceButtonLabel": {
+      "message": "تراجع مرة"
+   },
+   "undoTips": {
+      "message": "لقد أزلت هذه الطبقة يدويًا، انقر لعرض الطبقة"
+   },
+   "urlExamplePlaceholder": {
+      "message": "مثال: twitter.com"
+   },
+   "urlExistsInList": {
+      "message": "This site is already in list"
+   },
+   "urlExistsInPB": {
+      "message": "هذا الموقع مدرج على القائمة البيضاء بالفعل بواسطة Poper Blocker"
+   },
+   "urlNotValid": {
+      "message": "يرجى إدخال عنوان صالح."
+   },
+   "websiteInWhitelistOverlayMessage": {
+      "message": "This website is whitelisted. No overlay detection made."
+   },
+   "whitelistTip": {
+      "message": "للسماح بظهور النوافذ المنبثقة/السفلية في أحد المواقع، أضفه إلى هذه القائمة:"
+   },
+   "whitelistTitle": {
+      "message": "مواقع القائمة البيضاء"
+   }
+}

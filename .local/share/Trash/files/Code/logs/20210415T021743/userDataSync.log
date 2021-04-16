@@ -1,0 +1,124 @@
+[2021-04-15 02:17:45.809] [settingssync] [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+[2021-04-15 02:17:45.809] [settingssync] [info] Auto Sync is disabled.
+[2021-04-15 02:18:35.064] [settingssync] [info] Did reset the local sync state.
+[2021-04-15 02:18:37.761] [settingssync] [info] Settings: Updated local settings
+[2021-04-15 02:18:37.766] [settingssync] [info] Settings: Updated last synchronized settings
+[2021-04-15 02:18:37.768] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-04-15 02:18:37.785] [settingssync] [info] Keybindings: Updated last synchronized keybindings
+[2021-04-15 02:18:37.786] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-04-15 02:18:37.800] [settingssync] [info] Snippets: Updated last synchronized snippets
+[2021-04-15 02:18:37.841] [settingssync] [info] GlobalState: Updated global state ["javascript.1.editedCount","javascript.1.editedDate","workbench.view.sync.state.hidden","nps/skipVersion","nps/isCandidate","javascript.1.isCandidate","workbench.view.remote.state.hidden","javascript.1.skipVersion","github-thefossguy","workbench.view.extension.test.state.hidden","scm/input:Git:/c:/Users/Shivansh Yadav/repos/skillarena.in","terminal.integrated.showTerminalConfigPrompt","extensionTips/promptedExecutableTips","workbench.view.extension.dockerView.state.hidden","scm/input:Git:/home/thefossguy/repos/react-shopping-cart","typescript.1.editedCount","typescript.1.editedDate","scm/input:Git:/home/thefossguy/repos/CircuitVerse","scm/input:Git:/home/thefossguy/repos/Sahaaya","scm/input:Git:/home/thefossguy/repos/Sahaaya (copy)","scm/input:Git:/home/thefossguy/repos/portfolio_v5","commandPalette.mru.cache","commandPalette.mru.counter","memento/gettingStartedService","remote.explorerType","scm/input:Git:/home/shivansh/repos/elm-markdown","fileBasedRecommendations/promptedRecommendations","fileBasedRecommendations/promptedFileExtensions","scm/input:Git:/home/shivansh/repos/HackVSIT","remote.tunnels.toRestore.wsl+Ubuntu.1441514200","workbench.view.extensions.state.hidden","workbench.explorer.views.state.hidden","workbench.scm.views.state.hidden","workbench.panel.pinnedPanels","workbench.activity.pinnedViewlets2","nps/sessionCount","nps/lastSessionDate","cpp.1.sessionCount","cpp.1.lastSessionDate","java.2.sessionCount","java.2.lastSessionDate","javascript.1.sessionCount","javascript.1.lastSessionDate","typescript.1.sessionCount","typescript.1.lastSessionDate","colorThemeData"]
+[2021-04-15 02:18:37.841] [settingssync] [info] GlobalState: Updated local ui state
+[2021-04-15 02:18:38.536] [settingssync] [info] GlobalState: Updated remote ui state
+[2021-04-15 02:18:38.548] [settingssync] [info] GlobalState: Updated last synchronized ui state
+[2021-04-15 02:18:38.901] [settingssync] [info] Extensions: Enabled extension anseki.vscode-color 0.4.5
+[2021-04-15 02:18:39.447] [settingssync] [info] Extensions: Enabled extension oderwat.indent-rainbow 7.5.0
+[2021-04-15 02:18:39.467] [settingssync] [info] Extensions: Enabled extension kumar-harsh.graphql-for-vscode 1.15.3
+[2021-04-15 02:18:39.471] [settingssync] [info] Extensions: Enabled extension ms-vscode-remote.remote-ssh 0.65.2
+[2021-04-15 02:18:39.498] [settingssync] [info] Extensions: Enabled extension jdinhlife.gruvbox 1.4.0
+[2021-04-15 02:18:39.501] [settingssync] [info] Extensions: Enabled extension equimper.react-native-react-redux 2.0.6
+[2021-04-15 02:18:39.510] [settingssync] [info] Extensions: Enabled extension unthrottled.doki-theme 11.1.1
+[2021-04-15 02:18:39.517] [settingssync] [info] Extensions: Enabled extension grapecity.gc-excelviewer 3.0.41
+[2021-04-15 02:18:39.662] [settingssync] [info] Extensions: Enabled extension digitalbrainstem.javascript-ejs-support 1.3.1
+[2021-04-15 02:18:39.667] [settingssync] [info] Extensions: Enabled extension dzannotti.vscode-babel-coloring 0.0.4
+[2021-04-15 02:18:39.683] [settingssync] [info] Extensions: Enabled extension coenraads.bracket-pair-colorizer 1.0.61
+[2021-04-15 02:18:39.692] [settingssync] [info] Extensions: Enabled extension naumovs.color-highlight 2.3.0
+[2021-04-15 02:18:39.727] [settingssync] [info] Extensions: Enabled extension editorconfig.editorconfig 0.16.4
+[2021-04-15 02:18:39.730] [settingssync] [info] Extensions: Enabled extension erikphansen.vscode-toggle-column-selection 1.0.6
+[2021-04-15 02:18:39.731] [settingssync] [info] Extensions: Enabled extension hex-ci.stylelint-plus 0.53.1
+[2021-04-15 02:18:39.734] [settingssync] [info] Extensions: Enabled extension sirtori.indenticator 0.7.0
+[2021-04-15 02:18:39.736] [settingssync] [info] Extensions: Enabled extension formulahendry.auto-rename-tag 0.1.6
+[2021-04-15 02:18:39.742] [settingssync] [info] Extensions: Enabled extension ms-vscode-remote.vscode-remote-extensionpack 0.20.0
+[2021-04-15 02:18:39.745] [settingssync] [info] Extensions: Enabled extension pawankumar.dark-pk-theme 1.0.0
+[2021-04-15 02:18:39.770] [settingssync] [info] Extensions: Installed extension. anseki.vscode-color 0.4.5
+[2021-04-15 02:18:39.790] [settingssync] [info] Extensions: Enabled extension formulahendry.auto-close-tag 0.5.10
+[2021-04-15 02:18:39.800] [settingssync] [info] Extensions: Enabled extension felipecaputo.git-project-manager 1.7.1
+[2021-04-15 02:18:39.808] [settingssync] [info] Extensions: Enabled extension ms-vscode-remote.remote-ssh-edit 0.65.2
+[2021-04-15 02:18:39.820] [settingssync] [info] Extensions: Enabled extension wix.vscode-import-cost 2.15.0
+[2021-04-15 02:18:39.828] [settingssync] [info] Extensions: Enabled extension dbaeumer.vscode-eslint 2.1.20
+[2021-04-15 02:18:39.833] [settingssync] [info] Extensions: Enabled extension eg2.tslint 1.0.46
+[2021-04-15 02:18:39.840] [settingssync] [info] Extensions: Enabled extension ms-toolsai.jupyter 2021.5.745244803
+[2021-04-15 02:18:39.848] [settingssync] [info] Extensions: Enabled extension ritwickdey.liveserver 5.6.1
+[2021-04-15 02:18:39.854] [settingssync] [info] Extensions: Enabled extension wayou.vscode-todo-highlight 1.0.4
+[2021-04-15 02:18:39.865] [settingssync] [info] Extensions: Enabled extension humao.rest-client 0.24.5
+[2021-04-15 02:18:39.874] [settingssync] [info] Extensions: Enabled extension burkeholland.simple-react-snippets 1.2.3
+[2021-04-15 02:18:39.879] [settingssync] [info] Extensions: Enabled extension ms-azuretools.vscode-docker 1.12.1
+[2021-04-15 02:18:39.882] [settingssync] [info] Extensions: Enabled extension mechatroner.rainbow-csv 1.8.1
+[2021-04-15 02:18:39.888] [settingssync] [info] Extensions: Enabled extension msjsdiag.vscode-react-native 1.4.1
+[2021-04-15 02:18:39.893] [settingssync] [info] Extensions: Enabled extension donjayamanne.githistory 0.6.16
+[2021-04-15 02:18:39.917] [settingssync] [info] Extensions: Enabled extension pkief.material-icon-theme 4.6.0
+[2021-04-15 02:18:39.926] [settingssync] [info] Extensions: Enabled extension ms-vscode-remote.remote-wsl 0.54.6
+[2021-04-15 02:18:39.930] [settingssync] [info] Extensions: Enabled extension dart-code.flutter 3.21.0
+[2021-04-15 02:18:39.970] [settingssync] [info] Extensions: Enabled extension esbenp.prettier-vscode 6.3.2
+[2021-04-15 02:18:39.980] [settingssync] [info] Extensions: Enabled extension ms-vscode-remote.remote-containers 0.166.1
+[2021-04-15 02:18:40.044] [settingssync] [info] Extensions: Enabled extension dart-code.dart-code 3.21.1
+[2021-04-15 02:18:40.052] [settingssync] [info] Extensions: Enabled extension ms-python.python 2021.3.680753044
+[2021-04-15 02:18:40.056] [settingssync] [info] Extensions: Enabled extension streetsidesoftware.code-spell-checker 1.10.2
+[2021-04-15 02:18:40.098] [settingssync] [info] Extensions: Enabled extension wallabyjs.quokka-vscode 1.0.354
+[2021-04-15 02:18:40.432] [settingssync] [info] Extensions: Installed extension. oderwat.indent-rainbow 7.5.0
+[2021-04-15 02:18:40.473] [settingssync] [info] Extensions: Installed extension. ms-vscode-remote.vscode-remote-extensionpack 0.20.0
+[2021-04-15 02:18:40.558] [settingssync] [info] Extensions: Installed extension. ms-vscode-remote.remote-ssh 0.65.2
+[2021-04-15 02:18:40.799] [settingssync] [info] Extensions: Installed extension. digitalbrainstem.javascript-ejs-support 1.3.1
+[2021-04-15 02:18:40.815] [settingssync] [info] Extensions: Installed extension. dbaeumer.vscode-eslint 2.1.20
+[2021-04-15 02:18:41.275] [settingssync] [info] Extensions: Installed extension. unthrottled.doki-theme 11.1.1
+[2021-04-15 02:18:41.783] [settingssync] [info] Extensions: Installed extension. dzannotti.vscode-babel-coloring 0.0.4
+[2021-04-15 02:18:41.891] [settingssync] [info] Extensions: Installed extension. equimper.react-native-react-redux 2.0.6
+[2021-04-15 02:18:42.039] [settingssync] [info] Extensions: Installed extension. ms-vscode-remote.remote-ssh-edit 0.65.2
+[2021-04-15 02:18:42.165] [settingssync] [info] Extensions: Installed extension. felipecaputo.git-project-manager 1.7.1
+[2021-04-15 02:18:42.270] [settingssync] [info] Extensions: Installed extension. naumovs.color-highlight 2.3.0
+[2021-04-15 02:18:42.505] [settingssync] [info] Extensions: Installed extension. ms-vscode-remote.remote-wsl 0.54.6
+[2021-04-15 02:18:42.656] [settingssync] [info] Extensions: Installed extension. pawankumar.dark-pk-theme 1.0.0
+[2021-04-15 02:18:42.683] [settingssync] [info] Extensions: Installed extension. eg2.tslint 1.0.46
+[2021-04-15 02:18:42.778] [settingssync] [info] Extensions: Installed extension. editorconfig.editorconfig 0.16.4
+[2021-04-15 02:18:42.789] [settingssync] [info] Extensions: Installed extension. sirtori.indenticator 0.7.0
+[2021-04-15 02:18:44.425] [settingssync] [info] Extensions: Installed extension. dart-code.flutter 3.21.0
+[2021-04-15 02:18:44.653] [settingssync] [info] Extensions: Installed extension. grapecity.gc-excelviewer 3.0.41
+[2021-04-15 02:18:45.292] [settingssync] [info] Extensions: Installed extension. formulahendry.auto-rename-tag 0.1.6
+[2021-04-15 02:18:45.461] [settingssync] [info] Extensions: Installed extension. formulahendry.auto-close-tag 0.5.10
+[2021-04-15 02:18:45.919] [settingssync] [info] Extensions: Installed extension. wayou.vscode-todo-highlight 1.0.4
+[2021-04-15 02:18:46.110] [settingssync] [info] Extensions: Installed extension. jdinhlife.gruvbox 1.4.0
+[2021-04-15 02:18:46.813] [settingssync] [info] Extensions: Installed extension. humao.rest-client 0.24.5
+[2021-04-15 02:18:46.897] [settingssync] [info] Extensions: Installed extension. donjayamanne.githistory 0.6.16
+[2021-04-15 02:18:47.031] [settingssync] [info] Extensions: Installed extension. ms-vscode-remote.remote-containers 0.166.1
+[2021-04-15 02:18:47.062] [settingssync] [info] Extensions: Installed extension. coenraads.bracket-pair-colorizer 1.0.61
+[2021-04-15 02:18:47.538] [settingssync] [info] Extensions: Installed extension. pkief.material-icon-theme 4.6.0
+[2021-04-15 02:18:47.743] [settingssync] [info] Extensions: Installed extension. mechatroner.rainbow-csv 1.8.1
+[2021-04-15 02:18:47.968] [settingssync] [info] Extensions: Installed extension. msjsdiag.vscode-react-native 1.4.1
+[2021-04-15 02:18:48.516] [settingssync] [info] Extensions: Installed extension. ms-azuretools.vscode-docker 1.12.1
+[2021-04-15 02:18:49.752] [settingssync] [info] Extensions: Installed extension. kumar-harsh.graphql-for-vscode 1.15.3
+[2021-04-15 02:18:51.352] [settingssync] [info] Extensions: Installed extension. erikphansen.vscode-toggle-column-selection 1.0.6
+[2021-04-15 02:18:53.106] [settingssync] [info] Extensions: Installed extension. esbenp.prettier-vscode 6.3.2
+[2021-04-15 02:18:54.199] [settingssync] [info] Extensions: Installed extension. ritwickdey.liveserver 5.6.1
+[2021-04-15 02:18:56.189] [settingssync] [info] Extensions: Installed extension. streetsidesoftware.code-spell-checker 1.10.2
+[2021-04-15 02:18:57.120] [settingssync] [info] Extensions: Installed extension. burkeholland.simple-react-snippets 1.2.3
+[2021-04-15 02:19:08.092] [settingssync] [info] Extensions: Installed extension. ms-toolsai.jupyter 2021.5.745244803
+[2021-04-15 02:19:08.774] [settingssync] [info] Extensions: Installed extension. wallabyjs.quokka-vscode 1.0.354
+[2021-04-15 02:19:12.655] [settingssync] [info] Extensions: Installed extension. hex-ci.stylelint-plus 0.53.1
+[2021-04-15 02:19:14.599] [settingssync] [info] Extensions: Installed extension. ms-python.python 2021.3.680753044
+[2021-04-15 02:19:15.517] [settingssync] [info] Extensions: Installed extension. dart-code.dart-code 3.21.1
+[2021-04-15 02:19:15.873] [settingssync] [info] Extensions: Installed extension. wix.vscode-import-cost 2.15.0
+[2021-04-15 02:19:15.877] [settingssync] [info] Extensions: Updated last synchronized extensions
+[2021-04-15 02:19:15.940] [settingssync] [info] Auto Sync: Started
+[2021-04-15 02:19:15.940] [settingssync] [info] Auto Sync: Triggered by Interval
+[2021-04-15 02:19:16.323] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-04-15 02:19:16.336] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-04-15 02:19:16.338] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-04-15 02:19:16.685] [settingssync] [info] GlobalState: Updated remote ui state
+[2021-04-15 02:19:16.689] [settingssync] [info] GlobalState: Updated last synchronized ui state
+[2021-04-15 02:19:16.778] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-04-15 02:19:16.779] [settingssync] [info] Sync done. Took 555ms
+[2021-04-15 02:19:18.876] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-04-15 02:19:19.037] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-04-15 02:19:19.044] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-04-15 02:19:19.052] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-04-15 02:19:19.413] [settingssync] [info] GlobalState: Updated remote ui state
+[2021-04-15 02:19:19.421] [settingssync] [info] GlobalState: Updated last synchronized ui state
+[2021-04-15 02:19:19.592] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-04-15 02:19:19.593] [settingssync] [info] Sync done. Took 615ms
+[2021-04-15 02:21:46.612] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-04-15 02:21:47.334] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-04-15 02:21:47.342] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-04-15 02:21:47.344] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-04-15 02:21:47.364] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-04-15 02:21:47.483] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-04-15 02:21:47.485] [settingssync] [info] Sync done. Took 257ms

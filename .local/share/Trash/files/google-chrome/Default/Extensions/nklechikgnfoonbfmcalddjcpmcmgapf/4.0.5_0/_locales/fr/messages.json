@@ -1,0 +1,198 @@
+{
+   "abort": {
+      "description": "Disable Printliminator, but save undo history.",
+      "message": "Désactiver Printliminator en conservant l’historique d'annulation"
+   },
+   "addStylize": {
+      "description": "Add print stylesheet",
+      "message": "Supprimer\u003Cbr>les styles"
+   },
+   "altClickRemove": {
+      "description": "Alt-click highlight to remove everything expect the item",
+      "message": "Alt-cliquez sur un élément pour ne garder que lui"
+   },
+   "clickToRemove": {
+      "description": "Click highlight to remove item",
+      "message": "Cliquez sur les élément de la page pour les faire disparaitre"
+   },
+   "commandButtons": {
+      "description": "Command buttons: undo, stylize, remove graphics & print",
+      "message": "Outils"
+   },
+   "descriptionColumn": {
+      "description": "Description of key action",
+      "message": "Description"
+   },
+   "downDescription": {
+      "description": "Find first visible child element of highlight",
+      "message": "Sélectionner l’élément enfant"
+   },
+   "fontDown": {
+      "description": "Use keyNumpad- to decrease font size",
+      "message": "Réduire la taille des caractères"
+   },
+   "fontReset": {
+      "description": "Reset font size to original",
+      "message": "Réinitialiser la taille des caractères"
+   },
+   "fontUp": {
+      "description": "Use keyNumpad+ to increase font size",
+      "message": "Augmenter la taille des caractères"
+   },
+   "fullWidth": {
+      "description": "Make highlighted element full width & add blue outline",
+      "message": "Appliquer une largeur de 100% et supprimer les marges (le contour de sélection devient bleu)"
+   },
+   "hideKeyboardCommands": {
+      "description": "Close list of keyboard commands",
+      "message": "Masquer les raccourcis clavier"
+   },
+   "keyAlt": {
+      "description": "Alt-key used with mouse-click",
+      "message": "Alt"
+   },
+   "keyBackspace": {
+      "description": "Press backspace to undo last action",
+      "message": "Retour arrière"
+   },
+   "keyColumn": {
+      "description": "Key name column",
+      "message": "Touche"
+   },
+   "keyDownArrow": {
+      "description": "Down arrow key text added to title",
+      "message": "Flèche bas"
+   },
+   "keyEnter": {
+      "description": "Press enter to remove highlight",
+      "message": "Entrer"
+   },
+   "keyEsc": {
+      "description": "Escape key to close Printliminator",
+      "message": "Esc"
+   },
+   "keyEscTitle": {
+      "description": "Escape key full name",
+      "message": "Échap"
+   },
+   "keyF1": {
+      "description": "F1 key name",
+      "message": "F1"
+   },
+   "keyF1Title": {
+      "description": "F1 key used to toggle messages",
+      "message": "Touche F1"
+   },
+   "keyLeftArrow": {
+      "description": "Left arrow text added to title",
+      "message": "Flèche Gauche"
+   },
+   "keyNumpad": {
+      "description": "Numpad key text description",
+      "message": "Pavé num."
+   },
+   "keyNumpadAsterisk": {
+      "description": "",
+      "message": "Étoile (pavé numérique"
+   },
+   "keyNumpadMinus": {
+      "description": "Numpad- key",
+      "message": "Moins Plus (pavé numérique)"
+   },
+   "keyNumpadPlus": {
+      "description": "Numpad+ key",
+      "message": "Plus (pavé numérique)"
+   },
+   "keyPS": {
+      "description": "Print Screen key (abbreviation)",
+      "message": "ImprEcrn"
+   },
+   "keyPSTitle": {
+      "description": "Print Screen key full name added to title",
+      "message": "Imprime Écran"
+   },
+   "keyPageDown": {
+      "description": "Page down key",
+      "message": "PageSuiv"
+   },
+   "keyPageUp": {
+      "description": "Page up key",
+      "message": "PagePrec"
+   },
+   "keyRightArrow": {
+      "description": "Right arrow text added to title",
+      "message": "Flèche droite"
+   },
+   "keyShift": {
+      "description": "Shift-key used with mouse-click",
+      "message": "Shift"
+   },
+   "keyUpArrow": {
+      "description": "Up arrow key text added to title",
+      "message": "Flèche haut"
+   },
+   "leftDescription": {
+      "description": "",
+      "message": "Sélectionner l’élément précédent"
+   },
+   "mouseLeftClick": {
+      "description": "left mouse click",
+      "message": "click gauche"
+   },
+   "orText": {
+      "description": "or text",
+      "message": "ou"
+   },
+   "printPage": {
+      "description": "Print the current page",
+      "message": "Imprimer la page"
+   },
+   "printliminatorDescription": {
+      "description": "Extension Description",
+      "message": "Un outil simple pour améliorer l’impression des sites web."
+   },
+   "printliminatorName": {
+      "description": "Extension name",
+      "message": "The Printliminator"
+   },
+   "removeGraphics": {
+      "description": "Removes all images, iframes and video from the page",
+      "message": "Supprimer\u003Cbr>les images"
+   },
+   "removeHighlight": {
+      "description": "Remove highlighted box",
+      "message": "Supprimer l’élément sélectionner"
+   },
+   "removeOpposite": {
+      "description": "Remove opposite of highlight",
+      "message": "Ne garder que l’élément sélectionne"
+   },
+   "rightDescription": {
+      "description": "Find next visible sibling element of highlight",
+      "message": "Sélectionner l’élément suivant"
+   },
+   "sendToPrint": {
+      "description": "Print the page",
+      "message": "Lancer\u003Cbr>l’impression"
+   },
+   "toggleMessages": {
+      "description": "Action message display is toggled by the F1 key",
+      "message": "Afficher/masquer le message d'action"
+   },
+   "undoAction": {
+      "description": "Undo last action",
+      "message": "Annuler"
+   },
+   "undoLast": {
+      "description": "Undo the last action",
+      "message": "Annuler"
+   },
+   "upDescription": {
+      "description": "Find parent element of current highlight",
+      "message": "Sélectionner l’élement parent"
+   },
+   "viewKeyboardCommands": {
+      "description": "Open a list of keyboard commands",
+      "message": "Voir les raccourcis clavier"
+   }
+}

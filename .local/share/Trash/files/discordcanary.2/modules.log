@@ -1,0 +1,614 @@
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules
+[Modules] Module installed file path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules/installed.json
+[Modules] Module download path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending
+[Modules] Bootstrapping...
+[Modules] Installing discord_desktop_core@0 from /usr/share/discord-canary/resources/bootstrap/discord_desktop_core.zip
+[Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/usr/share/discord-canary/resources/bootstrap/discord_desktop_core.zip'
+[Modules] Installing discord_erlpack@0 from /usr/share/discord-canary/resources/bootstrap/discord_erlpack.zip
+[Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/usr/share/discord-canary/resources/bootstrap/discord_erlpack.zip'
+[Modules] Installing discord_spellcheck@0 from /usr/share/discord-canary/resources/bootstrap/discord_spellcheck.zip
+[Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/usr/share/discord-canary/resources/bootstrap/discord_spellcheck.zip'
+[Modules] Installing discord_utils@0 from /usr/share/discord-canary/resources/bootstrap/discord_utils.zip
+[Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/usr/share/discord-canary/resources/bootstrap/discord_utils.zip'
+[Modules] Installing discord_voice@0 from /usr/share/discord-canary/resources/bootstrap/discord_voice.zip
+[Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/usr/share/discord-canary/resources/bootstrap/discord_voice.zip'
+[Modules] Finished module installations. [success: 0] [failure: 5]
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] Module update available: discord_desktop_core@128 [installed: 0]
+[Modules] Module update available: discord_erlpack@128 [installed: 0]
+[Modules] Module update available: discord_spellcheck@128 [installed: 0]
+[Modules] Module update available: discord_utils@128 [installed: 0]
+[Modules] Module update available: discord_voice@125 [installed: 0]
+[Modules] Fetching discord_desktop_core@128 from https://discord.com/api/modules/canary/discord_desktop_core/128
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 2%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 4%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 5%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 6%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 8%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 11%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 12%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 14%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 16%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 19%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 23%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 25%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 28%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 31%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 33%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 35%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 37%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 38%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 57%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 63%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 66%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 67%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 69%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 70%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 71%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 73%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 74%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 77%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 79%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 82%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 84%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 85%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 87%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 90%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 91%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 94%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 95%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 97%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 98%
+[Modules] Streaming discord_desktop_core@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip: 100%
+[Modules] Fetching discord_erlpack@128 from https://discord.com/api/modules/canary/discord_erlpack/128
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 3%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 5%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 7%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 9%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 11%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 14%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 16%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 18%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 20%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 21%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 24%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 27%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 28%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 30%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 32%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 34%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 35%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 36%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 39%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 41%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 44%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 47%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 50%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 51%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 54%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 56%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 57%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 59%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 62%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 64%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 66%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 69%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 72%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 74%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 76%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 78%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 81%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 83%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 84%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 85%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 89%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 90%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 91%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 92%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 93%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 97%
+[Modules] Streaming discord_erlpack@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip: 100%
+[Modules] Fetching discord_spellcheck@128 from https://discord.com/api/modules/canary/discord_spellcheck/128
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 1%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 2%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 3%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 4%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 5%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 6%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 7%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 8%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 9%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 10%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 11%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 12%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 13%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 14%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 15%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 16%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 17%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 18%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 19%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 20%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 21%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 22%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 23%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 24%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 25%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 26%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 27%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 28%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 29%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 30%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 31%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 32%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 33%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 34%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 35%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 36%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 37%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 38%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 39%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 40%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 41%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 42%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 43%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 44%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 45%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 46%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 47%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 48%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 49%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 50%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 51%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 52%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 53%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 54%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 55%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 56%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 57%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 58%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 59%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 60%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 61%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 62%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 63%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 64%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 65%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 66%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 67%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 68%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 69%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 70%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 71%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 72%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 73%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 74%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 75%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 76%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 77%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 78%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 79%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 80%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 81%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 82%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 83%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 84%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 85%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 86%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 87%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 88%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 89%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 90%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 91%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 92%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 93%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 94%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 95%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 96%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 97%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 98%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 99%
+[Modules] Streaming discord_spellcheck@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip: 100%
+[Modules] Fetching discord_utils@128 from https://discord.com/api/modules/canary/discord_utils/128
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 1%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 3%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 4%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 5%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 6%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 7%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 8%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 10%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 12%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 13%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 14%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 15%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 16%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 17%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 19%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 20%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 21%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 22%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 24%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 25%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 26%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 28%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 32%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 33%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 35%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 37%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 38%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 39%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 40%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 41%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 42%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 43%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 44%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 45%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 46%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 47%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 48%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 49%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 50%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 51%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 52%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 53%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 54%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 55%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 57%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 58%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 59%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 60%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 62%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 63%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 65%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 66%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 69%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 70%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 71%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 73%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 74%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 75%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 77%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 78%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 79%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 80%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 81%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 82%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 83%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 84%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 85%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 86%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 88%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 89%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 91%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 92%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 93%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 94%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 96%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 97%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 98%
+[Modules] Streaming discord_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip: 100%
+[Modules] Fetching discord_voice@125 from https://discord.com/api/modules/canary/discord_voice/125
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 1%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 2%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 3%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 4%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 5%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 6%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 7%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 8%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 9%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 10%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 11%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 12%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 13%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 14%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 15%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 16%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 17%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 18%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 19%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 20%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 21%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 22%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 23%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 24%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 25%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 26%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 27%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 28%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 29%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 30%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 31%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 32%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 33%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 34%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 35%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 36%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 37%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 38%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 39%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 40%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 41%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 42%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 43%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 44%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 45%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 46%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 47%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 48%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 49%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 50%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 51%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 52%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 53%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 54%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 55%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 56%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 57%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 58%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 59%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 60%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 61%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 62%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 63%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 64%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 65%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 66%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 67%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 68%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 69%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 70%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 71%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 72%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 73%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 74%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 75%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 76%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 77%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 78%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 79%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 80%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 81%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 82%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 83%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 84%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 85%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 86%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 87%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 88%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 89%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 90%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 91%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 92%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 93%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 94%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 95%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 96%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 97%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 98%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 99%
+[Modules] Streaming discord_voice@125 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip: 100%
+[Modules] Finished module downloads. [success: 5] [failure: 0]
+[Modules] Installing updates...
+[Modules] Installing discord_desktop_core@128 from /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_desktop_core-128.zip
+[Modules] Installing discord_erlpack@128 from /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_erlpack-128.zip
+[Modules] Installing discord_spellcheck@128 from /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_spellcheck-128.zip
+[Modules] Installing discord_utils@128 from /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_utils-128.zip
+[Modules] Installing discord_voice@125 from /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_voice-125.zip
+[Modules] Finished module installations. [success: 5] [failure: 0]
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Starting to install discord_game_utils...
+[Modules] Fetching discord_game_utils@128 from https://discord.com/api/modules/canary/discord_game_utils/128
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 1%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 2%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 3%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 5%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 7%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 8%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 10%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 11%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 12%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 13%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 15%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 16%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 17%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 18%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 19%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 20%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 21%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 22%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 23%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 24%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 25%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 26%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 28%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 29%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 30%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 31%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 33%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 34%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 35%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 36%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 38%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 39%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 40%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 41%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 42%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 43%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 44%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 46%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 47%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 48%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 49%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 50%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 51%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 53%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 57%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 58%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 59%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 60%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 61%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 62%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 63%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 65%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 66%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 68%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 69%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 70%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 71%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 72%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 73%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 75%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 76%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 78%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 79%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 80%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 82%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 83%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 84%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 86%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 89%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 90%
+[Modules] Starting to install discord_rpc...
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 91%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 92%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 93%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 94%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 96%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 98%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 99%
+[Modules] Streaming discord_game_utils@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip: 100%
+[Modules] Fetching discord_rpc@128 from https://discord.com/api/modules/canary/discord_rpc/128
+[Modules] Streaming discord_rpc@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_rpc-128.zip
+[Modules] Installing discord_game_utils@128 from /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_game_utils-128.zip
+[Modules] Finished module installations. [success: 1] [failure: 0]
+[Modules] Streaming discord_rpc@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_rpc-128.zip: 39%
+[Modules] Streaming discord_rpc@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_rpc-128.zip: 81%
+[Modules] Streaming discord_rpc@128 to /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_rpc-128.zip: 100%
+[Modules] Finished module downloads. [success: 2] [failure: 0]
+[Modules] Installing discord_rpc@128 from /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending/discord_rpc-128.zip
+[Modules] Finished module installations. [success: 1] [failure: 0]
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules
+[Modules] Module installed file path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules/installed.json
+[Modules] Module download path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending
+[Modules] No updates to install
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules
+[Modules] Module installed file path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules/installed.json
+[Modules] Module download path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending
+[Modules] No updates to install
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules
+[Modules] Module installed file path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules/installed.json
+[Modules] Module download path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending
+[Modules] No updates to install
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules
+[Modules] Module installed file path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules/installed.json
+[Modules] Module download path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending
+[Modules] No updates to install
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules
+[Modules] Module installed file path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules/installed.json
+[Modules] Module download path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending
+[Modules] No updates to install
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules
+[Modules] Module installed file path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules/installed.json
+[Modules] Module download path: /home/shivanshxyz/.config/discordcanary/0.0.119/modules/pending
+[Modules] No updates to install
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discord.com/api/modules/canary/versions.json
+[Modules] No module updates available.

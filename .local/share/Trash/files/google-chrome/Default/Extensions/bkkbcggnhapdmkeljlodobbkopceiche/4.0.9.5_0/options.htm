@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title data-translate="extName">Options</title>
+		<link href="libs/bootstrap.min.css" rel="stylesheet"/>
+		<link href="options.css" rel="stylesheet"/>
+		<script src="libs/jquery.js"></script>
+		<script src="libs/bootstrap.min.js"></script>
+		<script src="options.index.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand">
+						<img src="images/poper-logo.svg" id="icon">
+					</a>
+          <div class="Options" data-translate="Options"></div>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="panel panel-info">
+						<div class="panel-heading" data-translate="notificationSettingsTitle"></div>
+						<div class="panel-body checboxes">
+              <div class="Line"></div>
+							<div>
+                <label class="checboxLabel">
+                  <input type="checkbox" autocomplete="off" id="notificationToggle">
+                  <span class="glyphicon glyphicon-ok"></span>
+                </label>
+                <label class="Show-an-on-page-noti" for="notificationToggle" data-translate="notificationToggleLabel"></label>
+							</div>
+							<div>
+                <label class=" checboxLabel">
+                  <input type="checkbox" autocomplete="off" id="badgeToggle">
+                  <span class="glyphicon glyphicon-ok"></span>
+                </label>
+								<label class="Show-an-on-page-noti" for="badgeToggle" data-translate="badgeToggleLabel"></label>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-info" id="overlay-panel">
+						<div class="panel-heading" data-translate="overlaySettingsTitle"></div>
+						<div class="panel-body checboxes">
+              <div class="Line"></div>
+							<div class="large">
+                <label class="checboxLabel">
+                  <input type="checkbox" autocomplete="off" id="overlaysToggle">
+                  <span class="glyphicon glyphicon-ok"></span>
+                </label>
+								<label id="overlay-message" class="Show-an-on-page-noti" for="overlaysToggle"></label>
+							</div>
+							<div>
+                <label class="checboxLabel">
+                  <input type="checkbox" autocomplete="off" id="overlayContextMenuToggle">
+                  <span class="glyphicon glyphicon-ok"></span>
+                </label>
+								<label class="Show-an-on-page-noti" for="overlayContextMenuToggle" data-translate="overlayContextMenuToggleLabel"></label>
+							</div>
+						</div>
+						<div id="blockedoverlayslist" class="list-group"></div>
+					</div>
+					<div class="panel panel-info listSection">
+						<div class="panel-heading" data-translate="whitelistTitle"></div>
+						<div class="panel-body">
+              <div class="Line"></div>
+							<div class="form-container">
+								<input class="form-control addInput"  type="text" id="whiteListBox" placeholder="Example: twitter.com">
+                <button class="btn btn-default addBtn" disabled id="whiteListBtn" data-translate="add"></button>
+							</div>
+						</div>
+						<div id="whiteListList" class="list-group"></div>
+					</div>
+					<div class="panel panel-info listSection" style="display:none;">
+						<div class="panel-heading" data-translate="blacklistTip"></div>
+						<div class="panel-body">
+              <div class="Line"></div>
+							<!--<div class="form-container">
+								<input class="form-control addInput" type="text" id="blackListBox" placeholder="Example: twitter.com">
+                <button class="btn btn-default addBtn" disabled id="blackListBtn" data-translate="add"></button>
+							</div>-->
+						</div>
+						<div id="blackListList" class="list-group"></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-default linksPanel">
+						<div id="links" class="list-group">
+							<a class="list-group-item" id="rate-options" >
+								<span class="glyphicon glyphicon-star"></span> <span data-translate="rateLink"></span>
+							</a>
+							<a class="list-group-item" id="bugreport-options">
+								<span class="glyphicon glyphicon-bullhorn"></span> <span data-translate="bugLink"></span>
+							</a>
+							<a class="list-group-item" id="support-options">
+								<span class="glyphicon glyphicon-envelope"></span>  <span data-translate="emailLink"></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,1 @@
+Blocca i Popup e Popunder a prescindere da dove l'utente clicchi su una pagina.

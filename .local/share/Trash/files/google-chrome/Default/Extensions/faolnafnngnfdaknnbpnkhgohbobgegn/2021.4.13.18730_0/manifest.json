@@ -1,0 +1,52 @@
+{
+   "app": {
+      "display_mode": "standalone",
+      "icon_color": "#0671BA",
+      "launch": {
+         "web_url": "https://outlook.office.com/mail/"
+      },
+      "linked_icons": [ {
+         "size": 48,
+         "url": "https://res-1.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.48x48x32.png"
+      }, {
+         "size": 64,
+         "url": "https://res-1.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.64x64x32.png"
+      }, {
+         "size": 128,
+         "url": "https://res-1.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.128x128x32.png"
+      }, {
+         "size": 144,
+         "url": "https://res-1.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.144x144.png"
+      }, {
+         "size": 192,
+         "url": "https://res-1.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.192x192.png"
+      }, {
+         "size": 256,
+         "url": "https://res-1.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.256x256x32.png"
+      }, {
+         "size": 512,
+         "url": "https://res-1.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.512x512.png"
+      } ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "144": "icons/144.png",
+      "192": "icons/192.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "512": "icons/512.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "IiwP3B3Mrf0nsZCX4ep+0RFlXKybT2j5+aFxKBFtSf0=",
+   "name": "Outlook",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://outlook.office.com/*" ],
+         "title": "Outlook"
+      }
+   },
+   "version": "2021.4.13.18730"
+}

@@ -1,0 +1,62 @@
+<div class="login-large-container">
+  <section class="login-container">
+    <img src="../../../static/images/svg/wordmark.svg" class="login-image" />
+    <div class="login-text">Highlight your research</div>
+  </section>
+  <div class="login-button-section">
+    <div class="login-input-wrapper login-select-wrapper">
+      <select ng-model="userRole" class="login-select" ng-class="{'invalid': false}">
+        <option value="">I'm a :</option>
+        <option value="student">Student</option>
+        <option value="professional">Professional</option>
+        <option value="leisure">Leisure User</option>
+      </select>
+    </div>
+
+    <!-- show this for students -->
+    <div ng-if="userRole=='student'" class="login-input-wrapper login-select-wrapper">
+      <select ng-model="studyField" class="login-select" ng-class="{'invalid': false}">
+        <option value="">Field / Area of Study</option>
+        <option value="high_school">I'm in high school</option>
+        <option value="art_and_humanities">Arts & Humanities</option>
+        <option value="law_and_politics">Law & Politics</option>
+        <option value="social_sciences">Social Sciences</option>
+        <option value="science">Science</option>
+        <option value="engineering">Engineering</option>
+        <option value="medicine">Medicine</option>
+        <option value="business_management">Business Management</option>
+        <option value="psychology_and_education">Psychology & Education</option>
+      </select>
+    </div>
+
+    <!-- show this for professionals -->
+    <div ng-if="userRole!=='student'" class="login-input-wrapper login-select-wrapper">
+      <select ng-model="expertField" class="login-select" ng-class="{'invalid': false}">
+        <option value="">Field / Area of Expertise</option>
+        <option value="writer_or_journalist">Writer / Journalist</option>
+        <option value="pr_or_communications">PR / Communications</option>
+        <option value="market_researcher">Marketing Researcher</option>
+        <option value="lawyer">Lawyer</option>
+        <option value="education">Education</option>
+        <option value="developer">Developer</option>
+        <option value="medicine_related">Medicine-related</option>
+        <option value="business_management">Business Management</option>
+        <option value="researcher">Researcher</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="login-input-wrapper">
+      <button
+        ng-disabled="(userRole==='student' && studyField==='') || (userRole!=='student' && expertField==='') || (userRole==='')"
+        class="login-button"
+        ng-click="submit()"
+      >
+        Go to App
+      </button>
+      <div class="disabled-description">
+        Please fill out the fields above.
+      </div>
+    </div>
+  </div>
+</div>

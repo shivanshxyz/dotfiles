@@ -1,0 +1,31 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "dfwp.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "clipboard-inactive-32.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "dfwp.js", "content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Prevents the blocking of copying from & pasting into input fields",
+   "homepage_url": "https://github.com/jswanner/DontFuckWithPaste",
+   "icons": {
+      "128": "clipboard-inactive-128.png",
+      "48": "clipboard-inactive-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwijIk2dixz5eXIOBObvzzpQvC1PlTnevluGXor5RLoL8BdTPtFEi5W1SGgR6wOq8SjEa5gfGYHxYdd6geZ6o5IGOpHl6CyTB56N0KDFxh0ogWCU6PTZfi3mGWQsB4QL8E1gZTKh+e5uKwAGJPATx3ElFjJSluNmzvoYKu4FtkNxOfpz+j/k4J8w4FDmEV6WPZo38ReHLNLSdgQCgpYWckP/C/cJq5TFNrNeS/hmJ1OdswuUUpHo56H7lhH2iHXgiViRZ3ZoXd2aUWGm0T85EW5X4y321xURobvQtv3wE2CAxIwW5LpE8jwuXCXrHPPtSlCYAuO+jfMidGNYFLLWP0wIDAQAB",
+   "manifest_version": 2,
+   "name": "Don't Fuck With Paste",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.7"
+}

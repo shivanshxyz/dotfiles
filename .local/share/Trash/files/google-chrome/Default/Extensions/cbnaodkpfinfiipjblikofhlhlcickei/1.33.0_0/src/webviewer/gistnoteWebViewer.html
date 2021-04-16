@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link href="/src/iframe/sidebarIframe/css/base.css" rel="stylesheet" type="text/css" />
+    <script src="/build/webviewer/gistnoteWebViewer.build.js"></script>
+  </head>
+
+  <body style="border: none; width: 100%; height: 100vh;">
+    <div style="width: 100%; background-color: #f6f6f6;" class="connection-break-background">
+      <div id="loadingState" style="padding-top: 25%;">
+        <div
+          ng-if="currentSwitchingFolderId || !activeFolder"
+          style="text-align: center; font-size: 15px; line-height: 40px; color: rgba(0, 0, 0, 0.6);"
+        >
+          <img
+            src="/static/images/gif/loading-state.gif"
+            style="width: 30px; height: 30px; display: inline-block; vertical-align: middle;"
+          />
+        </div>
+      </div>
+
+      <div id="failedState" style="display: none;">
+        <div class="connection-break-text-wrapper" style="margin: 50px 0;">
+          <div style="margin-top: 120px;" class="connection-break-image-wrapper">
+            <img class="connection-break-image" src="/static/images/svg/connection-image.svg" />
+          </div>
+          <div style="line-height: 10px; margin: 0 auto;">
+            <div style="display: inline-block; vertical-align: middle; padding-right: 15px;">
+              <p>This website cannot be displayed.</p>
+              <a style="font-size: 16px;" id="websiteLink" target="_blank">View the website in the new tab.</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

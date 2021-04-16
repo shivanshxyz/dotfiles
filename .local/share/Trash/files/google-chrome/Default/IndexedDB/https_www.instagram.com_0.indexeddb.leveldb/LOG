@@ -1,0 +1,5 @@
+2021/04/16-14:02:50.694 ef77 Reusing MANIFEST /home/shivanshxyz/.config/google-chrome/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/16-14:03:31.595 ef45 Level-0 table #5: started
+2021/04/16-14:03:31.597 ef45 Level-0 table #5: 45782 bytes OK
+2021/04/16-14:03:31.599 ef45 Delete type=0 #3
+2021/04/16-14:03:31.599 ef45 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

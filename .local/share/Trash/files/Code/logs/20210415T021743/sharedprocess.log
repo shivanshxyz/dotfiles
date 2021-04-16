@@ -1,0 +1,259 @@
+[2021-04-15 02:18:25.707] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-04-15 02:18:38.901] [sharedprocess] [info] Installing extension: anseki.vscode-color
+[2021-04-15 02:18:39.448] [sharedprocess] [info] Installing extension: oderwat.indent-rainbow
+[2021-04-15 02:18:39.468] [sharedprocess] [info] Installing extension: kumar-harsh.graphql-for-vscode
+[2021-04-15 02:18:39.471] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-ssh
+[2021-04-15 02:18:39.499] [sharedprocess] [info] Installing extension: jdinhlife.gruvbox
+[2021-04-15 02:18:39.501] [sharedprocess] [info] Installing extension: equimper.react-native-react-redux
+[2021-04-15 02:18:39.510] [sharedprocess] [info] Installing extension: unthrottled.doki-theme
+[2021-04-15 02:18:39.517] [sharedprocess] [info] Installing extension: grapecity.gc-excelviewer
+[2021-04-15 02:18:39.544] [sharedprocess] [info] Downloaded extension: anseki.vscode-color undefined
+[2021-04-15 02:18:39.663] [sharedprocess] [info] Installing extension: digitalbrainstem.javascript-ejs-support
+[2021-04-15 02:18:39.667] [sharedprocess] [info] Installing extension: dzannotti.vscode-babel-coloring
+[2021-04-15 02:18:39.684] [sharedprocess] [info] Installing extension: coenraads.bracket-pair-colorizer
+[2021-04-15 02:18:39.692] [sharedprocess] [info] Installing extension: naumovs.color-highlight
+[2021-04-15 02:18:39.711] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.828a759f-8013-4610-857f-a7b17315b6a7: anseki.vscode-color
+[2021-04-15 02:18:39.718] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/anseki.vscode-color-0.4.5
+[2021-04-15 02:18:39.728] [sharedprocess] [info] Installing extension: editorconfig.editorconfig
+[2021-04-15 02:18:39.730] [sharedprocess] [info] Installing extension: erikphansen.vscode-toggle-column-selection
+[2021-04-15 02:18:39.731] [sharedprocess] [info] Installing extension: hex-ci.stylelint-plus
+[2021-04-15 02:18:39.734] [sharedprocess] [info] Installing extension: sirtori.indenticator
+[2021-04-15 02:18:39.737] [sharedprocess] [info] Installing extension: formulahendry.auto-rename-tag
+[2021-04-15 02:18:39.742] [sharedprocess] [info] Installing extension: ms-vscode-remote.vscode-remote-extensionpack
+[2021-04-15 02:18:39.745] [sharedprocess] [info] Installing extension: pawankumar.dark-pk-theme
+[2021-04-15 02:18:39.751] [sharedprocess] [info] Installation completed. anseki.vscode-color
+[2021-04-15 02:18:39.767] [sharedprocess] [info] Extensions installed successfully: anseki.vscode-color
+[2021-04-15 02:18:39.791] [sharedprocess] [info] Installing extension: formulahendry.auto-close-tag
+[2021-04-15 02:18:39.800] [sharedprocess] [info] Installing extension: felipecaputo.git-project-manager
+[2021-04-15 02:18:39.809] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-ssh-edit
+[2021-04-15 02:18:39.820] [sharedprocess] [info] Installing extension: wix.vscode-import-cost
+[2021-04-15 02:18:39.829] [sharedprocess] [info] Installing extension: dbaeumer.vscode-eslint
+[2021-04-15 02:18:39.833] [sharedprocess] [info] Installing extension: eg2.tslint
+[2021-04-15 02:18:39.840] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2021-04-15 02:18:39.848] [sharedprocess] [info] Installing extension: ritwickdey.liveserver
+[2021-04-15 02:18:39.854] [sharedprocess] [info] Installing extension: wayou.vscode-todo-highlight
+[2021-04-15 02:18:39.865] [sharedprocess] [info] Installing extension: humao.rest-client
+[2021-04-15 02:18:39.874] [sharedprocess] [info] Installing extension: burkeholland.simple-react-snippets
+[2021-04-15 02:18:39.879] [sharedprocess] [info] Installing extension: ms-azuretools.vscode-docker
+[2021-04-15 02:18:39.882] [sharedprocess] [info] Installing extension: mechatroner.rainbow-csv
+[2021-04-15 02:18:39.888] [sharedprocess] [info] Installing extension: msjsdiag.vscode-react-native
+[2021-04-15 02:18:39.893] [sharedprocess] [info] Installing extension: donjayamanne.githistory
+[2021-04-15 02:18:39.918] [sharedprocess] [info] Installing extension: pkief.material-icon-theme
+[2021-04-15 02:18:39.926] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-wsl
+[2021-04-15 02:18:39.930] [sharedprocess] [info] Installing extension: dart-code.flutter
+[2021-04-15 02:18:39.970] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2021-04-15 02:18:39.981] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-containers
+[2021-04-15 02:18:40.044] [sharedprocess] [info] Installing extension: dart-code.dart-code
+[2021-04-15 02:18:40.052] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-04-15 02:18:40.056] [sharedprocess] [info] Installing extension: streetsidesoftware.code-spell-checker
+[2021-04-15 02:18:40.098] [sharedprocess] [info] Installing extension: wallabyjs.quokka-vscode
+[2021-04-15 02:18:40.124] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-ssh undefined
+[2021-04-15 02:18:40.299] [sharedprocess] [info] Downloaded extension: oderwat.indent-rainbow undefined
+[2021-04-15 02:18:40.415] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.bedae2c2-cd96-4e8a-bdd2-01f39228c0a4: oderwat.indent-rainbow
+[2021-04-15 02:18:40.415] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.vscode-remote-extensionpack undefined
+[2021-04-15 02:18:40.426] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/oderwat.indent-rainbow-7.5.0
+[2021-04-15 02:18:40.428] [sharedprocess] [info] Installation completed. oderwat.indent-rainbow
+[2021-04-15 02:18:40.431] [sharedprocess] [info] Extensions installed successfully: oderwat.indent-rainbow
+[2021-04-15 02:18:40.455] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.6f67f36f-7721-42bf-8f91-c0ec23264bc3: ms-vscode-remote.vscode-remote-extensionpack
+[2021-04-15 02:18:40.462] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/ms-vscode-remote.vscode-remote-extensionpack-0.20.0
+[2021-04-15 02:18:40.466] [sharedprocess] [info] Installation completed. ms-vscode-remote.vscode-remote-extensionpack
+[2021-04-15 02:18:40.471] [sharedprocess] [info] Extensions installed successfully: ms-vscode-remote.vscode-remote-extensionpack
+[2021-04-15 02:18:40.543] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.d359d5d9-943d-49bc-9282-6a0519e3e2e1: ms-vscode-remote.remote-ssh
+[2021-04-15 02:18:40.550] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/ms-vscode-remote.remote-ssh-0.65.2
+[2021-04-15 02:18:40.551] [sharedprocess] [info] Installation completed. ms-vscode-remote.remote-ssh
+[2021-04-15 02:18:40.557] [sharedprocess] [info] Extensions installed successfully: ms-vscode-remote.remote-ssh
+[2021-04-15 02:18:40.743] [sharedprocess] [info] Downloaded extension: dbaeumer.vscode-eslint undefined
+[2021-04-15 02:18:40.749] [sharedprocess] [info] Downloaded extension: digitalbrainstem.javascript-ejs-support undefined
+[2021-04-15 02:18:40.783] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.5192cbc2-fa06-4321-8447-80b6a33a1e82: digitalbrainstem.javascript-ejs-support
+[2021-04-15 02:18:40.791] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/digitalbrainstem.javascript-ejs-support-1.3.1
+[2021-04-15 02:18:40.793] [sharedprocess] [info] Installation completed. digitalbrainstem.javascript-ejs-support
+[2021-04-15 02:18:40.798] [sharedprocess] [info] Extensions installed successfully: digitalbrainstem.javascript-ejs-support
+[2021-04-15 02:18:40.799] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.121af948-0b44-458b-b68c-f409f3d268ee: dbaeumer.vscode-eslint
+[2021-04-15 02:18:40.810] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20
+[2021-04-15 02:18:40.812] [sharedprocess] [info] Installation completed. dbaeumer.vscode-eslint
+[2021-04-15 02:18:40.814] [sharedprocess] [info] Extensions installed successfully: dbaeumer.vscode-eslint
+[2021-04-15 02:18:41.095] [sharedprocess] [info] Downloaded extension: unthrottled.doki-theme undefined
+[2021-04-15 02:18:41.260] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.b3160511-dc21-4769-897e-e28bab38aab8: unthrottled.doki-theme
+[2021-04-15 02:18:41.264] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/unthrottled.doki-theme-11.1.1
+[2021-04-15 02:18:41.266] [sharedprocess] [info] Installation completed. unthrottled.doki-theme
+[2021-04-15 02:18:41.274] [sharedprocess] [info] Extensions installed successfully: unthrottled.doki-theme
+[2021-04-15 02:18:41.489] [sharedprocess] [info] Downloaded extension: dzannotti.vscode-babel-coloring undefined
+[2021-04-15 02:18:41.496] [sharedprocess] [info] Downloaded extension: naumovs.color-highlight undefined
+[2021-04-15 02:18:41.497] [sharedprocess] [info] Downloaded extension: eg2.tslint undefined
+[2021-04-15 02:18:41.499] [sharedprocess] [info] Downloaded extension: felipecaputo.git-project-manager undefined
+[2021-04-15 02:18:41.745] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.f4af5eef-ab47-433b-afa4-76e8383c8014: dzannotti.vscode-babel-coloring
+[2021-04-15 02:18:41.763] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/dzannotti.vscode-babel-coloring-0.0.4
+[2021-04-15 02:18:41.769] [sharedprocess] [info] Installation completed. dzannotti.vscode-babel-coloring
+[2021-04-15 02:18:41.770] [sharedprocess] [info] Downloaded extension: equimper.react-native-react-redux undefined
+[2021-04-15 02:18:41.782] [sharedprocess] [info] Extensions installed successfully: dzannotti.vscode-babel-coloring
+[2021-04-15 02:18:41.872] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.303a1a07-aba5-4fe3-bf73-a24852f61e5f: equimper.react-native-react-redux
+[2021-04-15 02:18:41.883] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/equimper.react-native-react-redux-2.0.6
+[2021-04-15 02:18:41.888] [sharedprocess] [info] Installation completed. equimper.react-native-react-redux
+[2021-04-15 02:18:41.891] [sharedprocess] [info] Extensions installed successfully: equimper.react-native-react-redux
+[2021-04-15 02:18:41.948] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-ssh-edit undefined
+[2021-04-15 02:18:41.997] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.14b41515-d1da-49c5-9aa7-2fc6ef6cb9f2: ms-vscode-remote.remote-ssh-edit
+[2021-04-15 02:18:42.029] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/ms-vscode-remote.remote-ssh-edit-0.65.2
+[2021-04-15 02:18:42.031] [sharedprocess] [info] Installation completed. ms-vscode-remote.remote-ssh-edit
+[2021-04-15 02:18:42.038] [sharedprocess] [info] Extensions installed successfully: ms-vscode-remote.remote-ssh-edit
+[2021-04-15 02:18:42.146] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.3e814175-d5e0-41b2-817f-4772abc29615: felipecaputo.git-project-manager
+[2021-04-15 02:18:42.157] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/felipecaputo.git-project-manager-1.7.1
+[2021-04-15 02:18:42.161] [sharedprocess] [info] Installation completed. felipecaputo.git-project-manager
+[2021-04-15 02:18:42.165] [sharedprocess] [info] Extensions installed successfully: felipecaputo.git-project-manager
+[2021-04-15 02:18:42.224] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.a66cb61f-6f82-4c8d-96aa-c652b01f4e59: naumovs.color-highlight
+[2021-04-15 02:18:42.249] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/naumovs.color-highlight-2.3.0
+[2021-04-15 02:18:42.257] [sharedprocess] [info] Installation completed. naumovs.color-highlight
+[2021-04-15 02:18:42.265] [sharedprocess] [info] Extensions installed successfully: naumovs.color-highlight
+[2021-04-15 02:18:42.283] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-wsl undefined
+[2021-04-15 02:18:42.449] [sharedprocess] [info] Downloaded extension: editorconfig.editorconfig undefined
+[2021-04-15 02:18:42.478] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.6e12ced3-f8ec-46d1-be0c-cadc87aeee38: ms-vscode-remote.remote-wsl
+[2021-04-15 02:18:42.491] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/ms-vscode-remote.remote-wsl-0.54.6
+[2021-04-15 02:18:42.494] [sharedprocess] [info] Installation completed. ms-vscode-remote.remote-wsl
+[2021-04-15 02:18:42.504] [sharedprocess] [info] Extensions installed successfully: ms-vscode-remote.remote-wsl
+[2021-04-15 02:18:42.582] [sharedprocess] [info] Downloaded extension: pawankumar.dark-pk-theme undefined
+[2021-04-15 02:18:42.625] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.b08bf02a-0498-4a21-a1da-d3fa9542b562: pawankumar.dark-pk-theme
+[2021-04-15 02:18:42.630] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/pawankumar.dark-pk-theme-1.0.0
+[2021-04-15 02:18:42.638] [sharedprocess] [info] Installation completed. pawankumar.dark-pk-theme
+[2021-04-15 02:18:42.640] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.55ae579c-93e2-4566-8208-408eb84cf6f8: eg2.tslint
+[2021-04-15 02:18:42.654] [sharedprocess] [info] Extensions installed successfully: pawankumar.dark-pk-theme
+[2021-04-15 02:18:42.664] [sharedprocess] [info] Downloaded extension: sirtori.indenticator undefined
+[2021-04-15 02:18:42.668] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/eg2.tslint-1.0.46
+[2021-04-15 02:18:42.675] [sharedprocess] [info] Installation completed. eg2.tslint
+[2021-04-15 02:18:42.681] [sharedprocess] [info] Extensions installed successfully: eg2.tslint
+[2021-04-15 02:18:42.739] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.4838e036-83c6-44f1-bbb2-8118953c155d: editorconfig.editorconfig
+[2021-04-15 02:18:42.742] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.ab0aa3df-aebc-49af-a671-7f347ccdd297: sirtori.indenticator
+[2021-04-15 02:18:42.744] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/editorconfig.editorconfig-0.16.4
+[2021-04-15 02:18:42.751] [sharedprocess] [info] Installation completed. editorconfig.editorconfig
+[2021-04-15 02:18:42.758] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/sirtori.indenticator-0.7.0
+[2021-04-15 02:18:42.777] [sharedprocess] [info] Extensions installed successfully: editorconfig.editorconfig
+[2021-04-15 02:18:42.779] [sharedprocess] [info] Installation completed. sirtori.indenticator
+[2021-04-15 02:18:42.788] [sharedprocess] [info] Extensions installed successfully: sirtori.indenticator
+[2021-04-15 02:18:44.348] [sharedprocess] [info] Downloaded extension: dart-code.flutter undefined
+[2021-04-15 02:18:44.416] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.9d474753-b115-45ac-bc75-87e033f650bd: dart-code.flutter
+[2021-04-15 02:18:44.422] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/dart-code.flutter-3.21.0
+[2021-04-15 02:18:44.423] [sharedprocess] [info] Installation completed. dart-code.flutter
+[2021-04-15 02:18:44.425] [sharedprocess] [info] Extensions installed successfully: dart-code.flutter
+[2021-04-15 02:18:44.486] [sharedprocess] [info] Downloaded extension: grapecity.gc-excelviewer undefined
+[2021-04-15 02:18:44.642] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.d33c3080-fb89-4222-95a1-5062cf96e8ca: grapecity.gc-excelviewer
+[2021-04-15 02:18:44.645] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/grapecity.gc-excelviewer-3.0.41
+[2021-04-15 02:18:44.646] [sharedprocess] [info] Installation completed. grapecity.gc-excelviewer
+[2021-04-15 02:18:44.652] [sharedprocess] [info] Extensions installed successfully: grapecity.gc-excelviewer
+[2021-04-15 02:18:44.867] [sharedprocess] [info] Downloaded extension: pkief.material-icon-theme undefined
+[2021-04-15 02:18:45.056] [sharedprocess] [info] Downloaded extension: coenraads.bracket-pair-colorizer undefined
+[2021-04-15 02:18:45.056] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-containers undefined
+[2021-04-15 02:18:45.158] [sharedprocess] [info] Downloaded extension: formulahendry.auto-rename-tag undefined
+[2021-04-15 02:18:45.230] [sharedprocess] [info] Downloaded extension: formulahendry.auto-close-tag undefined
+[2021-04-15 02:18:45.262] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.9c208797-3582-4783-9cf4-cb30b7ce1bd1: formulahendry.auto-rename-tag
+[2021-04-15 02:18:45.284] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/formulahendry.auto-rename-tag-0.1.6
+[2021-04-15 02:18:45.288] [sharedprocess] [info] Installation completed. formulahendry.auto-rename-tag
+[2021-04-15 02:18:45.292] [sharedprocess] [info] Extensions installed successfully: formulahendry.auto-rename-tag
+[2021-04-15 02:18:45.422] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.eb69c62c-839d-4ba5-b1b0-765c6f7d2d23: formulahendry.auto-close-tag
+[2021-04-15 02:18:45.431] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/formulahendry.auto-close-tag-0.5.10
+[2021-04-15 02:18:45.442] [sharedprocess] [info] Installation completed. formulahendry.auto-close-tag
+[2021-04-15 02:18:45.459] [sharedprocess] [info] Extensions installed successfully: formulahendry.auto-close-tag
+[2021-04-15 02:18:45.745] [sharedprocess] [info] Downloaded extension: wayou.vscode-todo-highlight undefined
+[2021-04-15 02:18:45.878] [sharedprocess] [info] Downloaded extension: jdinhlife.gruvbox undefined
+[2021-04-15 02:18:45.892] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.1bc8104a-70ba-4980-bca5-d0d512712421: wayou.vscode-todo-highlight
+[2021-04-15 02:18:45.902] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/wayou.vscode-todo-highlight-1.0.4
+[2021-04-15 02:18:45.906] [sharedprocess] [info] Installation completed. wayou.vscode-todo-highlight
+[2021-04-15 02:18:45.918] [sharedprocess] [info] Extensions installed successfully: wayou.vscode-todo-highlight
+[2021-04-15 02:18:46.089] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.0fba39b3-89e7-408e-b9d0-a2761f1c9ff1: jdinhlife.gruvbox
+[2021-04-15 02:18:46.096] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/jdinhlife.gruvbox-1.4.0
+[2021-04-15 02:18:46.105] [sharedprocess] [info] Installation completed. jdinhlife.gruvbox
+[2021-04-15 02:18:46.109] [sharedprocess] [info] Extensions installed successfully: jdinhlife.gruvbox
+[2021-04-15 02:18:46.419] [sharedprocess] [info] Downloaded extension: humao.rest-client undefined
+[2021-04-15 02:18:46.488] [sharedprocess] [info] Downloaded extension: donjayamanne.githistory undefined
+[2021-04-15 02:18:46.786] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.e0c536a9-985d-4821-95ee-a439d49c1443: humao.rest-client
+[2021-04-15 02:18:46.801] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/humao.rest-client-0.24.5
+[2021-04-15 02:18:46.805] [sharedprocess] [info] Installation completed. humao.rest-client
+[2021-04-15 02:18:46.811] [sharedprocess] [info] Extensions installed successfully: humao.rest-client
+[2021-04-15 02:18:46.857] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.dc183dfa-c457-4902-9108-e0ae1a0bc67e: donjayamanne.githistory
+[2021-04-15 02:18:46.874] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/donjayamanne.githistory-0.6.16
+[2021-04-15 02:18:46.891] [sharedprocess] [info] Installation completed. donjayamanne.githistory
+[2021-04-15 02:18:46.896] [sharedprocess] [info] Extensions installed successfully: donjayamanne.githistory
+[2021-04-15 02:18:46.991] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.46bdf2d5-fbd2-4c65-a0c9-c8e9caa59829: ms-vscode-remote.remote-containers
+[2021-04-15 02:18:47.008] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/ms-vscode-remote.remote-containers-0.166.1
+[2021-04-15 02:18:47.012] [sharedprocess] [info] Installation completed. ms-vscode-remote.remote-containers
+[2021-04-15 02:18:47.029] [sharedprocess] [info] Extensions installed successfully: ms-vscode-remote.remote-containers
+[2021-04-15 02:18:47.044] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.4812b23d-d509-46bf-9482-99d1580cb0f3: coenraads.bracket-pair-colorizer
+[2021-04-15 02:18:47.056] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61
+[2021-04-15 02:18:47.058] [sharedprocess] [info] Installation completed. coenraads.bracket-pair-colorizer
+[2021-04-15 02:18:47.061] [sharedprocess] [info] Extensions installed successfully: coenraads.bracket-pair-colorizer
+[2021-04-15 02:18:47.277] [sharedprocess] [info] Downloaded extension: mechatroner.rainbow-csv undefined
+[2021-04-15 02:18:47.351] [sharedprocess] [info] Downloaded extension: kumar-harsh.graphql-for-vscode undefined
+[2021-04-15 02:18:47.431] [sharedprocess] [info] Downloaded extension: msjsdiag.vscode-react-native undefined
+[2021-04-15 02:18:47.492] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.0a1e4589-8553-43f3-ab23-7e23cf2f8ab6: pkief.material-icon-theme
+[2021-04-15 02:18:47.509] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/pkief.material-icon-theme-4.6.0
+[2021-04-15 02:18:47.526] [sharedprocess] [info] Installation completed. pkief.material-icon-theme
+[2021-04-15 02:18:47.537] [sharedprocess] [info] Extensions installed successfully: pkief.material-icon-theme
+[2021-04-15 02:18:47.703] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.04885cd6-0f29-4479-88ac-e8690429906d: mechatroner.rainbow-csv
+[2021-04-15 02:18:47.712] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/mechatroner.rainbow-csv-1.8.1
+[2021-04-15 02:18:47.724] [sharedprocess] [info] Installation completed. mechatroner.rainbow-csv
+[2021-04-15 02:18:47.742] [sharedprocess] [info] Extensions installed successfully: mechatroner.rainbow-csv
+[2021-04-15 02:18:47.895] [sharedprocess] [info] Downloaded extension: ms-azuretools.vscode-docker undefined
+[2021-04-15 02:18:47.926] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.51045e64-b672-4d9e-8534-b8aaf4626952: msjsdiag.vscode-react-native
+[2021-04-15 02:18:47.954] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/msjsdiag.vscode-react-native-1.4.1
+[2021-04-15 02:18:47.958] [sharedprocess] [info] Installation completed. msjsdiag.vscode-react-native
+[2021-04-15 02:18:47.967] [sharedprocess] [info] Extensions installed successfully: msjsdiag.vscode-react-native
+[2021-04-15 02:18:48.450] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.73348cf1-825f-491c-bf79-2eac1bd4c759: ms-azuretools.vscode-docker
+[2021-04-15 02:18:48.467] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/ms-azuretools.vscode-docker-1.12.1
+[2021-04-15 02:18:48.507] [sharedprocess] [info] Installation completed. ms-azuretools.vscode-docker
+[2021-04-15 02:18:48.512] [sharedprocess] [info] Extensions installed successfully: ms-azuretools.vscode-docker
+[2021-04-15 02:18:49.740] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.89815a28-ff3d-493a-8bae-111beac301bd: kumar-harsh.graphql-for-vscode
+[2021-04-15 02:18:49.746] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/kumar-harsh.graphql-for-vscode-1.15.3
+[2021-04-15 02:18:49.749] [sharedprocess] [info] Installation completed. kumar-harsh.graphql-for-vscode
+[2021-04-15 02:18:49.751] [sharedprocess] [info] Extensions installed successfully: kumar-harsh.graphql-for-vscode
+[2021-04-15 02:18:51.118] [sharedprocess] [info] Downloaded extension: erikphansen.vscode-toggle-column-selection undefined
+[2021-04-15 02:18:51.178] [sharedprocess] [info] Downloaded extension: ritwickdey.liveserver undefined
+[2021-04-15 02:18:51.337] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.6809c69b-cc5d-4a60-8970-87b61998c854: erikphansen.vscode-toggle-column-selection
+[2021-04-15 02:18:51.346] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/erikphansen.vscode-toggle-column-selection-1.0.6
+[2021-04-15 02:18:51.349] [sharedprocess] [info] Installation completed. erikphansen.vscode-toggle-column-selection
+[2021-04-15 02:18:51.351] [sharedprocess] [info] Extensions installed successfully: erikphansen.vscode-toggle-column-selection
+[2021-04-15 02:18:52.638] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode undefined
+[2021-04-15 02:18:53.088] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.b9d8d201-cf6c-4afa-b384-8d43d9b5f51f: esbenp.prettier-vscode
+[2021-04-15 02:18:53.099] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/esbenp.prettier-vscode-6.3.2
+[2021-04-15 02:18:53.101] [sharedprocess] [info] Installation completed. esbenp.prettier-vscode
+[2021-04-15 02:18:53.104] [sharedprocess] [info] Extensions installed successfully: esbenp.prettier-vscode
+[2021-04-15 02:18:53.730] [sharedprocess] [info] Downloaded extension: streetsidesoftware.code-spell-checker undefined
+[2021-04-15 02:18:54.179] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.521bd8c8-7bbd-434c-9cd9-02d7ac3a970b: ritwickdey.liveserver
+[2021-04-15 02:18:54.186] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/ritwickdey.liveserver-5.6.1
+[2021-04-15 02:18:54.189] [sharedprocess] [info] Installation completed. ritwickdey.liveserver
+[2021-04-15 02:18:54.198] [sharedprocess] [info] Extensions installed successfully: ritwickdey.liveserver
+[2021-04-15 02:18:56.122] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.772dde0c-eb19-4523-b37f-dfd923514512: streetsidesoftware.code-spell-checker
+[2021-04-15 02:18:56.136] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/streetsidesoftware.code-spell-checker-1.10.2
+[2021-04-15 02:18:56.145] [sharedprocess] [info] Installation completed. streetsidesoftware.code-spell-checker
+[2021-04-15 02:18:56.184] [sharedprocess] [info] Extensions installed successfully: streetsidesoftware.code-spell-checker
+[2021-04-15 02:18:56.923] [sharedprocess] [info] Downloaded extension: burkeholland.simple-react-snippets undefined
+[2021-04-15 02:18:57.112] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.9ec31310-4469-44de-91cc-372ad376b712: burkeholland.simple-react-snippets
+[2021-04-15 02:18:57.116] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/burkeholland.simple-react-snippets-1.2.3
+[2021-04-15 02:18:57.118] [sharedprocess] [info] Installation completed. burkeholland.simple-react-snippets
+[2021-04-15 02:18:57.120] [sharedprocess] [info] Extensions installed successfully: burkeholland.simple-react-snippets
+[2021-04-15 02:18:58.008] [sharedprocess] [info] Downloaded extension: dart-code.dart-code undefined
+[2021-04-15 02:18:58.262] [sharedprocess] [info] Downloaded extension: hex-ci.stylelint-plus undefined
+[2021-04-15 02:18:58.718] [sharedprocess] [info] Downloaded extension: wallabyjs.quokka-vscode undefined
+[2021-04-15 02:19:01.250] [sharedprocess] [info] Downloaded extension: wix.vscode-import-cost undefined
+[2021-04-15 02:19:03.508] [sharedprocess] [info] Downloaded extension: ms-python.python undefined
+[2021-04-15 02:19:04.111] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter undefined
+[2021-04-15 02:19:08.008] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.19e5ed18-cc97-45df-af6e-131057437295: ms-toolsai.jupyter
+[2021-04-15 02:19:08.043] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/ms-toolsai.jupyter-2021.5.745244803
+[2021-04-15 02:19:08.062] [sharedprocess] [info] Installation completed. ms-toolsai.jupyter
+[2021-04-15 02:19:08.090] [sharedprocess] [info] Extensions installed successfully: ms-toolsai.jupyter
+[2021-04-15 02:19:08.744] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.eb251652-5021-466b-b81c-acabc1cdc96f: wallabyjs.quokka-vscode
+[2021-04-15 02:19:08.760] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/wallabyjs.quokka-vscode-1.0.354
+[2021-04-15 02:19:08.767] [sharedprocess] [info] Installation completed. wallabyjs.quokka-vscode
+[2021-04-15 02:19:08.773] [sharedprocess] [info] Extensions installed successfully: wallabyjs.quokka-vscode
+[2021-04-15 02:19:12.621] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.e41534f8-e134-4a0f-98e7-54f44c9b38bc: hex-ci.stylelint-plus
+[2021-04-15 02:19:12.647] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/hex-ci.stylelint-plus-0.53.1
+[2021-04-15 02:19:12.650] [sharedprocess] [info] Installation completed. hex-ci.stylelint-plus
+[2021-04-15 02:19:12.653] [sharedprocess] [info] Extensions installed successfully: hex-ci.stylelint-plus
+[2021-04-15 02:19:14.556] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.43de4a96-7952-4b11-a510-00b3883f90bb: ms-python.python
+[2021-04-15 02:19:14.581] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/ms-python.python-2021.3.680753044
+[2021-04-15 02:19:14.585] [sharedprocess] [info] Installation completed. ms-python.python
+[2021-04-15 02:19:14.589] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2021-04-15 02:19:15.488] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.3b8fc437-df60-421f-90d1-2fc0280bac01: dart-code.dart-code
+[2021-04-15 02:19:15.505] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/dart-code.dart-code-3.21.1
+[2021-04-15 02:19:15.508] [sharedprocess] [info] Installation completed. dart-code.dart-code
+[2021-04-15 02:19:15.515] [sharedprocess] [info] Extensions installed successfully: dart-code.dart-code
+[2021-04-15 02:19:15.862] [sharedprocess] [info] Extracted extension to /home/shivanshxyz/.vscode/extensions/.7aac95bb-c36f-4fd6-82a1-e258b2c33972: wix.vscode-import-cost
+[2021-04-15 02:19:15.869] [sharedprocess] [info] Renamed to /home/shivanshxyz/.vscode/extensions/wix.vscode-import-cost-2.15.0
+[2021-04-15 02:19:15.870] [sharedprocess] [info] Installation completed. wix.vscode-import-cost
+[2021-04-15 02:19:15.872] [sharedprocess] [info] Extensions installed successfully: wix.vscode-import-cost

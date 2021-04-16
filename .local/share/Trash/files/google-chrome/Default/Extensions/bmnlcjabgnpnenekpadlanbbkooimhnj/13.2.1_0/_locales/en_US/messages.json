@@ -1,0 +1,53 @@
+{
+   "Click_to_claim_VALUE": {
+      "message": "That’s {VALUE}!"
+   },
+   "Create_a_free_account_to_claim_your_rewards_Once_you_reach_1000_Gold_redeem_it_for_a_10_gift_card": {
+      "message": "Create a free account to claim your rewards. Once you reach 1,000 Gold, redeem it for a $$10 gift card."
+   },
+   "GOLDVALUE_Gold_will_be_credited_to_your_account_once_STORENAME_confirms_your_purchase": {
+      "message": "{GOLDVALUE} Gold ($${DOLLARVALUE} value) will be credited to your account once {STORENAME} confirms your purchase."
+   },
+   "Get_GOLDRANGE_Honey_Gold_back_on_your_purchase_Redeem_1000_Gold_for_a_10_Gift_Card": {
+      "message": "Get {GOLDRANGE} Honey Gold back on your purchase. Redeem 1000 Gold for a $$10 Gift Card."
+   },
+   "Once_you_earn_1000_Gold_you_can_redeem_it_for_a_10_gift_card": {
+      "message": "Once you earn 1,000 Gold, you can redeem it for a $$10 gift card."
+   },
+   "Once_you_earn_1000_Honey_Gold_redeem_it_for_a_10_gift_card_from_stores_like_Amazon_Target_and_Walmart": {
+      "message": "Once you earn 1,000 Honey Gold, redeem it for a $$10 gift card from stores like Amazon, Target and Walmart."
+   },
+   "Once_you_earn_1000_Honey_Gold_you_can_redeem_it_for_a_10_gift_card_from_stores_like_Amazon_Target_and_Walmart": {
+      "message": "Once you earn 1,000 Honey Gold, you can redeem it for a $$10 gift card from stores like Amazon, Target and Walmart."
+   },
+   "Redeem_HONEYGOLD_Gold_for_a_10_gift_card": {
+      "message": "Redeem {HONEYGOLD} Gold for a $$10 gift card."
+   },
+   "Share_your_link_with_your_friends_For_each_friend_who_creates_an_account_with_your_link_and_earns_Gold_on_a_purchase_youll_qualify_for_Gold": {
+      "message": "Share your link with your friends. For each friend who creates an account with your link and earns Gold on a purchase, you’ll qualify for 500 Gold*."
+   },
+   "Share_your_link_with_your_friends_Once_they_create_an_account_and_earn_Gold_on_a_purchase_you_get_Gold_Redeem_HONEYGOLDAMOUNT_Gold_for_a_MINAMOUNTTOREDEEM_gift_card": {
+      "message": "Share your link with your friends. Once they create an account and earn Gold on a purchase, you get 500 Gold. Redeem {HONEYGOLDAMOUNT} Gold for a {MINAMOUNTTOREDEEM} gift card!"
+   },
+   "TERMS_and_EXCLUSIONS_apply": {
+      "message": "{TERMS} and {EXCLUSIONS} apply."
+   },
+   "Thank_yous_are_nice_Gift_cards_are_even_better_Honey_gold_is_our_rewards_program_where_you_can_earn_gift_cards_from_your_favorite_stores_Once_you_earn_HONEYGOLD_Gold_redeem_it_for_a_MINAMOUNTTOREDEEM_gift_card": {
+      "message": "Thank yous are nice. Gift cards are even better. Honey Gold is our rewards program where you can earn gift cards from your favorite stores. Once you earn {HONEYGOLD} Gold, redeem it for a {MINAMOUNTTOREDEEM} gift card."
+   },
+   "Thats_up_to_GOLDMAX_Gold_Redeem_1000_Honey_Gold_for_a_10_gift_card": {
+      "message": "That's up to {GOLDMAX} Gold. Redeem 1,000 Honey Gold for a $$10 gift card."
+   },
+   "This_store_doesnt_have_any_working_codes_but_Honey_has_you_covered_with_up_to_GOLDVALUE_Honey_Gold_back_on_your_purchase_Redeem_Gold_for_a_Gift_Card": {
+      "message": "This store doesn’t have any working codes, but Honey has you covered with up to {GOLDVALUE} Honey Gold back on your purchase. Redeem 1000 Gold for a $$10 Gift Card."
+   },
+   "Well_credit_GOLDVALUE_GOLDCURRENCYVALUE_value_to_your_Honey_account_as_soon_as_STORENAME_confirms_your_purchase": {
+      "message": "We’ll credit {GOLDVALUE} ($${GOLDCURRENCYVALUE} value) to your Honey account as soon as {STORENAME} confirms your purchase."
+   },
+   "Well_credit_GOLDVALUE_GOLDCURRENCYVALUE_value_to_your_Honey_account_as_soon_as_STORENAME_confirms_your_purchase_of_at_least_MINVALUE": {
+      "message": "We’ll credit {GOLDVALUE} ($${GOLDCURRENCYVALUE} value) to your Honey account as soon as {STORENAME} confirms your purchase of at least {MINVALUE}."
+   },
+   "Your_adblocker_may_be_keeping_you_from_earning_Honey_Gold_Honey_Gold_can_be_redeemed_for_a_gift_card": {
+      "message": "Your adblocker may be keeping you from earning Honey Gold. 1,000 Honey Gold can be redeemed for a $$10 USD gift card."
+   }
+}

@@ -1,0 +1,1 @@
+Bloqueie as janelas indesejáveis e de segundo plano, não importa onde você fizer clique em uma página.

@@ -1,0 +1,356 @@
+{
+   "NTF_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "NTF_blockPrevSite": {
+      "message": "Popup bloqué"
+   },
+   "NTF_shareUs": {
+      "message": "We like you too! Don't you think it's time to tell your friends about us?"
+   },
+   "OP_overlayList": {
+      "message": "always block overlay list"
+   },
+   "OP_urlExistsInDefaultList": {
+      "message": "This site is already %s by Poper Blocker"
+   },
+   "OP_urlExistsInList": {
+      "message": "This site is already in %s"
+   },
+   "OP_whitelist": {
+      "message": "Whitelist"
+   },
+   "OP_whitelisted": {
+      "message": "whitelisted"
+   },
+   "PP_BlockAnyway": {
+      "message": "Bloquer néanmoins"
+   },
+   "PP_DidWeMiss": {
+      "message": "Nous en avons raté un ?"
+   },
+   "PP_ExtName": {
+      "message": "Poper Blocker"
+   },
+   "PP_Incognito_GotIt": {
+      "message": "OK, Got it"
+   },
+   "PP_Incognito_Step1": {
+      "message": "Go to"
+   },
+   "PP_Incognito_Step2": {
+      "message": "Find Poper Blocker"
+   },
+   "PP_Incognito_Step3": {
+      "message": "Mark the checkbox next to \u003Ci>\"Allow in incognito\"\u003C/i>"
+   },
+   "PP_Incognito_Title": {
+      "message": "In order to enable Poper Blocker in Chrome's Incognito Mode, follow the next steps:"
+   },
+   "PP_Menu_Incognito": {
+      "message": "Incognito"
+   },
+   "PP_Menu_Options": {
+      "message": "Options"
+   },
+   "PP_Menu_Rate": {
+      "message": "Rate Us"
+   },
+   "PP_Menu_Share": {
+      "message": "Share"
+   },
+   "PP_Menu_Stats": {
+      "message": "Stats"
+   },
+   "PP_NoPopupsBlocked": {
+      "message": "Ça se présente bien !"
+   },
+   "PP_Overlay": {
+      "message": "Overlay"
+   },
+   "PP_Popup": {
+      "message": "Popup"
+   },
+   "PP_PopupsAllowed": {
+      "message": "Pop-up autorisés sur"
+   },
+   "PP_PopupsEssential": {
+      "message": "Les popups sont une fonctionnalité essentielle de ce site"
+   },
+   "PP_PopupsFound": {
+      "message": "Les popups sont bloqués sur"
+   },
+   "PP_PopupsFound_X1": {
+      "message": "Les popups sont bloqués sur"
+   },
+   "PP_PopupsNotFound": {
+      "message": "Jusque-là, aucun pop-up \r\nn'a été détecté sur"
+   },
+   "PP_Rate": {
+      "message": "Rate Poper Blocker"
+   },
+   "PP_Share_Friends": {
+      "message": "Share Poper Blocker\u003Cbr />with friends"
+   },
+   "PP_Share_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "PP_Share_TT_Copy": {
+      "message": "Copy Link"
+   },
+   "PP_Share_TT_Facebook": {
+      "message": "Share on Facebook"
+   },
+   "PP_Share_TT_Twitter": {
+      "message": "Share on Twitter"
+   },
+   "PP_Stats_HowItWorks": {
+      "message": "See how it really works"
+   },
+   "PP_Stats_Overlays": {
+      "message": "Overlays"
+   },
+   "PP_Stats_Tabs": {
+      "message": "Onglets"
+   },
+   "PP_Stats_TotalPopsBlocked": {
+      "message": "Total de pop-up bloqués"
+   },
+   "PP_Stats_TotalTimeSaved": {
+      "message": "Temps total économisé"
+   },
+   "PP_Stats_Windows": {
+      "message": "Fenêtres"
+   },
+   "PP_SwitchedOff": {
+      "message": "est éteint"
+   },
+   "PP_TooltipAllowPops": {
+      "message": "Cliquez ici pour autoriser les popups sur ce site. Il sera ajouté à votre liste blanche personnelle. "
+   },
+   "PP_TooltipBlockPops": {
+      "message": "\r\nPas de problème ! \r\nSympa ! \r\nFastoche ! "
+   },
+   "PP_TooltipReportOver": {
+      "message": "Cliquez ici pour retirer un overlay apparu sur la page actuelle"
+   },
+   "PP_TooltipReportPop": {
+      "message": "Cliquez ici pour nous signaler un popup omis dans un nouvel onglet ou une nouvelle fenêtre"
+   },
+   "PP_TooltipWhitelistBlockPops": {
+      "message": "We verified that popups are essential functionalities on this site, but feel free to block anyway."
+   },
+   "PP_WhiteListed": {
+      "message": "Autorisé par\r\npoper blocker"
+   },
+   "PP_XPopupsBlocked_1": {
+      "message": "Pas de problème !"
+   },
+   "PP_XPopupsBlocked_2": {
+      "message": "Fastoche !"
+   },
+   "PP_XPopupsBlocked_3": {
+      "message": "Sympa !"
+   },
+   "PP_XPopupsBlocked_4": {
+      "message": "Un jeu d'enfant !"
+   },
+   "PP_XPopupsBlocked_5": {
+      "message": "C'est du gâteau ! "
+   },
+   "TS_NoOverlay": {
+      "message": "No overlay found"
+   },
+   "add": {
+      "message": "Ajouter"
+   },
+   "allowAlways": {
+      "message": "Toujours autoriser"
+   },
+   "allowAlwaysTip": {
+      "message": "Toujours autoriser les popups sur ce site. Le site sera ajouté à votre liste blanche.  "
+   },
+   "allowButtonLabel": {
+      "message": "Autoriser les popups"
+   },
+   "allowOnce": {
+      "message": "Autoriser une fois"
+   },
+   "allowOnceTip": {
+      "message": "Autoriser le popup uniquement cette fois-ci. La prochaine fois que vous verrez ce popup, la question vous sera reposée. "
+   },
+   "allowOverlaysButtonLabel": {
+      "message": "Autoriser les overlays"
+   },
+   "autoDetectionButtonLabel": {
+      "message": "Oui, une fois"
+   },
+   "autoDetectionReportWebsiteButtonLabel": {
+      "message": "Signaler un site Web"
+   },
+   "autoDetectionYesAlwaysButtonLabel": {
+      "message": "Oui, toujours"
+   },
+   "badgeToggleLabel": {
+      "message": "Afficher un badge sur le bouton de la barre d'outils lorsque un popup est bloqué."
+   },
+   "blacklistTip": {
+      "message": "Toujours bloquer les overlays sur ces sites :"
+   },
+   "blockAlwaysButtonLabel": {
+      "message": "Toujours bloquer"
+   },
+   "blockButtonLabel": {
+      "message": "Bloquer les popups"
+   },
+   "blockDetectedOverlayLabel": {
+      "message": "Un overlay a été détecté. Bloquer ?"
+   },
+   "blockOverlayButtonLabel": {
+      "message": "Supprimer un overlay"
+   },
+   "bugLink": {
+      "message": "Rapportez un bug"
+   },
+   "contributeButtonLabel": {
+      "message": "Contribuer"
+   },
+   "disableNotifications": {
+      "message": "Désactiver les notifications"
+   },
+   "disablePB": {
+      "message": "Désactiver Poper Blocker"
+   },
+   "doNotShow": {
+      "message": "Ne pas afficher"
+   },
+   "doNotShowTips": {
+      "message": "Ne pas afficher cette notification lorsque des popups sont bloqués sur ce site"
+   },
+   "emailLink": {
+      "message": "Envoyez-nous un e-mail"
+   },
+   "enablePB": {
+      "message": "Activer Poper Blocker"
+   },
+   "extDescription": {
+      "message": "1re extension bloquant, facilement et efficacement, les popup, popunder et overlays indésirables. Naviguez sans interférences sur tous les sites."
+   },
+   "extName": {
+      "message": "Pop up blocker for Chrome™ - Poper Blocker"
+   },
+   "extName_FF": {
+      "message": "Popup blocker for FF: Poper Blocker"
+   },
+   "ignoreLabel": {
+      "message": "Ignorer"
+   },
+   "linksTitle": {
+      "message": "Liens"
+   },
+   "needRefresh": {
+      "message": "Refresh open tabs in order for this change to take effect."
+   },
+   "needRefreshGotIt": {
+      "message": "Ok, got it!"
+   },
+   "neverShowRefresh": {
+      "message": "Don't show again"
+   },
+   "notFoundAutoOverlayLabel": {
+      "message": "La détection automatique d'overlay n'a rien trouvé"
+   },
+   "notFoundOverlayLabel": {
+      "message": "Aucun overlay trouvé. Détection automatique ?"
+   },
+   "notificationMessage": {
+      "message": "Popup bloqué"
+   },
+   "notificationSettingsTitle": {
+      "message": "Paramètres de notification"
+   },
+   "notificationToggleLabel": {
+      "message": "Afficher une notification sur la page quand un popup est bloqué."
+   },
+   "options": {
+      "message": "Options"
+   },
+   "overlayContextMenuToggleLabel": {
+      "message": "Activer l'option \"Retirer l'overlay\" dans le menu contextuel"
+   },
+   "overlaySettingsTitle": {
+      "message": "Paramètres de blocage des overlays"
+   },
+   "overlayWasBlocked": {
+      "message": "Un overlay a été bloqué"
+   },
+   "overlaysToggleLabel": {
+      "message": "Activer le blocage d'overlays (envoie des données anonymes à Poper Blocker)"
+   },
+   "pauseButton": {
+      "message": "Pause"
+   },
+   "paused": {
+      "message": "Poper Blocker is off"
+   },
+   "popupsAllowed": {
+      "message": "Les popups sont autorisés sur ce site Internet."
+   },
+   "popupsBlocked": {
+      "message": "Les popups sont bloqués sur ce site Internet."
+   },
+   "popupsBlockedLabel": {
+      "message": "X popups bloquées"
+   },
+   "rateLink": {
+      "message": "Notez-nous 5 étoiles"
+   },
+   "rateus": {
+      "message": "Satisfait de Poper Blocker ? Notez-nous !"
+   },
+   "removeAlwaysLabel": {
+      "message": "Toujours supprimer"
+   },
+   "removeAlwaysText": {
+      "message": "Toujours retirer cet overlay et ne pas réafficher cette notification. Vous pouvez modifier cela sur la page d'options. "
+   },
+   "removeOnceLabel": {
+      "message": "Supprimer une fois"
+   },
+   "removeOverlayQLabel": {
+      "message": "Supprimer un overlay?"
+   },
+   "resumeButton": {
+      "message": "Start"
+   },
+   "undoLabel": {
+      "message": "Afficher l'overlay"
+   },
+   "undoOnceButtonLabel": {
+      "message": "Annuler une fois"
+   },
+   "undoTips": {
+      "message": "Vous avez retiré cet overlay à la main, cliquez dessus pour afficher l'overlay"
+   },
+   "urlExamplePlaceholder": {
+      "message": "Exemple : twitter.com"
+   },
+   "urlExistsInList": {
+      "message": "This site is already in list"
+   },
+   "urlExistsInPB": {
+      "message": "Ce site a déjà été ajouté à la liste blanche par Poper Blocker"
+   },
+   "urlNotValid": {
+      "message": "Veuillez saisir une URL valide."
+   },
+   "websiteInWhitelistOverlayMessage": {
+      "message": "This website is whitelisted. No overlay detection made."
+   },
+   "whitelistTip": {
+      "message": "Pour permettre les popups / popunders d'un site Web, ajoutez-le à cette liste :"
+   },
+   "whitelistTitle": {
+      "message": "Sites sur liste blanche"
+   }
+}

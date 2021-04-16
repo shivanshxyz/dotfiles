@@ -1,0 +1,3422 @@
+{
+   "0_days": {
+      "message": "0 days"
+   },
+   "1": {
+      "message": "1"
+   },
+   "1000_Gold": {
+      "message": "1000 Gold"
+   },
+   "1000_Honey_Gold_can_be_redeemed_for_a_10_USD_gift_card_at_select_stores_like_the_ones_below": {
+      "message": "1,000 Honey Gold can be redeemed for a $$10 USD gift card at select stores like the ones below."
+   },
+   "120_days": {
+      "message": "120 days"
+   },
+   "1_MORE_CODE_TRIED_AT_CHECKOUT": {
+      "message": "1 MORE CODE TRIED AT CHECKOUT"
+   },
+   "1_price_change": {
+      "message": "1 price change"
+   },
+   "2": {
+      "message": "2"
+   },
+   "24_hrs": {
+      "message": "24 hrs"
+   },
+   "3": {
+      "message": "3"
+   },
+   "30_days": {
+      "message": "30 days"
+   },
+   "30d": {
+      "message": "30d"
+   },
+   "32_characters_maximum": {
+      "message": "32 characters maximum"
+   },
+   "60_days": {
+      "message": "60 days"
+   },
+   "90_days": {
+      "message": "90 days"
+   },
+   "AMOUNT_Gift_Card": {
+      "message": "{AMOUNT} Gift Card"
+   },
+   "Account": {
+      "message": "Account"
+   },
+   "Account_Overview": {
+      "message": "Account Overview"
+   },
+   "Account_Settings": {
+      "message": "Account Settings"
+   },
+   "Activate": {
+      "message": "Activate"
+   },
+   "Activate_Exclusive_Offer": {
+      "message": "Activate Exclusive Offer"
+   },
+   "Activate_GOLDRANGE_Rewards": {
+      "message": "Activate {GOLDRANGE} Rewards"
+   },
+   "Activate_GOLDRANGE_back_in_Honey_Gold": {
+      "message": "Activate {GOLDRANGE} back in Honey Gold"
+   },
+   "Activate_Gift_Card_Deal": {
+      "message": "Activate Gift Card Deal"
+   },
+   "Activate_Gold": {
+      "message": "Activate Gold"
+   },
+   "Activate_Instantly": {
+      "message": "Activate Instantly"
+   },
+   "Activate_Offer": {
+      "message": "Activate Offer"
+   },
+   "Activate_Rewards": {
+      "message": "Activate Rewards"
+   },
+   "Activate_offer_copy": {
+      "message": "Activate offer"
+   },
+   "Activate_our_new_feature_to_automatically_save_this_and_other_items_youre_interested_in": {
+      "message": "Activate our new feature to automatically save this and other items you’re interested in."
+   },
+   "Activate_rewards_copy": {
+      "message": "Activate rewards"
+   },
+   "Activate_rewards_too": {
+      "message": "Activate rewards too"
+   },
+   "Activated": {
+      "message": "Activated"
+   },
+   "Activated_for_Eligible_Orders": {
+      "message": "Activated for Eligible Orders"
+   },
+   "Activating_rewards": {
+      "message": "Activating rewards..."
+   },
+   "Add": {
+      "message": "Add"
+   },
+   "Add_Address": {
+      "message": "Add Address"
+   },
+   "Add_Code": {
+      "message": "Add Code"
+   },
+   "Add_Line_2": {
+      "message": "Add Line 2"
+   },
+   "Add_New_Address": {
+      "message": "Add New Address"
+   },
+   "Add_New_Card": {
+      "message": "Add New Card"
+   },
+   "Add_Your_Own": {
+      "message": "Add Your Own"
+   },
+   "Add_a_new_card": {
+      "message": "Add a new card"
+   },
+   "Add_a_new_shipping_address": {
+      "message": "Add a new shipping address"
+   },
+   "Add_an_address_for_Amazon_to_ship_to": {
+      "message": "Add an address for Amazon to ship to."
+   },
+   "Add_it_to_Droplist_and_well_notify_you_if_we_detect_a_price_drop_at_this_store": {
+      "message": "Add it to Droplist, and we’ll notify you if we detect a price drop at this store."
+   },
+   "Add_it_to_Droplist_below_and_well_notify_you_if_we_detect_a_price_drop_at_this_store": {
+      "message": "Add it to Droplist below, and we’ll notify you if we detect a price drop at this store."
+   },
+   "Add_item_into_Amazon_Cart": {
+      "message": "Add item into Amazon Cart"
+   },
+   "Add_item_to_Droplist": {
+      "message": "Add item to Droplist"
+   },
+   "Add_tags_to_group_your_Droplist": {
+      "message": "Add tags to group your Droplist"
+   },
+   "Add_to_Collections": {
+      "message": "Add to Collections"
+   },
+   "Add_to_Droplist": {
+      "message": "Add to Droplist"
+   },
+   "Add_to_Whitelist": {
+      "message": "Add to Whitelist"
+   },
+   "Add_to_a_Collection": {
+      "message": "Add to a Collection"
+   },
+   "Add_us_to_your_whitelist": {
+      "message": "Add us to your whitelist"
+   },
+   "Add_your_card": {
+      "message": "Add your card"
+   },
+   "Add_your_name": {
+      "message": "Add your name"
+   },
+   "Added_to_Droplist": {
+      "message": "Added to Droplist"
+   },
+   "Added_to_Smart_Droplist": {
+      "message": "Added to Smart Droplist"
+   },
+   "Added_to_your_droplist": {
+      "message": "Added to your droplist."
+   },
+   "Adding_our_secret_deal_finding_ingredients": {
+      "message": "Adding our secret deal finding ingredients"
+   },
+   "Addresses": {
+      "message": "Addresses"
+   },
+   "Alert_Settings": {
+      "message": "Alert Settings"
+   },
+   "All_set_Now_copy_and_paste_the_card_number_below_to_complete_your_purchase_with_Honey_Pay": {
+      "message": "All set! Now copy and paste the card number below to complete your purchase with Honey Pay."
+   },
+   "All_set_The_payment_info_is_autofilled_and_ready_for_you_to_place_your_order": {
+      "message": "All set. The payment info is autofilled and ready for you to place your order."
+   },
+   "All_you_have_to_do_is_shop_like_you_always_do_If_you_want_you_can_copy_and_apply_codes_on_your_own": {
+      "message": "All you have to do is shop like you always do. If you want, you can copy and apply codes on your own."
+   },
+   "Almost_done_E": {
+      "message": "Almost done!"
+   },
+   "Almost_there": {
+      "message": "Almost there..."
+   },
+   "Along_with_searching_for_coupons_did_you_know_that_you_can_also_earn_rewards_get_price_drop_alerts_and_score_more_free_perks_Q_Join_millions_of_in_the_know_members_who_have_access_to_it_all": {
+      "message": "Along with searching for coupons, did you know that you can also earn rewards, get price drop alerts, and score more free perks? Join millions of in-the-know members who have access to it all."
+   },
+   "Already_a_Honey_member": {
+      "message": "Already a Honey member?"
+   },
+   "Already_a_member": {
+      "message": "Already a member?"
+   },
+   "Amazon_coupons_only_apply_to_specific_items_so_the_chance_a_coupon_will_work_on_the_items_in_your_cart_is_less_than_1_If_youre_feeling_lucky_though_click_the_Try_Anyway_button": {
+      "message": "Amazon coupons only apply to specific items, so the chance a coupon will work on the items in your cart is less than 1%. If you’re feeling lucky though, click the Try Anyway button."
+   },
+   "Amount_saved_is_wrong": {
+      "message": "Amount saved is wrong"
+   },
+   "Any_items_you_save_for_later_will_also_be_added_to_your_Droplist": {
+      "message": "Any items you save for later will also be added to your Droplist."
+   },
+   "Apartment_suite_etc": {
+      "message": "Apartment, suite, etc."
+   },
+   "Apply_Coupons": {
+      "message": "Apply Coupons"
+   },
+   "Apply_Coupons_and_Activate_Rewards": {
+      "message": "Apply Coupons and Activate Rewards"
+   },
+   "Apply_NUMCOUPONS_Coupons": {
+      "message": "Apply {NUMCOUPONS} Coupons"
+   },
+   "Apply_Rewards": {
+      "message": "Apply Rewards"
+   },
+   "Apply_in_New_Tab": {
+      "message": "Apply in New Tab"
+   },
+   "Applying_code_CODE": {
+      "message": "Applying code {CODE}"
+   },
+   "Arrives_RANGE": {
+      "message": "Arrives ~{RANGE}"
+   },
+   "Arrives_earlier_RANGE": {
+      "message": "Arrives earlier ~{RANGE}"
+   },
+   "Arrives_later_RANGE": {
+      "message": "Arrives later ~{RANGE}"
+   },
+   "As_Good_as_Gold": {
+      "message": "As Good as Gold"
+   },
+   "Automatically_find_and_apply_coupon_codes_when_you_shop_online": {
+      "message": "Automatically find and apply coupon codes when you shop online!"
+   },
+   "Automatically_track_items_youre_interested_in_and_get_notified_once_we_detect_a_lower_price_Smart_Droplist_saves_your_Amazon_saved_for_later_items": {
+      "message": "Automatically track items you’re interested in and get notified once we detect a lower price. Smart Droplist saves your Amazon saved for later items."
+   },
+   "Automatically_track_items_youre_interested_in_and_get_notified_once_we_detect_a_lower_price_Smart_Droplist_saves_your_Amazon_saved_for_later_items_and_frequently_viewed_items": {
+      "message": "Automatically track items you’re interested in and get notified once we detect a lower price. Smart Droplist saves your Amazon saved for later items and frequently viewed items."
+   },
+   "Automatically_track_items_youre_interested_in_and_get_notified_once_we_detect_a_lower_price_Smart_Droplist_saves_your_frequently_viewed_items": {
+      "message": "Automatically track items you’re interested in and get notified once we detect a lower price. Smart Droplist saves your frequently viewed items."
+   },
+   "Available": {
+      "message": "Available"
+   },
+   "Available_Coupons": {
+      "message": "Available Coupons"
+   },
+   "Available_on_ELIGIBLEITEMS_only_Max_of_500_Honey_Gold_applies_per_transaction_TERMSAPPLY": {
+      "message": "*Available on {ELIGIBLEITEMS} only. Max of 500 Honey Gold applies per transaction. {TERMSAPPLY}"
+   },
+   "Avg_Earned": {
+      "message": "Avg. Earned:"
+   },
+   "Avg_Earned_TIMEFRAME": {
+      "message": "Avg. Earned {TIMEFRAME}"
+   },
+   "Avg_Savings": {
+      "message": "Avg. Savings"
+   },
+   "Back": {
+      "message": "Back"
+   },
+   "Backordered_estimated_back_in_stock_DATE": {
+      "message": "Backordered, estimated back in stock: {DATE}"
+   },
+   "Be_confident_in_the_price_you_pay_Honey_makes_it_possible_with_transparent_price_history_for_millions_of_popular_items": {
+      "message": "Be confident in the price you pay. Honey makes it possible with transparent price history for millions of popular items."
+   },
+   "Before_you_buy_just_click_the_button_Youll_activate_Honey_Gold_rewards_that_you_can_redeem_for_gift_cards": {
+      "message": "Before you buy, just click the button. You’ll activate Honey Gold rewards that you can redeem for gift cards."
+   },
+   "Best_Seller": {
+      "message": "Best Seller"
+   },
+   "Better_yet_activate_our_new_feature_to_automatically_save_items_youre_interested_in_It_even_works_on_Amazon": {
+      "message": "Better yet, activate our new feature to automatically save items you’re interested in. It even works on Amazon."
+   },
+   "Billing_Address": {
+      "message": "Billing Address"
+   },
+   "Bold_Well_always_look_But_you_might_have_a_better_chance_with_a_lottery_ticket": {
+      "message": "Bold! We'll always look. But you might have a better chance with a lottery ticket."
+   },
+   "Bonus_Activated": {
+      "message": "Bonus Activated"
+   },
+   "Bonuses_are_available_for_most_products_but_STORENAME_has_some_exclusions_gift_cards_and_anything_STORENAME_thinks_you_might_be_trying_to_resell_We_know_exclusions_are_the_worst_but_theyre_out_there_and_decided_entirely_by_the_merchant": {
+      "message": "Bonuses are available for most products, but {STORENAME} has some exclusions: gift cards, and anything {STORENAME} thinks you might be trying to re-sell. We know exclusions are the worst, but they’re out there and decided entirely by the merchant."
+   },
+   "Boom_Saved_to_your_Droplist": {
+      "message": "Boom! Saved to your Droplist."
+   },
+   "Breakdown": {
+      "message": "Breakdown"
+   },
+   "But_it_looks_like_youre_just_CARTDIFF_away_from_a_cart_total_of_CARTTHRESHHOLD_Once_you_hit_that_amount_youll_qualify_for_a_SAVINGS_off_code": {
+      "message": "But it looks like you’re just {CARTDIFF} away from a cart total of {CARTTHRESHHOLD}. Once you hit that amount, you’ll qualify for a {SAVINGS} off code."
+   },
+   "But_it_looks_like_youre_just_CARTTEXT_Once_you_hit_that_amount_youll_qualify_for_a_COUPON_off_code": {
+      "message": "But it looks like you’re just {CARTTEXT}. Once you hit that amount, you’ll qualify for a {COUPON} off code."
+   },
+   "But_well_keep_an_eye_on_it": {
+      "message": "But we’ll keep an eye on it"
+   },
+   "But_were_working_on_it": {
+      "message": "But we’re working on it"
+   },
+   "But_youre_just_SHIPPINGREQUIREMENT_away_from_free_shipping_Once_your_cart_hits_SHIPPINGTHRESHHOLD_your_order_ships_for_free": {
+      "message": "But you’re just {SHIPPINGREQUIREMENT} away from free shipping. Once your cart hits {SHIPPINGTHRESHHOLD}, your order ships for free."
+   },
+   "But_youre_just_SHIPPINGTEXT_Once_your_cart_hits_SHIPPINGTHRESHHOLD_your_order_ships_for_free": {
+      "message": "But you’re just {SHIPPINGTEXT}. Once your cart hits {SHIPPINGTHRESHHOLD}, your order ships for free."
+   },
+   "Buy_a_store_gift_card_for_less_and_use_it_to_shop_Well_look_for_coupons_at_checkout_too": {
+      "message": "Buy a store gift card for less and use it to shop. We'll look for coupons at checkout too."
+   },
+   "Buy_something_from_STORENAME_on_your_computer_in_the_next_24_hours": {
+      "message": "Buy something from {STORENAME} on your computer in the next 24 hours."
+   },
+   "By_joining_I_agree_to_Honeys_TOS_and_PRIVACY": {
+      "message": "By joining, I agree to Honey’s {TOS} and {PRIVACY}."
+   },
+   "CARTDIFF_away_from_a_cart_total_of_CARTTHRESHHOLD": {
+      "message": "{CARTDIFF} away from a cart total of {CARTTHRESHHOLD}"
+   },
+   "CODE_TRIED_AT_CHECKOUT": {
+      "message": "CODE TRIED AT CHECKOUT"
+   },
+   "CVV": {
+      "message": "CVV"
+   },
+   "Can_I_use_Droplist_without_this_option": {
+      "message": "Can I use Droplist without this option?"
+   },
+   "Cancel": {
+      "message": "Cancel"
+   },
+   "Cant_log_in": {
+      "message": "Can’t log in"
+   },
+   "Card": {
+      "message": "Card"
+   },
+   "Card_Information": {
+      "message": "Card Information"
+   },
+   "Card_Number": {
+      "message": "Card Number"
+   },
+   "Card_type": {
+      "message": "Card type"
+   },
+   "Cart_Total": {
+      "message": "Cart Total"
+   },
+   "Certain_items_product_categories_and_purchases_are_ineligible_for_Honey_Gold_Exclusions_are_determined_by_the_merchant_and_vary_by_store_Any_potential_point_ranges_displayed_for_example_300_500_Honey_Gold_are_based_on_the_combined_value_of": {
+      "message": "Certain items, product categories, and purchases are ineligible for Honey Gold. Exclusions are determined by the merchant and vary by store. Any potential point ranges displayed (for example 300-500 Honey Gold) are based on the combined value of all items in your cart, assuming all items in your cart are eligible.  If any items are ineligible, you may receive less than the lower point value displayed in the point range.  If there are no eligible items in your order, you will not earn any Honey Gold. We won’t be able to determine if the items you have purchased are eligible for Honey Gold until after you make your purchase. The final amount of Honey Gold awarded will be displayed in your account."
+   },
+   "Channeling_our_savings_superpowers": {
+      "message": "Channeling our savings superpowers..."
+   },
+   "Check_Error": {
+      "message": "Check Error"
+   },
+   "Check_Honey_Tips_before_you_buy_See_deal_insights_price_changes_and_add_items_to_your_Droplist": {
+      "message": "Check Honey Tips before you buy. See deal insights, price changes, and add items to your Droplist."
+   },
+   "Check_out_our_Help_Center_for_FAQs_live_chat_and_email_support": {
+      "message": "Check out our Help Center for FAQs, live chat, and email support."
+   },
+   "Check_out_our_help_article_to_see_where_we_work_internationally": {
+      "message": "Check out our help article to see where we work internationally."
+   },
+   "Check_out_these_codes_for_free_samples_Click_on_the_one_youd_like_to_automatically_apply": {
+      "message": "Check out these codes for free samples. Click on the one you’d like to automatically apply."
+   },
+   "Check_out_with_Honey_and_we_can_help_save_time_too_Get_started_by_adding_a_payment_method": {
+      "message": "Check out with Honey and we can help save time too. Get started by adding a payment method."
+   },
+   "Checking": {
+      "message": "Checking..."
+   },
+   "Checking_Prices": {
+      "message": "Checking Prices..."
+   },
+   "Checkout": {
+      "message": "Checkout"
+   },
+   "Checkout_with_this_BR_Honey_Pay_virtual_card": {
+      "message": "Checkout with this{BR}Honey Pay virtual card"
+   },
+   "Choose_Options": {
+      "message": "Choose Options"
+   },
+   "Choose_a_PRICE_gift_card_Well_keep_you_posted": {
+      "message": "Choose a {PRICE} gift card. We’ll keep you posted."
+   },
+   "Choose_a_STORENAME_offer": {
+      "message": "Choose a {STORENAME} offer"
+   },
+   "Choose_a_new_payment_method": {
+      "message": "Choose a new payment method"
+   },
+   "Choose_an_option": {
+      "message": "Choose an option"
+   },
+   "Choose_an_option_on_the_right_Payments_are_securely_processed_by_PayPal": {
+      "message": "Choose an option on the right. Payments are securely processed by PayPal."
+   },
+   "Choose_options_FIRST": {
+      "message": "Choose options"
+   },
+   "Choose_or_add_a_shipping_address": {
+      "message": "Choose or add a shipping address"
+   },
+   "Choose_the_Pay_with_Gift_Card_option_at_checkout_and_copy_and_page_your_gift_card_number_and_PIN_After_that_follow_the_sites_instructions_to_complete_checkout": {
+      "message": "Choose the Pay with Gift Card option at checkout and copy and paste your gift card number and PIN. After that, follow the site’s instructions to complete checkout."
+   },
+   "Claim": {
+      "message": "Claim"
+   },
+   "Claim_Honey_Gold_Bonus": {
+      "message": "Claim Honey Gold Bonus"
+   },
+   "Claim_Rewards": {
+      "message": "Claim Rewards"
+   },
+   "Click_BUTTONTEXT_when_you_check_out_in_EXPIRETIME_to_receive_GOLDVALUE_Honey_Gold_in_your_Honey_account": {
+      "message": "Click “{BUTTONTEXT}” when you check out in {EXPIRETIME} to receive {GOLDVALUE} Honey Gold in your Honey account."
+   },
+   "Click_below_to_reactivate_Honey_and_automatically_try_codes_during_checkout": {
+      "message": "Click below to re-activate Honey and automatically try codes during checkout."
+   },
+   "Click_below_to_reactivate_Honey_and_earn_your_rewards": {
+      "message": "Click below to re-activate Honey and earn your rewards."
+   },
+   "Click_here_to_follow_store": {
+      "message": "Click here to follow store."
+   },
+   "Click_on_the_HONEYSQUARE_icon_on_your_browser_above_to_view_all_available_coupons": {
+      "message": "Click on the {HONEYSQUARE} icon on your browser above to view all available coupons"
+   },
+   "Click_on_the_code_for_the_sample_youd_like_to_automatically_apply": {
+      "message": "Click on the code for the sample you’d like to automatically apply."
+   },
+   "Click_on_the_code_youd_like_us_to_try_automatically": {
+      "message": "Click on the code you’d like us to try automatically."
+   },
+   "Click_the_Honey_button_to_reveal_our_deal_insights_for_this_store": {
+      "message": "Click the Honey button to reveal our deal insights for this store."
+   },
+   "Click_the_button_to_the_left_and_then_your_tax_shipping_costs_and_arrival_dates_will_be_based_on_this_address": {
+      "message": "Click the button to the left and then your tax, shipping costs, and arrival dates will be based on this address."
+   },
+   "Click_to_Copy": {
+      "message": "Click to Copy"
+   },
+   "Click_to_claim": {
+      "message": "Click to claim"
+   },
+   "Click_to_claim_VALUE": {
+      "message": "Click to claim"
+   },
+   "Close": {
+      "message": "Close"
+   },
+   "Close_Tooltip": {
+      "message": "Close Tooltip"
+   },
+   "Code": {
+      "message": "Code"
+   },
+   "Code_applied": {
+      "message": "Code applied!"
+   },
+   "Coiny_is_working_some_shopping_genius": {
+      "message": "Coiny is working some shopping genius..."
+   },
+   "Coiny_says_an_informed_shopper_is_a_smart_shopper": {
+      "message": "Coiny says, \"an informed shopper is a smart shopper.\""
+   },
+   "Collection_name_ie_Birthday_Gifts": {
+      "message": "Collection name (i.e. \"Birthday Gifts\")"
+   },
+   "Collections": {
+      "message": "Collections"
+   },
+   "Comments_or_suggestions": {
+      "message": "Comments or suggestions?"
+   },
+   "Complete_your_purchase_to_get_GOLDRANGE_Honey_Gold": {
+      "message": "Complete your purchase to get {GOLDRANGE} Honey Gold"
+   },
+   "Confirm": {
+      "message": "Confirm"
+   },
+   "Continue": {
+      "message": "Continue"
+   },
+   "Continue_Shopping": {
+      "message": "Continue Shopping"
+   },
+   "Continue_shopping_at_STORENAME": {
+      "message": "Continue shopping at {STORENAME}"
+   },
+   "Continue_to_Checkout": {
+      "message": "Continue to Checkout"
+   },
+   "Continue_to_Merchant": {
+      "message": "Continue to Merchant"
+   },
+   "Continue_with_Honey_Pay": {
+      "message": "Continue with Honey Pay"
+   },
+   "Cooking_up_coupons_rewards_and_tips": {
+      "message": "Cooking up coupons, rewards, and tips..."
+   },
+   "Copied": {
+      "message": "Copied!"
+   },
+   "Copied_NO_EXCLAMATION": {
+      "message": "Copied"
+   },
+   "Copy": {
+      "message": "Copy"
+   },
+   "Coupon": {
+      "message": "Coupon"
+   },
+   "Coupon_Codes": {
+      "message": "Coupon Codes"
+   },
+   "Coupon_Detected": {
+      "message": "Coupon Detected"
+   },
+   "Coupon_Finder": {
+      "message": "Coupon Finder"
+   },
+   "Coupon_Found_E": {
+      "message": "Coupon Found!"
+   },
+   "Coupon_Submitted": {
+      "message": "Coupon Submitted!"
+   },
+   "Coupon_Success": {
+      "message": "Coupon Success"
+   },
+   "Coupon_Success_High": {
+      "message": "High Coupon Success"
+   },
+   "Coupon_Success_Low": {
+      "message": "Low Coupon Success"
+   },
+   "Coupon_Success_Medium": {
+      "message": "Medium Coupon Success"
+   },
+   "Coupon_Success_Rate": {
+      "message": "Coupon success rate:"
+   },
+   "Coupon_Success_Very_High": {
+      "message": "Very High Coupon Success"
+   },
+   "Coupon_Success_Very_Low": {
+      "message": "Very Low Coupon Success"
+   },
+   "Coupons_Available": {
+      "message": "Coupons Available"
+   },
+   "Coupons_applied": {
+      "message": "Coupons applied!"
+   },
+   "Coupons_found": {
+      "message": "Coupons found"
+   },
+   "Coupons_found_EXCLAMATION": {
+      "message": "Coupons found!"
+   },
+   "Create_Collection_and_Add_Item": {
+      "message": "Create Collection and Add Item"
+   },
+   "Create_My_Collection": {
+      "message": "Create My Collection"
+   },
+   "Create_My_Own": {
+      "message": "Create My Own"
+   },
+   "Create_Your_Honey_Account": {
+      "message": "Create Your Honey Account"
+   },
+   "Create_a_Free_Account": {
+      "message": "Create a Free Account"
+   },
+   "Create_a_Free_Honey_Account": {
+      "message": "Create a Free Honey Account"
+   },
+   "Create_a_Honey_Account": {
+      "message": "Create a Honey Account"
+   },
+   "Create_a_free_account_to_claim_your_rewards_Once_you_reach_1000_Gold_redeem_it_for_a_10_gift_card": {
+      "message": "Create a free account to claim your rewards. Redeem for a gift card once you have enough Honey Gold."
+   },
+   "Create_a_free_account_to_unlock_exclusive_bonus_rewards_thatll_have_you_earning_gift_cards_fast": {
+      "message": "Create a free account to unlock exclusive bonus rewards that’ll have you earning gift cards fast."
+   },
+   "Create_an_account_to_get_access_to_new_and_exclusive_Honey_gold_bonuses_redeemable_for_gift_cards": {
+      "message": "Create an account to get access to new & exclusive Honey Gold bonuses redeemable for gift cards."
+   },
+   "Current": {
+      "message": "Current"
+   },
+   "Current_Collections": {
+      "message": "Current Collections"
+   },
+   "Currently_this_is_the_best_deal_of_all_Amazon_sellers_and_Honey_didnt_detect_any_price_changes_in_the_last_30_days": {
+      "message": "Currently, this is the best deal of all Amazon sellers and Honey didn’t detect any price changes in the last 30 days."
+   },
+   "Custom_Discount": {
+      "message": "Custom Discount"
+   },
+   "Customize_Smart_Droplist_in_Account_Settings": {
+      "message": "Customize Smart Droplist in Account Settings"
+   },
+   "Customize_settings": {
+      "message": "Customize settings"
+   },
+   "DROPLIST_this_item_V": {
+      "message": "{DROPLIST} this item"
+   },
+   "Day": {
+      "message": "day"
+   },
+   "Days": {
+      "message": "days"
+   },
+   "Deal_Alert_Nows_a_good_time_to_buy": {
+      "message": "Deal Alert. Now’s a good time to buy."
+   },
+   "Deals_available": {
+      "message": "Deals available!"
+   },
+   "Description": {
+      "message": "Description"
+   },
+   "Description_Required": {
+      "message": "Description Required"
+   },
+   "Desyncing": {
+      "message": "Desyncing"
+   },
+   "Did_you_find_this_Honey_Tip_helpful_Q": {
+      "message": "Did you find this Honey Tip helpful?"
+   },
+   "Did_you_know_that_you_can_also_earn_Gold_rewards_get_price_drop_alerts_and_score_more_free_perks_Q_Join_millions_of_in_the_know_members_who_have_access_to_it_all": {
+      "message": "Did you know that you can also earn Gold rewards, get price drop alerts, and score more free perks? Join millions of in-the-know members who have access to it all."
+   },
+   "Didnt_find_any_savings": {
+      "message": "Didn’t find any savings"
+   },
+   "Discount_Alerts": {
+      "message": "Discount Alerts"
+   },
+   "Discount_Minimum": {
+      "message": "Discount Minimum"
+   },
+   "Divide_this_purchase_into_NUMINSTALLMENTS_payments_INTERESTRATE_APR": {
+      "message": "Divide this purchase into {NUMINSTALLMENTS} payments {INTERESTRATE}% APR"
+   },
+   "Does_this_replace_Droplist": {
+      "message": "Does this replace Droplist?"
+   },
+   "Doing_what_we_do_best_finding_you_deals_and_tips": {
+      "message": "Doing what we do best - finding you deals and tips"
+   },
+   "Doing_what_we_do_best_whipping_up_deals_and_tips": {
+      "message": "Doing what we do best - whipping up deals and tips..."
+   },
+   "Done": {
+      "message": "Done"
+   },
+   "Dont_Share": {
+      "message": "Don’t Share"
+   },
+   "Dont_ask_me_to_do_this_again": {
+      "message": "Don’t ask me to do this again."
+   },
+   "Dont_forget_E": {
+      "message": "Don’t forget!"
+   },
+   "Dont_know_what_Honey_Gold_is": {
+      "message": "Don’t know what Honey Gold is"
+   },
+   "Dont_lose_your_items": {
+      "message": "Don’t lose your items"
+   },
+   "Dont_miss_your_chance_to_save": {
+      "message": "Don’t miss your chance to save"
+   },
+   "Dont_show_me_this_again": {
+      "message": "Don’t show me this again"
+   },
+   "Dont_show_on_any_homepage": {
+      "message": "Don’t show on any homepage"
+   },
+   "Dont_show_on_any_store": {
+      "message": "Don’t show on any store"
+   },
+   "Dont_show_on_this_page": {
+      "message": "Don’t show on this page"
+   },
+   "Dont_show_on_this_store": {
+      "message": "Don’t show on this store"
+   },
+   "Dont_show_this_again_for_1_hour": {
+      "message": "Don’t show this again for 1 hour"
+   },
+   "Dont_think_Honey_is_valuable": {
+      "message": "Don’t think Honey is valuable"
+   },
+   "Double_Gold_Bonus": {
+      "message": "Double Gold Bonus"
+   },
+   "Double_Rewards": {
+      "message": "Double Rewards!"
+   },
+   "Double_check_your_info_here_and_finish_your_order_on_STORENAME": {
+      "message": "Double check your info here and finish your order on {STORENAME}."
+   },
+   "Droplist": {
+      "message": "Droplist"
+   },
+   "Droplist_Error": {
+      "message": "Droplist Error"
+   },
+   "Droplist_items_at_60_stores_with_Honey_Well_notify_you_when_the_price_drops": {
+      "message": "Droplist items at 60+ stores with Honey. We’ll notify you when the price drops."
+   },
+   "Droplist_items_at_select_stores_Well_notify_you_if_we_detect_a_price_drop_How_easy_is_that": {
+      "message": "Droplist items at select stores. We’ll notify you if we detect a price drop. How easy is that?"
+   },
+   "Droplist_this_item": {
+      "message": "Droplist this item"
+   },
+   "Droplisted_for_NUMDAYS_days": {
+      "message": "Droplisted for {NUMDAYS} days"
+   },
+   "Dropping_some_savings_knowledge_in_3_2_1": {
+      "message": "Dropping some savings knowledge in 3, 2, 1..."
+   },
+   "Each_store_is_different_Some_have_coupons_others_give_out_Honey_Gold_and_many_stores_offer_both": {
+      "message": "Each store is different. Some have coupons, others give out Honey Gold, and many stores offer both."
+   },
+   "Earn_GOLDRANGE_back_in_Honey_Gold": {
+      "message": "Earn {GOLDRANGE}* back in Honey Gold"
+   },
+   "Earn_GOLDVALUE": {
+      "message": "Earn {GOLDVALUE}"
+   },
+   "Earn_GOLDVALUE_Honey_Gold": {
+      "message": "Earn {GOLDVALUE} Honey Gold"
+   },
+   "Earn_GOLDVALUE_Honey_Gold_AMOUNT_value_when_you_purchase_this_item": {
+      "message": "Earn {GOLDVALUE} Honey Gold ({AMOUNT} value) when you purchase this item."
+   },
+   "Earn_GOLDVALUE_in_Honey_Gold": {
+      "message": "Earn {GOLDVALUE} in Honey Gold"
+   },
+   "Earn_Gold_just_for_shopping": {
+      "message": "Earn Gold just for shopping"
+   },
+   "Earn_Gold_towards_gift_cards": {
+      "message": "Earn Gold towards gift cards"
+   },
+   "Earn_Honey_Gold_on_your_eligible_items_at_STORENAME": {
+      "message": "Earn Honey Gold on your eligible items at {STORENAME}"
+   },
+   "Earn_OFFERVALUE_Honey_Gold": {
+      "message": "Earn {OFFERVALUE} Honey Gold"
+   },
+   "Earn_OFFERVALUE_in_Honey_Gold": {
+      "message": "Earn {OFFERVALUE} in Honey Gold"
+   },
+   "Earn_OFFERVALUE_with_Honey_Gold": {
+      "message": "Earn {OFFERVALUE} with Honey Gold"
+   },
+   "Earn_extra_Honey_Gold_on_these_items": {
+      "message": "Earn extra Honey Gold on these items"
+   },
+   "Earn_extra_Honey_Gold_with_these_Exclusive_Offers": {
+      "message": "Earn extra Honey Gold with these Exclusive Offers"
+   },
+   "Earn_honey_gold_rewards_toward_a_PRICE_gift_card_Choose_a_card_now_and_well_let_you_know_once_its_ready_to_redeem": {
+      "message": "Earn Honey Gold rewards toward a {PRICE} gift card. Choose a card now and we’ll let you know once it’s ready to redeem"
+   },
+   "Earn_while_you_shop": {
+      "message": "Earn while you shop"
+   },
+   "Easy_tiger_We_dont_want_to_be_a_downer_But_this_one_might_be_tough": {
+      "message": "Easy, tiger! We don't want to be a downer. But this one might be tough."
+   },
+   "Edit_Collections": {
+      "message": "Edit Collections"
+   },
+   "Email": {
+      "message": "Email"
+   },
+   "Ends_TIME": {
+      "message": "Ends {TIME}"
+   },
+   "Ends_in_COUNTDOWN": {
+      "message": "Ends in {COUNTDOWN}"
+   },
+   "Error_Please_Try_Again_Later": {
+      "message": "Error - Please Try Again Later"
+   },
+   "Estimated_3_5_day_standard_shipping": {
+      "message": "Estimated 3-5 day standard shipping"
+   },
+   "Estimated_Gold_arrival_date_WHEN": {
+      "message": "Estimated Gold arrival date: {WHEN}"
+   },
+   "Exclusions": {
+      "message": "Exclusions"
+   },
+   "Exclusions_apply": {
+      "message": "Exclusions apply"
+   },
+   "Exclusive_Offer": {
+      "message": "Exclusive Offer"
+   },
+   "Exclusive_Offers": {
+      "message": "Exclusive Offers"
+   },
+   "Exp_date": {
+      "message": "Exp. date"
+   },
+   "Expires_in_1_day": {
+      "message": "Expires in 1 day"
+   },
+   "Expires_in_NUMDAYS_days": {
+      "message": "Expires in {NUMDAYS} days"
+   },
+   "Expires_in_less_than_1_day": {
+      "message": "Expires in less than 1 day!"
+   },
+   "Expires_on_DATE": {
+      "message": "Expires on {DATE}"
+   },
+   "Extra_Honey_savings": {
+      "message": "Extra Honey savings"
+   },
+   "Facebooks_being_fussy_If_you_created_your_Facebook_account_with_a_phone_number_add_your_email_and_try_again_Or_join_with_your_email_below_SMILE": {
+      "message": "Facebook’s being fussy. If you created your Facebook account with a phone number, add your email and try again. Or join with your email below :)"
+   },
+   "Feedback": {
+      "message": "Feedback"
+   },
+   "Find_Savings": {
+      "message": "Find Savings"
+   },
+   "Find_savings_with_Honey": {
+      "message": "Find savings with Honey"
+   },
+   "Finding_Savings": {
+      "message": "Finding Savings..."
+   },
+   "Finding_deals_is_a_science": {
+      "message": "Finding deals is a science..."
+   },
+   "Finding_extra_benefits": {
+      "message": "Finding extra benefits..."
+   },
+   "Finishing_up": {
+      "message": "Finishing up..."
+   },
+   "First_Name": {
+      "message": "First Name"
+   },
+   "Follow": {
+      "message": "Follow"
+   },
+   "Follow_more_of_your_favorite_stores_for_exclusive_updates_on_sales_coupons_and_more_chances_to_save": {
+      "message": "Follow more of your favorite stores for exclusive updates on sales, coupons and more chances to save."
+   },
+   "Follow_your_favorite_stores_to_get_sale_alerts_new_coupons_and_personalized_recommendations_on_your_feed": {
+      "message": "Follow your favorite stores to get sale alerts, new coupons, and personalized recommendations on your feed."
+   },
+   "Following": {
+      "message": "Following"
+   },
+   "For_a_demo_of_how_Honey_works_on_supported_sites_CLICKHERE": {
+      "message": "For a demo of how Honey works on supported sites {CLICKHERE}."
+   },
+   "For_items_with_many_sizes_andor_colors_youll_need_to_first_choose_a_specific_version_of_this_item_so_we_can_show_you_the_right_price_info": {
+      "message": "For items with many sizes and/or colors, you’ll need to first choose a specific version of this item so we can show you the right price info."
+   },
+   "For_the_Family": {
+      "message": "For the Family"
+   },
+   "Free_Sample": {
+      "message": "Free Sample"
+   },
+   "Free_Samples_Detected": {
+      "message": "Free Samples Detected"
+   },
+   "Free_Shipping": {
+      "message": "Free Shipping"
+   },
+   "Friends_dont_let_friends_pay_full_price_Get_the_online_shopping_hack_Time_calls_basically_free_money": {
+      "message": "Friends don’t let friends pay full price. Get the online shopping hack Time calls “basically free money”"
+   },
+   "From_Milk_Honey": {
+      "message": "From Milk+Honey"
+   },
+   "Fulfillment_By_Amazon": {
+      "message": "Fulfillment By Amazon"
+   },
+   "GIFT_CARD_NUMBER": {
+      "message": "GIFT CARD NUMBER"
+   },
+   "GOLDEARNED_Gold": {
+      "message": "{GOLDEARNED} Gold"
+   },
+   "GOLDMIN_to_GOLDMAX": {
+      "message": "{GOLDMIN} to {GOLDMAX}"
+   },
+   "GOLDMIN_to_GOLDMAX_G": {
+      "message": "{GOLDMIN} to {GOLDMAX} G"
+   },
+   "GOLDMIN_to_GOLDMAX_Gold": {
+      "message": "{GOLDMIN} to {GOLDMAX} Gold"
+   },
+   "GOLDMIN_to_GOLDMAX_Honey_Gold": {
+      "message": "{GOLDMIN} to {GOLDMAX} Honey Gold"
+   },
+   "GOLDMIN_to_GOLDMAX_P": {
+      "message": "{GOLDMIN}% to {GOLDMAX}%"
+   },
+   "GOLDMIN_to_GOLDMAX_P_back": {
+      "message": "{GOLDMIN}% to {GOLDMAX}% back"
+   },
+   "GOLDRANGE_Gold": {
+      "message": "{GOLDRANGE} Gold"
+   },
+   "GOLDRANGE_Gold_back": {
+      "message": "{GOLDRANGE} Gold back"
+   },
+   "GOLDRANGE_Gold_could_be_yours_on_this_purchase_Rewards_rule": {
+      "message": "{GOLDRANGE} Gold could be yours on this purchase*. Rewards rule"
+   },
+   "GOLDRANGE_Honey_Gold_Activated": {
+      "message": "{GOLDRANGE} Honey Gold Activated"
+   },
+   "GOLDRANGE_activated": {
+      "message": "{GOLDRANGE} activated!"
+   },
+   "GOLDRANGE_rewards_activated": {
+      "message": "{GOLDRANGE} rewards activated!"
+   },
+   "GOLDTEXT_after_purchase": {
+      "message": "{GOLDTEXT} after purchase"
+   },
+   "GOLDTEXT_and_GOLDBONUSTEXT_after_purchase": {
+      "message": "+ {GOLDTEXT} and {GOLDBONUSTEXT} after purchase"
+   },
+   "GOLDTEXT_could_be_yours_on_this_purchase_Rewards_rule": {
+      "message": "{GOLDTEXT} could be yours on this purchase. Rewards rule."
+   },
+   "GOLDVALUE_Earned": {
+      "message": "{GOLDVALUE} Earned"
+   },
+   "GOLDVALUE_Gold": {
+      "message": "{GOLDVALUE} Gold"
+   },
+   "GOLDVALUE_Gold_back": {
+      "message": "{GOLDVALUE} Gold back"
+   },
+   "GOLDVALUE_Gold_will_be_credited_to_your_account_once_STORENAME_confirms_your_purchase": {
+      "message": "{GOLDVALUE} Gold will be credited to your account once {STORENAME} confirms your purchase."
+   },
+   "GOLDVALUE_Honey_Gold": {
+      "message": "{GOLDVALUE} Honey Gold"
+   },
+   "GOLDVALUE_Honey_Gold_Bonus": {
+      "message": "{GOLDVALUE} Honey Gold Bonus"
+   },
+   "GOLDVALUE_Pending": {
+      "message": "{GOLDVALUE} Pending"
+   },
+   "GOLDVALUE_in_Honey_Gold": {
+      "message": "{GOLDVALUE} in Honey Gold"
+   },
+   "GOLDWORTH_Value": {
+      "message": "{GOLDWORTH} Value"
+   },
+   "Get_Exclusive_Deals": {
+      "message": "Get Exclusive Deals"
+   },
+   "Get_GOLDMIN_to_GOLDMAX_Honey_Gold_back": {
+      "message": "Get {GOLDMIN} to {GOLDMAX} Honey Gold back"
+   },
+   "Get_GOLDMIN_to_GOLDMAX_back_in_Honey_Gold": {
+      "message": "Get {GOLDMIN}% to {GOLDMAX}%* back in Honey Gold"
+   },
+   "Get_GOLDMIN_to_GOLDMAX_back_in_Honey_Gold_Flat": {
+      "message": "Get {GOLDMIN} to {GOLDMAX}* back in Honey Gold"
+   },
+   "Get_GOLDRANGE_Honey_Gold": {
+      "message": "Get {GOLDRANGE} Honey Gold"
+   },
+   "Get_GOLDRANGE_Honey_Gold_back_on_your_purchase_Redeem_1000_Gold_for_a_10_Gift_Card": {
+      "message": "Get {GOLDRANGE} Honey Gold back on your purchase."
+   },
+   "Get_GOLDRANGE_back": {
+      "message": "Get {GOLDRANGE} back"
+   },
+   "Get_GOLDRANGE_back_in_Honey_Gold": {
+      "message": "Get {GOLDRANGE} back in Honey Gold"
+   },
+   "Get_GOLDRANGE_in_Honey_Gold": {
+      "message": "Get {GOLDRANGE} in Honey Gold"
+   },
+   "Get_GOLDRANGE_on_eligible_items": {
+      "message": "Get {GOLDRANGE} on eligible items"
+   },
+   "Get_GOLDVALUE_Gold": {
+      "message": "Get {GOLDVALUE} Gold"
+   },
+   "Get_Gold_on_eligible_items": {
+      "message": "Get Gold on eligible items"
+   },
+   "Get_OFFERVALUE_Gold": {
+      "message": "Get {OFFERVALUE} Gold"
+   },
+   "Get_OFFERVALUE_in_Gold": {
+      "message": "Get {OFFERVALUE} in Gold"
+   },
+   "Get_Purchase_Protection_when_you_check_out_with_PayPal": {
+      "message": "Get Purchase Protection when you check out with PayPal"
+   },
+   "Get_Rewarded": {
+      "message": "Get Rewarded"
+   },
+   "Get_a_CARDVALUE_gift_card_once_you_reach_GOLDVALUE": {
+      "message": "Get a {CARDVALUE} gift card once you reach {GOLDVALUE}!"
+   },
+   "Get_an_extra_PERCENT_off_this_item": {
+      "message": "Get an extra {PERCENT}% off this item"
+   },
+   "Get_deal_alerts_with_Droplist": {
+      "message": "Get deal alerts with Droplist"
+   },
+   "Get_more_than_DISCOUNT_off_select_items": {
+      "message": "Get more than {DISCOUNT} off select items"
+   },
+   "Get_price_drop_alerts": {
+      "message": "Get price drop alerts"
+   },
+   "Get_price_drop_alerts_for_this_site": {
+      "message": "Get price drop alerts for this site"
+   },
+   "Get_price_drop_notifications": {
+      "message": "Get price drop notifications"
+   },
+   "Get_the_Best_Deal": {
+      "message": "Get the Best Deal"
+   },
+   "Gift_Card_Deal_Alert": {
+      "message": "Gift Card Deal Alert!"
+   },
+   "Gift_card_value": {
+      "message": "Gift card value"
+   },
+   "Go_Back": {
+      "message": "Go Back"
+   },
+   "Go_to_my_feed": {
+      "message": "Go to my feed"
+   },
+   "Go_to_settings": {
+      "message": "Go to settings"
+   },
+   "Going_big_huh_Just_remember_the_bigger_the_discount_the_longer_it_can_take_us_to_find": {
+      "message": "Going big, huh? Just remember, the bigger the discount, the longer it can take us to find."
+   },
+   "Gold": {
+      "message": "Gold"
+   },
+   "Gold_Available": {
+      "message": "Gold Available"
+   },
+   "Gold_Bonus": {
+      "message": "Gold Bonus"
+   },
+   "Good_deals_come_to_those_who_wait": {
+      "message": "Good deals come to those who wait..."
+   },
+   "Good_news_This_item_is_on_sale": {
+      "message": "Good news! This item is on sale."
+   },
+   "Good_news_You_can_divide_your_total_into_NUMINSTALLMENNTS_payments": {
+      "message": "Good news. You can divide your total into {NUMINSTALLMENTS} payments."
+   },
+   "Good_things_come_to_those_with_gold_Youre_just_GOLD_honey_gold_away_from_your_PRICE_STORE_gift_card": {
+      "message": "Good things come to those with gold. You’re just {GOLD} Honey Gold away from your {PRICE} {STORE} gift card."
+   },
+   "Googles_being_fussy_Please_try_again_or_join_with_your_email_below_SMILE": {
+      "message": "Google’s being fussy. Please try again or join with your email below :)"
+   },
+   "Got_It": {
+      "message": "Got It"
+   },
+   "Got_it_E": {
+      "message": "Got it!"
+   },
+   "Got_it_LOWER": {
+      "message": "Got it"
+   },
+   "Great_Honey_Gold_is_activated": {
+      "message": "Great! Honey Gold is activated"
+   },
+   "Great_timing_E_This_item_just_dropped_in_price": {
+      "message": "Great timing! This item just dropped in price"
+   },
+   "Half_off_Thats_kind_of_a_lot_Well_still_look_but_you_may_want_to_tone_it_down_a_bit": {
+      "message": "Half off? That’s kind of a lot. We’ll still look, but you may want to tone it down a bit."
+   },
+   "Have_uBlock_Origin_or_Adblock_Plus_Q_Add_Honey_to_your_whitelist_to_be_able_to_earn_Honey_Gold_rewards_when_you_shop": {
+      "message": "Have uBlock Origin or Adblock Plus? Add Honey to your whitelist to be able to earn Honey Gold rewards when you shop."
+   },
+   "Have_uBlock_or_Adblock_Plus_Add_Honey_to_your_whitelist_to_earn_Honey_Gold_rewards": {
+      "message": "Have uBlock Origin or Adblock Plus? Add Honey to your whitelist to earn Honey Gold rewards."
+   },
+   "Have_uBlock_or_Adblock_Plus_Q_Add_us_to_your_ad_blocker_whitelist_and_youll_be_able_to_earn_Honey_Gold_that_you_can_redeem_for_gift_cards": {
+      "message": "Have uBlock or Adblock Plus? Add us to your ad blocker whitelist and you’ll be able to earn Honey Gold that you can redeem for gift cards."
+   },
+   "Having_account_problems": {
+      "message": "Having account problems?"
+   },
+   "Heads_up": {
+      "message": "Heads up!"
+   },
+   "Help_Center": {
+      "message": "Help Center"
+   },
+   "Help_us_help_you": {
+      "message": "Help us help you"
+   },
+   "Heres_everything_you_need_to_know_about_our_latest_feature": {
+      "message": "Here’s everything you need to know about our latest feature"
+   },
+   "Heres_whats_next": {
+      "message": "Here’s what's next"
+   },
+   "Hide": {
+      "message": "Hide"
+   },
+   "Hide_on_this_page": {
+      "message": "Hide on this page"
+   },
+   "High": {
+      "message": "High"
+   },
+   "High_Coupon_Success": {
+      "message": "High Coupon Success"
+   },
+   "High_coupon_success_copy": {
+      "message": "High coupon success"
+   },
+   "Home_Sweet_Home": {
+      "message": "Home Sweet Home"
+   },
+   "Honey": {
+      "message": "Honey"
+   },
+   "Honey_Gold": {
+      "message": "Honey Gold"
+   },
+   "Honey_Gold_Activated": {
+      "message": "Honey Gold Activated"
+   },
+   "Honey_Gold_Available_with_Purchase": {
+      "message": "Honey Gold Available with Purchase"
+   },
+   "Honey_Gold_Balance": {
+      "message": "Honey Gold Balance"
+   },
+   "Honey_Gold_Bonus": {
+      "message": "Honey Gold Bonus"
+   },
+   "Honey_Gold_Bonus_activated": {
+      "message": "Honey Gold Bonus activated!"
+   },
+   "Honey_Gold_Rewards": {
+      "message": "Honey Gold Rewards"
+   },
+   "Honey_Gold_Transactions": {
+      "message": "Honey Gold Transactions"
+   },
+   "Honey_Gold_are_reward_points_that_you_can_exchange_for_gift_cards_at_your_favorite_stores_Some_purchases_may_be_excluded_from_earning_Gold": {
+      "message": "Honey Gold are reward points that you can exchange for gift cards at your favorite stores. Some purchases may be excluded from earning Gold."
+   },
+   "Honey_Gold_is_Honeys_way_of_rewarding_its_users_You_will_get_a_percentage_of_your_purchase_price_back_as_a_reward_for_shopping_with_Honey": {
+      "message": "Honey Gold is Honey’s way of rewarding its users. You will get a percentage of your purchase price back as a reward for shopping with Honey."
+   },
+   "Honey_Gold_is_our_rewards_program_where_members_can_earn_Honey_Gold_or_Gold_for_short_at_some_of_their_favorite_stores_Redeem_HONEYGOLDAMOUNT_Gold_for_a_MINAMOUNTTOREDEEM_gift_card_at_your_choice_of_select_stores": {
+      "message": "Honey Gold is our rewards program where members can earn Honey Gold (or Gold for short) at some of their favorite stores. Redeem {HONEYGOLDAMOUNT} Gold for a {MINAMOUNTTOREDEEM} gift card at your choice of select stores."
+   },
+   "Honey_Gold_will_APPEARASPENDING_in_your_ACCOUNTOVERVIEW_generally_within_2_14_days_of_completing_your_eligible_purchase_and_will_remain_pending_for_approximately_60_90_days_until_your_purchase_is_confirmed_by_the_merchant_Note_these_time_periods_can_vary": {
+      "message": "Honey Gold will {APPEARASPENDING} in your {ACCOUNTOVERVIEW}, generally within 2-14 days of completing your eligible purchase, and will remain pending for approximately 60-90 days until your purchase is confirmed by the merchant. Note: these time periods can vary based on the transaction and merchant and may take longer than the times given above."
+   },
+   "Honey_HONEYTERMS_and_store_STORETERMS_apply": {
+      "message": "Honey {HONEYTERMS} and store {STORETERMS} apply."
+   },
+   "Honey_Logo": {
+      "message": "Honey Logo"
+   },
+   "Honey_Tip": {
+      "message": "Honey Tip"
+   },
+   "Honey_can_only_find_savings_when_a_store_has_a_code_that_works_on_the_items_in_your_shopping_cart_Check_out_our_help_article_to_see_how_Honey_finds_savings": {
+      "message": "Honey can only find savings when a store has a code that works on the items in your shopping cart. Check out our help article to see how Honey finds savings."
+   },
+   "Honey_compares_Amazoncom_sellers_based_on_price_shipping_and_Prime_status_Buy_with_confidence": {
+      "message": "Honey compares Amazon.com sellers based on price, shipping, and Prime status. Buy with confidence."
+   },
+   "Honey_compares_Amazoncom_sellers_based_on_price_shipping_and_Prime_status_However_Honey_has_detected_NUMCHANGES_in_the_last_30_days": {
+      "message": "Honey compares Amazon.com sellers based on price, shipping, and Prime status. However, Honey has detected {NUMCHANGES} in the last 30 days."
+   },
+   "Honey_depends_on_users_like_you": {
+      "message": "Honey depends on users like you."
+   },
+   "Honey_does_not_store_and_cannot_see_your_payment_information_This_information_is_processed_and_SECURED_by_Braintree_a_PayPal_company_TERMS_POLICY": {
+      "message": "Honey does not store and cannot see your payment information. This information is processed and {SECURED} by Braintree, a PayPal company. {TERMS}, {POLICY}."
+   },
+   "Honey_exclusive": {
+      "message": "Honey exclusive!"
+   },
+   "Honey_finds_applies_coupon_codes_at_checkout_FOR_YOU_so_you_can_get_back_to_wasting_time_on_Twitter": {
+      "message": "Honey finds & applies coupon codes at checkout FOR YOU so you can get back to wasting time on Twitter ;)"
+   },
+   "Honey_finds_you_the_best_deal_by_automatically_comparing_every_seller_in_the_Amazon_marketplace_First_youll_need_to_log_in": {
+      "message": "Honey finds you the best deal by automatically comparing every seller in the Amazon marketplace. First, you’ll need to log in."
+   },
+   "Honey_found_you_extra_savings_with_a_gift_card_you_can_use_to_checkout": {
+      "message": "Honey found you extra savings with a gift card you can use to checkout."
+   },
+   "Honey_gives_you_extra_savings_with_a_gift_card_you_can_use_at_checkout": {
+      "message": "Honey gives you extra savings with a gift card you can use at checkout."
+   },
+   "Honey_has_been_updated_to_version_EXTVERSION": {
+      "message": "Honey has been updated to version {EXTVERSION}"
+   },
+   "Honey_instantly_compares_sellers_on_Amazon_so_you_know_that_youre_always_getting_the_best_price": {
+      "message": "Honey instantly compares sellers on Amazon so you know that you’re always getting the best price."
+   },
+   "Honey_is_automatically_trying_the_best_coupon_codes_we_found_for_you": {
+      "message": "Honey is automatically trying the best coupon codes we found for you."
+   },
+   "Honey_is_calculating_rewards_on_your_order": {
+      "message": "Honey is calculating rewards on your order..."
+   },
+   "Honey_is_disabled_on_this_site_This_can_happen_if_you_interact_with_another_coupon_or_rewards_program": {
+      "message": "Honey is disabled on this site. This can happen if you interact with another coupon or rewards program."
+   },
+   "Honey_is_not_affiliated_with_Amazon": {
+      "message": "Honey is not affiliated with Amazon."
+   },
+   "Honey_is_now_active": {
+      "message": "Honey is now active"
+   },
+   "Honey_is_testing_the_best_codes_we_found_for_you": {
+      "message": "Honey is testing the best codes we found for you."
+   },
+   "Honey_only_finds_savings_when_a_store_has_working_coupon_codes": {
+      "message": "Honey only finds savings when a store has working coupon codes."
+   },
+   "Honey_savings": {
+      "message": "Honey savings"
+   },
+   "Honey_will_hook_you_up_with_a_GOLDBONUS_and_GOLDTEXT_after_you_complete_your_purchase_Rewards_rule": {
+      "message": "Honey will hook you up with a {GOLDBONUS} and {GOLDTEXT} after you complete your purchase. Rewards rule."
+   },
+   "Honeys_active_but_members_get_more": {
+      "message": "Honey’s active, but members get more"
+   },
+   "How_Q_Honey_Pay_will_apply_savings_automatically_to_an_EGIFTCARD_well_generate_for_you_to_pay_with": {
+      "message": "How? Honey Pay will apply savings automatically to an {EGIFTCARD} we’ll generate for you to pay with."
+   },
+   "How_does_it_work": {
+      "message": "How does it work?"
+   },
+   "How_would_you_like_to_check_out_Q": {
+      "message": "How would you like to check out?"
+   },
+   "Icon_on_tip_card": {
+      "message": "Icon on tip card"
+   },
+   "If_the_H_is_gray_that_means_youre_on_an_unsupported_site": {
+      "message": "If the {H} is gray, that means you’re on an unsupported site."
+   },
+   "If_we_detect_a_price_drop_on_this_site_well_notify_you_How_easy_is_that": {
+      "message": "If we detect a price drop on this site, we’ll notify you. How easy is that?"
+   },
+   "If_you_clicked_a_link_for_example_from_an_email_to_start_shopping_try_clicking_it_again": {
+      "message": "If you clicked a link (for example, from an email) to start shopping, try clicking it again."
+   },
+   "If_you_close_this_window_you_can_find_your_card_number_by_clicking_on_the_HONEYLOGO_in_the_toolbar": {
+      "message": "If you close this window, you can find your card number by clicking on the {HONEYLOGO} in the toolbar."
+   },
+   "If_you_dont_see_a_circle_that_means_youre_on_a_site_that_isnt_supported_by_Honey": {
+      "message": "If you don’t see a circle, that means you’re on a site that isn’t supported by Honey."
+   },
+   "If_you_know_of_one_please_tell_us_and_well_add_it_to_the_list": {
+      "message": "If you know of one, please tell us and we’ll add it to the list."
+   },
+   "If_youre_shopping_online_and_the_H_is_orange_that_means_youre_on_one_of_the_40000_sites_where_Honey_automatically_tests_coupons": {
+      "message": "If you’re shopping online and the {H} is orange, that means you’re on one of the 40,000+ sites where Honey automatically tests coupons."
+   },
+   "If_youre_shopping_online_and_you_see_a_red_circle_next_to_our_H_that_means_youre_on_one_of_40000_sites_where_Honey_finds_savings": {
+      "message": "If you’re shopping online and you see a red circle next to our {H}, that means you’re on one of 40,000+ sites where Honey finds savings."
+   },
+   "Im_done_Take_me_back": {
+      "message": "I’m done. Take me back."
+   },
+   "Included": {
+      "message": "Included"
+   },
+   "Info_Icon": {
+      "message": "Info Icon"
+   },
+   "International_issues": {
+      "message": "International issues"
+   },
+   "It_is_people_like_you_that_help_everyone_save": {
+      "message": "It is people like you that help everyone save."
+   },
+   "It_is_taking_a_bit_longer_than_normal_to_apply_coupons_If_you_dont_mind_the_wait_shall_we_try_the_remaining_coupons": {
+      "message": "It is taking a bit longer than normal to apply coupons. If you don’t mind the wait, shall we try the remaining coupons?"
+   },
+   "Item_Added_to_Cart": {
+      "message": "Item Added to Cart"
+   },
+   "Item_Added_to_Droplist": {
+      "message": "Item Added to Droplist"
+   },
+   "Item_Options": {
+      "message": "Item Options"
+   },
+   "Item_added_to_cart_E": {
+      "message": "Item added to cart!"
+   },
+   "Item_has_been_Droplisted": {
+      "message": "Item has been Droplisted"
+   },
+   "Item_has_been_Smart_Droplisted": {
+      "message": "Item has been Smart Droplisted"
+   },
+   "Item_has_been_removed": {
+      "message": "Item has been removed."
+   },
+   "Item_has_been_updated": {
+      "message": "Item has been updated"
+   },
+   "Item_price": {
+      "message": "Item price"
+   },
+   "Items_have_been_Droplisted": {
+      "message": "Items have been Droplisted"
+   },
+   "Its_always_been_our_mission_to_find_you_the_best_deals_We_only_collect_data_when_youre_on_shopping_sites_That_way_we_can_find_you_relevant_coupons_share_accurate_pricing_trends_and_continue_to_make_shopping_better_for_our_community": {
+      "message": "It’s always been our mission to find you the best deals. We only collect data when you’re on shopping sites. That way, we can find you relevant coupons, share accurate pricing trends, and continue to make shopping better for our community."
+   },
+   "Jackpot_E": {
+      "message": "Jackpot!"
+   },
+   "Join_Honey": {
+      "message": "Join Honey"
+   },
+   "Join_the_Community_Its_Free": {
+      "message": "Join the Community - It’s Free"
+   },
+   "Join_with_Apple": {
+      "message": "Continue with Apple"
+   },
+   "Join_with_Email": {
+      "message": "Join with Email"
+   },
+   "Join_with_Facebook": {
+      "message": "Continue with Facebook"
+   },
+   "Join_with_Google": {
+      "message": "Continue with Google"
+   },
+   "Join_with_PayPal": {
+      "message": "Continue with PayPal"
+   },
+   "Just_Launched": {
+      "message": "Just Launched"
+   },
+   "Just_One_Click": {
+      "message": "Just One Click"
+   },
+   "Keep": {
+      "message": "Keep"
+   },
+   "Keep_item_in_Amazon_Cart": {
+      "message": "Keep item in Amazon Cart"
+   },
+   "Keep_your_eyes_peeled_for_Honey_Gold_Bonuses_one_of_the_fastest_ways_to_turn_Gold_into_gift_cards": {
+      "message": "Keep your eyes peeled for Honey Gold Bonuses, one of the fastest ways to turn Gold into gift cards!"
+   },
+   "Keep_your_fingers_crossed_there_could_be_Gold_at_the_end_of_the_rainbow": {
+      "message": "Keep your fingers crossed, there could be Gold at the end of the rainbow."
+   },
+   "Know_and_save": {
+      "message": "Know and save"
+   },
+   "Know_someone_who_wants_to_save_money_on_Amazon": {
+      "message": "Know someone who wants to save money on Amazon?"
+   },
+   "LASTSUCCESSFULTIME_by_user_in_LOCATION": {
+      "message": "{LASTSUCCESSFULTIME} by user in {LOCATION}"
+   },
+   "LEARNMORE_about_using_Honey_with_your_adblocker": {
+      "message": "{LEARNMORE} about using Honey with your adblocker."
+   },
+   "Last_Name": {
+      "message": "Last Name"
+   },
+   "Last_Successful_Coupon": {
+      "message": "Last Successful Coupon"
+   },
+   "Learn_how_it_works": {
+      "message": "Learn how it works"
+   },
+   "Learn_more": {
+      "message": "Learn more"
+   },
+   "Learn_more_about_Gift_Cards": {
+      "message": "Learn more about Gift Cards"
+   },
+   "Learn_more_about_Honey_Gold": {
+      "message": "Learn more about Honey Gold"
+   },
+   "Leave_Feedback": {
+      "message": "Leave Feedback"
+   },
+   "Leave_feedback_LOWER": {
+      "message": "Leave feedback"
+   },
+   "Legal": {
+      "message": "Legal"
+   },
+   "Lets_confirm_your_details": {
+      "message": "Let’s confirm your details"
+   },
+   "Lets_look_at_how_you_can_get_AMOUNT_back_for_buying_something_from_STORENAME": {
+      "message": "Let’s look at how you can get {AMOUNT} back for buying something from {STORENAME}."
+   },
+   "Like_Honey_Leave_a_review": {
+      "message": "Like Honey? Leave a review!"
+   },
+   "Like_Honey_Q_Leave_us_a_review": {
+      "message": "Like Honey? Leave us a review"
+   },
+   "Limitations_apply": {
+      "message": "Limitations apply"
+   },
+   "Loading": {
+      "message": "Loading"
+   },
+   "Log_in": {
+      "message": "Log in"
+   },
+   "Log_in_or_sign_up_to_claim_your_Honey_Gold": {
+      "message": "Log in or sign up to claim your Honey Gold"
+   },
+   "Log_in_or_sign_up_to_unlock_your_Gold": {
+      "message": "Log in or sign up to unlock your Gold"
+   },
+   "Log_in_to_Amazon": {
+      "message": "Log in to Amazon"
+   },
+   "Log_in_to_Honey": {
+      "message": "Log in to Honey"
+   },
+   "Log_in_to_save_money": {
+      "message": "Log in to save money."
+   },
+   "Log_in_with_Apple": {
+      "message": "Continue with Apple"
+   },
+   "Log_in_with_Email": {
+      "message": "Log in with Email"
+   },
+   "Log_in_with_Facebook": {
+      "message": "Continue with Facebook"
+   },
+   "Log_in_with_Google": {
+      "message": "Continue with Google"
+   },
+   "Log_in_with_PayPal": {
+      "message": "Continue with PayPal"
+   },
+   "Logging_Out": {
+      "message": "Logging Out..."
+   },
+   "Login": {
+      "message": "Login"
+   },
+   "Logout": {
+      "message": "Logout"
+   },
+   "Look_for_the_orange_H_to_save": {
+      "message": "Look for the orange {H} to save"
+   },
+   "Look_for_the_red_circle_to_save": {
+      "message": "Look for the red circle to save"
+   },
+   "Looks_like_Gift_Card_checkout_is_currently_unavailable": {
+      "message": "Looks like Gift Card checkout is currently unavailable."
+   },
+   "Love_STORENAME_Follow_this_store_to_get_sale_alerts": {
+      "message": "Love {STORENAME}? Follow this store to get sale alerts."
+   },
+   "Love_this_store_Save": {
+      "message": "Love this store? Save"
+   },
+   "Low": {
+      "message": "Low"
+   },
+   "Low_chance_for_savings": {
+      "message": "Low chance for savings."
+   },
+   "Lowest_price_in_N_DAYS": {
+      "message": "Lowest price in {N} {DAYS}"
+   },
+   "MIN_to_MAX": {
+      "message": "{MIN} to {MAX}"
+   },
+   "MIN_to_MAX_P": {
+      "message": "{MIN} to {MAX}%"
+   },
+   "MIN_to_MAX_back": {
+      "message": "{MIN} to {MAX}% back"
+   },
+   "Made_changes": {
+      "message": "Made changes?"
+   },
+   "Making_you_a_savings_mixtape": {
+      "message": "Making you a savings mixtape..."
+   },
+   "Maybe_Later_Continue_Checkout": {
+      "message": "Maybe Later, Continue Checkout"
+   },
+   "Missing_a_deal": {
+      "message": "Missing a deal?"
+   },
+   "Missing_working_code": {
+      "message": "Missing working code"
+   },
+   "Move_item_into_Amazon_Cart": {
+      "message": "Move item into Amazon Cart"
+   },
+   "Moving_item_into_Amazon_Cart": {
+      "message": "Moving item into Amazon Cart..."
+   },
+   "My_Big_Day": {
+      "message": "My Big Day"
+   },
+   "My_Collections": {
+      "message": "My Collections"
+   },
+   "My_Next_Getaway": {
+      "message": "My Next Getaway"
+   },
+   "NOTIPS_for_this_item": {
+      "message": "{NOTIPS} for this item"
+   },
+   "NUMBER_members_saved_an_average_of_AVG_on_this_item": {
+      "message": "{NUMBER} members saved an average of {AVG} on this item"
+   },
+   "NUMCHANGES_Price_Change_CAPITAL": {
+      "message": "{NUMCHANGES} Price Change"
+   },
+   "NUMCHANGES_price_changes": {
+      "message": "{NUMCHANGES} price changes"
+   },
+   "NUMCHANGES_price_changes_CAPITAL": {
+      "message": "{NUMCHANGES} Price Changes"
+   },
+   "NUMCODES_CODES_TRIED_AT_CHECKOUT": {
+      "message": "{NUMCODES} CODES TRIED AT CHECKOUT"
+   },
+   "NUMCODES_MORE_CODES_TRIED_AT_CHECKOUT": {
+      "message": "{NUMCODES} MORE CODES TRIED AT CHECKOUT"
+   },
+   "NUMCODES_available": {
+      "message": "{NUMCODES} available"
+   },
+   "NUMCOUPONS_Coupons_Found": {
+      "message": "{NUMCOUPONS} Coupons Found"
+   },
+   "NUMCOUPONS_Coupons_Found_EXCLAMATION": {
+      "message": "{NUMCOUPONS} Coupons Found!"
+   },
+   "NUMCOUPONS_coupon": {
+      "message": "{NUMCOUPONS} coupon"
+   },
+   "NUMCOUPONS_coupons": {
+      "message": "{NUMCOUPONS} coupons"
+   },
+   "NUMDAYS_days": {
+      "message": "{NUMDAYS} days"
+   },
+   "NUMITEMS_items_watched_and_counting": {
+      "message": "{NUMITEMS} items watched and counting!"
+   },
+   "NUMOFFERS_exclusive_offer": {
+      "message": "{NUMOFFERS} Exclusive Offer"
+   },
+   "NUMOFFERS_exclusive_offers": {
+      "message": "{NUMOFFERS} Exclusive Offers"
+   },
+   "NUMPEOPLE_people_watching": {
+      "message": "{NUMPEOPLE} people watching"
+   },
+   "NUMSHOPPERS_shoppers": {
+      "message": "{NUMSHOPPERS} shoppers"
+   },
+   "NUMVEHICLES_TOTALVEHICLES_vehicles": {
+      "message": "{NUMVEHICLES} / {TOTALVEHICLES} vehicles"
+   },
+   "Need_help_Q_Ask_us_a_question": {
+      "message": "Need help? Ask us a question"
+   },
+   "New": {
+      "message": "New"
+   },
+   "New_Activate_to_automatically_save_items_youre_interested_in_and_sync_your_Amazon_Save_for_Later_items": {
+      "message": "New! Activate to automatically save items you’re interested in and sync your Amazon Save for Later items."
+   },
+   "New_Code": {
+      "message": "New Code"
+   },
+   "New_Everything_you_need_to_know_to_get_the_best_deals_on_this_store": {
+      "message": "New! Everything you need to know to get the best deals on this store."
+   },
+   "New_Shop_smarter_with_Honey_Tips_Badge_blocking_your_view_Just_drag_it_up_or_down": {
+      "message": "New! Shop smarter with Honey Tips. Badge blocking your view? Just drag it up or down."
+   },
+   "New_Total_P": {
+      "message": "New Total."
+   },
+   "New_sale_in_CATEGORY": {
+      "message": "New sale in {CATEGORY}"
+   },
+   "Next_complete_your_order_on_the_merchants_site": {
+      "message": "Next, complete your order on the merchant’s site."
+   },
+   "Next_step": {
+      "message": "Next step:"
+   },
+   "Next_step_checkout": {
+      "message": "Next step, checkout"
+   },
+   "Nice_Youre_saving_SAVINGS_on_this_vehicle": {
+      "message": "Nice! You’re saving {SAVINGS} on this vehicle."
+   },
+   "No_Change": {
+      "message": "No Change"
+   },
+   "No_Changes_Found": {
+      "message": "No Changes Found"
+   },
+   "No_Hide_Tip_Alerts": {
+      "message": "No, Hide Tip Alerts"
+   },
+   "No_Major_Changes_Found": {
+      "message": "No Major Changes Found"
+   },
+   "No_Recent_PRICEDROP": {
+      "message": "No Recent {PRICEDROP}"
+   },
+   "No_SIGNIFICANTCHANGES": {
+      "message": "No {SIGNIFICANTCHANGES}"
+   },
+   "No_buyers_remorse_Apply_all_the_coupons_we_have_for_this_store_at_once_and_shop_with_confidence_knowing_you_got_the_best_deal_available": {
+      "message": "No buyer’s remorse. Apply all the coupons we have for this store at once, and shop with confidence knowing you got the best deal available."
+   },
+   "No_buyers_remorse_here": {
+      "message": "No buyer’s remorse here"
+   },
+   "No_dont_show_this_tip_again": {
+      "message": "No, don’t show this tip again"
+   },
+   "No_expiration_date": {
+      "message": "No expiration date"
+   },
+   "No_interest_fees_or_credit_check_So_you_can_hold_on_to_your_money_longer": {
+      "message": "No interest, fees, or credit check. So you can hold on to your money longer."
+   },
+   "No_major_price_changes_found": {
+      "message": "No major price changes found"
+   },
+   "No_recent_PRICECHANGES": {
+      "message": "No recent {PRICECHANGES}"
+   },
+   "No_recent_price_changes_found": {
+      "message": "No recent price changes found"
+   },
+   "No_savings_found": {
+      "message": "No savings found"
+   },
+   "No_significant_price_changes_in_the_last_30_days_P": {
+      "message": "No significant price changes in the last 30 days."
+   },
+   "No_supported_stores_found": {
+      "message": "No supported stores found."
+   },
+   "No_thanks": {
+      "message": "No thanks"
+   },
+   "No_thanks_P": {
+      "message": "No thanks."
+   },
+   "No_tips": {
+      "message": "No tips"
+   },
+   "No_working_codes": {
+      "message": "No working codes?"
+   },
+   "Nope_Think_of_Droplist_as_our_price_tracking_tool_Smart_Droplist_is_an_optional_setting_that_makes_it_even_better": {
+      "message": "Nope. Think of Droplist as our price tracking tool. Smart Droplist is an optional setting that makes it even better."
+   },
+   "Not_Available": {
+      "message": "Not Available"
+   },
+   "Not_a_member": {
+      "message": "Not a member?"
+   },
+   "Not_a_shabby_deal_You_will_likely_receive_alerts_for_this_item": {
+      "message": "Not a shabby deal! You will likely receive alerts for this item."
+   },
+   "Not_all_heroes_wear_capes_Help_make_Honey_even_better_by_adding_a_code_for_STORENAME": {
+      "message": "Not all heroes wear capes. Help make Honey even better by adding a code for {STORENAME}?"
+   },
+   "Not_available_in_all_countries": {
+      "message": "Not available in all countries."
+   },
+   "Not_every_store_has_working_coupons_but_you_can_still_earn_Honey_Gold_towards_gift_cards_at_your_favorite_stores": {
+      "message": "Not every store has working coupons, but you can still earn Honey Gold towards gift cards at your favorite stores."
+   },
+   "Notification_Settings": {
+      "message": "Notification Settings"
+   },
+   "Notify_me_at": {
+      "message": "Notify me at:"
+   },
+   "Now_set_your_1Click_address": {
+      "message": "Now set your 1-Click address."
+   },
+   "Now_the_fun_part_Choose_your_PRICE_gift_card": {
+      "message": "Now, the fun part. Choose your {PRICE} gift card."
+   },
+   "Offer_Activated": {
+      "message": "Offer Activated"
+   },
+   "Offer_Expired": {
+      "message": "Offer Expired"
+   },
+   "Offers_Gold": {
+      "message": "Offers Gold"
+   },
+   "Oh_an_optimist_Us_too_Well_let_you_know_if_we_find_something": {
+      "message": "Oh, an optimist. Us too! We’ll let you know if we find something."
+   },
+   "On_ELIGIBLETOOLTIP_items": {
+      "message": "On {ELIGIBLETOOLTIP} items."
+   },
+   "On_top_of_that_you_can_earn_Honey_Gold_towards_gift_cards_Just_click_the_Claim_Rewards_button_to_start_earning": {
+      "message": "On top of that, you can earn Honey Gold towards gift cards. Just click the Claim Rewards button to start earning."
+   },
+   "Once_you_earn_1000_Gold_you_can_redeem_it_for_a_10_gift_card": {
+      "message": "Redeem for a gift card once you have enough Honey Gold."
+   },
+   "Once_you_earn_1000_Honey_Gold_redeem_it_for_a_10_gift_card_from_stores_like_Amazon_Target_and_Walmart": {
+      "message": "Redeem for a gift card from some of your favorite stores once you have enough Honey Gold."
+   },
+   "Once_you_earn_1000_Honey_Gold_you_can_redeem_it_for_a_10_gift_card_from_stores_like_Amazon_Target_and_Walmart": {
+      "message": "Redeem for a gift card from some of your favorite stores once you have enough Honey Gold."
+   },
+   "Only_appear_when_there_are_savings": {
+      "message": "Only appear when there are savings."
+   },
+   "Only_use_Honey_for_coupons": {
+      "message": "Only use Honey for coupons"
+   },
+   "Oops": {
+      "message": "Oops!"
+   },
+   "Oops_E_We_ran_into_some_issues": {
+      "message": "Oops! We ran into some issues."
+   },
+   "Oops_Honey_is_disabled_on_this_site": {
+      "message": "Oops! Honey is disabled on this site."
+   },
+   "Open_in_New_Tab": {
+      "message": "Open in New Tab"
+   },
+   "Optional": {
+      "message": "Optional"
+   },
+   "Or_add_a_new_address": {
+      "message": "Or, add a new address"
+   },
+   "Or_add_a_new_card": {
+      "message": "Or, add a new card"
+   },
+   "Order_total": {
+      "message": "Order total"
+   },
+   "Original": {
+      "message": "Original"
+   },
+   "Original_Price": {
+      "message": "Original Price"
+   },
+   "Original_Total": {
+      "message": "Original Total"
+   },
+   "Original_Total_P": {
+      "message": "Original Total."
+   },
+   "Other": {
+      "message": "Other"
+   },
+   "Our_free_rewards_program_where_you_can_earn_gift_cards_at_your_favorite_stores": {
+      "message": "Our free rewards program where you can earn gift cards at your favorite stores."
+   },
+   "Our_goal_is_to_continue_offering_top_notch_products_and_your_review_will_help_us_improve": {
+      "message": "Our goal is to continue offering top-notch products, and your review will help us improve."
+   },
+   "Our_secret_formula_of_deals_rewards_and_tips_coming_up": {
+      "message": "Our secret formula of deals, rewards, and tips coming up..."
+   },
+   "Our_team_is_on_it_We_hope_to_see_you_again_soon": {
+      "message": "Our team is on it. We hope to see you again soon."
+   },
+   "Out_of_stock": {
+      "message": "Out of stock"
+   },
+   "Over_5_Off": {
+      "message": "Over 5% Off"
+   },
+   "Over_PERCENT_Off": {
+      "message": "Over {PERCENT}% Off"
+   },
+   "PERCENT_back": {
+      "message": "{PERCENT}% back"
+   },
+   "PERCENT_off": {
+      "message": "{PERCENT} off"
+   },
+   "PERCENT_off_P": {
+      "message": "{PERCENT}% off"
+   },
+   "PIN": {
+      "message": "PIN"
+   },
+   "P_GOLDMIN_to_GOLDMAX": {
+      "message": "+{GOLDMIN} to {GOLDMAX}"
+   },
+   "P_GOLDMIN_to_GOLDMAX_Gold": {
+      "message": "+{GOLDMIN} to {GOLDMAX} Gold"
+   },
+   "P_GOLDVALUE_Gold": {
+      "message": "+{GOLDVALUE} Gold"
+   },
+   "Past": {
+      "message": "Past"
+   },
+   "Pay_PRICEDIFF_more_with_the_default_seller": {
+      "message": "Pay {PRICEDIFF} more with the default seller."
+   },
+   "Pay_later_and_save_SAVINGS_with_Honey": {
+      "message": "Pay later and save {SAVINGS} with Honey"
+   },
+   "Pay_now_and_save_SAVINGS_with_Honey": {
+      "message": "Pay now and save {SAVINGS} with Honey"
+   },
+   "Pay_with": {
+      "message": "Pay with"
+   },
+   "Pay_with_Card": {
+      "message": "Pay with Card"
+   },
+   "Payment_Method": {
+      "message": "Payment Method"
+   },
+   "Perfect_Presents": {
+      "message": "Perfect Presents"
+   },
+   "Pick_your_card_now_and_well_let_you_know_once_its_ready_to_redeem_Its_like_having_dessert_first_Once_youve_earned_TARGET_GOLD_Honey_Gold_rewards_the_gift_card_and_victory_is_all_yours_You_can_always_change_your_card_selection_later": {
+      "message": "Pick your card now and we’ll let you know once it’s ready to redeem. It’s like having dessert first. Once you’ve earned {TARGET_GOLD} Honey Gold rewards, the gift card (and victory) is all yours. You can always change your card selection later."
+   },
+   "Please_agree_to_Honeys_TOS_and_Privacy_Policy_to_create_an_account": {
+      "message": "Please agree to Honey’s TOS and Privacy Policy to create an account"
+   },
+   "Please_list_another_reason": {
+      "message": "Please list another reason."
+   },
+   "Please_note_additional_exclusions_may_apply_in_addition_to_those_listed_above": {
+      "message": "Please note, additional exclusions may apply in addition to those listed above."
+   },
+   "Please_select_an_option": {
+      "message": "Please select an option"
+   },
+   "Please_select_an_option_TITLE": {
+      "message": "Please Select an Option"
+   },
+   "Please_tell_us_about_the_code_and_well_add_it_as_soon_as_a_team_member_has_verified_it_E": {
+      "message": "Please tell us about the code and we’ll add it as soon as a team member has verified it!"
+   },
+   "Popped_up_too_much": {
+      "message": "Popped up too much"
+   },
+   "Potential_Rewards": {
+      "message": "Potential Rewards"
+   },
+   "Powered_by": {
+      "message": "Powered by"
+   },
+   "Powered_by_HONEY": {
+      "message": "Powered by {HONEY}"
+   },
+   "Price": {
+      "message": "Price"
+   },
+   "Price_Drop_Alert": {
+      "message": "Price Drop Alert"
+   },
+   "Price_Insights": {
+      "message": "Price Insights"
+   },
+   "Price_Tracking": {
+      "message": "Price Tracking"
+   },
+   "Price_dropped_TIMEAGO": {
+      "message": "Price dropped {TIMEAGO}"
+   },
+   "Price_has_changed_NUMCHANGES_time_in_the_last_30_days": {
+      "message": "Price has changed {NUMCHANGES} time in the last 30 days"
+   },
+   "Price_has_changed_NUMCHANGES_times_in_the_last_30_days": {
+      "message": "Price has changed {NUMCHANGES} times in the last 30 days"
+   },
+   "Price_has_not_really_changed": {
+      "message": "Price has not really changed"
+   },
+   "Price_increase_detected": {
+      "message": "Price increase detected"
+   },
+   "Price_shown_for_this_item_only": {
+      "message": "Price shown for this item only."
+   },
+   "Prices_change_all_the_time_Add_this_item_to_your_Droplist_We_will_watch_for_price_drops_and_notify_you": {
+      "message": "Prices change all the time. Add this item to your Droplist. We will watch for price drops and notify you."
+   },
+   "Prices_change_all_the_time_Click_the_Droplist_button_and_well_notify_you_when_the_things_you_want_drop_in_price": {
+      "message": "Prices change all the time. Click the Droplist button and we’ll notify you when the things you want drop in price."
+   },
+   "Prime_Shipping": {
+      "message": "Prime Shipping"
+   },
+   "Privacy": {
+      "message": "Privacy"
+   },
+   "Proceed_To_Checkout": {
+      "message": "Proceed To Checkout"
+   },
+   "Psst": {
+      "message": "Psst!"
+   },
+   "Psst_We_just_sent_you_an_email_with_a_link_to_access_this_gift_card_Or_you_can_view_this_gift_card_purchase_on": {
+      "message": "Psst. We just sent you an email with a link to access this gift card. Or, you can view this gift card purchase on"
+   },
+   "Psst_Weve_just_sent_you_an_email_which_gives_you_a_link_to_access_this_gift_card": {
+      "message": "Psst. We’ve just sent you an email which gives you a link to access this gift card."
+   },
+   "Purchase_Excluded": {
+      "message": "Purchase Excluded"
+   },
+   "Purchase_these_items_before_the_timer_ends_to_earn_your_Honey_Gold_bonus": {
+      "message": "Purchase these items before the timer ends to earn your Honey Gold bonus!"
+   },
+   "Purchase_this_item_and_well_give_you_GOLDVALUE_Honey_Gold": {
+      "message": "Purchase this item and we’ll give you {GOLDVALUE} Honey Gold."
+   },
+   "Purchase_this_item_and_well_give_you_GOLDVALUE_Honey_Gold_Every_1000_Honey_Gold_Earned_Can_Be_Redeemed_For_A_10_Gift_Card": {
+      "message": "Purchase this item and we’ll give you {GOLDVALUE} Honey Gold. Every 1,000 Honey Gold earned can be redeemed for a $$10 giftcard."
+   },
+   "Purchase_this_item_and_well_give_you_GOLDVALUE_Honey_Gold_GOLDCURRENCYVALUE_value": {
+      "message": "Purchase this item and we’ll give you {GOLDVALUE} Honey Gold ({GOLDCURRENCYVALUE} value)."
+   },
+   "Purchase_this_item_and_well_give_you_GOLDVALUE_Honey_Gold_GOLDCURRENCYVALUE_value_Every_1000_Honey_Gold_Earned_Can_Be_Redeemed_For_A_10_Gift_Card": {
+      "message": "Purchase this item and we’ll give you {GOLDVALUE} Honey Gold ({GOLDCURRENCYVALUE} value). Every 1,000 Honey Gold earned can be redeemed for a $$10 giftcard."
+   },
+   "Purchase_this_item_to_earn_your_reward_P_Redeem_every_1000_honey_gold_earned_for_a_10_gift_card_P": {
+      "message": "Purchase this item to earn your reward. Redeem every 1,000 Honey Gold earned for a $$10 gift card."
+   },
+   "REVIEW_SETTINGS": {
+      "message": "REVIEW SETTINGS"
+   },
+   "Rate_Honey": {
+      "message": "Rate Honey"
+   },
+   "Rate_this_tip": {
+      "message": "Rate this tip"
+   },
+   "Reach_GOLDVALUE_and_redeem_it_for_gift_cards_Its_that_easy": {
+      "message": "Reach {GOLDVALUE} and redeem it for gift cards. It’s that easy."
+   },
+   "Reactivate_Honey_Gold": {
+      "message": "Reactivate Honey Gold"
+   },
+   "Realtime_tips_and_shopping_insights_on_your_favorite_stores_even_Amazon": {
+      "message": "Real-time tips and shopping insights on your favorite stores, even Amazon."
+   },
+   "Receive_Deal_Alerts": {
+      "message": "Receive Deal Alerts"
+   },
+   "Receive_news_and_offers_from_Honey_by_email_You_can_change_your_communication_preferences_in_your_Honey_account_at_any_time": {
+      "message": "Receive news and offers from Honey by email. You can change your communication preferences in your Honey account at any time."
+   },
+   "Recent_PRICEDROP": {
+      "message": "Recent {PRICEDROP}"
+   },
+   "Recent_PRICEINCREASE": {
+      "message": "Recent {PRICEINCREASE}"
+   },
+   "Recent_Price_Increase_copy": {
+      "message": "Recent Price Increase"
+   },
+   "Recent_price_drop": {
+      "message": "Recent price drop"
+   },
+   "Recent_price_drop_at_this_store": {
+      "message": "Recent price drop at this store"
+   },
+   "Recent_price_increase": {
+      "message": "Recent price increase"
+   },
+   "Redeem": {
+      "message": "Redeem"
+   },
+   "Redeem_HONEYGOLDAMOUNT_Gold_for_a_MINAMOUNTTOREDEEM_gift_card": {
+      "message": "Redeem {HONEYGOLDAMOUNT} Gold for a {MINAMOUNTTOREDEEM} gift card."
+   },
+   "Redeem_HONEYGOLD_Gold_for_a_10_gift_card": {
+      "message": "Redeem for a gift card from some of your favorite stores."
+   },
+   "Redeem_Honey_Gold": {
+      "message": "Redeem Honey Gold"
+   },
+   "Redeem_for_a_GOLDCURRENCYVALUE_gift_card_when_you_reach_GOLDVALUE_E": {
+      "message": "Redeem for a {GOLDCURRENCYVALUE} gift card when you reach {GOLDVALUE}!"
+   },
+   "Redeem_it": {
+      "message": "Redeem it!"
+   },
+   "Referrals": {
+      "message": "Referrals"
+   },
+   "Remember_to_add_the_item_to_your_cart_before_completing_checkout_in_order_to_receive_your_bonus": {
+      "message": "Remember to add the item to your cart before completing checkout in order to receive your bonus."
+   },
+   "Remember_you_can_always_add_items_to_Droplist_and_well_notify_you_if_we_detect_a_price_drop_at_this_store": {
+      "message": "Remember, you can always add items to Droplist and we’ll notify you if we detect a price drop at this store."
+   },
+   "Remind_Me_Later": {
+      "message": "Remind Me Later"
+   },
+   "Remind_Me_at_Checkout": {
+      "message": "Remind Me at Checkout"
+   },
+   "Remove": {
+      "message": "Remove"
+   },
+   "Remove_Item": {
+      "message": "Remove Item"
+   },
+   "Remove_from_Droplist": {
+      "message": "Remove from Droplist"
+   },
+   "Removed_from_your_Droplist": {
+      "message": "Removed from your Droplist."
+   },
+   "Report_a_problem": {
+      "message": "Report a problem"
+   },
+   "Request_Gold": {
+      "message": "Request Gold"
+   },
+   "Required": {
+      "message": "Required"
+   },
+   "Review_Honey": {
+      "message": "Review Honey"
+   },
+   "Review_and_Confirm": {
+      "message": "Review and Confirm"
+   },
+   "Review_my_settings": {
+      "message": "Review my settings"
+   },
+   "Reward": {
+      "message": "Reward"
+   },
+   "Reward_yourself_with_gift_cards_E": {
+      "message": "Reward yourself with gift cards!"
+   },
+   "Rewards": {
+      "message": "Rewards"
+   },
+   "Rewards_Activated": {
+      "message": "Rewards Activated"
+   },
+   "Rewards_Activated_E": {
+      "message": "Rewards Activated!"
+   },
+   "Rewards_May_Be_Blocked": {
+      "message": "Rewards May Be Blocked"
+   },
+   "Rewards_Rate": {
+      "message": "Rewards Rate"
+   },
+   "Rewards_found": {
+      "message": "Rewards found!"
+   },
+   "Rewards_given_in_Honey_Gold_based_on_subtotal_of_ELIGIBLEITEMS_only_TERMSAPPLY": {
+      "message": "Rewards given in Honey Gold based on subtotal of {ELIGIBLEITEMS} only. {TERMSAPPLY}"
+   },
+   "SHIPPINGREQUIREMENT_away_from_free_shipping": {
+      "message": "{SHIPPINGREQUIREMENT} away from free shipping"
+   },
+   "SMARTLIGHTNINGDROPLIST_automatically_added_this_item_to_your_Droplist": {
+      "message": "{SMARTLIGHTNINGDROPLIST} automatically added this item to your Droplist"
+   },
+   "STORENAME_eGift_card": {
+      "message": "{STORENAME} eGift card"
+   },
+   "STORENAME_is_having_a_sale": {
+      "message": "{STORENAME} is having a sale"
+   },
+   "SYM_GOLDMIN_to_SYM_GOLDMAX": {
+      "message": "{SYM}{GOLDMIN} to {SYM}{GOLDMAX}"
+   },
+   "SYM_GOLDVALUE_Gold": {
+      "message": "{SYM}{GOLDVALUE} Gold"
+   },
+   "Save_CARDVALUE_with_a_gift_card": {
+      "message": "Save {CARDVALUE} with a gift card"
+   },
+   "Save_Changes": {
+      "message": "Save Changes"
+   },
+   "Save_Earn_free_gift_cards_Repeat": {
+      "message": "Save. Earn free gift cards. Repeat."
+   },
+   "Save_Item": {
+      "message": "Save Item"
+   },
+   "Save_PRICEDIFF_buying_from_a_different_Amazon_seller": {
+      "message": "Save {PRICEDIFF} buying from a different Amazon seller."
+   },
+   "Save_SAVINGS": {
+      "message": "Save {SAVINGS}"
+   },
+   "Save_address_to_my_Honey_account_for_future_purchases": {
+      "message": "Save address to my Honey account for future purchases"
+   },
+   "Save_an_extra_SAVINGSAMOUNT_with_a_giftcard": {
+      "message": "Save an extra {SAVINGSAMOUNT} with a gift card"
+   },
+   "Save_as_my_default_payment_info_to_Honey": {
+      "message": "Save as my default payment info to Honey"
+   },
+   "Save_for_later": {
+      "message": "Save for later"
+   },
+   "Save_items_to_Droplist_and_well_notify_you_when_we_detect_a_price_drop": {
+      "message": "Save items to Droplist and we’ll notify you when we detect a price drop."
+   },
+   "Save_money_Earn_Gold_Its_a_win_win": {
+      "message": "Save money. Earn Gold. It’s a win win."
+   },
+   "Save_more_on_Amazon": {
+      "message": "Save more on Amazon"
+   },
+   "Save_more_with_a_Gift_Card_Deal": {
+      "message": "Save more with a Gift Card Deal"
+   },
+   "Save_on_30000_stores": {
+      "message": "Save on 30,000+ stores"
+   },
+   "Save_payment_info_to_my_Honey_account_for_future_purchases": {
+      "message": "Save payment info to my Honey account for future purchases"
+   },
+   "Save_this_address_for_future_purchases": {
+      "message": "Save this address for future purchases"
+   },
+   "Save_this_card_for_future_purchases": {
+      "message": "Save this card for future purchases"
+   },
+   "Save_this_item_to_DROPLIST": {
+      "message": "Save this item to {DROPLIST}"
+   },
+   "Save_using_an_eGift_Card_on_this_order": {
+      "message": "Save using an eGift Card on this order"
+   },
+   "Saved_Cards": {
+      "message": "Saved Cards"
+   },
+   "Saved_this_item_to_DROPLIST": {
+      "message": "Saved this item to {DROPLIST}"
+   },
+   "Saved_to_COLLECTIONNAME_Collection": {
+      "message": "Saved to {COLLECTIONNAME} Collection"
+   },
+   "Saved_to_DROPLIST": {
+      "message": "Saved to {DROPLIST}"
+   },
+   "Savings_Applied": {
+      "message": "Savings Applied"
+   },
+   "Savings_Likely": {
+      "message": "Savings Likely"
+   },
+   "Savings_Range": {
+      "message": "Savings Range"
+   },
+   "Savings_Very_Likely": {
+      "message": "Savings Very Likely"
+   },
+   "Savings_and_Rewards": {
+      "message": "Savings and Rewards"
+   },
+   "Savings_automatically_Heres_how": {
+      "message": "Savings automatically. Here’s how."
+   },
+   "Savings_from_Honey": {
+      "message": "Savings from Honey"
+   },
+   "Savings_may_be_available": {
+      "message": "Savings may be available"
+   },
+   "Scheduled_Delivery": {
+      "message": "Scheduled Delivery"
+   },
+   "Scheduled_Delivery_RANGE": {
+      "message": "Scheduled Delivery ({RANGE})"
+   },
+   "Search_Now": {
+      "message": "Search Now"
+   },
+   "Search_for_Coupons": {
+      "message": "Search for Coupons"
+   },
+   "Search_stores": {
+      "message": "Search stores"
+   },
+   "Searching_every_corner_of_the_internet_for_deals": {
+      "message": "Searching every corner of the internet for deals..."
+   },
+   "See_All": {
+      "message": "See All"
+   },
+   "See_All_OFFER_COUNT_Offers": {
+      "message": "See All {OFFER_COUNT} Offers"
+   },
+   "See_Terms": {
+      "message": "See Terms"
+   },
+   "See_a_code_we_dont_have": {
+      "message": "See a code we don’t have?"
+   },
+   "See_details": {
+      "message": "See details"
+   },
+   "See_fewer_details": {
+      "message": "See fewer details"
+   },
+   "See_if_coupons_work_for_new_items_in_your_cart": {
+      "message": "See if coupons work for new items in your cart."
+   },
+   "See_limitations": {
+      "message": "See limitations."
+   },
+   "See_more_details": {
+      "message": "See more details"
+   },
+   "See_price_details": {
+      "message": "See price details"
+   },
+   "See_price_history": {
+      "message": "See price history"
+   },
+   "See_price_insights": {
+      "message": "See price insights"
+   },
+   "See_the_right_for_more_details_or_try_again_later": {
+      "message": "See the right for more details, or try again later."
+   },
+   "Seeing_too_many_deals_Customize_your_settings_here": {
+      "message": "Seeing too many deals? Customize your settings here."
+   },
+   "Select": {
+      "message": "Select"
+   },
+   "Send": {
+      "message": "Send"
+   },
+   "Sent": {
+      "message": "Sent"
+   },
+   "Set_1Click_Address": {
+      "message": "Set 1-Click Address"
+   },
+   "Set_Up_1Click_Ordering": {
+      "message": "Set Up 1-Click Ordering"
+   },
+   "Set_up_1Click_Ordering_on_Amazon_and_Honey_will_make_sure_you_always_get_the_best_price_on_Amazon_including_tax_and_shipping": {
+      "message": "Set up 1-Click Ordering on Amazon and Honey will make sure you always get the best price on Amazon including tax and shipping."
+   },
+   "Set_up_1Click_Ordering_on_Amazon_and_well_make_sure_you_always_get_the_best_price_on_Amazon_including_tax_and_shipping": {
+      "message": "Set up 1-Click Ordering on Amazon and we’ll make sure you always get the best price on Amazon including tax and shipping."
+   },
+   "Set_up_1Click_Ordering_on_Amazon_to_make_sure_you_always_get_the_best_deal_E": {
+      "message": "Set up 1-Click Ordering on Amazon to make sure you always get the best deal!"
+   },
+   "Settings": {
+      "message": "Settings"
+   },
+   "Share": {
+      "message": "Share"
+   },
+   "Share_it_with_the_Honey_community": {
+      "message": "Share it with the Honey community"
+   },
+   "Share_it_with_the_community": {
+      "message": "Share it with the community."
+   },
+   "Share_the_deals_reward_yourself": {
+      "message": "Share the deals, reward yourself"
+   },
+   "Share_the_love": {
+      "message": "Share the love?"
+   },
+   "Share_your_link_here": {
+      "message": "Share your link here:"
+   },
+   "Share_your_link_with_your_friends_For_each_friend_who_creates_an_account_with_your_link_and_earns_Gold_on_a_purchase_youll_qualify_for_Gold": {
+      "message": "Share your link with your friends. For each friend who creates an account with your link and earns Gold on a purchase, you’ll qualify for Gold*."
+   },
+   "Share_your_link_with_your_friends_Once_they_create_an_account_and_earn_Gold_on_a_purchase_you_get_Gold_Redeem_HONEYGOLDAMOUNT_Gold_for_a_MINAMOUNTTOREDEEM_gift_card": {
+      "message": "Share your link with your friends. Once they create an account and earn Gold on a purchase, you get Gold. Redeem {HONEYGOLDAMOUNT} Gold for a {MINAMOUNTTOREDEEM} gift card!"
+   },
+   "Ship_to_this_address": {
+      "message": "Ship to this address"
+   },
+   "Shipping_Address": {
+      "message": "Shipping Address"
+   },
+   "Shipping_Tax": {
+      "message": "Shipping & Tax"
+   },
+   "Shop": {
+      "message": "Shop"
+   },
+   "Shop_at_STORENAME": {
+      "message": "Shop at {STORENAME}"
+   },
+   "Shop_like_normal_at_30000_stores_and_well_apply_the_best_coupons_we_find_at_checkout": {
+      "message": "Shop like normal at 30,000+ stores and we’ll apply the best coupons we find at checkout."
+   },
+   "Shop_smarter_even_on_Amazon": {
+      "message": "Shop smarter, even on Amazon"
+   },
+   "Shopping_wisdom_is_worth_waiting_for": {
+      "message": "Shopping wisdom is worth waiting for..."
+   },
+   "Show": {
+      "message": "Show"
+   },
+   "Sign_Up_and_Unlock_Gold": {
+      "message": "Sign Up and Unlock Gold"
+   },
+   "Sign_Up_to_Unlock_Offer": {
+      "message": "Sign Up to Unlock Offer"
+   },
+   "Sign_in_with_Honey_to_add_this_item_to_your_Droplist_Well_watch_for_price_drops_over_the_next_DAYS_and_email_you_when_the_deal_gets_sweet": {
+      "message": "Sign in with Honey to add this item to your Droplist. We’ll watch for price drops over the next {DAYS} and email you when the deal gets sweet."
+   },
+   "Sign_me_up_for_sale_alerts_for_this_store": {
+      "message": "Sign me up for sale alerts for this store"
+   },
+   "Sign_up_for_Free": {
+      "message": "Sign up for Free"
+   },
+   "Sign_up_to_activate": {
+      "message": "Sign up to activate"
+   },
+   "Sign_up_to_watch_this_item_for_price_drops": {
+      "message": "Sign up to watch this item for price drops"
+   },
+   "Significant_changes": {
+      "message": "significant changes"
+   },
+   "Sites_often_change_which_can_require_an_update_to_Honey_to_keep_everything_working_smoothly_Let_us_know_what_went_wrong_and_we_will_fix_it_so_everybody_wins": {
+      "message": "Sites often change, which can require an update to Honey to keep everything working smoothly. Let us know what went wrong and we will fix it so everybody wins."
+   },
+   "Smart_Droplist_automatically_saves_frequently_viewed_items_and_items_you_buy_often_Well_notify_you_once_theres_a_price_drop_You_can_always_deactivate_it_and_use_Droplist_like_you_always_do": {
+      "message": "Smart Droplist automatically saves frequently viewed items and items you buy often. We’ll notify you once there’s a price drop. You can always deactivate it and use Droplist like you always do."
+   },
+   "Smart_Droplist_automatically_saves_frequently_viewed_items_as_well_as_items_you_like_save_and_buy_often_It_also_works_on_Amazon_and_more_popular_stores": {
+      "message": "Smart Droplist automatically saves frequently viewed items as well as items you like, save, and buy often. It also works on Amazon and more popular stores."
+   },
+   "Smart_Droplist_does_the_work_for_you": {
+      "message": "Smart Droplist does the work for you"
+   },
+   "Smart_LIGHTNING_Droplist": {
+      "message": "Smart {LIGHTNING} Droplist"
+   },
+   "Snooze_for_24_hours": {
+      "message": "Snooze for 24 hours"
+   },
+   "Snooze_on_this_page": {
+      "message": "Snooze on this page"
+   },
+   "Some_exclusions_may_apply": {
+      "message": "Some exclusions may apply."
+   },
+   "Some_items_you_have_droplisted_are_no_longer_available_from_STORENAME_and_have_been_removed_from_your_Droplist": {
+      "message": "Some items you have droplisted are no longer available from {STORENAME} and have been removed from your Droplist."
+   },
+   "Some_restrictions_apply": {
+      "message": "Some restrictions apply."
+   },
+   "Some_restrictions_may_apply": {
+      "message": "Some restrictions may apply."
+   },
+   "Something_else_is_wrong": {
+      "message": "Something else is wrong"
+   },
+   "Something_is_wrong": {
+      "message": "Something is wrong"
+   },
+   "Sometimes_merchants_dont_have_coupons_No_worries_well_give_you_Honey_Gold_after_your_purchase_that_you_can_redeem_for_gift_cards_at_some_of_the_most_popular_online_stores": {
+      "message": "Sometimes merchants don’t have coupons. No worries, we’ll give you Honey Gold after your purchase that you can redeem for gift cards at some of the most popular online stores."
+   },
+   "Spend_CARTDIFF_more_and_get_SAVINGS_off": {
+      "message": "Spend {CARTDIFF} more and get {SAVINGS} off"
+   },
+   "Spend_VALUE_more_and_get_free_shipping": {
+      "message": "Spend {VALUE} more and get free shipping."
+   },
+   "Stand_by_for_some_serious_deal_science": {
+      "message": "Stand by for some serious deal science..."
+   },
+   "Start_Using_Honey": {
+      "message": "Start Using Honey"
+   },
+   "Step_1": {
+      "message": "Step 1"
+   },
+   "Step_1_of_1": {
+      "message": "Step 1 of 1"
+   },
+   "Step_2_of_2": {
+      "message": "Step 2 of 2"
+   },
+   "Stick_with_us_P_Were_a_magnet_for_deals": {
+      "message": "Stick with us. We're a magnet for deals."
+   },
+   "Still_no_luck_Let_us_know_so_we_can_get_on_it": {
+      "message": "Still no luck? Let us know so we can get on it."
+   },
+   "Still_searching_for_your_own_coupon_codes_online_Make_like_a_coupon_cut_it_out_Honeys_got_it": {
+      "message": "Still searching for your own coupon codes online? Make like a coupon & cut it out! Honey’s got it:"
+   },
+   "Stuff_I_Want": {
+      "message": "Stuff I Want"
+   },
+   "Submit": {
+      "message": "Submit"
+   },
+   "Submit_a_coupon": {
+      "message": "Submit a coupon"
+   },
+   "Submit_another_code": {
+      "message": "Submit another code"
+   },
+   "Subtotal": {
+      "message": "Subtotal"
+   },
+   "Suggested_Collections": {
+      "message": "Suggested Collections"
+   },
+   "Support": {
+      "message": "Support"
+   },
+   "Swap_item_into_Amazon_Cart": {
+      "message": "Swap item into Amazon Cart"
+   },
+   "Swapping_item_for_a_better_deal": {
+      "message": "Swapping item for a better deal..."
+   },
+   "Sync_Error": {
+      "message": "Sync Error"
+   },
+   "Sync_Saved_for_Later_items_to_Droplist": {
+      "message": "Sync Saved for Later items to Droplist"
+   },
+   "Syncing": {
+      "message": "Syncing"
+   },
+   "TERMSAPPLY_Max_amount_of_Gold_you_can_earn_under_this_offer_is_MAXREDEEMABLEAMT": {
+      "message": "{TERMSAPPLY} Max amount of Gold you can earn under this offer is {MAXREDEEMABLEAMT}."
+   },
+   "TERMSAPPLY_Max_of_200_referral_bonuses_applies": {
+      "message": "*{TERMSAPPLY} Max of 200 referral bonuses applies."
+   },
+   "TERMSLINK_apply": {
+      "message": "{TERMSLINK} apply."
+   },
+   "TERMS_and_EXCLUSIONS_apply": {
+      "message": "{TERMS} and {EXCLUSIONS} apply."
+   },
+   "TOS": {
+      "message": "TOS"
+   },
+   "Tags": {
+      "message": "Tags"
+   },
+   "Takes_about_TIME_seconds": {
+      "message": "Takes about {TIME} seconds"
+   },
+   "Takes_too_long_to_redeem_Gold": {
+      "message": "Takes too long to redeem Gold"
+   },
+   "Tax": {
+      "message": "Tax"
+   },
+   "Tell_me_more": {
+      "message": "Tell me more"
+   },
+   "Temporarily_out_of_stock": {
+      "message": "Temporarily out of stock"
+   },
+   "Terms": {
+      "message": "Terms"
+   },
+   "Terms_and_exclusions_may_apply": {
+      "message": "Terms & exclusions may apply."
+   },
+   "Terms_apply": {
+      "message": "Terms apply."
+   },
+   "Testing_code": {
+      "message": "Testing code:"
+   },
+   "Testing_code_CURRENTNUM_of_TOTALNUM": {
+      "message": "Testing code {CURRENTNUM} of {TOTALNUM}"
+   },
+   "Thank_you_for_continuing_to_use_Honey": {
+      "message": "Thank you for continuing to use Honey."
+   },
+   "Thank_you_for_your_Feedback_E": {
+      "message": "Thank you for your Feedback!"
+   },
+   "Thank_yous_are_nice_Gift_cards_are_even_better_Honey_gold_is_our_rewards_program_where_you_can_earn_gift_cards_from_your_favorite_stores_Once_you_earn_HONEYGOLD_Gold_redeem_it_for_a_MINAMOUNTTOREDEEM_gift_card": {
+      "message": "Thank yous are nice. Gift cards are even better. Honey Gold is our rewards program where you can earn gift cards from your favorite stores. Once you earn {HONEYGOLD} Gold, redeem it for a {MINAMOUNTTOREDEEM} gift card."
+   },
+   "Thanks": {
+      "message": "Thanks!"
+   },
+   "Thanks_E_Now_stay_in_the_know": {
+      "message": "Thanks! Now stay in the know."
+   },
+   "Thanks_for_your_feedback_E": {
+      "message": "Thanks for your feedback!"
+   },
+   "Thanks_for_your_help": {
+      "message": "Thanks for your help!"
+   },
+   "Thanks_well_pass_it_on_E": {
+      "message": "Thanks, we’ll pass it on!"
+   },
+   "Thats_it_E": {
+      "message": "That’s it!"
+   },
+   "Thats_up_to_GOLDMAX_Gold_Redeem_1000_Honey_Gold_for_a_10_gift_card": {
+      "message": "That’s up to {GOLDMAX} Gold. Redeem for a gift card once you have enough Honey Gold."
+   },
+   "The_feed_at_joinhoneycom_is_your_daily_goto_for_top_deals_amazing_coupons_new_product_recommendations_and_more": {
+      "message": "The Feed at joinhoney.com is your daily go-to for top deals, amazing coupons, new product recommendations, and more."
+   },
+   "The_number_in_the_circle_is_how_many_coupons_well_automatically_test_at_checkout": {
+      "message": "The number in the circle is how many coupons we’ll automatically test at checkout."
+   },
+   "The_price_hasnt_changed": {
+      "message": "The price hasn’t changed"
+   },
+   "The_price_is_PRICEPERCENTAGE_higher_than_its_lowest_price_we_found_on_STORENAME_over_the_last_30_days": {
+      "message": "The price is {PRICEPERCENTAGE}% higher than its lowest price we found on {STORENAME} over the last 30 days. "
+   },
+   "The_price_is_wrong": {
+      "message": "The price is wrong"
+   },
+   "The_price_recently_dropped": {
+      "message": "The price recently dropped"
+   },
+   "The_price_you_see_isnt_always_the_best_deal": {
+      "message": "The price you see isn’t always the best deal."
+   },
+   "The_rewards_rates_are_too_low": {
+      "message": "The rewards rates are too low"
+   },
+   "There_are_no_tips_for_this_item": {
+      "message": "There are no tips for this item"
+   },
+   "There_arent_any_active_savings_on_your_order_but_you_can_follow_this_store_to_get_future_sale_and_coupon_alerts": {
+      "message": "There aren’t any active savings on your order, but you can follow this store to get future sale and coupon alerts."
+   },
+   "Theres_more_to_deals_than_coupons": {
+      "message": "There’s more to deals than coupons"
+   },
+   "These_Honey_Tips_are_realtime_deal_alerts_Even_if_you_hide_alerts_you_can_still_find_them_by_clicking_the_Honey_icon_on_the_right": {
+      "message": "These Honey Tips are real-time deal alerts. Even if you hide alerts, you can still find them by clicking the Honey icon on the right."
+   },
+   "They_might_not_have_the_best_success_rate_but_you_can_still_try_your_luck": {
+      "message": "They might not have the best success rate, but you can still try your luck."
+   },
+   "Things_to_try": {
+      "message": "Things to try:"
+   },
+   "This_can_happen_if_you_interact_with_another_coupon_or_rewards_program_Click_below_to_reactivate_Honey_and_earn_your_rewards": {
+      "message": "This can happen if you interact with another coupon or rewards program. Click below to re-activate Honey and earn your rewards"
+   },
+   "This_code_can_save_you_COUPON_off_cart_totals_over_CARTTHRESHHOLD_Would_you_like_us_to_apply_it": {
+      "message": "This code can save you {COUPON} off cart totals over {CARTTHRESHHOLD}. Would you like us to apply it?"
+   },
+   "This_feature_was_developed_by_Honey_Amazon_and_Honey_are_not_affiliated": {
+      "message": "This feature was developed by Honey. Amazon and Honey are not affiliated."
+   },
+   "This_helps_us_accurately_calculate_tax_shipping_costs_and_arrival_dates_for_you": {
+      "message": "This helps us accurately calculate tax, shipping costs, and arrival dates for you."
+   },
+   "This_is_helpful": {
+      "message": "This is helpful"
+   },
+   "This_is_our_top_pick": {
+      "message": "This is our top pick"
+   },
+   "This_is_the_best_deal_of_all_Amazon_sellers": {
+      "message": "This is the best deal of all Amazon sellers."
+   },
+   "This_is_the_best_seller_we_found": {
+      "message": "This is the best seller we found"
+   },
+   "This_is_the_lowest_price_we_found_for_this_item_at_STORENAME_Nice_timing_E": {
+      "message": "This is the lowest price we found for this item at {STORENAME}. Nice timing!"
+   },
+   "This_isnt_relevant": {
+      "message": "This isn’t relevant"
+   },
+   "This_isnt_useful": {
+      "message": "This isn’t useful"
+   },
+   "This_item_is_in_your_Droplist": {
+      "message": "This item is in your Droplist."
+   },
+   "This_items_price_is_PERCENTAGE_lower_than_its_been_in_the_last_30_days": {
+      "message": "This item’s price is {PERCENTAGE}% lower than it’s been in the last 30 days."
+   },
+   "This_items_price_is_PRICEPERCENTAGE_lower_than_its_been_in_the_last_30_days": {
+      "message": "This item’s price is { PRICEPERCENTAGE }% lower than it’s been in the last 30 days. Nice timing! Enjoy your deal."
+   },
+   "This_items_price_is_PRICEPERCENTAGE_lower_than_its_been_in_the_last_30_days_Check_all_item_options_to_see_if_you_can_save_even_more": {
+      "message": "This item’s price is {PRICEPERCENTAGE}% lower than it’s been in the last 30 days. Check all item options to see if you can save even more."
+   },
+   "This_items_price_is_PRICEPERCENTAGE_lower_than_its_been_in_the_last_30_days_Nice_timing_enjoy_your_deal": {
+      "message": "This item’s price is {PRICEPERCENTAGE}% lower than it’s been in the last 30 days. Nice timing! Enjoy your deal."
+   },
+   "This_items_price_is_PRICEPERCENTAGE_lower_than_its_been_on_average_in_the_last_30_days_Check_it_out_since_prices_can_always_change": {
+      "message": "This item’s price is {PRICEPERCENTAGE}% lower than it’s been on average in the last 30 days. Check it out since prices can always change."
+   },
+   "This_items_price_is_PRICEPERCENTAGE_lower_than_weve_seen_at_STORENAME_in_the_last_30_days_Check_it_out_since_prices_can_always_change": {
+      "message": "This item’s price is {PRICEPERCENTAGE}% lower than we’ve seen at {STORENAME} in the last 30 days. Check it out, since prices can always change."
+   },
+   "This_looks_like_a_deal": {
+      "message": "This looks like a deal"
+   },
+   "This_offer_can_only_be_earned_once_TERMS_apply": {
+      "message": "This offer can only be earned once. {TERMS} apply"
+   },
+   "This_price_has_recently_gone_up": {
+      "message": "This price has recently gone up"
+   },
+   "This_price_is_for_VARIANT_and_may_not_apply_to_all_item_options_such_as_size_color_or_other_preferences": {
+      "message": "This price is for {VARIANT} and may not apply to all item options such as size, color, or other preferences."
+   },
+   "This_price_may_not_apply_to_all_item_options_such_as_size_color_or_other_preferences": {
+      "message": "This price may not apply to all item options such as size, color, or other preferences."
+   },
+   "This_store_doesnt_have_any_working_codes_but_Honey_has_you_covered": {
+      "message": "This store doesn’t have any working codes, but Honey has you covered."
+   },
+   "This_store_doesnt_have_any_working_codes_but_Honey_has_you_covered_with_up_to_GOLDVALUE_Honey_Gold_back_on_your_purchase_Redeem_Gold_for_a_Gift_Card": {
+      "message": "This store doesn’t have any working codes, but Honey has you covered with up to {GOLDVALUE} Honey Gold back on your purchase. Redeem Gold for a Gift Card."
+   },
+   "This_store_doesnt_have_any_working_coupons_but_well_reward_you_with_GOLDRANGE_back_in_Honey_Gold_on_eligible_items": {
+      "message": "This store doesn’t have any working coupons. But we’ll reward you with {GOLDRANGE} back in Honey Gold on eligible items*."
+   },
+   "This_store_has_a_low_coupon_success_rate_right_now_But_well_reward_you_with_GOLDRANGE_back_in_Honey_Gold_on_eligible_items": {
+      "message": "This store has a low coupon success rate right now. But we’ll reward you with {GOLDRANGE} back in Honey Gold on eligible items*."
+   },
+   "This_store_has_coupons": {
+      "message": "This store has coupons"
+   },
+   "This_store_isnt_offering_Honey_Gold_right_now_but_you_have_the_power_to_help_make_it_happen_All_it_takes_is_just_one_click": {
+      "message": "This store isn’t offering Honey Gold right now, but you have the power to help make it happen. All it takes is just one click."
+   },
+   "To_get_the_best_deal_be_sure_to_look_for_all_NUMBUTTONS_Honey_buttons_to_see_savings_found": {
+      "message": "To get the best deal, be sure to look for all {NUMBUTTONS} Honey buttons to see savings found."
+   },
+   "To_reenable_Honey_Pay_please_change_your_total_back_to_your_previous_amount": {
+      "message": "To re-enable Honey Pay please change your total back to your previous amount."
+   },
+   "To_see_Tips_less_often_go_to_your_settings_GEARICON": {
+      "message": "To see Tips less often, go to your settings {GEARICON}."
+   },
+   "Todays_Rewards_Rate": {
+      "message": "Today’s Rewards Rate:"
+   },
+   "Todays_batch_of_store_deals_and_tips_coming_up": {
+      "message": "Today's batch of store deals and tips coming up..."
+   },
+   "Toggle_on_to_always_add_saved_items_to_your_Honey_DROPLIST": {
+      "message": "Toggle on to always add saved items to your Honey {DROPLIST}"
+   },
+   "Took_too_long": {
+      "message": "Took too long"
+   },
+   "Treat_Yourself": {
+      "message": "Treat Yourself"
+   },
+   "Trending_Stores": {
+      "message": "Trending Stores"
+   },
+   "Try_Again": {
+      "message": "Try Again"
+   },
+   "Try_Anyway": {
+      "message": "Try Anyway"
+   },
+   "Try_Coupons_Again": {
+      "message": "Try Coupons Again"
+   },
+   "Try_Later": {
+      "message": "Try Later"
+   },
+   "Try_NUMCOUPONS_more_coupons": {
+      "message": "Try {NUMCOUPONS} more coupons"
+   },
+   "Try_more_coupons": {
+      "message": "Try more coupons"
+   },
+   "Try_more_coupons_Q": {
+      "message": "Try more coupons?"
+   },
+   "Try_running_Honey_again_to_see_if_it_fixes_the_problem": {
+      "message": "Try running Honey again to see if it fixes the problem."
+   },
+   "Turn_on_the_Smart_Droplist_option_to_automatically_save_frequently_viewed_items_Get_notified_as_soon_as_theres_a_price_drop": {
+      "message": "Turn on the Smart Droplist option to automatically save frequently viewed items. Get notified as soon as there’s a price drop."
+   },
+   "Two_Day_Shipping": {
+      "message": "Two-Day Shipping"
+   },
+   "Uhoh_E_You_could_be_missing_out_on_Gold": {
+      "message": "Uh-oh! You could be missing out on Gold"
+   },
+   "Uhoh_Honey_Gold_may_be_blocked": {
+      "message": "Uh-oh. Honey Gold may be blocked."
+   },
+   "Uhoh_Looks_like_something_went_wrong_Please_try_again": {
+      "message": "Uh-oh. Looks like something went wrong. Please try again."
+   },
+   "Uhoh_Looks_like_something_went_wrong_on_our_end_Please_help_us_get_to_the_bottom_of_this_and_report_a_problem": {
+      "message": "Uh-oh. Looks like something went wrong on our end. Please help us get to the bottom of this and report a problem."
+   },
+   "Uhoh_something_went_wrong": {
+      "message": "Uh-oh, something went wrong"
+   },
+   "Undo": {
+      "message": "Undo"
+   },
+   "Unfollow": {
+      "message": "Unfollow"
+   },
+   "Unlock_Gift_Card": {
+      "message": "Unlock Gift Card"
+   },
+   "Up_to_GOLDPERCENT_Back": {
+      "message": "Up to {GOLDPERCENT}% Back"
+   },
+   "Up_to_GOLDPERCENT_Gold_on_eligible_items_could_be_yours_Redeem_GOLDVALUE_Gold_for_a_REDEEMVALUE_gift_card": {
+      "message": "Up to {GOLDPERCENT}% Gold on eligible items* could be yours. Redeem {GOLDVALUE} Gold for a {REDEEMVALUE} gift card."
+   },
+   "Up_to_GOLD_Gold_on_eligible_items_could_be_yours_Redeem_GOLDVALUE_Gold_for_a_REDEEMVALUE_gift_card": {
+      "message": "Up to {GOLD} Gold on eligible items* could be yours. Redeem {GOLDVALUE} Gold for a {REDEEMVALUE} gift card."
+   },
+   "Update_Item": {
+      "message": "Update Item"
+   },
+   "Update_details": {
+      "message": "Update details"
+   },
+   "Use_as_default": {
+      "message": "Use as default"
+   },
+   "Use_it_to_shop_and_save_at_this_store": {
+      "message": "Use it to shop and save at this store"
+   },
+   "Using_code": {
+      "message": "Using code:"
+   },
+   "Using_eGift_Card": {
+      "message": "Using eGift Card"
+   },
+   "Vehicles_With_Savings": {
+      "message": "Vehicles With Savings"
+   },
+   "View": {
+      "message": "View"
+   },
+   "View_All": {
+      "message": "View All"
+   },
+   "View_Coupons": {
+      "message": "View Coupons"
+   },
+   "View_Droplist": {
+      "message": "View Droplist"
+   },
+   "View_Exclusions": {
+      "message": "View Exclusions"
+   },
+   "View_More": {
+      "message": "View More"
+   },
+   "View_More_Tips": {
+      "message": "View More Tips"
+   },
+   "View_Price_History_CAPITAL": {
+      "message": "View Price History"
+   },
+   "View_Store_Exclusions": {
+      "message": "View Store Exclusions"
+   },
+   "View_Terms": {
+      "message": "View Terms"
+   },
+   "View_my_Droplist": {
+      "message": "View my Droplist"
+   },
+   "View_on_Groupon": {
+      "message": "View on Groupon"
+   },
+   "View_price_history": {
+      "message": "View price history"
+   },
+   "Visit_Store": {
+      "message": "Visit Store"
+   },
+   "Want_Droplist_to_work_even_harder": {
+      "message": "Want Droplist to work even harder?"
+   },
+   "Want_Gold_rewards_Q_Let_STORENAME_know": {
+      "message": "Want Gold rewards? Let {STORENAME} know."
+   },
+   "Want_to_know_a_secret": {
+      "message": "Want to know a secret?"
+   },
+   "Want_to_stay_in_the_know": {
+      "message": "Want to stay in the know?"
+   },
+   "Want_to_try_again": {
+      "message": "Want to try again?"
+   },
+   "Warming_up_our_shopping_muscles": {
+      "message": "Warming up our shopping muscles..."
+   },
+   "Watch_for_Price_Drops": {
+      "message": "Watch for Price Drops"
+   },
+   "Watch_this_item_for_price_drops": {
+      "message": "Watch this item for price drops."
+   },
+   "Watch_your_Gold_balance_fill_up": {
+      "message": "Watch your Gold balance fill up"
+   },
+   "Watching_for": {
+      "message": "Watching for:"
+   },
+   "Watching_for_price_drops": {
+      "message": "Watching for price drops"
+   },
+   "We_also_found_a_free_gift": {
+      "message": "We also found a free gift"
+   },
+   "We_also_found_codes_for_free_samples_You_can_choose_on_the_next_screen": {
+      "message": "We also found codes for free samples. You can choose on the next screen."
+   },
+   "We_can_help_you_get_your_money_back_on_eligible_purchases_if_you_dont_get_exactly_what_you_expected": {
+      "message": "We can help you get your money back on eligible purchases if you don’t get exactly what you expected."
+   },
+   "We_cant_activate_Honey_Gold_because_you_clicked_on_a_code_from_another_coupon_site_LEARNMORE": {
+      "message": "We can’t activate Honey Gold because you clicked on a code from another coupon site. {LEARNMORE}"
+   },
+   "We_cant_automatically_apply_coupons_right_now": {
+      "message": "We can’t automatically apply coupons right now"
+   },
+   "We_detected_a_PRICEPERCENTAGE_price_drop_at_STORENAME_for_this_item_TIMEAGO_Enjoy_your_deal": {
+      "message": "We detected a {PRICEPERCENTAGE}% price drop at {STORENAME} for this item {TIMEAGO}. Enjoy your deal."
+   },
+   "We_didnt_find_any_active_codes_for_this_store_Shop_with_confidence_knowing_that_we_searched_for_you": {
+      "message": "We didn’t find any active codes for this store. Shop with confidence knowing that we searched for you."
+   },
+   "We_didnt_find_any_active_codes_that_beat_the_price_you_already_have_Enjoy_your_purchase": {
+      "message": "We didn’t find any active codes that beat the price you already have. Enjoy your purchase."
+   },
+   "We_didnt_find_any_active_coupons_on_your_order_but_an_item_in_your_cart_is_on_sale_Nice_timing_E": {
+      "message": "We didn’t find any active coupons on your order but an item in your cart is on sale. Nice timing!"
+   },
+   "We_didnt_find_any_active_savings_on_your_order_Follow_STORE_to_get_exclusive_sale_and_coupon_alerts": {
+      "message": "We didn’t find any active savings on your order. Follow {STORE} to get exclusive sale and coupon alerts."
+   },
+   "We_didnt_find_any_active_savings_on_your_order_That_means_you_already_have_a_great_price": {
+      "message": "We didn’t find any active savings on your order. That means you already have a great price."
+   },
+   "We_didnt_find_any_active_savings_on_your_order_That_means_you_already_have_the_lowest_price": {
+      "message": "We didn’t find any active savings on your order. That means you already have the lowest price."
+   },
+   "We_didnt_find_any_additional_active_coupons_for_your_order_but_it_looks_like_theres_a_sale_at_STORENAME": {
+      "message": "We didn’t find any additional active coupons for your order but it looks like there’s a sale at {STORENAME}."
+   },
+   "We_didnt_find_any_additional_active_coupons_for_your_order_but_it_looks_like_theres_a_sale_at_STORENAME_Chances_are_you_may_already_be_getting_extra_savings_with_this_sale": {
+      "message": "We didn’t find any additional active coupons for your order but it looks like there’s a sale at {STORENAME}. Chances are you may already be getting extra savings with this sale!"
+   },
+   "We_didnt_find_any_discount_codes_but_we_did_find_codes_for_special_gift_offers_from_STORENAME_See_details_on_the_right": {
+      "message": "We didn’t find any discount codes, but we did find codes for special gift offers from {STORENAME}. See details on the right."
+   },
+   "We_didnt_find_any_working_codes": {
+      "message": "We didn’t find any working codes."
+   },
+   "We_didnt_find_any_working_codes_But_weve_got_up_to_GOLDVALUE_Gold_that_could_be_yours_on_this_order": {
+      "message": "We didn’t find any working codes. But we’ve got up to {GOLDVALUE} Gold that could be yours on this order."
+   },
+   "We_found_NUMCOUPONS_coupons_that_are_unlikely_to_work_If_youd_like_to_try_them_anyway_click_below": {
+      "message": "We found {NUMCOUPONS} coupons that are unlikely to work. If you’d like to try them anyway, click below."
+   },
+   "We_found_NUMCOUPONS_coupons_that_are_unlikely_to_work_If_youd_like_to_try_them_anyway_click_the_orange_button": {
+      "message": "We found {NUMCOUPONS} coupons that are unlikely to work. If you’d like to try them anyway, click the orange button."
+   },
+   "We_found_a_SAVINGS_off_code": {
+      "message": "We found a {SAVINGS} off code"
+   },
+   "We_found_a_coupon_for_this_item": {
+      "message": "We found a coupon for this item"
+   },
+   "We_found_free_gifts_with_purchase": {
+      "message": "We found free gifts with purchase!"
+   },
+   "We_found_savings": {
+      "message": "We found savings"
+   },
+   "We_havent_found_any_coupons_for_this_store_so_you_can_check_out_knowing_you_have_a_great_price": {
+      "message": "We haven’t found any coupons for this store, so you can check out knowing you have a great price."
+   },
+   "We_havent_seen_any_changes_in_price_on_this_item_at_STORENAME_in_the_last_30_days_Buy_with_confidence_knowing_you_did_your_homework": {
+      "message": "We haven’t seen any changes in price on this item at {STORENAME} in the last 30 days. Buy with confidence knowing you did your homework."
+   },
+   "We_havent_seen_that_coupon_code_before_If_its_not_your_personal_or_singleuse_code_you_can_help_the_Honey_community_by_adding_it": {
+      "message": "We haven’t seen that coupon code before. If it’s not your personal or single-use code, you can help the Honey community by adding it!"
+   },
+   "We_noticed_that_a_manually_submitted_code_worked_Do_you_want_to_share_it_with_the_rest_of_the_community": {
+      "message": "We noticed that a manually submitted code worked. Do you want to share it with the rest of the community?"
+   },
+   "We_noticed_the_cart_total_increased_This_can_happen_if_you_already_applied_a_coupon_code_before_using_Honey_If_thats_the_case_please_enter_it_again": {
+      "message": "We noticed the cart total increased. This can happen if you already applied a coupon code before using Honey. If that’s the case, please enter it again."
+   },
+   "We_noticed_you_chose_not_to_activate_Honey_Gold_and_wed_like_to_better_understand_why_Select_all_that_apply": {
+      "message": "We noticed you chose not to activate Honey Gold and we’d like to better understand why. Select all that apply."
+   },
+   "We_searched_near_and_far_but_STORENAME_doesnt_have_any_active_coupons_for_this_rental": {
+      "message": "We searched near and far, but {STORENAME} doesn’t have any active coupons for this rental."
+   },
+   "We_want_to_hear_from_you_Whats_up_Q": {
+      "message": "We want to hear from you. What's up?"
+   },
+   "We_want_you_to_get_the_most_out_of_Honey": {
+      "message": "We want you to get the most out of Honey"
+   },
+   "We_want_your_Feedback": {
+      "message": "We want your Feedback"
+   },
+   "We_wont_pop_up_again_for_this_store_for_the_next_hour": {
+      "message": "We won’t pop up again for this store for the next hour."
+   },
+   "We_wont_show_this_again_for_an_hour": {
+      "message": "We won’t show this again for an hour"
+   },
+   "Welcome_to_Honey": {
+      "message": "Welcome to Honey!"
+   },
+   "Well_credit_GOLDVALUE_GOLDCURRENCYVALUE_value_to_your_Honey_account_as_soon_as_STORENAME_confirms_your_purchase": {
+      "message": "We’ll credit {GOLDVALUE} to your Honey account as soon as {STORENAME} confirms your purchase."
+   },
+   "Well_credit_GOLDVALUE_GOLDCURRENCYVALUE_value_to_your_Honey_account_as_soon_as_STORENAME_confirms_your_purchase_of_at_least_MINVALUE": {
+      "message": "We’ll credit {GOLDVALUE} to your Honey account as soon as {STORENAME} confirms your purchase of at least {MINVALUE}."
+   },
+   "Well_email_you_when_the_price_gets_sweet": {
+      "message": "We’ll email you when the price gets sweet."
+   },
+   "Well_even_apply_it_at_checkout": {
+      "message": "We’ll even apply it at checkout"
+   },
+   "Well_look_for_savings_on_your_cart_Just_in_case": {
+      "message": "We’ll look for savings on your cart. Just in case."
+   },
+   "Well_pass_along_your_request_Next_follow_this_store_to_get_the_latest_sale_and_rewards_updates": {
+      "message": "We’ll pass along your request. Next, follow this store to get the latest sale and rewards updates."
+   },
+   "Well_pass_along_your_request_Next_follow_this_store_to_get_the_latest_sale_and_rewards_updates_Create_a_free_account_to_get_started": {
+      "message": "We’ll pass along your request. Next, follow this store to get the latest sale and rewards updates. Create a free account to get started."
+   },
+   "Well_share_your_code_with_the_Honey_community_once_a_team_member_reviews_it": {
+      "message": "We’ll share your code with the Honey community once a team member reviews it."
+   },
+   "Well_tell_you_if_we_see_a_price_drop_at_this_site": {
+      "message": "We’ll tell you if we see a price drop at this site"
+   },
+   "Well_test_and_apply_coupons_in_seconds": {
+      "message": "We’ll test and apply coupons in seconds"
+   },
+   "Welldone_This_order_now_qualifies_for_free_shipping": {
+      "message": "Well-done. This order now qualifies for free shipping."
+   },
+   "Were_committed_to_your_privacy": {
+      "message": "We’re committed to your privacy"
+   },
+   "Were_consulting_our_crystal_ball_for": {
+      "message": "We're consulting our crystal ball for deals"
+   },
+   "Were_expanding": {
+      "message": "We’re expanding!"
+   },
+   "Were_sorry_to_be_annoying_Our_team_will_look_into_making_us_pop_up_less_We_hope_to_see_you_again_soon": {
+      "message": "We’re sorry to be annoying. Our team will look into making us pop up less. We hope to see you again soon."
+   },
+   "Were_sorry_we_miscalculated_your_savings_Our_team_will_look_into_fixing_the_problem_We_hope_to_see_you_again_soon": {
+      "message": "We’re sorry we miscalculated your savings. Our team will look into fixing the problem. We hope to see you again soon."
+   },
+   "Were_sorry_we_took_too_long_Our_team_is_always_looking_into_ways_to_make_us_faster_We_hope_to_see_you_again_soon": {
+      "message": "We’re sorry we took too long. Our team is always looking into ways to make us faster. We hope to see you again soon."
+   },
+   "Were_sorry_you_cant_log_in_Check_out_our_help_article_for_answers_to_questions_about_your_account": {
+      "message": "We’re sorry you can’t log in. Check out our help article for answers to questions about your account."
+   },
+   "Were_whipping_up_todays_deals_and_tips": {
+      "message": "We're whipping up today's deals and tips..."
+   },
+   "Were_working_our_deal_finding_magic": {
+      "message": "We're working our deal finding magic..."
+   },
+   "Were_working_our_deal_searching_magic": {
+      "message": "We're working our deal searching magic..."
+   },
+   "Weve_already_applied_the_following_coupon": {
+      "message": "We’ve already applied the following coupon:"
+   },
+   "Weve_applied_1_coupon_but_STORENAME_doesnt_have_any_active_discounts_for_this_rental": {
+      "message": "We’ve applied 1 coupon, but {STORENAME} doesn’t have any active discounts for this rental."
+   },
+   "Weve_applied_NUMCOUPONS_coupons_but_STORENAME_doesnt_have_any_active_discounts_for_this_rental": {
+      "message": "We’ve applied {NUMCOUPONS} coupons, but {STORENAME} doesn’t have any active discounts for this rental."
+   },
+   "Weve_only_found_small_price_changes_on_this_item_at_STORENAME_in_the_last_30_days_Buy_with_confidence_knowing_you_did_your_homework": {
+      "message": "We’ve only found small price changes on this item at {STORENAME} in the last 30 days. Buy with confidence knowing you did your homework."
+   },
+   "Weve_run_all_our_coupons_on_your_current_cart_and_given_you_the_best_deal_we_can_get_our_hands_on": {
+      "message": "We’ve run all our coupons on your current cart and given you the best deal we can get our hands on."
+   },
+   "What_are_your_thoughts_Q": {
+      "message": "What are your thoughts?"
+   },
+   "What_you_could_pay": {
+      "message": "What you could pay"
+   },
+   "Whats_Honey_Gold": {
+      "message": "What’s Honey Gold?"
+   },
+   "When_Honey_appears_at_checkout_click_the_big_orange_button_for_instant_savings": {
+      "message": "When Honey appears at checkout, click the big orange button for instant savings."
+   },
+   "When_coupon_success_rates_are_high_theres_a_good_chance_youll_save_money_when_you_apply_codes_at_checkout": {
+      "message": "When coupon success rates are high, there’s a good chance you’ll save money when you apply codes at checkout."
+   },
+   "When_scrolling_through_the_page_click_the_Honey_button_to_apply_the_best_savings_Remember_the_best_deal_might_not_be_listed_first": {
+      "message": "When scrolling through the page, click the Honey button to apply the best savings. Remember, the best deal might not be listed first!"
+   },
+   "When_we_can_find_savings_on_Amazon_youll_see_a_badge_next_to_the_price_like_this": {
+      "message": "When we can find savings on Amazon, you’ll see a badge next to the price, like this:"
+   },
+   "When_you_shop_on_Amazon_Macys_Walmart_and_more_use_the_Droplist_button_and_well_email_you_when_the_items_youre_watching_drop_in_price": {
+      "message": "When you shop on Amazon, Macy’s, Walmart, and more, use the Droplist button and we’ll email you when the items you’re watching drop in price."
+   },
+   "When_you_shop_with_Honey_you_earn_a_percentage_back_on_purchases_at_over_3700_sites_Rack_up_the_the_rewards_then_redeem_them_for_gift_cards": {
+      "message": "When you shop with Honey, you earn a percentage back on purchases at over 3,700 sites. Rack up the the rewards, then redeem them for gift cards!"
+   },
+   "When_youre_on_a_supported_store_Honey_will_pop_up_and_apply_the_best_working_coupon_to_your_cart_You_dont_have_to_do_a_thing": {
+      "message": "When you’re on a supported store, Honey will pop up and apply the best working coupon to your cart. You don’t have to do a thing."
+   },
+   "When_youre_on_a_supported_store_Honey_will_pop_up_automatically_Just_click_Claim_Rewards_to_start_earning_Then_shop_like_you_always_do": {
+      "message": "When you’re on a supported store, Honey will pop up automatically. Just click Claim Rewards to start earning. Then, shop like you always do."
+   },
+   "Whenever_youre_on_a_supported_store_Honey_will_pop_up_test_every_working_coupon_and_apply_the_best_one_to_your_cart": {
+      "message": "Whenever you’re on a supported store, Honey will pop up, test every working coupon, and apply the best one to your cart."
+   },
+   "Who_has_time_to_constantly_check_prices_Add_items_to_Droplist_and_well_notify_you_once_we_detect_a_price_drop": {
+      "message": "Who has time to constantly check prices? Add items to Droplist and we’ll notify you once we detect a price drop."
+   },
+   "Whoops_E": {
+      "message": "Whoops!"
+   },
+   "Whoops_Looks_like_something_changed_with_your_order": {
+      "message": "Whoops! Looks like something changed with your order."
+   },
+   "Whos_ready_to_save_Q_Stand_by_for_deals": {
+      "message": "Who's ready to save? Stand by for deals..."
+   },
+   "Why_claim_Honey_Gold_Gift_cards_thats_why": {
+      "message": "Why claim Honey Gold? Gift cards, that’s why."
+   },
+   "With_Honey": {
+      "message": "With Honey"
+   },
+   "With_Honey_Gold_Available": {
+      "message": "With Honey Gold Available"
+   },
+   "Without_Honey": {
+      "message": "Without Honey"
+   },
+   "Worked_TIMESTAMP": {
+      "message": "Worked {TIMESTAMP}"
+   },
+   "Working_Code": {
+      "message": "Working Code"
+   },
+   "Would_you_like_to_remove_all_synced_items_from_your_Droplist": {
+      "message": "Would you like to remove all synced items from your Droplist?"
+   },
+   "X_cheaper_than_N_day_average": {
+      "message": "{X} cheaper than {N} day average"
+   },
+   "Yes_Keep_Showing_Me_Tips": {
+      "message": "Yes, Keep Showing Me Tips"
+   },
+   "Yes_You_can_always_add_items_on_your_own_with_or_without_Smart_Droplist_activated": {
+      "message": "Yes! You can always add items on your own with or without Smart Droplist activated."
+   },
+   "Yes_remind_me_next_time": {
+      "message": "Yes, remind me next time"
+   },
+   "You_already_have_the_best_price": {
+      "message": "You already have the best price"
+   },
+   "You_already_have_the_best_price_we_could_find": {
+      "message": "You already have the best price we could find"
+   },
+   "You_already_saved_AMOUNT": {
+      "message": "You already saved {AMOUNT}"
+   },
+   "You_already_saved_AMOUNT_E": {
+      "message": "You already saved {AMOUNT}!"
+   },
+   "You_can_always_check_your_Gold_award_status_in_your_Honey_account": {
+      "message": "You can always check your Gold award status in your Honey account."
+   },
+   "You_can_always_opt_out_of_sharing_by_adjusting_your_settings_Feel_free_to_read_our_founders_commitment_to_privacy_PRIVACYLINK": {
+      "message": "You can always opt out of sharing by adjusting your settings. Feel free to read our founder’s commitment to privacy {PRIVACYLINK}."
+   },
+   "You_can_divide_BR_your_total_into_NUMINSTALLMENTS_payments": {
+      "message": "You can divide {BR}your total into {NUMINSTALLMENTS} payments"
+   },
+   "You_can_read_our_founders_commitment_to_privacy_PRIVACYLINK_You_can_always_come_back_and_adjust_your_settings_at_any_time": {
+      "message": "You can read our founders’ commitment to privacy {PRIVACYLINK}. You can always come back and adjust your settings at any time"
+   },
+   "You_could_also_get": {
+      "message": "You could also get:"
+   },
+   "You_find_the_cool_stuff_well_find_the_savings": {
+      "message": "You find the cool stuff, we'll find the savings."
+   },
+   "You_have_GOLDVALUE_Gold": {
+      "message": "You have {GOLDVALUE} Gold"
+   },
+   "You_have_a_HONEYGOLD_Honey_Gold_Bonus_available_for_shopping_at_this_store_Claim_it_in_your_personalized_feed": {
+      "message": "You have a {HONEYGOLD} Honey Gold Bonus available for shopping at this store. Claim it in your personalized feed!"
+   },
+   "You_have_a_Honey_Gold_Bonus_for_this_store": {
+      "message": "You have a Honey Gold Bonus for this store!"
+   },
+   "You_have_already_entered_this_tag": {
+      "message": "You have already entered this tag."
+   },
+   "You_have_entered_the_max_number_of_tags": {
+      "message": "You have entered the max number of tags."
+   },
+   "You_have_the_best_price": {
+      "message": "You have the best price."
+   },
+   "You_havent_followed_any_stores_yet": {
+      "message": "You haven’t followed any stores yet"
+   },
+   "You_need_to_log_in_to_start_saving_money_with_this_retailer": {
+      "message": "You need to log in to start saving money with this retailer."
+   },
+   "You_pay": {
+      "message": "You pay"
+   },
+   "You_saved_AMOUNT": {
+      "message": "You saved {AMOUNT}"
+   },
+   "You_saved_AMOUNT_E": {
+      "message": "You saved {AMOUNT}!"
+   },
+   "Youll_also_earn_GOLDRANGE_HONEYGOLD": {
+      "message": "You’ll also earn {GOLDRANGE} {HONEYGOLD}"
+   },
+   "Youll_also_earn_GOLDRANGE_back_in_HONEYGOLD": {
+      "message": "You’ll also earn {GOLDRANGE} back in {HONEYGOLD}"
+   },
+   "Youll_get_TIP_in_Honey_Gold": {
+      "message": "You’ll get {TIP} in Honey Gold"
+   },
+   "Youll_know_if_youre_on_a_supported_store_if_theres_a_red_circle_next_to_the_H": {
+      "message": "You’ll know if you’re on a supported store if there’s a red circle next to the {H}."
+   },
+   "Youll_know_youre_on_a_supported_store_if_the_H_is_orange": {
+      "message": "You’ll know you’re on a supported store if the {H} is orange."
+   },
+   "Youll_pay_FINALCOST": {
+      "message": "You’ll pay {FINALCOST}"
+   },
+   "Youll_see_PayPal_as_the_payment_method_but_your_card_ending_in_LASTFOUR_will_be_charged_as_normal": {
+      "message": "You’ll see PayPal as the payment method, but your card ending in {LASTFOUR} will be charged as normal."
+   },
+   "Your_Active_Offers_from_STORENAME": {
+      "message": "Your Active Offers from {STORENAME}"
+   },
+   "Your_Addresses": {
+      "message": "Your Addresses"
+   },
+   "Your_Cards": {
+      "message": "Your Cards"
+   },
+   "Your_Gold": {
+      "message": "Your Gold"
+   },
+   "Your_Honey_Exclusive_has_expired": {
+      "message": "Your Honey Exclusive has expired."
+   },
+   "Your_Honey_Gold_bonuses_from_STORENAME": {
+      "message": "Your Honey Gold bonuses from {STORENAME}"
+   },
+   "Your_Honey_Gold_will_be_credited_to_your_account_after_checkout": {
+      "message": "Your Honey Gold will be credited to your account after checkout."
+   },
+   "Your_SAVEFORLATER_list_is_synced_with_your_Honey_DROPLIST": {
+      "message": "Your {SAVEFORLATER} list is synced with your Honey {DROPLIST}."
+   },
+   "Your_Savings": {
+      "message": "Your Savings"
+   },
+   "Your_adblocker_may_be_keeping_you_from_earning_Honey_Gold_Honey_Gold_can_be_redeemed_for_a_gift_card": {
+      "message": "Your adblocker may be keeping you from earning Honey Gold. Honey Gold can be redeemed for a gift card."
+   },
+   "Your_card_information_will_be_saved_to_your_Honey_account_for_future_purchases_You_can_delete_it_by_going_to_your_Wallet_under_Settings_on_joinhoney_com": {
+      "message": "Your card information will be saved to your Honey account for future purchases. You can delete it by going to your Wallet under Settings on joinhoney.com."
+   },
+   "Your_cart": {
+      "message": "Your cart"
+   },
+   "Your_comments": {
+      "message": "Your comments"
+   },
+   "Your_feedback_helps_Honey_help_everyone": {
+      "message": "Your feedback helps Honey help everyone"
+   },
+   "Your_item_has_been_Droplisted": {
+      "message": "Your item has been Droplisted!"
+   },
+   "Your_new_price": {
+      "message": "Your new price"
+   },
+   "Your_order_is_confirmed_E": {
+      "message": "Your order is confirmed!"
+   },
+   "Your_price_tracking_advantage": {
+      "message": "Your price tracking advantage"
+   },
+   "Your_rewards": {
+      "message": "Your rewards"
+   },
+   "Youre_about_to_deactivate_Smart_Droplist_But_you_can_keep_the_items_youve_already_saved_Why_let_your_good_taste_go_to_waste": {
+      "message": "You’re about to deactivate Smart Droplist. But you can keep the items you’ve already saved. Why let your good taste go to waste?"
+   },
+   "Youre_all_set_Get_your_save_on": {
+      "message": "You’re all set! Get your save on."
+   },
+   "Youre_all_set_Well_email_you_a_summary_of_your_purchase_Hope_to_see_you_soon_E": {
+      "message": "You’re all set. We’ll email you a summary of your purchase. Hope to see you soon!"
+   },
+   "Youre_all_set_to_score_coupons_Create_an_account_to_unlock_all_of_Honeys_moneysaving_magic": {
+      "message": "You’re all set to score coupons. Create an account to unlock all of Honey’s money-saving magic."
+   },
+   "Youre_good_to_go": {
+      "message": "You’re good to go!"
+   },
+   "Youre_invited_to_get_our_best_deals": {
+      "message": "You’re invited to get our best deals"
+   },
+   "Youre_on_your_way_to_a_PRICE_STORE_gift_card": {
+      "message": "You’re on your way to a {PRICE} {STORE} gift card"
+   },
+   "ago": {
+      "message": "ago"
+   },
+   "appear_as_pending": {
+      "message": "appear as pending"
+   },
+   "best_deal_LOWER": {
+      "message": "best deal"
+   },
+   "click_here": {
+      "message": "click here"
+   },
+   "eligible": {
+      "message": "eligible"
+   },
+   "eligible_items": {
+      "message": "eligible items"
+   },
+   "here": {
+      "message": "here"
+   },
+   "or": {
+      "message": "or"
+   },
+   "price_changes": {
+      "message": "price changes"
+   },
+   "price_drop": {
+      "message": "price drop"
+   },
+   "price_increase": {
+      "message": "price increase"
+   },
+   "today": {
+      "message": "today"
+   },
+   "up_to_GOLDVALUE": {
+      "message": "up to {GOLDVALUE}"
+   },
+   "up_to_GOLDVALUE_in_Gold": {
+      "message": "up to {GOLDVALUE} in Gold"
+   },
+   "up_to_PERCENT": {
+      "message": "up to {PERCENT}%"
+   }
+}

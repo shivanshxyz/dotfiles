@@ -1,0 +1,49 @@
+/* ----- Variables ----- */
+/* ------ General CSS ------ */
+* {
+  color: #303030;
+  font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.payment-modal {
+  position: relative;
+  margin: 3% auto;
+  width: 746px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 8px 3px;
+  min-width: 746px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+#pay-btn {
+  border: none;
+  background: none;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.payment-modal-body-container {
+  max-width: 90%;
+}
+
+.content-image.premium-feature {
+  background-image: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/jpg/discovered_premium_feature.jpg");
+}
+
+.content-image {
+  width: 728px;
+  height: 585px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PersistIQ</title>
+  <meta charset="UTF-8">
+  <style type="text/css">
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #fff;
+    }
+    iframe {
+      border: none;
+      height: 100%;
+      width: 100%;
+    }
+
+    #loading {
+      position: absolute;
+      width: 100%;
+      height: 200px;
+      text-align: center;
+    }
+    @keyframes spin-cw {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(90deg); }
+      75% { transform: rotate(270deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes spin-ccw {
+      0% { transform: rotate(360deg); }
+      25% { transform: rotate(270deg); }
+      75% { transform: rotate(90deg); }
+      100% { transform: rotate(0deg); }
+    }
+    @keyframes fadeIn {
+      0% { opacity:0; }
+      100% { opacity:1; }
+    }
+    @keyframes fadeOut {
+      0% { opacity:1; }
+      100% { opacity:0; }
+    }
+
+    .spinner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      border-radius: 50%;
+      width: 16px;
+      height: 16px;
+      border: 2px solid #f0f0f0;
+      border-top-color: #ccc;
+      animation: spin-cw 0.7s infinite linear;
+    }
+    .spinner-2x {
+      width: 26px;
+      height: 26px;
+      animation: spin-cw 0.8s infinite linear;
+    }
+    .spinner-3x {
+      width: 36px;
+      height: 36px;
+      animation: spin-cw 0.9s infinite linear;
+    }
+    .spinner-4x {
+      width: 46px;
+      height: 46px;
+      animation: spin-cw 1s infinite linear;
+    }
+  </style>
+</head>
+<body>
+  <div id="loading">
+    <div class="spinner"></div>
+    <div class="spinner spinner-2x"></div>
+    <div class="spinner spinner-3x"></div>
+    <div class="spinner spinner-4x"></div>
+  </div>
+  <iframe id="piq-aside" style="display: none"></iframe>
+  <script src="asideWrapper.js"></script>
+</body>
+</html>

@@ -1,0 +1,365 @@
+/**
+ * (c) 2013 Rob Wu <rob@robwu.nl>
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 100%;
+}
+#top-bar {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 2rem;
+  border-bottom: 2px solid #DDD;
+  padding: 0.2rem;
+  position: relative;
+}
+#top-bar:hover {
+  z-index: 10;
+}
+#top-bar #file-filter {
+  vertical-align: middle;
+  width: 300px;
+  max-width: 100%;
+  height: 1.4rem;
+  border: 1px solid #AAA;
+  padding: 3px;
+  color: #444;
+}
+#top-bar #file-filter:focus {
+  outline: none;
+  border-color: #4d90fe;
+}
+#top-bar #file-filter.invalid {
+  background-color: #FEE;
+}
+#top-bar #file-filter.invalid ~ label {
+  display: none;
+}
+#top-bar label {
+  vertical-align: middle;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: -0.1rem 0;
+  padding: 0.1rem 3px;
+  background: white;
+  height: 1.8rem;
+}
+#top-bar label:hover {
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+}
+#top-bar label .filter-label-description {
+  -webkit-flex: 0 0 100%;
+  flex: 0 0 100%;
+  order: 1;
+  font-size: 0.7rem;
+  height: 0.8rem;
+}
+#top-bar label input[data-filter-type],
+#top-bar label .gcount {
+  -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+  order: 2;
+  margin: 0;
+  font-size: 0.7rem;
+  height: 0.8rem;
+}
+#top-bar label .gcount {
+  padding-left: 2px;
+  width: 2px;
+}
+#top-bar #file-filter-feedback {
+  -webkit-flex: 1;
+  flex: 1;
+}
+#top-bar > a[href] {
+  margin: 0 5px;
+}
+#top-bar > a:not([href]) {
+  display: none;
+}
+#advanced-open {
+  display: none;
+  height: -webkit-calc(100% - 5rem);
+  height: calc(100% - 5rem);
+  text-align: center;
+  padding: 2rem 1rem 0;
+  overflow: auto;
+}
+#advanced-open.visible {
+  display: block;
+}
+#advanced-open.visible ~ #right-panel,
+#advanced-open.visible ~ #left-panel {
+  display: none;
+}
+#advanced-open input {
+  padding: 0.5rem;
+}
+#advanced-open-form input[type=url] {
+  display: block;
+  width: 90%;
+  margin: 0.3rem 5%;
+}
+.site-specific-form {
+  display: inline-block;
+  text-align: left;
+  padding: 1rem;
+  transition: opacity 0.2s;
+}
+.site-specific-form.disabled-site:not(:hover):not(.focused-form) {
+  opacity: 0.3;
+}
+.site-specific-form.disabled-site:not(:hover):not(.focused-form) input:invalid {
+  outline: none;
+}
+.site-specific-form .labeltext {
+  display: inline-block;
+  width: 16ch;
+}
+.site-specific-form > div:hover {
+  background-color: #F5F5F5;
+}
+.site-specific-form label,
+.site-specific-form input[type=text] {
+  display: inline-block;
+  padding: 0.5rem;
+}
+.site-specific-form label:hover,
+.site-specific-form label:active {
+  background-color: #ddd;
+}
+.site-specific-form input[type=text] {
+  width: 64ch;
+}
+.site-specific-form input:invalid {
+  outline: auto red;
+}
+.amoxpilist a {
+  display: block;
+  padding: 0.3em;
+}
+#right-panel,
+#left-panel {
+  height: -webkit-calc(100% - 2rem);
+  height: calc(100% - 2rem);
+}
+#right-panel {
+  padding-left: 266px;
+}
+#left-panel {
+  z-index: 1;
+  position: absolute;
+  display: inline-block;
+  width: 250px;
+  background-color: #FFF;
+}
+#left-panel > .content {
+  overflow-y: auto;
+  max-height: 100%;
+}
+#left-panel > .resizer {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -8px;
+  width: 8px;
+  background-color: #DDD;
+  cursor: col-resize;
+}
+#left-panel > .resizer:hover {
+  background-color: #AAA;
+}
+footer {
+  height: 3rem;
+  border-top: 1px dotted #ccf;
+  font-size: 0.9rem;
+  padding: 1.05rem 0;
+  text-align: center;
+}
+#initial-status {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: center;
+}
+#initial-status progress {
+  width: 300px;
+  max-width: 100%;
+}
+.toggled {
+  width: 0 !important;
+}
+.toggled > .content {
+  display: none;
+}
+.toggled + .toggleable {
+  padding-left: 16px !important;
+}
+.toggler {
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-left: 0;
+  border-right: 8px solid rgba(0, 0, 0, 0.5);
+}
+.toggler:hover {
+  border-right-color: #000;
+}
+.toggled .toggler {
+  border-left: 8px solid black;
+  border-right: 0;
+}
+#file-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#file-list.gfilter-images li.gtype-images,
+#file-list.gfilter-code li.gtype-code,
+#file-list.gfilter-markup li.gtype-markup,
+#file-list.gfilter-locales li.gtype-locales,
+#file-list.gfilter-misc li.gtype-misc,
+#file-list li.file-filtered,
+#file-list li.grep-no-match {
+  display: none;
+}
+#file-list li.grep-unknown {
+  opacity: 0.5;
+}
+#file-list li {
+  position: relative;
+  overflow-x: hidden;
+  cursor: default;
+}
+#file-list li:hover {
+  background-color: rgba(99, 99, 99, 0.2);
+}
+#file-list li.active {
+  background-color: rgba(99, 99, 99, 0.3);
+}
+#file-list li.file-selected {
+  background-color: #def;
+}
+#file-list li .file-path {
+  position: absolute;
+  min-width: 100%;
+  box-sizing: border-box;
+  padding-left: 4rem;
+  right: 4rem;
+  white-space: pre;
+}
+#file-list li .file-path .file-dir {
+  color: #888;
+}
+#file-list li .file-path .file-dir:hover {
+  color: #000;
+}
+#file-list li .file-size {
+  width: 4rem;
+  float: right;
+  text-align: right;
+}
+.total-size-wrapper {
+  text-align: right;
+}
+#total-size {
+  display: inline-block;
+  width: 4rem;
+  border-top: 1px solid black;
+}
+#source-toolbar {
+  height: 2rem;
+  line-height: 2rem;
+  position: relative;
+}
+#source-code {
+  max-height: calc(100% - 2rem);
+  overflow: auto;
+  font-family: monospace;
+  white-space: pre;
+  -moz-tab-size: 2;
+  tab-size: 2;
+}
+#source-code .auto-wordwrap {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+.file-specific-toolbar > button {
+  margin: 0 0.1rem;
+}
+.file-specific-toolbar .find-all-enabled {
+  color: red;
+  outline: 1px solid orange;
+  background: rgba(255, 255, 100, 0.3);
+}
+.file-specific-download-link {
+  font-family: monospace;
+}
+.file-specific-download-link:not([href]) {
+  cursor: pointer;
+  border-bottom: 1px dotted;
+}
+.file-specific-download-link:not([href]):hover {
+  border-bottom-style: solid;
+}
+.content-verifier-wrapper {
+  display: inline-block;
+}
+.content-verifier-wrapper .content-verifier-output {
+  position: absolute;
+  left: 0;
+  right: 30px;
+  max-height: calc(100vh - 4rem);
+  overflow: auto;
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ccf;
+  line-height: 1.5rem;
+  z-index: 1;
+}
+.info-table-row > :first-child {
+  font-weight: bold;
+  white-space: pre;
+}
+img:hover {
+  outline: 1px solid rgba(200, 200, 200, 0.5);
+}
+/**
+ * (c) 2013 Rob Wu <rob@robwu.nl>
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+.search-result-container-wrapper {
+  position: relative;
+  height: 0;
+}
+.search-result-container {
+  position: absolute;
+  pointer-events: none;
+}
+.search-result-highlight {
+  stroke-width: 1;
+  stroke: orange;
+  fill: rgba(255, 255, 100, 0.3);
+}
+.search-result-match {
+  stroke-width: 2;
+  stroke: red;
+  fill: transparent;
+}

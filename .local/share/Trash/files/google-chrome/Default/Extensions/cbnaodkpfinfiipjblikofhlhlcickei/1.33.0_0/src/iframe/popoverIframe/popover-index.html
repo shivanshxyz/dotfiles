@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="popoverApp">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/iframe/popoverIframe/css/gistnotePopover.css" />
+    <script src="/build/iframe/vendor.build.js"></script>
+    <script src="/build/iframe/popoverIframe/popoverApp.build.js"></script>
+  </head>
+  <body>
+    <div class="no-select gistnote-popover-wrapper" ng-controller="popoverCtrl">
+      <div ng-if="!_states.showSetting">
+        <div
+          ng-if="_states.highlightId"
+          ng-mouseover="hoveringNote=true"
+          ng-mouseleave="hoveringNote=false"
+          class="gistnote-popover-note-wrapper"
+        >
+          <div
+            id="gistnote-popover-note"
+            contenteditable="true"
+            ng-keyup="saveHighlightNote($event)"
+            ng-model="_states.note"
+            autofocus
+            highlight-id="_states.highlightId"
+            class="gistnote-popover-note-input"
+            data-text="Take a note…"
+          ></div>
+          <div ng-if="hoveringNote || noteSavingState===SAVING" class="gistnote-popover-note-saving-state">
+            {{noteSavingState}}
+          </div>
+        </div>
+
+        <div class="gistnote-popover-circle-list">
+          <!-- Don't show 5th color for testing group-->
+          <div
+            ng-repeat="colorCode in _states.colorCodes track by $index"
+            ng-if="colorCode != null && !(!_states.subscription && $index=== 4 && _states.onboarding
+             && _states.onboarding.colorLimitReferralTest &&_states.onboarding.colorLimitReferralTest < 4)"
+            class="gistnote-popover-circle-wrapper"
+          >
+            <div
+              class="gistnote-circle"
+              ng-class="{'gistnote-circle-dim': $index+1 !==_states.lightedUpCircle}"
+              ng-style="{'background-color': colorCode, 'border-color': shadeColor(colorCode, -0.05)}"
+              ng-click="clickedCircleListener($index+1)"
+            >
+              <!-- Don't show 5th color for TESTING GROUP-->
+              <img
+                ng-if="$index+1 === _states.lightedUpCircle"
+                src="../../../static/images/svg/ic_clear_white.svg"
+                class="cancel-highlight-icon"
+                style="position: absolute; width: 17px; height: 17px; opacity: 0.33;"
+              />
+
+              <!-- TESTING GROUP: limited to two colors only -->
+              <img
+                ng-if="!_states.subscription
+          && _states.onboarding
+          && _states.onboarding.colorLimitReferralTest
+          && $index > _states.onboarding.colorLimitReferralTest"
+                src="../../../static/images/svg/lock.svg"
+                style="position: absolute; width: 12px; height: 12px; padding: 3px; opacity: 0.1;"
+              />
+            </div>
+
+            <!-- Color tags -->
+            <div
+              ng-if="_states.activeFolder && _states.activeFolder.colorTags && _states.activeFolder.colorTags[$index] != ''"
+              class="gistnote-color-label"
+              ng-style="getCircleCategoryPointerStyle($index+1)"
+            >
+              <div class="gistnote-color-label-text-wrapper">
+                {{_states.activeFolder.colorTags[$index]}}
+              </div>
+            </div>
+          </div>
+
+          <!--TESTING GROUP: Add color button-->
+          <div
+            ng-if="!_states.subscription
+                    && _states.user
+                    && _states.onboarding
+                    && _states.onboarding.colorLimitReferralTest
+                    && _states.onboarding.colorLimitReferralTest < 4"
+            class="gistnote-popover-circle-wrapper"
+            style="margin-left: -1.5px;"
+          >
+            <div
+              class="gistnote-circle gistnote-circle-dim"
+              style="background-color: white; border-color: #00b8c2; text-align: center;"
+              ng-click="clickedCircleListener(4)"
+            >
+              <div style="color: #838383; font-size: 18px; line-height: 16px; cursor: pointer;">
+                +
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="popover-bottom-section-wrapper">
+          <div ng-click="clickedActiveFolderListener()" class="collection-title-wrapper">
+            <!--<img class="inline-block" style="width: 12px;height: 12px;"-->
+            <!--src="../../../static/images/svg/folder-icon.svg">-->
+            <div
+              class="inline-block collection-title"
+              ng-bind="_states.activeFolder ? _states.activeFolder.title : 'My Folder'"
+            ></div>
+            <div class="inline-block">
+              <svg
+                id="gistnote-popover-active-folder-dropdown-icon"
+                width="7px"
+                height="5px"
+                viewBox="405 533 7 5"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs></defs>
+                <polygon id="gistnote-popover-dropdown-rectangle" points="405 533 412 533 408.5 538"></polygon>
+              </svg>
+            </div>
+          </div>
+
+          <div class="setting-icon-wrapper" ng-click="clickedSetting()">
+            <img
+              class="inline-block"
+              src="../../../static/images/svg/setting-icon.svg"
+              style="width: 18px; height: 18px; box-sizing: border-box; padding: 3px; opacity: 0.7;"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Setting page -->
+      <div ng-if="_states.showSetting" ng-class="accountsPopoverClass">
+        <div class="modal-header">
+          <!--<div style="display: inline-block;vertical-align: middle">-->
+          <!--<img src="../../../static/images/svg/left-arrow.svg"-->
+          <!--style="width: 10px;height: 10px;opacity: 0.7;">-->
+          <!--</div>-->
+          <div style="display: inline-block; vertical-align: middle;" class="modal-header-title">Settings</div>
+        </div>
+
+        <div class="section-break"></div>
+        <div class="modal-body disabled">
+          <div class="modal-body-title inline-block">
+            Highlight mode
+          </div>
+
+          <label style="display: inline-block; float: right;" class="switch">
+            <input ng-model="highlightMode" ng-change="toggleHighlightButton()" type="checkbox" />
+            <div class="toggle round"></div>
+          </label>
+        </div>
+        <div class="section-break"></div>
+
+        <!-- Edit colors -->
+        <div ng-if="editingColor===null" class="modal-body color-edit-section-wrapper">
+          <div
+            class="color-category-edit-row"
+            ng-repeat="colorCode in editingFolder.colorCodes track by $index"
+            ng-if="colorCode != null"
+          >
+            <div class="table-cell">
+              <div
+                ng-style="{'background-color': colorCode, 'border-color': shadeColor(colorCode, -0.05)}"
+                class="color-category-pill"
+                style="border: 1px solid;"
+                ng-click="toggleEditingColors($index)"
+              ></div>
+            </div>
+            <div class="color-category-input-wrapper" style="padding-left: 2px;">
+              <input
+                ng-model="editingFolder.colorTags[$index]"
+                class="text-input-title color-category-text-input"
+                style="font-size: 10px; padding: 4px;"
+                ng-keyup="$event.keyCode == 13 && onSaveSetting($event)"
+                placeholder="Enter color label"
+              />
+            </div>
+            <div class="table-cell">
+              <img
+                ng-if="$index > 4"
+                class="table-cell color-category-edit-row-cross-icon"
+                src="../../../static/images/svg/cross-icon.svg"
+                style="width: 20px; height: 20px;"
+                ng-click="deleteHighlightColor($index+1)"
+              />
+            </div>
+          </div>
+
+          <div
+            class="color-category-edit-row"
+            style="margin-bottom: 0;"
+            ng-if="editingFolder.colorCodes && getNextColorNum(editingFolder.colorCodes) <= 10"
+          >
+            <div class="table-cell" ng-click="addToHighlightColors()">
+              <div class="color-category-pill empty">+</div>
+            </div>
+            <div
+              ng-click="addToHighlightColors()"
+              class="table-cell add-new-color modal-action-text"
+              onchange="document.getElementById('chosen-color').value = document.getElementById('background-color').value;"
+            >
+              Add New Color
+            </div>
+          </div>
+        </div>
+
+        <div ng-if="editingColor===null" class="modal-body" style="text-align: right; border: none;">
+          <section>
+            <div class="cancel-button" ng-click="hideSetting()">Cancel</div>
+            <button class="action-button modal-save-button" ng-click="onSaveSetting()">
+              Save
+            </button>
+          </section>
+        </div>
+      </div>
+
+      <!--Customize color modal-->
+      <div ng-if="editingColor != null" class="modal-body">
+        <!--<section class="modal-header-closer">-->
+        <!--<h3 class="modal-header-title">-->
+        <!--Highlight Colors-->
+        <!--</h3>-->
+        <!--</section>-->
+        <div class="modal-description-header">Choose a color</div>
+        <div style="text-align: center;">
+          <div
+            ng-repeat="colorCode in _states.COLOR_PROFILE"
+            class="inline-block color-category-pill-customized-wrapper"
+            ng-if="$index<5"
+          >
+            <div
+              ng-click="editingFolder.colorCodes[editingColor]=colorCode"
+              ng-style="{'background-color': colorCode}"
+              class="color-category-pill customized pointer"
+            ></div>
+          </div>
+        </div>
+        <div style="text-align: center;">
+          <div
+            ng-repeat="colorCode in _states.COLOR_PROFILE"
+            class="inline-block color-category-pill-customized-wrapper"
+            ng-if="$index>=5"
+          >
+            <div
+              ng-click="editingFolder.colorCodes[editingColor]=colorCode"
+              ng-style="{'background-color': colorCode}"
+              class="color-category-pill customized pointer"
+            ></div>
+          </div>
+        </div>
+        <div>
+          <div class="modal-description-header">OR Customize...</div>
+          <input type="color" ng-model="editingFolder.colorCodes[editingColor]" style="cursor: pointer;" />
+        </div>
+
+        <div style="text-align: right; border: none;">
+          <button class="action-button modal-save-button" ng-click="toggleEditingColors(null)">
+            Done
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="gistnote-popover-pointer"
+        ng-class="_states.pointerAtTop? 'pointer-at-top' : 'pointer-at-bottom'"
+        ng-style="_states.pointerAtTop? {'top': _states.pointerCoordinates}:{'bottom': _states.pointerCoordinates}"
+      ></div>
+    </div>
+  </body>
+</html>

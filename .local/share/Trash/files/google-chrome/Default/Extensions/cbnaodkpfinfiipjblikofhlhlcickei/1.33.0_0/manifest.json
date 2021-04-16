@@ -1,0 +1,64 @@
+{
+   "author": "Weava",
+   "background": {
+      "persistent": true,
+      "scripts": [ "static/js/lib/purl.js", "build/staticConstants.build.js", "static/js/gistnoteStaticUtility/firebaseIdGenerator.js", "static/js/gistnoteStaticUtility/urlUtil.js", "static/js/gistnoteStaticUtility/gistnoteUUID.js", "static/js/lib/amplitude.js", "static/js/lib/mixpanel.js", "static/js/lib/googleAnalytic.js", "static/js/lib/debounce.js", "static/js/constants/chromeMessageConstants.js", "build/background.build.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "256": "static/images/256.png"
+      },
+      "default_title": "__MSG_extension_name__"
+   },
+   "commands": {
+      "PIN_SIDEBAR_BY_SHORTCUT": {
+         "description": "Pin/Unpin Sidebar",
+         "suggested_key": {
+            "default": "Alt+P"
+         }
+      },
+      "TOGGLE_HIGHLIGHT_MODE_BY_SHORTCUT": {
+         "description": "Enable/Disable Weava",
+         "suggested_key": {
+            "default": "Alt+S"
+         }
+      },
+      "TOGGLE_SIDEBAR_BY_SHORTCUT": {
+         "description": "Show/Hide Sidebar",
+         "suggested_key": {
+            "default": "Alt+Shift+S"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "static/css/gistnoteGlobal.css" ],
+      "js": [ "build/staticConstants.build.js", "build/content_script.build.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file://*/*.pdf" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com https://apis.google.com https://d24n15hnbwhuhn.cloudfront.net/ https://www.google-analytics.com/analytics.js https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js; object-src 'self'; script-src-elem 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com https://apis.google.com https://d24n15hnbwhuhn.cloudfront.net/ https://www.google-analytics.com/analytics.js https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js",
+   "default_locale": "en",
+   "description": "__MSG_extension_description__",
+   "externally_connectable": {
+      "matches": [ "*://*.weavatools.com/*", "*://*.gistnote.com/*" ]
+   },
+   "icons": {
+      "128": "static/images/128.png",
+      "16": "static/images/16.png",
+      "19": "static/images/19.png",
+      "256": "static/images/256.png",
+      "32": "static/images/32.png",
+      "38": "static/images/38.png",
+      "48": "static/images/48.png",
+      "64": "static/images/64.png",
+      "96": "static/images/96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1PhUFbToAKr8M2ctLraQf/nMr+hucTxhkSTVkFHZ3DYhAg66D9QiUDVGKJUpR0P6bk9DSIfIDtrPNs4JV3q5sP35olIbTLudlLz8JQkm6rrHaNYvOXfK5lSjuhsm9EfsrCMFZXt7PYI6xy6btddfEd79Y7rp1Hxvevyl54eLS/TqxvtzvN3TfpdPpusMxyu5T2VbYBcKrgb55CNgug8q13ffDIfAs2W2mYu7rh1eMIebuVlpLyA58r6Dxy+pHNTdthdiw8+PhuzAehjUxQnXB0scU3SAbYe4lsCDnbxv6czOdWyB/IFA3n6HK5GKgmRIV2JiZ0K65hzxr7LEtnWDpQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extension_name__",
+   "permissions": [ "contextMenus", "clipboardWrite", "webRequest", "webRequestBlocking", "tabs", "storage", "unlimitedStorage", "activeTab", "file://*/*.pdf", "*://*.weavatools.com/*", "https://weava-files-storage.s3.amazonaws.com/pdf/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.33.0",
+   "web_accessible_resources": [ "static/css/gistnoteGlobal.css", "static/html/dropArea.html", "src/iframe/*", "src/pdfviewer/onboardArrow/onboardArrow.html", "src/pdfviewer/highlightPdfButton/highlight-pdf-button.html", "src/pdfviewer/web/viewer.html", "src/webviewer/gistnoteWebViewer.html", "src/auth_page/auth.html", "static/images/*", "static/video/*" ]
+}

@@ -1,0 +1,14 @@
+[global_config]
+[keybindings]
+  paste = <Primary>v
+[profiles]
+  [[default]]
+    background_darkness = 0.7
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Fira Code 14
+    show_titlebar = False
+    scrollbar_position = hidden
+    login_shell = True
+    use_system_font = False
+    copy_on_select

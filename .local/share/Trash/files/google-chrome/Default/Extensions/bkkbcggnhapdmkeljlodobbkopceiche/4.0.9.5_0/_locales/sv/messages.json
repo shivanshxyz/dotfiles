@@ -1,0 +1,356 @@
+{
+   "NTF_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "NTF_blockPrevSite": {
+      "message": "Popup Blocked on this Site"
+   },
+   "NTF_shareUs": {
+      "message": "We like you too! Don't you think it's time to tell your friends about us?"
+   },
+   "OP_overlayList": {
+      "message": "always block overlay list"
+   },
+   "OP_urlExistsInDefaultList": {
+      "message": "This site is already %s by Poper Blocker"
+   },
+   "OP_urlExistsInList": {
+      "message": "This site is already in %s"
+   },
+   "OP_whitelist": {
+      "message": "Whitelist"
+   },
+   "OP_whitelisted": {
+      "message": "whitelisted"
+   },
+   "PP_BlockAnyway": {
+      "message": "Blockera ändå"
+   },
+   "PP_DidWeMiss": {
+      "message": "Missade vi en?"
+   },
+   "PP_ExtName": {
+      "message": "Poper Blocker"
+   },
+   "PP_Incognito_GotIt": {
+      "message": "OK, Got it"
+   },
+   "PP_Incognito_Step1": {
+      "message": "Go to"
+   },
+   "PP_Incognito_Step2": {
+      "message": "Find Poper Blocker"
+   },
+   "PP_Incognito_Step3": {
+      "message": "Mark the checkbox next to \u003Ci>\"Allow in incognito\"\u003C/i>"
+   },
+   "PP_Incognito_Title": {
+      "message": "In order to enable Poper Blocker in Chrome's Incognito Mode, follow the next steps:"
+   },
+   "PP_Menu_Incognito": {
+      "message": "Incognito"
+   },
+   "PP_Menu_Options": {
+      "message": "Options"
+   },
+   "PP_Menu_Rate": {
+      "message": "Rate Us"
+   },
+   "PP_Menu_Share": {
+      "message": "Share"
+   },
+   "PP_Menu_Stats": {
+      "message": "Stats"
+   },
+   "PP_NoPopupsBlocked": {
+      "message": "Ser bra ut!"
+   },
+   "PP_Overlay": {
+      "message": "Overlay"
+   },
+   "PP_Popup": {
+      "message": "Popup"
+   },
+   "PP_PopupsAllowed": {
+      "message": "Popups är tillåtna"
+   },
+   "PP_PopupsEssential": {
+      "message": "Popups krävs för att hemsidan ska fungera"
+   },
+   "PP_PopupsFound": {
+      "message": "Popups är blockerade på "
+   },
+   "PP_PopupsFound_X1": {
+      "message": "Popups är blockerade på "
+   },
+   "PP_PopupsNotFound": {
+      "message": "Hittills har inga \r\npopuper hittats på"
+   },
+   "PP_Rate": {
+      "message": "Rate Poper Blocker"
+   },
+   "PP_Share_Friends": {
+      "message": "Share Poper Blocker\u003Cbr />with friends"
+   },
+   "PP_Share_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "PP_Share_TT_Copy": {
+      "message": "Copy Link"
+   },
+   "PP_Share_TT_Facebook": {
+      "message": "Share on Facebook"
+   },
+   "PP_Share_TT_Twitter": {
+      "message": "Share on Twitter"
+   },
+   "PP_Stats_HowItWorks": {
+      "message": "See how it really works"
+   },
+   "PP_Stats_Overlays": {
+      "message": "Overlays"
+   },
+   "PP_Stats_Tabs": {
+      "message": "Tabbar"
+   },
+   "PP_Stats_TotalPopsBlocked": {
+      "message": "Totalt blockerade popup"
+   },
+   "PP_Stats_TotalTimeSaved": {
+      "message": "Totalt sparad tid"
+   },
+   "PP_Stats_Windows": {
+      "message": "Fönster"
+   },
+   "PP_SwitchedOff": {
+      "message": "är avstängd"
+   },
+   "PP_TooltipAllowPops": {
+      "message": "Klicka här för att tillåta popups från denna sida. Den kommer läggas till i din personliga vita lista."
+   },
+   "PP_TooltipBlockPops": {
+      "message": "Oroa dig inte! \r\nSnyggt! \r\nEnkelt! "
+   },
+   "PP_TooltipReportOver": {
+      "message": "Klicka här för att ta bort en ovelay som har öppnats på den nuvarande sidan"
+   },
+   "PP_TooltipReportPop": {
+      "message": "Klicka här för att uppdatera oss om popups som missats i en ny flik eller ett nytt fönster."
+   },
+   "PP_TooltipWhitelistBlockPops": {
+      "message": "We verified that popups are essential functionalities on this site, but feel free to block anyway."
+   },
+   "PP_WhiteListed": {
+      "message": "tillåtna av\r\nPoper Blocker"
+   },
+   "PP_XPopupsBlocked_1": {
+      "message": "Oroa dig inte!"
+   },
+   "PP_XPopupsBlocked_2": {
+      "message": "Enkelt! "
+   },
+   "PP_XPopupsBlocked_3": {
+      "message": "Snyggt!"
+   },
+   "PP_XPopupsBlocked_4": {
+      "message": "Hur enkelt som helst!"
+   },
+   "PP_XPopupsBlocked_5": {
+      "message": "Lätt som en plätt!"
+   },
+   "TS_NoOverlay": {
+      "message": "No overlay found"
+   },
+   "add": {
+      "message": "Lägg till"
+   },
+   "allowAlways": {
+      "message": "Tillåt alltid"
+   },
+   "allowAlwaysTip": {
+      "message": "Tillåt alltid popups på denna sida. Sidan har lagts till i din vita lista."
+   },
+   "allowButtonLabel": {
+      "message": "Tillåt popups"
+   },
+   "allowOnce": {
+      "message": "Tillåt en gång"
+   },
+   "allowOnceTip": {
+      "message": "Tillåter popup bara en gång. Nästa gång du ser denna popup kommer vi att fråga dig igen."
+   },
+   "allowOverlaysButtonLabel": {
+      "message": "Allow Overlays"
+   },
+   "autoDetectionButtonLabel": {
+      "message": "Yes, once"
+   },
+   "autoDetectionReportWebsiteButtonLabel": {
+      "message": "Report website"
+   },
+   "autoDetectionYesAlwaysButtonLabel": {
+      "message": "Yes, always"
+   },
+   "badgeToggleLabel": {
+      "message": "Visa ett märke på knappen\r\nnär en popu blockeras."
+   },
+   "blacklistTip": {
+      "message": "Blockera alltid overlays på dessa sidor:"
+   },
+   "blockAlwaysButtonLabel": {
+      "message": "Block always"
+   },
+   "blockButtonLabel": {
+      "message": "Blockera popups"
+   },
+   "blockDetectedOverlayLabel": {
+      "message": "Overlay was detected. Block it ?"
+   },
+   "blockOverlayButtonLabel": {
+      "message": "Remove Overlay"
+   },
+   "bugLink": {
+      "message": "Report a bug"
+   },
+   "contributeButtonLabel": {
+      "message": "Bidra"
+   },
+   "disableNotifications": {
+      "message": "Disable Notifications"
+   },
+   "disablePB": {
+      "message": "Inaktivera Poper Blocker"
+   },
+   "doNotShow": {
+      "message": "Visa inte"
+   },
+   "doNotShowTips": {
+      "message": "Visa inte aviseringar när popups är blockerade på denna sida"
+   },
+   "emailLink": {
+      "message": "Mejla oss"
+   },
+   "enablePB": {
+      "message": "Aktivera Poper Blocker"
+   },
+   "extDescription": {
+      "message": "#1 extension för blockering av störande popups, popunders & overlays på ett enkelt & effektivt sätt. Surfa utan störningar på alla hemsidor."
+   },
+   "extName": {
+      "message": "Pop up blocker for Chrome™ - Poper Blocker"
+   },
+   "extName_FF": {
+      "message": "Popup blocker for FF: Poper Blocker"
+   },
+   "ignoreLabel": {
+      "message": "Ignore"
+   },
+   "linksTitle": {
+      "message": "Links"
+   },
+   "needRefresh": {
+      "message": "Refresh open tabs in order for this change to take effect."
+   },
+   "needRefreshGotIt": {
+      "message": "Ok, got it!"
+   },
+   "neverShowRefresh": {
+      "message": "Don't show again"
+   },
+   "notFoundAutoOverlayLabel": {
+      "message": "Overlay auto detection did not find any overlays"
+   },
+   "notFoundOverlayLabel": {
+      "message": "An overlay wasn't found. Try auto detection?"
+   },
+   "notificationMessage": {
+      "message": "Blockerade popup på sidan"
+   },
+   "notificationSettingsTitle": {
+      "message": "Aviseringsinställningar"
+   },
+   "notificationToggleLabel": {
+      "message": "Visa ett meddelande på sidan när en popup blockeras."
+   },
+   "options": {
+      "message": "Options"
+   },
+   "overlayContextMenuToggleLabel": {
+      "message": "Aktivera “Ta bort overlay\" optionen i snabbmenyn"
+   },
+   "overlaySettingsTitle": {
+      "message": "Blockeringsinställningar Overlays"
+   },
+   "overlayWasBlocked": {
+      "message": "Overlay blockerad på sidan"
+   },
+   "overlaysToggleLabel": {
+      "message": "Aktivera blockeringen av overlays (skickar anonym data till Poper Blocker)"
+   },
+   "pauseButton": {
+      "message": "Pause"
+   },
+   "paused": {
+      "message": "Poper Blocker is off"
+   },
+   "popupsAllowed": {
+      "message": "Popups are allowed on this website."
+   },
+   "popupsBlocked": {
+      "message": "Popups are blocked on this website."
+   },
+   "popupsBlockedLabel": {
+      "message": "# popups har blockerats"
+   },
+   "rateLink": {
+      "message": "Ge oss 5 stjärnor"
+   },
+   "rateus": {
+      "message": "Nöjd med Poper Blocker? Betygsätt oss!"
+   },
+   "removeAlwaysLabel": {
+      "message": "Ta alltid bort"
+   },
+   "removeAlwaysText": {
+      "message": "Ta alltid bort detta överlägg och visa inte denna avisering igen. Du kan ändra detta på alternativsidan."
+   },
+   "removeOnceLabel": {
+      "message": "Remove Once"
+   },
+   "removeOverlayQLabel": {
+      "message": "Remove Overlay?"
+   },
+   "resumeButton": {
+      "message": "Start"
+   },
+   "undoLabel": {
+      "message": "Visa överlägg"
+   },
+   "undoOnceButtonLabel": {
+      "message": "Undo once"
+   },
+   "undoTips": {
+      "message": "Du kan ta bort den här overlayn, klicka för att visa overlay"
+   },
+   "urlExamplePlaceholder": {
+      "message": "Exempel: twitter.com"
+   },
+   "urlExistsInList": {
+      "message": "This site is already in list"
+   },
+   "urlExistsInPB": {
+      "message": "Denna webbplats är redan vitlistad av Poper Blocker"
+   },
+   "urlNotValid": {
+      "message": "Var god ange en giltig URL."
+   },
+   "websiteInWhitelistOverlayMessage": {
+      "message": "This website is whitelisted. No overlay detection made."
+   },
+   "whitelistTip": {
+      "message": "För att tillåta popups/popunders från en hemsida, lägg den i denna lista:"
+   },
+   "whitelistTitle": {
+      "message": "Hemsidor på vita listan"
+   }
+}

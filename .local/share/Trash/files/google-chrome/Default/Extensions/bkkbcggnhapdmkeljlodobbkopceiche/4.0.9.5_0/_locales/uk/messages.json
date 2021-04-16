@@ -1,0 +1,356 @@
+{
+   "NTF_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "NTF_blockPrevSite": {
+      "message": "Popup Blocked on this Site"
+   },
+   "NTF_shareUs": {
+      "message": "We like you too! Don't you think it's time to tell your friends about us?"
+   },
+   "OP_overlayList": {
+      "message": "always block overlay list"
+   },
+   "OP_urlExistsInDefaultList": {
+      "message": "This site is already %s by Poper Blocker"
+   },
+   "OP_urlExistsInList": {
+      "message": "This site is already in %s"
+   },
+   "OP_whitelist": {
+      "message": "Whitelist"
+   },
+   "OP_whitelisted": {
+      "message": "whitelisted"
+   },
+   "PP_BlockAnyway": {
+      "message": "Все одно заблокувати"
+   },
+   "PP_DidWeMiss": {
+      "message": "Ми щось пропустили?"
+   },
+   "PP_ExtName": {
+      "message": "Poper Blocker"
+   },
+   "PP_Incognito_GotIt": {
+      "message": "OK, Got it"
+   },
+   "PP_Incognito_Step1": {
+      "message": "Go to"
+   },
+   "PP_Incognito_Step2": {
+      "message": "Find Poper Blocker"
+   },
+   "PP_Incognito_Step3": {
+      "message": "Mark the checkbox next to \u003Ci>\"Allow in incognito\"\u003C/i>"
+   },
+   "PP_Incognito_Title": {
+      "message": "In order to enable Poper Blocker in Chrome's Incognito Mode, follow the next steps:"
+   },
+   "PP_Menu_Incognito": {
+      "message": "Incognito"
+   },
+   "PP_Menu_Options": {
+      "message": "Options"
+   },
+   "PP_Menu_Rate": {
+      "message": "Rate Us"
+   },
+   "PP_Menu_Share": {
+      "message": "Share"
+   },
+   "PP_Menu_Stats": {
+      "message": "Stats"
+   },
+   "PP_NoPopupsBlocked": {
+      "message": "Гарно!"
+   },
+   "PP_Overlay": {
+      "message": "Накладену рекламу"
+   },
+   "PP_Popup": {
+      "message": "Виринаюче вікно"
+   },
+   "PP_PopupsAllowed": {
+      "message": "Поп-апи дозволені на"
+   },
+   "PP_PopupsEssential": {
+      "message": "Виринаючі вікна є невід'ємною частиною функціонального наповнення цього сайту"
+   },
+   "PP_PopupsFound": {
+      "message": "Виринаючі вікна заблоковані на сайті"
+   },
+   "PP_PopupsFound_X1": {
+      "message": "Виринаючі вікна заблоковані на сайті"
+   },
+   "PP_PopupsNotFound": {
+      "message": "Поки що не було знайдено  \r\nвиринаючих вікон на"
+   },
+   "PP_Rate": {
+      "message": "Rate Poper Blocker"
+   },
+   "PP_Share_Friends": {
+      "message": "Share Poper Blocker\u003Cbr />with friends"
+   },
+   "PP_Share_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "PP_Share_TT_Copy": {
+      "message": "Copy Link"
+   },
+   "PP_Share_TT_Facebook": {
+      "message": "Share on Facebook"
+   },
+   "PP_Share_TT_Twitter": {
+      "message": "Share on Twitter"
+   },
+   "PP_Stats_HowItWorks": {
+      "message": "See how it really works"
+   },
+   "PP_Stats_Overlays": {
+      "message": "оверлеї"
+   },
+   "PP_Stats_Tabs": {
+      "message": "Вкладки"
+   },
+   "PP_Stats_TotalPopsBlocked": {
+      "message": "Усього поп-ап. забл."
+   },
+   "PP_Stats_TotalTimeSaved": {
+      "message": "Усього часу заощаджено"
+   },
+   "PP_Stats_Windows": {
+      "message": "Вікна"
+   },
+   "PP_SwitchedOff": {
+      "message": "вимкнено"
+   },
+   "PP_TooltipAllowPops": {
+      "message": "Натисніть тут, щоб дозволити відкриття виринаючих вікон на цьому сайті. Його буде додано до Вашого особистого білого списку сайтів."
+   },
+   "PP_TooltipBlockPops": {
+      "message": "Простіше простого! \r\nЧудово! \r\nЛегко! "
+   },
+   "PP_TooltipReportOver": {
+      "message": "Натисніть тут, щоб видалити накладену рекламу, що виринула на поточній сторінці"
+   },
+   "PP_TooltipReportPop": {
+      "message": "Натисніть тут, щоб повідомити нам нову інформацію щодо пропущеного виринаючого вікна в новій вкладці або вікні"
+   },
+   "PP_TooltipWhitelistBlockPops": {
+      "message": "We verified that popups are essential functionalities on this site, but feel free to block anyway."
+   },
+   "PP_WhiteListed": {
+      "message": "сайтах білого списку\r\nPoper Blocker"
+   },
+   "PP_XPopupsBlocked_1": {
+      "message": "Простіше простого! "
+   },
+   "PP_XPopupsBlocked_2": {
+      "message": "Чудово! "
+   },
+   "PP_XPopupsBlocked_3": {
+      "message": "Легко! "
+   },
+   "PP_XPopupsBlocked_4": {
+      "message": "Простіше простого!"
+   },
+   "PP_XPopupsBlocked_5": {
+      "message": "Елементарно!"
+   },
+   "TS_NoOverlay": {
+      "message": "No overlay found"
+   },
+   "add": {
+      "message": "Додати"
+   },
+   "allowAlways": {
+      "message": "Завжди дозволяти"
+   },
+   "allowAlwaysTip": {
+      "message": "Завжди дозволяти відкриття виринаючих вікон на цьому сайті. Його буде додано до Вашого білого списку сайтів."
+   },
+   "allowButtonLabel": {
+      "message": "Дозволити відкриття виринаючих вікон"
+   },
+   "allowOnce": {
+      "message": "Дозволити один раз"
+   },
+   "allowOnceTip": {
+      "message": "Дозволяє відкриття виринаючого вікна лише цього разу. Коли Ви побачите це виринаюче вікно наступного разу, ми спитаємо Вас ще раз, що з ним робити."
+   },
+   "allowOverlaysButtonLabel": {
+      "message": "Allow Overlays"
+   },
+   "autoDetectionButtonLabel": {
+      "message": "Yes, once"
+   },
+   "autoDetectionReportWebsiteButtonLabel": {
+      "message": "Report website"
+   },
+   "autoDetectionYesAlwaysButtonLabel": {
+      "message": "Yes, always"
+   },
+   "badgeToggleLabel": {
+      "message": "Відображати значок на панелі інструментів при блокуванні виринаючого вікна."
+   },
+   "blacklistTip": {
+      "message": "Завжди блокувати накладену рекламу на цих сайтах:"
+   },
+   "blockAlwaysButtonLabel": {
+      "message": "Block always"
+   },
+   "blockButtonLabel": {
+      "message": "Заблокувати виринаючі вікна"
+   },
+   "blockDetectedOverlayLabel": {
+      "message": "Overlay was detected. Block it ?"
+   },
+   "blockOverlayButtonLabel": {
+      "message": "Remove Overlay"
+   },
+   "bugLink": {
+      "message": "Report a bug"
+   },
+   "contributeButtonLabel": {
+      "message": "Сприяти"
+   },
+   "disableNotifications": {
+      "message": "Disable Notifications"
+   },
+   "disablePB": {
+      "message": "Вимкнути Poper Blocker"
+   },
+   "doNotShow": {
+      "message": "Не показувати"
+   },
+   "doNotShowTips": {
+      "message": "Не показувати це повідомлення при блокуванні виринаючих вікон на цьому сайті"
+   },
+   "emailLink": {
+      "message": "Надішліть нам листа електронною поштою"
+   },
+   "enablePB": {
+      "message": "Увімкнути Poper Blocker"
+   },
+   "extDescription": {
+      "message": "Найкраще розширення для легкого й ефективного блокування надокучливих виринаючих вікон, попандерів та накладеної реклами. Переглядайте усі сайти без відволікань. "
+   },
+   "extName": {
+      "message": "Pop up blocker for Chrome™ - Poper Blocker"
+   },
+   "extName_FF": {
+      "message": "Popup blocker for FF: Poper Blocker"
+   },
+   "ignoreLabel": {
+      "message": "Ignore"
+   },
+   "linksTitle": {
+      "message": "Links"
+   },
+   "needRefresh": {
+      "message": "Refresh open tabs in order for this change to take effect."
+   },
+   "needRefreshGotIt": {
+      "message": "Ok, got it!"
+   },
+   "neverShowRefresh": {
+      "message": "Don't show again"
+   },
+   "notFoundAutoOverlayLabel": {
+      "message": "Overlay auto detection did not find any overlays"
+   },
+   "notFoundOverlayLabel": {
+      "message": "An overlay wasn't found. Try auto detection?"
+   },
+   "notificationMessage": {
+      "message": "Тут поп-ап заблоковано"
+   },
+   "notificationSettingsTitle": {
+      "message": "Налаштування повідомлень"
+   },
+   "notificationToggleLabel": {
+      "message": "Показувати повідомлення на сторінці при блокуванні виринаючого вікна. "
+   },
+   "options": {
+      "message": "Options"
+   },
+   "overlayContextMenuToggleLabel": {
+      "message": "Активувати опцію контекстного меню \"Видалити оверлей\""
+   },
+   "overlaySettingsTitle": {
+      "message": "Налаштування блокування накладеної реклами"
+   },
+   "overlayWasBlocked": {
+      "message": "Тут оверлей заблоковано "
+   },
+   "overlaysToggleLabel": {
+      "message": "Активувати блокування оверлеїв (відправляти анонімні дані розробникам)"
+   },
+   "pauseButton": {
+      "message": "Pause"
+   },
+   "paused": {
+      "message": "Poper Blocker is off"
+   },
+   "popupsAllowed": {
+      "message": "Popups are allowed on this website."
+   },
+   "popupsBlocked": {
+      "message": "Popups are blocked on this website."
+   },
+   "popupsBlockedLabel": {
+      "message": "# виринаючих вікон заблоковано"
+   },
+   "rateLink": {
+      "message": "Оцініть наше розширення п'ятьма зірочками"
+   },
+   "rateus": {
+      "message": "Задоволені роботою Poper Blocker? Оцініть наше розширення!"
+   },
+   "removeAlwaysLabel": {
+      "message": "Видаляти завжди"
+   },
+   "removeAlwaysText": {
+      "message": "Завжди видаляти цю накладену рекламу й не показувати це повідомлення знову. Ви можете змінити цей параметр на сторінці параметрів."
+   },
+   "removeOnceLabel": {
+      "message": "Remove Once"
+   },
+   "removeOverlayQLabel": {
+      "message": "Remove Overlay?"
+   },
+   "resumeButton": {
+      "message": "Start"
+   },
+   "undoLabel": {
+      "message": "Показати накладену рекламу"
+   },
+   "undoOnceButtonLabel": {
+      "message": "Undo once"
+   },
+   "undoTips": {
+      "message": "Ви видалили цей оверлей вручну, натисніть на неї для її відображення"
+   },
+   "urlExamplePlaceholder": {
+      "message": "Приклад: twitter.com"
+   },
+   "urlExistsInList": {
+      "message": "This site is already in list"
+   },
+   "urlExistsInPB": {
+      "message": "Цей сайт вже додано до білого списку розширенням Poper Blocker"
+   },
+   "urlNotValid": {
+      "message": "Будь ласка, введіть допустиму URL-адресу."
+   },
+   "websiteInWhitelistOverlayMessage": {
+      "message": "This website is whitelisted. No overlay detection made."
+   },
+   "whitelistTip": {
+      "message": "Щоб дозволити відкриття виринаючих вікон/попандерів з веб-сайту, додайте його до цього списку:"
+   },
+   "whitelistTitle": {
+      "message": "Веб-сайти, що знаходяться у білому списку"
+   }
+}

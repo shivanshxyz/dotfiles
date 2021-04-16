@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(fonts/Roboto.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+:focus {
+  outline: 1px solid rgb(94, 158, 214);
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+body {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.logo {
+  margin-top: 23px;
+}
+
+.logo img {
+  height: 26px;
+}
+
+.title {
+  margin-top: 75px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.flow-1, .flow-2 {
+  width: 650px;
+  margin: 16px auto 0 auto;
+}
+
+.flow-1 .message {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+}
+
+.flow-1 .buttons {
+  margin-top: 32px;
+}
+
+.flow-1 .policy {
+  margin-top: 25px;
+}
+
+.flow-2 {
+  height: 210px;
+  background: #f6f6f6;
+  border-radius: 5px;
+  padding: 0 20px;
+  display: none;
+}
+
+.flow-2 .message {
+  padding-top: 20px;
+  font-weight: 700;
+  color: #498abb;
+  font-size: 18px;
+}
+
+.flow-2 .sub-message {
+  padding-top: 12px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+}
+
+.flow-2 .buttons {
+  margin-top: 20px;
+}
+
+.flow-2 .policy {
+  margin-top: 28px;
+}
+
+.button {
+  display: inline-block;
+  width: 160px;
+  height: 40px;
+  border-radius: 10px;
+  color: #FFF;
+  margin: 0 8px;
+  font-size: 16px;
+  line-height: 40px;
+  cursor: pointer;
+  border: none;
+}
+
+.button.green {
+  background: rgba(57, 176, 69, 1);
+}
+
+.button.green:hover {
+  background: rgba(57, 176, 69, 0.9);
+}
+
+.button.grey {
+  background: rgba(102, 102, 102, 1);
+}
+
+.button.grey:hover {
+  background: rgba(102, 102, 102, 0.9);
+}
+
+.button.red {
+  background: rgba(198, 45, 72, 1);
+}
+
+.button.red:hover {
+  background: rgba(198, 45, 72, 0.9);
+}
+
+a {
+  color: #292929;
+  font-size: 14px;
+  white-space: nowrap;
+}

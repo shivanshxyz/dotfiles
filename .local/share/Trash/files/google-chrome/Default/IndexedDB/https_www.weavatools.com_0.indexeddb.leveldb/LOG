@@ -1,0 +1,5 @@
+2021/04/13-12:21:58.382 2937 Reusing MANIFEST /home/shivanshxyz/.config/google-chrome/Default/IndexedDB/https_www.weavatools.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/13-12:22:04.712 2dd6 Level-0 table #5: started
+2021/04/13-12:22:04.716 2dd6 Level-0 table #5: 1120 bytes OK
+2021/04/13-12:22:04.719 2dd6 Delete type=0 #3
+2021/04/13-12:22:04.719 2937 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,19 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "noedit.png",
+      "default_title": "Ability to (temporarily) edit any webpage"
+   },
+   "icons": {
+      "16": "noedit.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtrRDbxoVToqQJHlum7UPI8ox3ocmTx+wSr6nYFs7LmsY3c16Pd6AqwAEuo8rGt29CmnbKDwjI3EDPdlitX4yfPTMi1FyJyPnLg7f+8Kno7W2Mb/QNPTzrLcVT74+VVNgtf87oQNhYvxnUuOatIm3x02go7EmBYL36KCKscoBHN7wLgbXF2CR4dKM7xml4jH/0HDr5Wduwz+9rA75cxJlrUn8M1vavKMyZ2FA2RYTzbHTpjJ5Z4nL+281Jwm7iYmdx+I2tKHqnGuO6tSWRyt2o77I+hOt3wlYHQo55CChU890qFnVajdgjUSCl2MMNfEIwBZdSGO+Cn/ZT0ro2FshpQIDAQAB",
+   "manifest_version": 2,
+   "name": "Page Editor",
+   "permissions": [ "activeTab", "tabs", "background" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3.2"
+}

@@ -1,0 +1,7 @@
+2021/04/14-17:40:26.273 4b5c Reusing MANIFEST /home/shivanshxyz/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/14-17:40:26.273 4b5c Recovering log #3
+2021/04/14-17:40:26.276 4b5c Reusing old log /home/shivanshxyz/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000003.log 
+2021/04/14-17:40:58.692 463e Level-0 table #5: started
+2021/04/14-17:40:58.706 463e Level-0 table #5: 414810 bytes OK
+2021/04/14-17:40:58.709 463e Delete type=0 #3
+2021/04/14-17:40:58.710 463e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

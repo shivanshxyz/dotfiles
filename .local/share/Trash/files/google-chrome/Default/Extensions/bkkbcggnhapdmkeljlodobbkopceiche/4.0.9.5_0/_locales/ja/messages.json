@@ -1,0 +1,356 @@
+{
+   "NTF_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "NTF_blockPrevSite": {
+      "message": "ポップアップがブロックされました"
+   },
+   "NTF_shareUs": {
+      "message": "We like you too! Don't you think it's time to tell your friends about us?"
+   },
+   "OP_overlayList": {
+      "message": "always block overlay list"
+   },
+   "OP_urlExistsInDefaultList": {
+      "message": "This site is already %s by Poper Blocker"
+   },
+   "OP_urlExistsInList": {
+      "message": "This site is already in %s"
+   },
+   "OP_whitelist": {
+      "message": "Whitelist"
+   },
+   "OP_whitelisted": {
+      "message": "whitelisted"
+   },
+   "PP_BlockAnyway": {
+      "message": "すべてブロック"
+   },
+   "PP_DidWeMiss": {
+      "message": "取り残しはある？"
+   },
+   "PP_ExtName": {
+      "message": "Poper Blocker"
+   },
+   "PP_Incognito_GotIt": {
+      "message": "OK, Got it"
+   },
+   "PP_Incognito_Step1": {
+      "message": "Go to"
+   },
+   "PP_Incognito_Step2": {
+      "message": "Find Poper Blocker"
+   },
+   "PP_Incognito_Step3": {
+      "message": "Mark the checkbox next to \u003Ci>\"Allow in incognito\"\u003C/i>"
+   },
+   "PP_Incognito_Title": {
+      "message": "In order to enable Poper Blocker in Chrome's Incognito Mode, follow the next steps:"
+   },
+   "PP_Menu_Incognito": {
+      "message": "Incognito"
+   },
+   "PP_Menu_Options": {
+      "message": "Options"
+   },
+   "PP_Menu_Rate": {
+      "message": "Rate Us"
+   },
+   "PP_Menu_Share": {
+      "message": "Share"
+   },
+   "PP_Menu_Stats": {
+      "message": "Stats"
+   },
+   "PP_NoPopupsBlocked": {
+      "message": "いいですね！"
+   },
+   "PP_Overlay": {
+      "message": "オーバーレイ"
+   },
+   "PP_Popup": {
+      "message": "ポップアップ"
+   },
+   "PP_PopupsAllowed": {
+      "message": "以下に関してポップアップを許可"
+   },
+   "PP_PopupsEssential": {
+      "message": "ポップアップはこのサイトの重要機能です。"
+   },
+   "PP_PopupsFound": {
+      "message": "ポップアップは以下のサイトでブロックされています："
+   },
+   "PP_PopupsFound_X1": {
+      "message": "ポップアップは以下のサイトでブロックされています："
+   },
+   "PP_PopupsNotFound": {
+      "message": "これまでポップアップは以下に\r\n関して見つかっていません"
+   },
+   "PP_Rate": {
+      "message": "Rate Poper Blocker"
+   },
+   "PP_Share_Friends": {
+      "message": "Share Poper Blocker\u003Cbr />with friends"
+   },
+   "PP_Share_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "PP_Share_TT_Copy": {
+      "message": "Copy Link"
+   },
+   "PP_Share_TT_Facebook": {
+      "message": "Share on Facebook"
+   },
+   "PP_Share_TT_Twitter": {
+      "message": "Share on Twitter"
+   },
+   "PP_Stats_HowItWorks": {
+      "message": "See how it really works"
+   },
+   "PP_Stats_Overlays": {
+      "message": "オーバーレイ "
+   },
+   "PP_Stats_Tabs": {
+      "message": "タブ"
+   },
+   "PP_Stats_TotalPopsBlocked": {
+      "message": "ブロックされた合計ポップアップ"
+   },
+   "PP_Stats_TotalTimeSaved": {
+      "message": "節約された合計時間"
+   },
+   "PP_Stats_Windows": {
+      "message": "ウィンドウ"
+   },
+   "PP_SwitchedOff": {
+      "message": "がオフになっています。"
+   },
+   "PP_TooltipAllowPops": {
+      "message": "このサイトのポップアップを許可には、ここをクリック。 それはあなたの個人的ホワイトリストに追加されます。"
+   },
+   "PP_TooltipBlockPops": {
+      "message": "骨折りなし！\r\nすてき！\r\n簡単！"
+   },
+   "PP_TooltipReportOver": {
+      "message": "現ページにポップアップしたオーバーレイの削除には、ここをクリックしてください。"
+   },
+   "PP_TooltipReportPop": {
+      "message": "ここをクリックして、新しいタブやウィンドウで欠落したポップアップを更新してください。"
+   },
+   "PP_TooltipWhitelistBlockPops": {
+      "message": "We verified that popups are essential functionalities on this site, but feel free to block anyway."
+   },
+   "PP_WhiteListed": {
+      "message": "Poper Blockerによるホワイトリスト"
+   },
+   "PP_XPopupsBlocked_1": {
+      "message": "骨折りなし！"
+   },
+   "PP_XPopupsBlocked_2": {
+      "message": "すてき！"
+   },
+   "PP_XPopupsBlocked_3": {
+      "message": "簡単！"
+   },
+   "PP_XPopupsBlocked_4": {
+      "message": "実に簡単！"
+   },
+   "PP_XPopupsBlocked_5": {
+      "message": "朝めし前！"
+   },
+   "TS_NoOverlay": {
+      "message": "No overlay found"
+   },
+   "add": {
+      "message": "加える"
+   },
+   "allowAlways": {
+      "message": "常に許可する"
+   },
+   "allowAlwaysTip": {
+      "message": "このサイトでは常にポップアップを許可。このサイトはホワイトリストに追加されます。"
+   },
+   "allowButtonLabel": {
+      "message": "ポップアップを許可する"
+   },
+   "allowOnce": {
+      "message": "一時的に許可する"
+   },
+   "allowOnceTip": {
+      "message": "ポップアップをこの1回だけ許可する。次回このポップアップが表示されたらまたお聞きします。"
+   },
+   "allowOverlaysButtonLabel": {
+      "message": "オーバーレイを許可"
+   },
+   "autoDetectionButtonLabel": {
+      "message": "はい、一度"
+   },
+   "autoDetectionReportWebsiteButtonLabel": {
+      "message": "ウェブサイトをレポート"
+   },
+   "autoDetectionYesAlwaysButtonLabel": {
+      "message": "はい、いつも"
+   },
+   "badgeToggleLabel": {
+      "message": "ポップアップがブロックされた際に、ツールバーボタンでバッジを表示します。"
+   },
+   "blacklistTip": {
+      "message": "これらのサイトのオーバーレイは常にブロック："
+   },
+   "blockAlwaysButtonLabel": {
+      "message": "常にブロック"
+   },
+   "blockButtonLabel": {
+      "message": "ポップアップをブロックする"
+   },
+   "blockDetectedOverlayLabel": {
+      "message": "オーバーレイは検出されました。ブロックしますか？"
+   },
+   "blockOverlayButtonLabel": {
+      "message": "オーバーレイを削除"
+   },
+   "bugLink": {
+      "message": "バグを報告する"
+   },
+   "contributeButtonLabel": {
+      "message": "助ける"
+   },
+   "disableNotifications": {
+      "message": "通知を無効にする"
+   },
+   "disablePB": {
+      "message": "Poper Blockerを無効にする"
+   },
+   "doNotShow": {
+      "message": "表示しない"
+   },
+   "doNotShowTips": {
+      "message": "このサイトでポップアップがブロックされている時、この通知は表示しない。"
+   },
+   "emailLink": {
+      "message": "メールで問い合わせる"
+   },
+   "enablePB": {
+      "message": "Poper Blockerを有効にする"
+   },
+   "extDescription": {
+      "message": "うるさいポップアップ、ポップアンダー、そしてオーバーレイを簡単かつ効率的な方法ブロックするナンバーワンのエクステンション。すべてのサイトを干渉なしでブラウズできます。"
+   },
+   "extName": {
+      "message": "Pop up blocker for Chrome™ - Poper Blocker"
+   },
+   "extName_FF": {
+      "message": "Popup blocker for FF: Poper Blocker"
+   },
+   "ignoreLabel": {
+      "message": "無視"
+   },
+   "linksTitle": {
+      "message": "リンク"
+   },
+   "needRefresh": {
+      "message": "Refresh open tabs in order for this change to take effect."
+   },
+   "needRefreshGotIt": {
+      "message": "Ok, got it!"
+   },
+   "neverShowRefresh": {
+      "message": "Don't show again"
+   },
+   "notFoundAutoOverlayLabel": {
+      "message": "オーバーレイの自動検出ではオーバーレイは見つかりませんでした"
+   },
+   "notFoundOverlayLabel": {
+      "message": "オーバーレイは見つかりませんでした。自動検出しますか？"
+   },
+   "notificationMessage": {
+      "message": "ポップアップがブロックされました"
+   },
+   "notificationSettingsTitle": {
+      "message": "通知の設定"
+   },
+   "notificationToggleLabel": {
+      "message": "ポップアップがブロックされた際に、ページ上で通知を表示します。"
+   },
+   "options": {
+      "message": "オプション"
+   },
+   "overlayContextMenuToggleLabel": {
+      "message": "コンテキストメニューで [オーバーレイを削除] オプションを有効化"
+   },
+   "overlaySettingsTitle": {
+      "message": "オーバーレイブロッキングの設定"
+   },
+   "overlayWasBlocked": {
+      "message": "オーバーレイはブロックされました"
+   },
+   "overlaysToggleLabel": {
+      "message": "オーバーレイブロックを有効化 (匿名データをPoper Blockerの開発者に送信)"
+   },
+   "pauseButton": {
+      "message": "Pause"
+   },
+   "paused": {
+      "message": "Poper Blocker is off"
+   },
+   "popupsAllowed": {
+      "message": "このウェブサイトではポップアップが許可されています。"
+   },
+   "popupsBlocked": {
+      "message": "このウェブサイトでは、ポップアップがブロックされています。"
+   },
+   "popupsBlockedLabel": {
+      "message": "X ポップアップがブロックされました"
+   },
+   "rateLink": {
+      "message": "アプリを５つ星評価する"
+   },
+   "rateus": {
+      "message": "Poper Blockerに満足ですか？評価してください！"
+   },
+   "removeAlwaysLabel": {
+      "message": "常に削除"
+   },
+   "removeAlwaysText": {
+      "message": "常にこのオーバーレイを削除し、もうこの通知は表示しないでください。オプションページでこれを変更できます。"
+   },
+   "removeOnceLabel": {
+      "message": "一度削除"
+   },
+   "removeOverlayQLabel": {
+      "message": "オーバーレイを削除?"
+   },
+   "resumeButton": {
+      "message": "Start"
+   },
+   "undoLabel": {
+      "message": "オーバーレイを見せる"
+   },
+   "undoOnceButtonLabel": {
+      "message": "一度元に戻す"
+   },
+   "undoTips": {
+      "message": "このオーバーレイを手動で削除しました。これをクリックしてオーバーレイを表示します。"
+   },
+   "urlExamplePlaceholder": {
+      "message": "例：twitter.com"
+   },
+   "urlExistsInList": {
+      "message": "This site is already in list"
+   },
+   "urlExistsInPB": {
+      "message": "このサイトは既にPoper Blockerでホワイトリストされています"
+   },
+   "urlNotValid": {
+      "message": "有効なURLを入力してください"
+   },
+   "websiteInWhitelistOverlayMessage": {
+      "message": "This website is whitelisted. No overlay detection made."
+   },
+   "whitelistTip": {
+      "message": "あるウェブサイトでポップアップやポップアンダーの表示を許可するために、このリストに追加する："
+   },
+   "whitelistTitle": {
+      "message": "ホワイトリストサイト"
+   }
+}

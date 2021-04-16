@@ -1,0 +1,356 @@
+{
+   "NTF_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "NTF_blockPrevSite": {
+      "message": "Ventana emergente bloqueada"
+   },
+   "NTF_shareUs": {
+      "message": "We like you too! Don't you think it's time to tell your friends about us?"
+   },
+   "OP_overlayList": {
+      "message": "always block overlay list"
+   },
+   "OP_urlExistsInDefaultList": {
+      "message": "This site is already %s by Poper Blocker"
+   },
+   "OP_urlExistsInList": {
+      "message": "This site is already in %s"
+   },
+   "OP_whitelist": {
+      "message": "Whitelist"
+   },
+   "OP_whitelisted": {
+      "message": "whitelisted"
+   },
+   "PP_BlockAnyway": {
+      "message": "Bloquea igualmente"
+   },
+   "PP_DidWeMiss": {
+      "message": "¿Nos hemos pasado a alguno por alto?"
+   },
+   "PP_ExtName": {
+      "message": "Poper Blocker"
+   },
+   "PP_Incognito_GotIt": {
+      "message": "OK, Got it"
+   },
+   "PP_Incognito_Step1": {
+      "message": "Go to"
+   },
+   "PP_Incognito_Step2": {
+      "message": "Find Poper Blocker"
+   },
+   "PP_Incognito_Step3": {
+      "message": "Mark the checkbox next to \u003Ci>\"Allow in incognito\"\u003C/i>"
+   },
+   "PP_Incognito_Title": {
+      "message": "In order to enable Poper Blocker in Chrome's Incognito Mode, follow the next steps:"
+   },
+   "PP_Menu_Incognito": {
+      "message": "Incognito"
+   },
+   "PP_Menu_Options": {
+      "message": "Options"
+   },
+   "PP_Menu_Rate": {
+      "message": "Rate Us"
+   },
+   "PP_Menu_Share": {
+      "message": "Share"
+   },
+   "PP_Menu_Stats": {
+      "message": "Stats"
+   },
+   "PP_NoPopupsBlocked": {
+      "message": "¡Qué bien se ve!"
+   },
+   "PP_Overlay": {
+      "message": "Superposición"
+   },
+   "PP_Popup": {
+      "message": "Ventana emergente"
+   },
+   "PP_PopupsAllowed": {
+      "message": "Ven. emer. permitidas en"
+   },
+   "PP_PopupsEssential": {
+      "message": "Las ventanas emergentes son funcionalidades esenciales en este sitio"
+   },
+   "PP_PopupsFound": {
+      "message": "Las ventanas emergentes están bloqueadas en "
+   },
+   "PP_PopupsFound_X1": {
+      "message": "Las ventanas emergentes están bloqueadas en "
+   },
+   "PP_PopupsNotFound": {
+      "message": "Aún no se han encontrado\r\nventanas emergentes en"
+   },
+   "PP_Rate": {
+      "message": "Rate Poper Blocker"
+   },
+   "PP_Share_Friends": {
+      "message": "Share Poper Blocker\u003Cbr />with friends"
+   },
+   "PP_Share_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "PP_Share_TT_Copy": {
+      "message": "Copy Link"
+   },
+   "PP_Share_TT_Facebook": {
+      "message": "Share on Facebook"
+   },
+   "PP_Share_TT_Twitter": {
+      "message": "Share on Twitter"
+   },
+   "PP_Stats_HowItWorks": {
+      "message": "See how it really works"
+   },
+   "PP_Stats_Overlays": {
+      "message": "Superpu."
+   },
+   "PP_Stats_Tabs": {
+      "message": "Pestañas"
+   },
+   "PP_Stats_TotalPopsBlocked": {
+      "message": "Tot ventanas bloqueadas"
+   },
+   "PP_Stats_TotalTimeSaved": {
+      "message": "Tiempo total ahorrado"
+   },
+   "PP_Stats_Windows": {
+      "message": "Ventanas"
+   },
+   "PP_SwitchedOff": {
+      "message": "está apagado"
+   },
+   "PP_TooltipAllowPops": {
+      "message": "Haga clic aquí para permitir ventanas emergentes en este sitio. El sitio será añadido a su lista blanca personal."
+   },
+   "PP_TooltipBlockPops": {
+      "message": "¡Ningún problema!\r\n!Es fácil! \r\n¡Bien Hecho!"
+   },
+   "PP_TooltipReportOver": {
+      "message": "Haga clic aquí para eliminar una superposición que haya emergido en la página actual"
+   },
+   "PP_TooltipReportPop": {
+      "message": "Haga clic aquí para informarnos sobre una ventana emergente pasada por alto en una nueva pestaña o ventana"
+   },
+   "PP_TooltipWhitelistBlockPops": {
+      "message": "We verified that popups are essential functionalities on this site, but feel free to block anyway."
+   },
+   "PP_WhiteListed": {
+      "message": "Aprobado por\r\nPoper Blocker"
+   },
+   "PP_XPopupsBlocked_1": {
+      "message": "¡Ningún problema!"
+   },
+   "PP_XPopupsBlocked_2": {
+      "message": "¡Bien Hecho!"
+   },
+   "PP_XPopupsBlocked_3": {
+      "message": "!Es fácil!"
+   },
+   "PP_XPopupsBlocked_4": {
+      "message": "¡Facilísimo!"
+   },
+   "PP_XPopupsBlocked_5": {
+      "message": "¡Pan comido!"
+   },
+   "TS_NoOverlay": {
+      "message": "No overlay found"
+   },
+   "add": {
+      "message": "Añadir"
+   },
+   "allowAlways": {
+      "message": "Permitir siempre"
+   },
+   "allowAlwaysTip": {
+      "message": "Permitir siempre las ventanas emergentes en este sitio. Este sitio será añadido a su lista blanca."
+   },
+   "allowButtonLabel": {
+      "message": "Permitir ventanas emergentes"
+   },
+   "allowOnce": {
+      "message": "Permitir una vez"
+   },
+   "allowOnceTip": {
+      "message": "Permitir abrir la ventana emergente sólo por esta vez. La próxima vez que vea esta ventana emergente volveremos a preguntarle."
+   },
+   "allowOverlaysButtonLabel": {
+      "message": "Permitir ventanas superpuestas"
+   },
+   "autoDetectionButtonLabel": {
+      "message": "Sí, una vez"
+   },
+   "autoDetectionReportWebsiteButtonLabel": {
+      "message": "Informe sobre un sitio web"
+   },
+   "autoDetectionYesAlwaysButtonLabel": {
+      "message": "Sí, siempre"
+   },
+   "badgeToggleLabel": {
+      "message": "Mostrar una insignia en la barra de herramientas cuando se bloquee una ventana emergente."
+   },
+   "blacklistTip": {
+      "message": "Siempre bloquear ventana superpuesta en estos sitios:"
+   },
+   "blockAlwaysButtonLabel": {
+      "message": "Bloquear siempre"
+   },
+   "blockButtonLabel": {
+      "message": "Bloquear ventanas emergentes"
+   },
+   "blockDetectedOverlayLabel": {
+      "message": "Se detectó ventana superpuesta. ¿Bloquearla?"
+   },
+   "blockOverlayButtonLabel": {
+      "message": "Elimine la ventana superpuesta"
+   },
+   "bugLink": {
+      "message": "Informar de un fallo"
+   },
+   "contributeButtonLabel": {
+      "message": "Contribuya a"
+   },
+   "disableNotifications": {
+      "message": "Desactivar notificaciones"
+   },
+   "disablePB": {
+      "message": "Desactivar Poper Blocker"
+   },
+   "doNotShow": {
+      "message": "No mostrar"
+   },
+   "doNotShowTips": {
+      "message": "No mostrar esta notificación cuando las ventanas emergentes estén bloqueadas en este sitio"
+   },
+   "emailLink": {
+      "message": "Envíenos un correo electrónico"
+   },
+   "enablePB": {
+      "message": "Activar Poper Blocker"
+   },
+   "extDescription": {
+      "message": "La extensión nº 1 para bloquear las fastidiosas ventanas emergentes (popups), ventanas subyacentes (popunders) y superposiciones (overlays). Navegue sin interferencias en todos los sitios web."
+   },
+   "extName": {
+      "message": "Pop up blocker for Chrome™ - Poper Blocker"
+   },
+   "extName_FF": {
+      "message": "Popup blocker for FF: Poper Blocker"
+   },
+   "ignoreLabel": {
+      "message": "Ignorar"
+   },
+   "linksTitle": {
+      "message": "Enlaces"
+   },
+   "needRefresh": {
+      "message": "Refresh open tabs in order for this change to take effect."
+   },
+   "needRefreshGotIt": {
+      "message": "Ok, got it!"
+   },
+   "neverShowRefresh": {
+      "message": "Don't show again"
+   },
+   "notFoundAutoOverlayLabel": {
+      "message": "Detección automática no encontró ninguna ventana superpuesta"
+   },
+   "notFoundOverlayLabel": {
+      "message": "No se encontró una ventana superpuesta. ¿Buscar con detección automática?"
+   },
+   "notificationMessage": {
+      "message": "Ventana emergente bloqueada"
+   },
+   "notificationSettingsTitle": {
+      "message": "Ajustes de las notificaciones"
+   },
+   "notificationToggleLabel": {
+      "message": "Mostrar una notificación en la página cuando se bloquee una ventana emergente."
+   },
+   "options": {
+      "message": "Opciones"
+   },
+   "overlayContextMenuToggleLabel": {
+      "message": "Habilita opción \"Elimina menú superpuesto\" en menú contextual."
+   },
+   "overlaySettingsTitle": {
+      "message": "Ajustes de bloqueo de la ventana superpuesta"
+   },
+   "overlayWasBlocked": {
+      "message": "Ventana superpuesta fue bloqueada"
+   },
+   "overlaysToggleLabel": {
+      "message": "Habilita bloqueo de menús superpuestos (envía datos anónimos a Poper Blocker)"
+   },
+   "pauseButton": {
+      "message": "Pause"
+   },
+   "paused": {
+      "message": "Poper Blocker is off"
+   },
+   "popupsAllowed": {
+      "message": "Se permiten ventanas emergentes de este sitio web."
+   },
+   "popupsBlocked": {
+      "message": "Las ventanas emergentes de este sitio web están bloqueadas."
+   },
+   "popupsBlockedLabel": {
+      "message": "X ventanas emergentes bloqueadas"
+   },
+   "rateLink": {
+      "message": "Califíquenos con 5 estrellas"
+   },
+   "rateus": {
+      "message": "¿Le gusta Poper Blocker? ¡Evalúenos!"
+   },
+   "removeAlwaysLabel": {
+      "message": "Eliminar siempre"
+   },
+   "removeAlwaysText": {
+      "message": "Bloquear siempre esta superposición y no volver a mostrar esta notificación. Podrá cambiar esta elección en la página de opciones."
+   },
+   "removeOnceLabel": {
+      "message": "Eliminar una vez"
+   },
+   "removeOverlayQLabel": {
+      "message": "Elimine la ventana superpuesta?"
+   },
+   "resumeButton": {
+      "message": "Start"
+   },
+   "undoLabel": {
+      "message": "Mostrar la superposición"
+   },
+   "undoOnceButtonLabel": {
+      "message": "Deshacer una vez"
+   },
+   "undoTips": {
+      "message": "Has eliminado manualmente este menú superpuesto, clica para mostrarlo."
+   },
+   "urlExamplePlaceholder": {
+      "message": "Ejemplo: twitter.com"
+   },
+   "urlExistsInList": {
+      "message": "This site is already in list"
+   },
+   "urlExistsInPB": {
+      "message": "Este sitio ya fue añadido a la lista blanca por Poper Blocker"
+   },
+   "urlNotValid": {
+      "message": "Por favor ingrese una URL válida."
+   },
+   "websiteInWhitelistOverlayMessage": {
+      "message": "This website is whitelisted. No overlay detection made."
+   },
+   "whitelistTip": {
+      "message": "Para permitir ventanas emergentes y pop-unders de un sitio web, agréguelo a esta lista:"
+   },
+   "whitelistTitle": {
+      "message": "Sitios en lista blanca"
+   }
+}

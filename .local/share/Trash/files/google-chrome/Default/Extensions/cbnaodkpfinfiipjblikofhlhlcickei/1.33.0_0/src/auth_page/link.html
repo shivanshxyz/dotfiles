@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Link Anonymous Account</title>
+    <link rel="stylesheet" href="assets/page_layout_css/sheets-of-paper-a4.css" />
+    <link rel="stylesheet" href="assets/base.css" />
+  </head>
+  <body>
+    <div id="loading-div" style="text-align: center; display: none; background: #f0f0ef;">
+      <img
+        src="assets/loading-state.gif"
+        width="30px"
+        height="30px"
+        style="display: inline-block; vertical-align: middle; margin-top: 200px;"
+      />
+    </div>
+    <div id="main-div" class="login-container">
+      <img src="assets/full-logo-black.png" class="login-image" style="width: 200px; display: inline-block;" />
+
+      <div class="login-button-section">
+        <div class="login-input-wrapper">
+          <button type="button" class="login-button google-login">
+            <div class="login-button-icon-wrapper">
+              <img src="assets/google-icon.svg" />
+            </div>
+            <div id="google-btn" class="login-button-text-wrapper">Sign in with Google</div>
+          </button>
+        </div>
+
+        <div class="login-input-wrapper">
+          <button id="facebook-btn" class="login-button facebook-login">
+            <img width="210px" src="assets/facebook-login.png" />
+          </button>
+        </div>
+      </div>
+
+      <div id="email-signup-form">
+        <div class="login-mode-break-wrapper">
+          <div class="login-mode-break-line"><img src="assets/line-break.svg" /></div>
+
+          <div class="login-mode-break">OR</div>
+          <div class="login-mode-break-line"><img src="assets/line-break.svg" /></div>
+        </div>
+
+        <div class="login-input-wrapper">
+          <input
+            type="text"
+            placeholder="First Name"
+            id="first-name-input"
+            name="firstName"
+            style="max-width: 300px !important;"
+            class="login-text-input"
+            required
+          />
+        </div>
+        <div class="login-input-wrapper">
+          <input
+            type="text"
+            placeholder="Last Name"
+            id="last-name-input"
+            name="lastName"
+            style="max-width: 300px !important;"
+            class="login-text-input"
+            required
+          />
+        </div>
+        <div class="login-input-wrapper">
+          <input
+            type="email"
+            placeholder="Email"
+            name="email"
+            id="email-input"
+            style="max-width: 300px !important;"
+            class="login-text-input"
+            required
+          />
+        </div>
+        <div class="login-input-wrapper">
+          <input
+            type="password"
+            placeholder="Password"
+            id="password-input"
+            name="password"
+            style="max-width: 300px !important;"
+            class="login-text-input"
+            required
+          />
+        </div>
+
+        <div class="login-input-wrapper">
+          <button id="signup-form-submit" class="login-button" style="margin-bottom: 10px;">Sign up</button>
+        </div>
+      </div>
+
+      <div id="email-signup-prompt" class="login-input-wrapper">
+        <div class="login-hints">
+          Don't have Google or Facebook?
+          <span id="email-signup-link" style="text-decoration-line: underline; cursor: pointer;">
+            Sign Up with Email</span
+          >
+        </div>
+      </div>
+
+      <div class="login-terms-description">
+        By signing up, you agree to our
+        <a
+          href="https://www.weavatools.com/terms-and-privacy"
+          target="_blank"
+          style="text-decoration: none; font-weight: 500; cursor: pointer;"
+          >Terms and Privacy</a
+        >
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="link.js"></script>
+</html>

@@ -1,0 +1,17 @@
+<svg id="arik_svg" width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <title>Poper Blocker Logo</title>
+ <g display="inline">
+  <title>Layer 1</title>
+  <ellipse fill="#778592" stroke-width="15" stroke-linejoin="null" stroke-linecap="null" cx="75" cy="75" id="svg_4" rx="13" ry="13"/>
+ </g>
+ <g>
+  <title>Layer 2</title>
+  <ellipse fill="none" stroke="#3e9be9" stroke-width="18" stroke-linejoin="null" stroke-linecap="null" cx="75" cy="75" rx="59" ry="59" id="svg_3"/>
+ </g>
+ <g display="inline">
+  <title>Layer 3</title>
+  <ellipse fill="none" stroke="#9d251f" stroke-width="10" stroke-linejoin="null" stroke-linecap="null" cx="75" cy="75" id="svg_1" rx="50" ry="50"/>
+  <line fill="none" stroke="#9d251f" stroke-width="10" stroke-linejoin="null" stroke-linecap="null" x1="24.99999" y1="75" x2="124.99999" y2="75" id="arik" transform="rotate(45 75,75.00000762939453) "/>
+ </g>
+</svg>

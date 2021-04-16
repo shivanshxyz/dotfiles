@@ -1,0 +1,1 @@
+Bloquee las ventanas emergentes y pop-unders sin importar donde haga clic en la página.

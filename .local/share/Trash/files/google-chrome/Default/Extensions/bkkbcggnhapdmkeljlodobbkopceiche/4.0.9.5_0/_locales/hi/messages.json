@@ -1,0 +1,356 @@
+{
+   "NTF_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "NTF_blockPrevSite": {
+      "message": "पॉपअप\nब्लॉक किया हुआ"
+   },
+   "NTF_shareUs": {
+      "message": "We like you too! Don't you think it's time to tell your friends about us?"
+   },
+   "OP_overlayList": {
+      "message": "always block overlay list"
+   },
+   "OP_urlExistsInDefaultList": {
+      "message": "This site is already %s by Poper Blocker"
+   },
+   "OP_urlExistsInList": {
+      "message": "This site is already in %s"
+   },
+   "OP_whitelist": {
+      "message": "Whitelist"
+   },
+   "OP_whitelisted": {
+      "message": "whitelisted"
+   },
+   "PP_BlockAnyway": {
+      "message": "फिर भी अवरुद्ध करें"
+   },
+   "PP_DidWeMiss": {
+      "message": "क्या हमने कोई चीज छोड़ दी?"
+   },
+   "PP_ExtName": {
+      "message": "Poper Blocker"
+   },
+   "PP_Incognito_GotIt": {
+      "message": "OK, Got it"
+   },
+   "PP_Incognito_Step1": {
+      "message": "Go to"
+   },
+   "PP_Incognito_Step2": {
+      "message": "Find Poper Blocker"
+   },
+   "PP_Incognito_Step3": {
+      "message": "Mark the checkbox next to \u003Ci>\"Allow in incognito\"\u003C/i>"
+   },
+   "PP_Incognito_Title": {
+      "message": "In order to enable Poper Blocker in Chrome's Incognito Mode, follow the next steps:"
+   },
+   "PP_Menu_Incognito": {
+      "message": "Incognito"
+   },
+   "PP_Menu_Options": {
+      "message": "Options"
+   },
+   "PP_Menu_Rate": {
+      "message": "Rate Us"
+   },
+   "PP_Menu_Share": {
+      "message": "Share"
+   },
+   "PP_Menu_Stats": {
+      "message": "Stats"
+   },
+   "PP_NoPopupsBlocked": {
+      "message": "अच्छा दिख रहा है!"
+   },
+   "PP_Overlay": {
+      "message": "ओवरले"
+   },
+   "PP_Popup": {
+      "message": "पॉप अप"
+   },
+   "PP_PopupsAllowed": {
+      "message": "पॉपअप की अनुमति नहीं है"
+   },
+   "PP_PopupsEssential": {
+      "message": "पॉपअप इस साइट पर आवश्यक फंक्शनैलिटीज हैं"
+   },
+   "PP_PopupsFound": {
+      "message": "पोपअप्स को पर अवरूद्ध किया है"
+   },
+   "PP_PopupsFound_X1": {
+      "message": "पोपअप्स को पर अवरूद्ध किया है"
+   },
+   "PP_PopupsNotFound": {
+      "message": "अभी तक कोई पॉपअप नहीं मिले"
+   },
+   "PP_Rate": {
+      "message": "Rate Poper Blocker"
+   },
+   "PP_Share_Friends": {
+      "message": "Share Poper Blocker\u003Cbr />with friends"
+   },
+   "PP_Share_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "PP_Share_TT_Copy": {
+      "message": "Copy Link"
+   },
+   "PP_Share_TT_Facebook": {
+      "message": "Share on Facebook"
+   },
+   "PP_Share_TT_Twitter": {
+      "message": "Share on Twitter"
+   },
+   "PP_Stats_HowItWorks": {
+      "message": "See how it really works"
+   },
+   "PP_Stats_Overlays": {
+      "message": "ओवरले"
+   },
+   "PP_Stats_Tabs": {
+      "message": "टैब"
+   },
+   "PP_Stats_TotalPopsBlocked": {
+      "message": "कुल अवरोधिक पॉपअप"
+   },
+   "PP_Stats_TotalTimeSaved": {
+      "message": "पूर्ण समय SPO2"
+   },
+   "PP_Stats_Windows": {
+      "message": "Windows"
+   },
+   "PP_SwitchedOff": {
+      "message": "बंद है"
+   },
+   "PP_TooltipAllowPops": {
+      "message": "इस साइट पर पॉपअप अनुमति करने के लिए यहां क्लिक करें। इसे आपकी व्यक्तिगत श्वेत सूची में जोड़ा जाएगा।"
+   },
+   "PP_TooltipBlockPops": {
+      "message": "कोई कठिनाई नहीं! \r\nबहुत अच्छा! \r\nआसान!"
+   },
+   "PP_TooltipReportOver": {
+      "message": "वर्तमान पेज पर पॉपअप होने वाले किसी ओवरले को हटाने के लिए यहां क्लिक करें"
+   },
+   "PP_TooltipReportPop": {
+      "message": "एक नए टैब या विंडो में किसी छूटे हुए पॉपअप के बारे में हमें अद्यतित करने के लिए यहां क्लिक करें"
+   },
+   "PP_TooltipWhitelistBlockPops": {
+      "message": "We verified that popups are essential functionalities on this site, but feel free to block anyway."
+   },
+   "PP_WhiteListed": {
+      "message": "पॉपर अवरोधक द्वारा श्वेतसूची में डाला गया"
+   },
+   "PP_XPopupsBlocked_1": {
+      "message": "कोई कठिनाई नहीं!"
+   },
+   "PP_XPopupsBlocked_2": {
+      "message": "बहुत अच्छा!"
+   },
+   "PP_XPopupsBlocked_3": {
+      "message": "आसान!"
+   },
+   "PP_XPopupsBlocked_4": {
+      "message": "आसान सरल!"
+   },
+   "PP_XPopupsBlocked_5": {
+      "message": "शानदार!"
+   },
+   "TS_NoOverlay": {
+      "message": "No overlay found"
+   },
+   "add": {
+      "message": "जोड़ें"
+   },
+   "allowAlways": {
+      "message": "सदैव\nअनुमति दें"
+   },
+   "allowAlwaysTip": {
+      "message": "इस साइट पर पॉपअप को हमेशा अनुमति दें। इस साइट को आपकी श्वेत सूची में जोड़ा जाएगा।"
+   },
+   "allowButtonLabel": {
+      "message": "पॉपअप्स\nकी अनुमति दें"
+   },
+   "allowOnce": {
+      "message": "एक बार\nअनुमति दें"
+   },
+   "allowOnceTip": {
+      "message": "केवल इस बार पॉपअप की अनुमति दें। अगली बार यह पॉपअप दिखने पर हम आपसे पुन: पूछेंगे।"
+   },
+   "allowOverlaysButtonLabel": {
+      "message": "ओवरले की अनुमति दें"
+   },
+   "autoDetectionButtonLabel": {
+      "message": "हाँ, एकबार"
+   },
+   "autoDetectionReportWebsiteButtonLabel": {
+      "message": "वेबसाइट को सूचना दें"
+   },
+   "autoDetectionYesAlwaysButtonLabel": {
+      "message": "हाँ, हमेशा"
+   },
+   "badgeToggleLabel": {
+      "message": "कोई\nपॉपअप ब्लॉक होने पर टूलबार बटन पर बैज दर्शाएं।"
+   },
+   "blacklistTip": {
+      "message": "हमेशा इन साइटों पर ओवरले ब्लॉक करें:"
+   },
+   "blockAlwaysButtonLabel": {
+      "message": "हमेशा ब्लॉक करें"
+   },
+   "blockButtonLabel": {
+      "message": "पॉपअप्स\nब्लॉक करें"
+   },
+   "blockDetectedOverlayLabel": {
+      "message": "ओवरले का पता चला था। इसे ब्लॉक करें?"
+   },
+   "blockOverlayButtonLabel": {
+      "message": "ओवरले हटाएं"
+   },
+   "bugLink": {
+      "message": "बग की\nरिपोर्ट करें"
+   },
+   "contributeButtonLabel": {
+      "message": "सहयोग"
+   },
+   "disableNotifications": {
+      "message": "अधिसूचनाएं\nनिष्क्रिय करें"
+   },
+   "disablePB": {
+      "message": "Poper Blocker को अक्षम करें"
+   },
+   "doNotShow": {
+      "message": "ना दिखाएँ"
+   },
+   "doNotShowTips": {
+      "message": "इस साइट पर पॉपअप ब्लॉक्ड होने पर यह अधिसूचना ना दिखाएं"
+   },
+   "emailLink": {
+      "message": "हमें\nईमेल करें"
+   },
+   "enablePB": {
+      "message": "Poper Blocker को सक्षम करें"
+   },
+   "extDescription": {
+      "message": "परेशान करने वाले पॉप अप्स, पॉप अन्डर्स, तथा ओवरलेज को आसानी से तथा प्रभावी तरीके से ब्लॉक करने वाला #1 एक्सटेंशन। हस्तक्षेप के बिना सभी साइटों पर ब्राउज करें।"
+   },
+   "extName": {
+      "message": "Pop up blocker for Chrome™ - Poper Blocker"
+   },
+   "extName_FF": {
+      "message": "Popup blocker for FF: Poper Blocker"
+   },
+   "ignoreLabel": {
+      "message": "नज़रअंदाज़ करें"
+   },
+   "linksTitle": {
+      "message": "लिंक्स"
+   },
+   "needRefresh": {
+      "message": "Refresh open tabs in order for this change to take effect."
+   },
+   "needRefreshGotIt": {
+      "message": "Ok, got it!"
+   },
+   "neverShowRefresh": {
+      "message": "Don't show again"
+   },
+   "notFoundAutoOverlayLabel": {
+      "message": "स्वचालित रूप से पता लगाने से कोई भी ओवरले नहीं मिला"
+   },
+   "notFoundOverlayLabel": {
+      "message": "ओवरले नहीं मिला था। स्वचालित रूप से पता लगाने की कोशिश करें?"
+   },
+   "notificationMessage": {
+      "message": "पॉपअप\nब्लॉक किया हुआ"
+   },
+   "notificationSettingsTitle": {
+      "message": "अधिसूचना सेटिंग्स"
+   },
+   "notificationToggleLabel": {
+      "message": "कोई\nपॉपअप ब्लॉक होने पर पेज पर एक अधिसूचना दिखाएं।"
+   },
+   "options": {
+      "message": "विकल्प"
+   },
+   "overlayContextMenuToggleLabel": {
+      "message": "संदर्भ मेनू में \"ओवरले निकालें\" विकल्प सक्षम करें"
+   },
+   "overlaySettingsTitle": {
+      "message": "ओवरले ब्लॉक करने के लिए सेटिंग्स"
+   },
+   "overlayWasBlocked": {
+      "message": "ओवरले ब्लॉक कर दिया गया था"
+   },
+   "overlaysToggleLabel": {
+      "message": "ओवरले अवरोधन सक्षम करें (पॉपर अवरोधक डेवलपर्स को अनाम डेटा भेजता है)"
+   },
+   "pauseButton": {
+      "message": "Pause"
+   },
+   "paused": {
+      "message": "Poper Blocker is off"
+   },
+   "popupsAllowed": {
+      "message": "इस\nसाइट पर पॉपअप्स की अनुमति है।"
+   },
+   "popupsBlocked": {
+      "message": "इस\nसाइट पर पॉपअप्स ब्लॉक किए हैं।"
+   },
+   "popupsBlockedLabel": {
+      "message": "X पॉपअप ब्लॉक किए गए हैं"
+   },
+   "rateLink": {
+      "message": "हमें 5\nस्टार की रेटिंग दें"
+   },
+   "rateus": {
+      "message": "क्या आप Poper Blocker से प्रसन्न हैं? हमें रेटिंग दें"
+   },
+   "removeAlwaysLabel": {
+      "message": "हमेशा हटाएं"
+   },
+   "removeAlwaysText": {
+      "message": "हमेशा इस ओवरले को हटाएं तथा इस अधिसूचना को पुन: ना दिखाएं। आप इसे विकल्प पेज में बदल सकते हैं।"
+   },
+   "removeOnceLabel": {
+      "message": "एकबार हटाये"
+   },
+   "removeOverlayQLabel": {
+      "message": "ओवरले हटाएं?"
+   },
+   "resumeButton": {
+      "message": "Start"
+   },
+   "undoLabel": {
+      "message": "ओवरले दिखाएं"
+   },
+   "undoOnceButtonLabel": {
+      "message": "एकबार पूर्ववत करें"
+   },
+   "undoTips": {
+      "message": "आपने इस ओवरले को मैनअल रूप से निकाल दिया है, ओवरले दिखाने के लिए इसे क्लिक करें"
+   },
+   "urlExamplePlaceholder": {
+      "message": "उदाहरण: twitter.com"
+   },
+   "urlExistsInList": {
+      "message": "This site is already in list"
+   },
+   "urlExistsInPB": {
+      "message": "यह साइट Poper Blocker द्वारा पहले से ही श्वेतसूची में रखी हुई है"
+   },
+   "urlNotValid": {
+      "message": "कृपया एक मान्य URL दर्ज करें।"
+   },
+   "websiteInWhitelistOverlayMessage": {
+      "message": "This website is whitelisted. No overlay detection made."
+   },
+   "whitelistTip": {
+      "message": "वेबसाइट\nसे पॉपअप्स/पॉपअंडर्स को अनुमति देने के लिए, इसे इस सूची में इसे\nजोड़ें:"
+   },
+   "whitelistTitle": {
+      "message": "विधिसंगत\nसाइट्स"
+   }
+}

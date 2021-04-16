@@ -1,0 +1,16 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "description": "FrontEnd50 is your one-stop learning guide that covers everything you need to kickstart your web development journey.",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr4F1aGu0J1oTxqPOwOVS1wBouztVxOwrIBJfDyqRxJcxUMFsdsXp5J1vhrXlZOrmMqssPPZzBXUbBF2LcUqYV4W8LYA6pf7kxxSnzLILW1l2usLgW5Ex2eIZsjRKWEfRUURyc64brG7ehHbRRz2bAjJH73IAe4gR8PJatt6uJglnSShlttW5vI5Cj0YsezgM2LvKYCW29zNzMa8VFOPDFbZ8j9tnaATSgA3q7v3MAjDZJ0xvgG9HOysFTXo02zMn+O0ecCMQyV8xoR228W+tq70SuCtG9K6+Kl40flBXKYiukgvJPo6ZTdh7wdxokCI5LymWwiq6SHloyoiNPa3VtwIDAQAB",
+   "manifest_version": 2,
+   "name": "Frontend 50",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.112"
+}

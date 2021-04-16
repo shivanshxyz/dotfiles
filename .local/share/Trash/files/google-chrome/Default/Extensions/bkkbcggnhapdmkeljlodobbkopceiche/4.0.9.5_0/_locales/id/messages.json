@@ -1,0 +1,356 @@
+{
+   "NTF_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "NTF_blockPrevSite": {
+      "message": "Popup Blocked on this Site"
+   },
+   "NTF_shareUs": {
+      "message": "We like you too! Don't you think it's time to tell your friends about us?"
+   },
+   "OP_overlayList": {
+      "message": "always block overlay list"
+   },
+   "OP_urlExistsInDefaultList": {
+      "message": "This site is already %s by Poper Blocker"
+   },
+   "OP_urlExistsInList": {
+      "message": "This site is already in %s"
+   },
+   "OP_whitelist": {
+      "message": "Whitelist"
+   },
+   "OP_whitelisted": {
+      "message": "whitelisted"
+   },
+   "PP_BlockAnyway": {
+      "message": "Tetap blokir"
+   },
+   "PP_DidWeMiss": {
+      "message": "Adakah yang terlewat?"
+   },
+   "PP_ExtName": {
+      "message": "Poper Blocker"
+   },
+   "PP_Incognito_GotIt": {
+      "message": "OK, Got it"
+   },
+   "PP_Incognito_Step1": {
+      "message": "Go to"
+   },
+   "PP_Incognito_Step2": {
+      "message": "Find Poper Blocker"
+   },
+   "PP_Incognito_Step3": {
+      "message": "Mark the checkbox next to \u003Ci>\"Allow in incognito\"\u003C/i>"
+   },
+   "PP_Incognito_Title": {
+      "message": "In order to enable Poper Blocker in Chrome's Incognito Mode, follow the next steps:"
+   },
+   "PP_Menu_Incognito": {
+      "message": "Incognito"
+   },
+   "PP_Menu_Options": {
+      "message": "Options"
+   },
+   "PP_Menu_Rate": {
+      "message": "Rate Us"
+   },
+   "PP_Menu_Share": {
+      "message": "Share"
+   },
+   "PP_Menu_Stats": {
+      "message": "Stats"
+   },
+   "PP_NoPopupsBlocked": {
+      "message": "Sudah betul!"
+   },
+   "PP_Overlay": {
+      "message": "Laman Lapisan"
+   },
+   "PP_Popup": {
+      "message": "Sembulan"
+   },
+   "PP_PopupsAllowed": {
+      "message": "Popup diblokir di"
+   },
+   "PP_PopupsEssential": {
+      "message": "Sembulan memiliki fungsi penting pada situs ini"
+   },
+   "PP_PopupsFound": {
+      "message": "Sembulan diblokir untuk"
+   },
+   "PP_PopupsFound_X1": {
+      "message": "Sembulan diblokir untuk"
+   },
+   "PP_PopupsNotFound": {
+      "message": "Sejauh ini tidak ditemukan popup"
+   },
+   "PP_Rate": {
+      "message": "Rate Poper Blocker"
+   },
+   "PP_Share_Friends": {
+      "message": "Share Poper Blocker\u003Cbr />with friends"
+   },
+   "PP_Share_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "PP_Share_TT_Copy": {
+      "message": "Copy Link"
+   },
+   "PP_Share_TT_Facebook": {
+      "message": "Share on Facebook"
+   },
+   "PP_Share_TT_Twitter": {
+      "message": "Share on Twitter"
+   },
+   "PP_Stats_HowItWorks": {
+      "message": "See how it really works"
+   },
+   "PP_Stats_Overlays": {
+      "message": "Overlay "
+   },
+   "PP_Stats_Tabs": {
+      "message": "Tab"
+   },
+   "PP_Stats_TotalPopsBlocked": {
+      "message": "Total popup diblokir"
+   },
+   "PP_Stats_TotalTimeSaved": {
+      "message": "Total waktu dihemat"
+   },
+   "PP_Stats_Windows": {
+      "message": "Jendela"
+   },
+   "PP_SwitchedOff": {
+      "message": "Pemblokir Sembulan dimatikan"
+   },
+   "PP_TooltipAllowPops": {
+      "message": "Klik di sini untuk mengizinkan sembulan pada situs ini. Situs akan ditambahkan pada daftar putih pribadi Anda. "
+   },
+   "PP_TooltipBlockPops": {
+      "message": "Tidak Sudah! Bagus! Mudah!"
+   },
+   "PP_TooltipReportOver": {
+      "message": "Klik di sini untuk menghapus laman lapisan yang menyembul di laman saat ini"
+   },
+   "PP_TooltipReportPop": {
+      "message": "Klik di sini untuk menyampaikan informasi pada kami tentang sembulan yang terlewatkan pada bilah atau jendela baru"
+   },
+   "PP_TooltipWhitelistBlockPops": {
+      "message": "We verified that popups are essential functionalities on this site, but feel free to block anyway."
+   },
+   "PP_WhiteListed": {
+      "message": "daftar putih oleh poper blocker"
+   },
+   "PP_XPopupsBlocked_1": {
+      "message": "Tidak Sudah! "
+   },
+   "PP_XPopupsBlocked_2": {
+      "message": "Bagus! "
+   },
+   "PP_XPopupsBlocked_3": {
+      "message": "Mudah!"
+   },
+   "PP_XPopupsBlocked_4": {
+      "message": "Tidak sulit!"
+   },
+   "PP_XPopupsBlocked_5": {
+      "message": "Mudah sekali!"
+   },
+   "TS_NoOverlay": {
+      "message": "No overlay found"
+   },
+   "add": {
+      "message": "Tambahkan"
+   },
+   "allowAlways": {
+      "message": "Izinkan Selalu"
+   },
+   "allowAlwaysTip": {
+      "message": "Selalu izinkan sembulan pada situs ini. Situs akan ditambahkan pada daftar putih Anda. "
+   },
+   "allowButtonLabel": {
+      "message": "Izinkan Sembulan"
+   },
+   "allowOnce": {
+      "message": "Izinkan Satu Kali Saja"
+   },
+   "allowOnceTip": {
+      "message": "Izinkan popup kali ini saja. Kami akan tanyakan kembali bila Anda melihat popup ini lagi."
+   },
+   "allowOverlaysButtonLabel": {
+      "message": "Allow Overlays"
+   },
+   "autoDetectionButtonLabel": {
+      "message": "Yes, once"
+   },
+   "autoDetectionReportWebsiteButtonLabel": {
+      "message": "Report website"
+   },
+   "autoDetectionYesAlwaysButtonLabel": {
+      "message": "Yes, always"
+   },
+   "badgeToggleLabel": {
+      "message": "Tampilkan lencana pada tombol bilah alat saat sebuah sembulan diblokir. "
+   },
+   "blacklistTip": {
+      "message": "Selalu blokir laman lapisan pada situs-situs berikut:"
+   },
+   "blockAlwaysButtonLabel": {
+      "message": "Block always"
+   },
+   "blockButtonLabel": {
+      "message": "Blokir Sembulan"
+   },
+   "blockDetectedOverlayLabel": {
+      "message": "Overlay was detected. Block it ?"
+   },
+   "blockOverlayButtonLabel": {
+      "message": "Remove Overlay"
+   },
+   "bugLink": {
+      "message": "Report a bug"
+   },
+   "contributeButtonLabel": {
+      "message": "Menyumbang"
+   },
+   "disableNotifications": {
+      "message": "Disable Notifications"
+   },
+   "disablePB": {
+      "message": "Nonaktifkan Poper Blocker"
+   },
+   "doNotShow": {
+      "message": "Jangan tampilkan "
+   },
+   "doNotShowTips": {
+      "message": "Jangan tampilkan notifikasi ini saat sembulan pada situs ini diblokir"
+   },
+   "emailLink": {
+      "message": "Email kami"
+   },
+   "enablePB": {
+      "message": "Aktifkan Poper Blocker"
+   },
+   "extDescription": {
+      "message": "Ektensi no #1 untuk memblokir sembulan dan laman lapisan yang mengganggu, dengan cara yang mudah dan efektif. Rambani semua situs tanpa gangguan. "
+   },
+   "extName": {
+      "message": "Pop up blocker for Chrome™ - Poper Blocker"
+   },
+   "extName_FF": {
+      "message": "Popup blocker for FF: Poper Blocker"
+   },
+   "ignoreLabel": {
+      "message": "Ignore"
+   },
+   "linksTitle": {
+      "message": "Links"
+   },
+   "needRefresh": {
+      "message": "Refresh open tabs in order for this change to take effect."
+   },
+   "needRefreshGotIt": {
+      "message": "Ok, got it!"
+   },
+   "neverShowRefresh": {
+      "message": "Don't show again"
+   },
+   "notFoundAutoOverlayLabel": {
+      "message": "Overlay auto detection did not find any overlays"
+   },
+   "notFoundOverlayLabel": {
+      "message": "An overlay wasn't found. Try auto detection?"
+   },
+   "notificationMessage": {
+      "message": "Popup Diblokir di Situs ini"
+   },
+   "notificationSettingsTitle": {
+      "message": "Pengaturan Notifikasi"
+   },
+   "notificationToggleLabel": {
+      "message": "Tampilkan pemberitahuan pada halaman ketika popup diblokir."
+   },
+   "options": {
+      "message": "Options"
+   },
+   "overlayContextMenuToggleLabel": {
+      "message": "Aktifkan opsi \"Buang Overlay\" di menu konteks"
+   },
+   "overlaySettingsTitle": {
+      "message": "Pengaturan Pemblokiran Laman Lapisan"
+   },
+   "overlayWasBlocked": {
+      "message": "Overlay Diblokir di Situs ini"
+   },
+   "overlaysToggleLabel": {
+      "message": "Aktifkan blokir overlay (mengirim data anonim ke pengembang Poper Blocker)"
+   },
+   "pauseButton": {
+      "message": "Pause"
+   },
+   "paused": {
+      "message": "Poper Blocker is off"
+   },
+   "popupsAllowed": {
+      "message": "Popups are allowed on this website."
+   },
+   "popupsBlocked": {
+      "message": "Popups are blocked on this website."
+   },
+   "popupsBlockedLabel": {
+      "message": "#sembulan diblokir"
+   },
+   "rateLink": {
+      "message": "Beri kami 5 bintang"
+   },
+   "rateus": {
+      "message": "Puas dengan Poper Blocker? Beri kami peringkat!"
+   },
+   "removeAlwaysLabel": {
+      "message": "Selalu Buang"
+   },
+   "removeAlwaysText": {
+      "message": "Selalu hapus overlay ini dan jangan tampilkan notifikasi ini lagi. Anda bisa mengubah ini di halaman opsi."
+   },
+   "removeOnceLabel": {
+      "message": "Remove Once"
+   },
+   "removeOverlayQLabel": {
+      "message": "Remove Overlay?"
+   },
+   "resumeButton": {
+      "message": "Start"
+   },
+   "undoLabel": {
+      "message": "Tampilkan overlay"
+   },
+   "undoOnceButtonLabel": {
+      "message": "Undo once"
+   },
+   "undoTips": {
+      "message": "Anda membuang overlay ini, klik untuk Menampilkan overlay"
+   },
+   "urlExamplePlaceholder": {
+      "message": "Contoh: twitter.com"
+   },
+   "urlExistsInList": {
+      "message": "This site is already in list"
+   },
+   "urlExistsInPB": {
+      "message": "Situs ini sudah diizinkan oleh Poper Blocker"
+   },
+   "urlNotValid": {
+      "message": "Harap masukkan URL yang valid."
+   },
+   "websiteInWhitelistOverlayMessage": {
+      "message": "This website is whitelisted. No overlay detection made."
+   },
+   "whitelistTip": {
+      "message": "Untuk mengizinkan sembulan pada sebuah situs, tambahkan situs tersebut pada daftar ini:"
+   },
+   "whitelistTitle": {
+      "message": "Situs Dalam Daftar Putih"
+   }
+}

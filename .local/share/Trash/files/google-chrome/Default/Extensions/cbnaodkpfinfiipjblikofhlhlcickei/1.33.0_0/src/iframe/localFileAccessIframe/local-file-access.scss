@@ -1,0 +1,93 @@
+/* ----- Variables ----- */
+
+$fontFamily: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+$fontColor: #303030;
+$fontColorLight: #5d5d5d;
+$websiteMainColorLighter: #00b8c2;
+$websiteMainColor: #617186;
+$websiteMainColorDarker: #405059;
+
+$hyperlinkColor: #8ccfc9;
+$secondaryTextColor: $websiteMainColor;
+
+$invertedFontColor: #ffffff;
+
+$localFileModalBackgroundColor: #ffffff;
+$localFileModalBoxShadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+$paymentModalHeaderDividerColor: rgba(0, 0, 0, 0.1);
+
+$tagColor: #77a7ff;
+
+/* ------ General CSS ------ */
+
+* {
+  color: $fontColor;
+  font-family: $fontFamily;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.local-file-modal {
+  position: relative;
+  margin: 5% auto;
+  width: 800px;
+  height: 470px;
+  background: $localFileModalBackgroundColor;
+  border-radius: 10px;
+  box-shadow: $localFileModalBoxShadow;
+}
+
+.local-file-modal-header-section {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid $paymentModalHeaderDividerColor;
+}
+
+.local-file-modal-header {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.local-file-modal-body {
+  padding: 50px 30px;
+}
+
+.local-file-permission-header {
+  padding: 20px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.local-file-permission-description {
+  font-size: 15px;
+  text-align: center;
+  color: $fontColorLight;
+}
+
+.local-file-permission-description-wrapper {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.manage-extensions-img {
+  background: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/svg/manage-extensions.svg")
+    no-repeat center;
+  background-size: cover;
+  height: 120px;
+  width: 175px;
+  margin-right: 30px;
+}
+
+.allow-file-access-img {
+  background: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/svg/allow-file-access.svg")
+    no-repeat center;
+  background-size: cover;
+  height: 120px;
+  width: 495px;
+}

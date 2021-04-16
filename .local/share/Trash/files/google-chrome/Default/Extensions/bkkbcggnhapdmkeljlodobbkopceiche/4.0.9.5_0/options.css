@@ -1,0 +1,361 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(fonts/Roboto.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+* {
+  font-family: "Roboto", serif;
+}
+
+.container {
+  width: 1024px;
+}
+
+.navbar {
+  height: 88px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  border: none;
+  margin-bottom: 0;
+}
+
+.navbar-header {
+  width: 100%;
+  padding-right: 12px;
+}
+
+.Options {
+  width: 68px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #55626f;
+  float: right;
+  margin-top: 30px;
+}
+
+.Notification-Setting {
+  width: 182px;
+  height: 24px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3683ab;
+}
+
+.panel {
+  border: 1px solid transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.panel-info {
+  border: none;
+  margin-top:45px ;
+}
+
+.panel-heading {
+  height: 24px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3683ab;
+  padding: 0;
+  margin: 0;
+  background: none !important;
+  background-color: white !important;
+  border: none !important;
+}
+.col-md-8 .panel-info:first-child{
+  margin-top: 35px;
+}
+.col-md-4{
+  margin-top: 40px;
+}
+
+.checboxes {
+  padding: 0 !important;
+}
+
+.checboxes div {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: inset 0 -1px 0 0 #d8d8d8;
+  height: 50px;
+  -webkit-user-select: none;
+}
+
+.checboxes div.large {
+  height: 60px;
+}
+
+  .checboxes div.large > label {
+    position: relative;
+    top: -3px;
+  }
+
+.checboxes span {
+  display: block;
+  font-size: 13px;
+  color: #7a8691;
+}
+
+.checboxes span a {
+  color: #7a8691;
+  text-decoration: underline;
+}
+
+.checboxes input[type="checkbox"] {
+  display: none;
+}
+
+.checboxLabel {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  border: solid 1px #d8d8d8;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 3px;
+  vertical-align: bottom;
+}
+
+.checboxLabel.active .glyphicon {
+  opacity: 1;
+}
+
+.checboxLabel.active {
+  background-color: #3381a9;
+}
+
+.checboxLabel .glyphicon {
+  opacity: 0;
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: -2px;
+}
+.checboxLabel .glyphicon-ok:before{
+  font-size: 11px;
+  font-weight: lighter;
+}
+
+.Line {
+  height: 1px !important;
+  padding: 0 !important;
+  background-color: #ffffff;
+  box-shadow: inset 0 -1px 0 0 #d8d8d8;
+}
+.checboxLabel{
+  margin-right: 8px;
+}
+
+.Show-an-on-page-noti {
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #55626f;
+  white-space: nowrap;
+}
+
+.panel-body {
+  padding: 15px 0 !important;
+}
+
+.form-container {
+  margin-top: 18px;
+}
+
+.panel input[type='text'] {
+  width: 520px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  border: solid 1px #d8d8d8;
+}
+
+.addBtn {
+  width: 100px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: #c43030 !important;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.28);
+  display: inline-block !important;
+  margin-left: 29px;
+  background-image: none !important;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.addBtn:disabled{
+  color: #BABABA;
+  cursor: auto;
+  box-shadow: none;
+  background-color: #EFEFE9 !important;
+}
+
+.addBtn:hover, .addBtn:focus,.addBtn:active {
+  color: #ffffff;
+  outline: 0 !important;
+}
+
+.addInput {
+  display: inline-block !important;
+}
+
+/*
+domain list
+ */
+
+.glyphicon-remove {
+  width: 12px;
+  height: 12px;
+  color: #9b9b9b;
+  cursor: pointer;
+  float: right;
+  margin-top: 3px;
+}
+
+.glyphicon-remove:hover {
+  color: black;
+}
+
+.favicon {
+  margin-right: 12px;
+  vertical-align: bottom;
+}
+
+.list-group {
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-width: 0;
+}
+
+.panel > .list-group .list-group-item, .panel > .panel-collapse > .list-group .list-group-item {
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.list-group-item {
+  width: 652px;
+  height: 43px;
+  border-radius: 4px;
+  background-color: #f6f6f6;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  border: solid 1px #d8d8d8;
+  margin-bottom: 10px;
+}
+
+.domain {
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 18px;
+  letter-spacing: normal;
+  color: #39393a;
+  max-width: 550px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/*
+links at the right
+ */
+.linksPanel {
+  margin-left: 78px;
+  margin-top: 5px;
+}
+
+.linksPanel .list-group .list-group-item {
+  display: flex;
+  width: 220px;
+  border-radius: 5px !important;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  border: solid 1px #d8d8d8 !important;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.linksPanel .list-group-item:hover {
+  background-color: #ccc;
+}
+
+.linksPanel .glyphicon {
+  color: #3381a9;
+  font-size: 18px;
+  vertical-align: sub;
+  margin-right: 8px;
+  width: 18px;
+  height: 18px;
+}
+
+.linksPanel .glyphicon:before{
+  width: 18px !important;
+  height: 18px !important;
+  display: block;
+}
+.linksPanel .list-group-item span:nth-child(2){
+  width: 140px;
+  text-align: center;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+#overlay-panel{
+  position:relative;
+}
+
+.overlay_block {
+  position: absolute;
+  width: 106%;
+  height: 106%;
+  left: -3%;
+  top: -3%;
+  background: #808080b3;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 24px;
+  text-shadow: 0px 1px #0b0707;
+}

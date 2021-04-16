@@ -1,0 +1,1 @@
+document.addEventListener("click",function(e){for(var i,n=e.target;n&&!(i="A"===n.tagName);)n=n.parentElement;if(i){var r=null!=n.href;0!==n.href.indexOf("javascript")&&0!==n.href.indexOf("#")||(r=!1),r&&(e.preventDefault(),e.stopPropagation(),window.location.href="chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/src/webviewer/gistnoteWebViewer.html?url="+n.href)}});

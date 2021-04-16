@@ -1,0 +1,42 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "icons/piq-icon-128px.png",
+         "16": "icons/piq-icon-16px.png",
+         "48": "icons/piq-icon-48px.png"
+      }
+   },
+   "commands": {
+      "toggle-send-email": {
+         "description": "Quickly send an email",
+         "suggested_key": {
+            "default": "Ctrl+K",
+            "mac": "Command+K"
+         }
+      }
+   },
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "default_locale": "en",
+   "description": "PersistIQ Chrome Extension",
+   "homepage_url": "http://www.persistiq.com/",
+   "icons": {
+      "128": "icons/piq-icon-128px.png",
+      "16": "icons/piq-icon-16px.png",
+      "48": "icons/piq-icon-48px.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjl6OQl4KbWx01rkgzG6m3TDFosG29NJ6jyUWuGwf2IwhVphN7zKHZ3ubLE2EGWMxw0v+VlKzdfMLi1gLqKTuU9FqdUeauzF92ydvPhNJlyD7NYz8QwthASjG5O8QyImeEkLSs3ogaHFOq7zjl1WuIk6Wt1CBI9swQWKFxHG9ErDjQQp0T4py66rC0majc8MXZt20l+ahBFDQfNdxhoetTrmIRVjtcDENBzpGYP4pN7ndNccapV58OLzv1XtyeaPd+4mYRarGsD+/xn/Y2AZajmPLJTsTlzKosYaQ75WXBuVk65BQ5En8MPj+3ijb9LNNap2wJrvsr9v3NpMMMxREVwIDAQAB",
+   "manifest_version": 2,
+   "name": "PersistIQ",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "webRequest", "webRequestBlocking", "https://persistiq.com/*", "https://mail.google.com/", "https://*.googleusercontent.com/proxy/*", "\u003Call_urls>", "activeTab", "tabs", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.7.2",
+   "web_accessible_resources": [ "asideWrapper.html", "handle.html" ]
+}

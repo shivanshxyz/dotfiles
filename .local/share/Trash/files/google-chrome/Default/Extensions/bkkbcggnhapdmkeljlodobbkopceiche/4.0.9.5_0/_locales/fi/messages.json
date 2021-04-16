@@ -1,0 +1,356 @@
+{
+   "NTF_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "NTF_blockPrevSite": {
+      "message": "Ponnahdusikkuna estetty"
+   },
+   "NTF_shareUs": {
+      "message": "We like you too! Don't you think it's time to tell your friends about us?"
+   },
+   "OP_overlayList": {
+      "message": "always block overlay list"
+   },
+   "OP_urlExistsInDefaultList": {
+      "message": "This site is already %s by Poper Blocker"
+   },
+   "OP_urlExistsInList": {
+      "message": "This site is already in %s"
+   },
+   "OP_whitelist": {
+      "message": "Whitelist"
+   },
+   "OP_whitelisted": {
+      "message": "whitelisted"
+   },
+   "PP_BlockAnyway": {
+      "message": "Estä joka tapauksessa"
+   },
+   "PP_DidWeMiss": {
+      "message": "Unohdimmeko yhden?"
+   },
+   "PP_ExtName": {
+      "message": "Poper Blocker"
+   },
+   "PP_Incognito_GotIt": {
+      "message": "OK, Got it"
+   },
+   "PP_Incognito_Step1": {
+      "message": "Go to"
+   },
+   "PP_Incognito_Step2": {
+      "message": "Find Poper Blocker"
+   },
+   "PP_Incognito_Step3": {
+      "message": "Mark the checkbox next to \u003Ci>\"Allow in incognito\"\u003C/i>"
+   },
+   "PP_Incognito_Title": {
+      "message": "In order to enable Poper Blocker in Chrome's Incognito Mode, follow the next steps:"
+   },
+   "PP_Menu_Incognito": {
+      "message": "Incognito"
+   },
+   "PP_Menu_Options": {
+      "message": "Options"
+   },
+   "PP_Menu_Rate": {
+      "message": "Rate Us"
+   },
+   "PP_Menu_Share": {
+      "message": "Share"
+   },
+   "PP_Menu_Stats": {
+      "message": "Stats"
+   },
+   "PP_NoPopupsBlocked": {
+      "message": "Näyttää hyvälle!"
+   },
+   "PP_Overlay": {
+      "message": "Peittokuva"
+   },
+   "PP_Popup": {
+      "message": "Ponnahdusikkuna"
+   },
+   "PP_PopupsAllowed": {
+      "message": "Ponnahdusikk. sallittuja"
+   },
+   "PP_PopupsEssential": {
+      "message": "Ponnahdusikkunat ovat tällä sivustolla välttämättömiä toimintoja"
+   },
+   "PP_PopupsFound": {
+      "message": "Ponnahdusikkunat on estetty "
+   },
+   "PP_PopupsFound_X1": {
+      "message": "Ponnahdusikkunat on estetty "
+   },
+   "PP_PopupsNotFound": {
+      "message": "Ponnahdusikkunoita ei ole vielä löytynyt kohdasta"
+   },
+   "PP_Rate": {
+      "message": "Rate Poper Blocker"
+   },
+   "PP_Share_Friends": {
+      "message": "Share Poper Blocker\u003Cbr />with friends"
+   },
+   "PP_Share_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "PP_Share_TT_Copy": {
+      "message": "Copy Link"
+   },
+   "PP_Share_TT_Facebook": {
+      "message": "Share on Facebook"
+   },
+   "PP_Share_TT_Twitter": {
+      "message": "Share on Twitter"
+   },
+   "PP_Stats_HowItWorks": {
+      "message": "See how it really works"
+   },
+   "PP_Stats_Overlays": {
+      "message": "Peit.kuv"
+   },
+   "PP_Stats_Tabs": {
+      "message": "Välileh"
+   },
+   "PP_Stats_TotalPopsBlocked": {
+      "message": "Ponnahdusikk. estetty"
+   },
+   "PP_Stats_TotalTimeSaved": {
+      "message": "Aikaa säästyi yht."
+   },
+   "PP_Stats_Windows": {
+      "message": "Ikkunat"
+   },
+   "PP_SwitchedOff": {
+      "message": "on kytketty pois päältä"
+   },
+   "PP_TooltipAllowPops": {
+      "message": "Napsauta tästä salliaksesi ponnahdusikkunat tällä sivustolla. Se lisätään henkilökohtaiselle hyväksyttyjen listalle."
+   },
+   "PP_TooltipBlockPops": {
+      "message": "\r\nHoituu helposti! \r\nHyvä! \r\nHelppoa! "
+   },
+   "PP_TooltipReportOver": {
+      "message": "Napsauta tästä poistaaksesi peittokuvan, joka on ponnahtanut esiin tällä sivulla"
+   },
+   "PP_TooltipReportPop": {
+      "message": "Napsauta tästä päivittääksesi meitä koskien puuttuvaa ponnahdusikkunaa uudella välilehdellä tai ikkunassa"
+   },
+   "PP_TooltipWhitelistBlockPops": {
+      "message": "We verified that popups are essential functionalities on this site, but feel free to block anyway."
+   },
+   "PP_WhiteListed": {
+      "message": "Poper blockerin sallittujen luettelo"
+   },
+   "PP_XPopupsBlocked_1": {
+      "message": "Hoituu helposti! \r\n\r\n "
+   },
+   "PP_XPopupsBlocked_2": {
+      "message": "Hyvä! "
+   },
+   "PP_XPopupsBlocked_3": {
+      "message": "Helppoa!"
+   },
+   "PP_XPopupsBlocked_4": {
+      "message": "Hoituu hyvin!"
+   },
+   "PP_XPopupsBlocked_5": {
+      "message": "Helppo homma!"
+   },
+   "TS_NoOverlay": {
+      "message": "No overlay found"
+   },
+   "add": {
+      "message": "Lisää"
+   },
+   "allowAlways": {
+      "message": "Salli aina"
+   },
+   "allowAlwaysTip": {
+      "message": "Salli ponnahdusikkunat aina tällä sivustolla. Tämä sivusto tullaan lisäämään hyväksyttyjen listallesi."
+   },
+   "allowButtonLabel": {
+      "message": "Salli ponnahdusikkunat"
+   },
+   "allowOnce": {
+      "message": "Salli kerran"
+   },
+   "allowOnceTip": {
+      "message": "Mahdollistaa ponnahdusikkunan vain tällä kertaa. Seuraavalla kerralla nähdessäsi tämän ponnahdusikkunan kysymme uudelleen."
+   },
+   "allowOverlaysButtonLabel": {
+      "message": "Salli päällykset"
+   },
+   "autoDetectionButtonLabel": {
+      "message": "Kyllä, kerran"
+   },
+   "autoDetectionReportWebsiteButtonLabel": {
+      "message": "Raportoi web-sivusto"
+   },
+   "autoDetectionYesAlwaysButtonLabel": {
+      "message": "Kyllä, aina"
+   },
+   "badgeToggleLabel": {
+      "message": "Näytä merkki työkalurivin painikkeessa, kun ponnahdusikkuna on estetty."
+   },
+   "blacklistTip": {
+      "message": "Estä aina päällykset näillä sivustoilla:"
+   },
+   "blockAlwaysButtonLabel": {
+      "message": "Estä aina"
+   },
+   "blockButtonLabel": {
+      "message": "Estä ponnahdusikkunat"
+   },
+   "blockDetectedOverlayLabel": {
+      "message": "Päällys huomattu, estä se?"
+   },
+   "blockOverlayButtonLabel": {
+      "message": "Poista päällys"
+   },
+   "bugLink": {
+      "message": "Ilmoita virheestä"
+   },
+   "contributeButtonLabel": {
+      "message": "Osallistu"
+   },
+   "disableNotifications": {
+      "message": "Poista ilmoitukset käytöstä"
+   },
+   "disablePB": {
+      "message": "Poista Poper Blocker käytöstä"
+   },
+   "doNotShow": {
+      "message": "Älä näytä"
+   },
+   "doNotShowTips": {
+      "message": "Älä näytä tätä ilmoitusta kun ponnahdusikkunat ovat estettyjä tällä sivustolla"
+   },
+   "emailLink": {
+      "message": "Lähetä meille sähköpostia"
+   },
+   "enablePB": {
+      "message": "Ota Poper Blocker käyttöön"
+   },
+   "extDescription": {
+      "message": "#1 laajennus harmillisten ponnahdusikkunoiden ja kerrostumien estämiseksi helpolla ja tehokkaalla tavalla. Selaa häitiöittä kaikilla sivustoilla."
+   },
+   "extName": {
+      "message": "Pop up blocker for Chrome™ - Poper Blocker"
+   },
+   "extName_FF": {
+      "message": "Popup blocker for FF: Poper Blocker"
+   },
+   "ignoreLabel": {
+      "message": "Älä huomioi"
+   },
+   "linksTitle": {
+      "message": "Linkit"
+   },
+   "needRefresh": {
+      "message": "Refresh open tabs in order for this change to take effect."
+   },
+   "needRefreshGotIt": {
+      "message": "Ok, got it!"
+   },
+   "neverShowRefresh": {
+      "message": "Don't show again"
+   },
+   "notFoundAutoOverlayLabel": {
+      "message": "Päällysten automaattinen havainnointi ei löytänyt päällyksiä"
+   },
+   "notFoundOverlayLabel": {
+      "message": "Päällystä ei löytynyt, koitetaanko automaattista havainnointia?"
+   },
+   "notificationMessage": {
+      "message": "Ponnahdusikkuna estetty"
+   },
+   "notificationSettingsTitle": {
+      "message": "Ilmoitusasetukset"
+   },
+   "notificationToggleLabel": {
+      "message": "Näytä sivulla ilmoitus, kun ponnahdusikkuna on estetty."
+   },
+   "options": {
+      "message": "Vaihtoehdot"
+   },
+   "overlayContextMenuToggleLabel": {
+      "message": "Salli \"Poista peittokuva\" -vaihtoehto pikavalikosta"
+   },
+   "overlaySettingsTitle": {
+      "message": "Päällyksen estoasetukset"
+   },
+   "overlayWasBlocked": {
+      "message": "Päällys estetty"
+   },
+   "overlaysToggleLabel": {
+      "message": "Salli peittokuvien esto (lähettää tietoja anonyymisti Poper Blocker -kehittäjille)"
+   },
+   "pauseButton": {
+      "message": "Pause"
+   },
+   "paused": {
+      "message": "Poper Blocker is off"
+   },
+   "popupsAllowed": {
+      "message": "Ponnahdusikkunat ovat sallittuja tällä sivustolla."
+   },
+   "popupsBlocked": {
+      "message": "Ponnahdusikkunat on estetty tällä sivustolla."
+   },
+   "popupsBlockedLabel": {
+      "message": "X ponnahdusikkunaa estetty"
+   },
+   "rateLink": {
+      "message": "Anna meille 5 tähteä"
+   },
+   "rateus": {
+      "message": "Pidätkö Poper Blocker -sovelluksesta? Arvioi meidät!"
+   },
+   "removeAlwaysLabel": {
+      "message": "Poista aina"
+   },
+   "removeAlwaysText": {
+      "message": "Poista aina tämä sivupäällyste, äläkä näytä tätä ilmoitusta uudelleen. Voit muuttaa tämän valinnat-sivulla."
+   },
+   "removeOnceLabel": {
+      "message": "Poista kerran"
+   },
+   "removeOverlayQLabel": {
+      "message": "Poista päällys?"
+   },
+   "resumeButton": {
+      "message": "Start"
+   },
+   "undoLabel": {
+      "message": "Näytä sivupäällyste"
+   },
+   "undoOnceButtonLabel": {
+      "message": "Peruuta kerran"
+   },
+   "undoTips": {
+      "message": "Poistit manuaalisesti tämän peittokuvan, napsauta Näytä peittokuva"
+   },
+   "urlExamplePlaceholder": {
+      "message": "Esimerkiksi: twitter.com"
+   },
+   "urlExistsInList": {
+      "message": "This site is already in list"
+   },
+   "urlExistsInPB": {
+      "message": "Tämä sivusto on jo Poper Blockerin hyväksymä"
+   },
+   "urlNotValid": {
+      "message": "Syötä kelvollinen URL."
+   },
+   "websiteInWhitelistOverlayMessage": {
+      "message": "This website is whitelisted. No overlay detection made."
+   },
+   "whitelistTip": {
+      "message": "Salliaksesi ponnahdusikkunat / sivun alle avautuvat ikkunat internetsivulta, lisää se tähän luetteloon:"
+   },
+   "whitelistTitle": {
+      "message": "Sallitut sivustot"
+   }
+}

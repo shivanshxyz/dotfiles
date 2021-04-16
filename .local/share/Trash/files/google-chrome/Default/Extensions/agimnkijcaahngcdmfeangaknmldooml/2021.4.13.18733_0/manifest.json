@@ -1,0 +1,36 @@
+{
+   "app": {
+      "display_mode": "minimal-ui",
+      "icon_color": "#FF0000",
+      "launch": {
+         "web_url": "https://www.youtube.com/?feature=ytca"
+      },
+      "linked_icons": [ {
+         "size": 144,
+         "url": "https://www.gstatic.com/youtube/img/branding/favicon/favicon_144x144.png"
+      }, {
+         "size": 192,
+         "url": "https://www.gstatic.com/youtube/img/branding/favicon/favicon_192x192.png"
+      } ]
+   },
+   "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+   "icons": {
+      "128": "icons/128.png",
+      "144": "icons/144.png",
+      "192": "icons/192.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "C9wfl7RPPYLvkffpcY1KbQ0uXhzZzPdGVwmr24Fo5H8=",
+   "name": "YouTube",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://www.youtube.com/*" ],
+         "title": "YouTube"
+      }
+   },
+   "version": "2021.4.13.18733"
+}

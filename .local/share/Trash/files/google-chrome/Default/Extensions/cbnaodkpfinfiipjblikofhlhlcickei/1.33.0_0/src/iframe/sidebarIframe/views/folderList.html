@@ -1,0 +1,18 @@
+<ul ng-model="folderList"
+    class="web-collections-list"
+    ng-class="root ? '':'nested'">
+    <li class="web-collection-wrapper"
+         id={{"folder-card-"+folderId}}
+         folder-id="{{folderId}}"
+         folder-title="{{folder.title}}"
+         ng-repeat="folder in folderArr track by folder.folderId">
+        <folder class="folder-section-wrapper"
+                root="root"
+                user="user"
+                active-folder="activeFolder"
+                folder="folder" folder-id="folder.folderId"
+                deleting-folder-ids="deletingFolderIds"
+                toggle-share-panel="toggleSharePanel"
+                open-edit-panel="openEditPanel"></folder>
+    </li>
+</ul>

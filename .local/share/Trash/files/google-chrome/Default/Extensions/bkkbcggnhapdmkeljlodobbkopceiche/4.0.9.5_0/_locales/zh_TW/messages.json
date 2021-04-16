@@ -1,0 +1,356 @@
+{
+   "NTF_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "NTF_blockPrevSite": {
+      "message": "被阻止快顯視窗"
+   },
+   "NTF_shareUs": {
+      "message": "We like you too! Don't you think it's time to tell your friends about us?"
+   },
+   "OP_overlayList": {
+      "message": "always block overlay list"
+   },
+   "OP_urlExistsInDefaultList": {
+      "message": "This site is already %s by Poper Blocker"
+   },
+   "OP_urlExistsInList": {
+      "message": "This site is already in %s"
+   },
+   "OP_whitelist": {
+      "message": "Whitelist"
+   },
+   "OP_whitelisted": {
+      "message": "whitelisted"
+   },
+   "PP_BlockAnyway": {
+      "message": "一律封鎖"
+   },
+   "PP_DidWeMiss": {
+      "message": "有漏掉的嗎？"
+   },
+   "PP_ExtName": {
+      "message": "Poper Blocker"
+   },
+   "PP_Incognito_GotIt": {
+      "message": "OK, Got it"
+   },
+   "PP_Incognito_Step1": {
+      "message": "Go to"
+   },
+   "PP_Incognito_Step2": {
+      "message": "Find Poper Blocker"
+   },
+   "PP_Incognito_Step3": {
+      "message": "Mark the checkbox next to \u003Ci>\"Allow in incognito\"\u003C/i>"
+   },
+   "PP_Incognito_Title": {
+      "message": "In order to enable Poper Blocker in Chrome's Incognito Mode, follow the next steps:"
+   },
+   "PP_Menu_Incognito": {
+      "message": "Incognito"
+   },
+   "PP_Menu_Options": {
+      "message": "Options"
+   },
+   "PP_Menu_Rate": {
+      "message": "Rate Us"
+   },
+   "PP_Menu_Share": {
+      "message": "Share"
+   },
+   "PP_Menu_Stats": {
+      "message": "Stats"
+   },
+   "PP_NoPopupsBlocked": {
+      "message": "看起來沒問題！"
+   },
+   "PP_Overlay": {
+      "message": "覆疊畫面"
+   },
+   "PP_Popup": {
+      "message": "快顯畫面"
+   },
+   "PP_PopupsAllowed": {
+      "message": "以下網站允許快顯："
+   },
+   "PP_PopupsEssential": {
+      "message": "快顯畫面是此網站上的重要功能"
+   },
+   "PP_PopupsFound": {
+      "message": "阻止 的彈出窗口\r\n"
+   },
+   "PP_PopupsFound_X1": {
+      "message": "阻止 的彈出窗口\r\n"
+   },
+   "PP_PopupsNotFound": {
+      "message": "至今未找到任何快顯"
+   },
+   "PP_Rate": {
+      "message": "Rate Poper Blocker"
+   },
+   "PP_Share_Friends": {
+      "message": "Share Poper Blocker\u003Cbr />with friends"
+   },
+   "PP_Share_LinkCopied": {
+      "message": "Link Copied"
+   },
+   "PP_Share_TT_Copy": {
+      "message": "Copy Link"
+   },
+   "PP_Share_TT_Facebook": {
+      "message": "Share on Facebook"
+   },
+   "PP_Share_TT_Twitter": {
+      "message": "Share on Twitter"
+   },
+   "PP_Stats_HowItWorks": {
+      "message": "See how it really works"
+   },
+   "PP_Stats_Overlays": {
+      "message": "覆疊"
+   },
+   "PP_Stats_Tabs": {
+      "message": "分頁"
+   },
+   "PP_Stats_TotalPopsBlocked": {
+      "message": "封鎖的快顯總數"
+   },
+   "PP_Stats_TotalTimeSaved": {
+      "message": "總節省時間"
+   },
+   "PP_Stats_Windows": {
+      "message": "視窗"
+   },
+   "PP_SwitchedOff": {
+      "message": "已關閉"
+   },
+   "PP_TooltipAllowPops": {
+      "message": "請按一下這裡允許此網站顯示快顯畫面。此網站會新增到您的個人白名單中。"
+   },
+   "PP_TooltipBlockPops": {
+      "message": "\r\n易如反掌！ \r\n很好！ \r\n輕鬆簡單！ "
+   },
+   "PP_TooltipReportOver": {
+      "message": "請按一下這裡移除出現在目前頁面上的覆疊畫面"
+   },
+   "PP_TooltipReportPop": {
+      "message": "請按一下這裡回報新標籤或視窗中漏掉的快顯畫面"
+   },
+   "PP_TooltipWhitelistBlockPops": {
+      "message": "We verified that popups are essential functionalities on this site, but feel free to block anyway."
+   },
+   "PP_WhiteListed": {
+      "message": "由 Poper Blocker 列入\r\n允許清單"
+   },
+   "PP_XPopupsBlocked_1": {
+      "message": "輕鬆簡單！ "
+   },
+   "PP_XPopupsBlocked_2": {
+      "message": "很好！ "
+   },
+   "PP_XPopupsBlocked_3": {
+      "message": "易如反掌！ "
+   },
+   "PP_XPopupsBlocked_4": {
+      "message": "超簡單！"
+   },
+   "PP_XPopupsBlocked_5": {
+      "message": "小事一樁！"
+   },
+   "TS_NoOverlay": {
+      "message": "No overlay found"
+   },
+   "add": {
+      "message": "新增"
+   },
+   "allowAlways": {
+      "message": "始終允許"
+   },
+   "allowAlwaysTip": {
+      "message": "一律允許此網站顯示快顯畫面。此網站將新增到白名單中。"
+   },
+   "allowButtonLabel": {
+      "message": "允許快顯視窗"
+   },
+   "allowOnce": {
+      "message": "允許一次"
+   },
+   "allowOnceTip": {
+      "message": "僅這一次允許彈出視窗。下次看到此彈出視窗時，我們會再詢問一次。"
+   },
+   "allowOverlaysButtonLabel": {
+      "message": "允許覆蓋"
+   },
+   "autoDetectionButtonLabel": {
+      "message": "是的，就一次"
+   },
+   "autoDetectionReportWebsiteButtonLabel": {
+      "message": "舉報網站"
+   },
+   "autoDetectionYesAlwaysButtonLabel": {
+      "message": "是的，永遠"
+   },
+   "badgeToggleLabel": {
+      "message": "快顯視窗被阻止後，在工具列按鈕上顯示徽章。"
+   },
+   "blacklistTip": {
+      "message": "永遠攔截這些網站的覆蓋："
+   },
+   "blockAlwaysButtonLabel": {
+      "message": "永遠攔截"
+   },
+   "blockButtonLabel": {
+      "message": "阻止快顯視窗"
+   },
+   "blockDetectedOverlayLabel": {
+      "message": "檢測到覆蓋。攔截它？"
+   },
+   "blockOverlayButtonLabel": {
+      "message": "清除覆蓋"
+   },
+   "bugLink": {
+      "message": "報告錯誤"
+   },
+   "contributeButtonLabel": {
+      "message": "有助於"
+   },
+   "disableNotifications": {
+      "message": "停用通知"
+   },
+   "disablePB": {
+      "message": "停用 Poper Blocker"
+   },
+   "doNotShow": {
+      "message": "不要顯示"
+   },
+   "doNotShowTips": {
+      "message": "當此網站封鎖快顯畫面時，不要顯示此通知"
+   },
+   "emailLink": {
+      "message": "給我們發電子郵件"
+   },
+   "enablePB": {
+      "message": "啟用 Poper Blocker"
+   },
+   "extDescription": {
+      "message": "頂尖擴充功能以輕鬆、有效的方式，封鎖任何快顯、背顯及覆疊式畫面。瀏覽所有網站，而不受任何干擾。"
+   },
+   "extName": {
+      "message": "Pop up blocker for Chrome™ - Poper Blocker"
+   },
+   "extName_FF": {
+      "message": "Popup blocker for FF: Poper Blocker"
+   },
+   "ignoreLabel": {
+      "message": "忽視"
+   },
+   "linksTitle": {
+      "message": "連結"
+   },
+   "needRefresh": {
+      "message": "Refresh open tabs in order for this change to take effect."
+   },
+   "needRefreshGotIt": {
+      "message": "Ok, got it!"
+   },
+   "neverShowRefresh": {
+      "message": "Don't show again"
+   },
+   "notFoundAutoOverlayLabel": {
+      "message": "自動檢測覆蓋沒有發現到任何覆蓋"
+   },
+   "notFoundOverlayLabel": {
+      "message": "沒有發現到覆蓋。嘗試自動檢測？"
+   },
+   "notificationMessage": {
+      "message": "被阻止快顯視窗"
+   },
+   "notificationSettingsTitle": {
+      "message": "通知設置"
+   },
+   "notificationToggleLabel": {
+      "message": "快顯視窗被阻止後，在網頁上顯示通知。"
+   },
+   "options": {
+      "message": "選項"
+   },
+   "overlayContextMenuToggleLabel": {
+      "message": "啟用操作功能表中的「移除覆疊」選項"
+   },
+   "overlaySettingsTitle": {
+      "message": "覆蓋攔截設置"
+   },
+   "overlayWasBlocked": {
+      "message": "覆蓋已被攔截"
+   },
+   "overlaysToggleLabel": {
+      "message": "啟用覆疊封鎖 (將匿名資料傳送給 Poper Blocker 開發人員)"
+   },
+   "pauseButton": {
+      "message": "暫停"
+   },
+   "paused": {
+      "message": "Poper Blocker 暫停中"
+   },
+   "popupsAllowed": {
+      "message": "允許此網站快顯視窗。"
+   },
+   "popupsBlocked": {
+      "message": "阻止此網站快顯視窗。"
+   },
+   "popupsBlockedLabel": {
+      "message": "已攔截X彈出窗口"
+   },
+   "rateLink": {
+      "message": "給我們5星評價"
+   },
+   "rateus": {
+      "message": "對於 Poper Blocker 的使用是否滿意？請給我們評價！"
+   },
+   "removeAlwaysLabel": {
+      "message": "永遠刪除"
+   },
+   "removeAlwaysText": {
+      "message": "一律移除此覆疊，並且不再顯示此通知。您可以在選項頁面變更此設定。"
+   },
+   "removeOnceLabel": {
+      "message": "刪除一次"
+   },
+   "removeOverlayQLabel": {
+      "message": "清除覆蓋?"
+   },
+   "resumeButton": {
+      "message": "啟動"
+   },
+   "undoLabel": {
+      "message": "顯示覆疊"
+   },
+   "undoOnceButtonLabel": {
+      "message": "撤消一次"
+   },
+   "undoTips": {
+      "message": "您已手動移除此覆疊，按一下以「顯示覆疊」"
+   },
+   "urlExamplePlaceholder": {
+      "message": "例如：twitter.com"
+   },
+   "urlExistsInList": {
+      "message": "This site is already in list"
+   },
+   "urlExistsInPB": {
+      "message": "此網站已由 Poper Blocker 列入白名單"
+   },
+   "urlNotValid": {
+      "message": "請輸入有效的網址。"
+   },
+   "websiteInWhitelistOverlayMessage": {
+      "message": "This website is whitelisted. No overlay detection made."
+   },
+   "whitelistTip": {
+      "message": "要允許某網站的快顯視窗/背後彈出式視窗，將其新增到此清單："
+   },
+   "whitelistTitle": {
+      "message": "允許清單網站"
+   }
+}

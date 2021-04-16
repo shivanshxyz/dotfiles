@@ -1,0 +1,218 @@
+/* ----- Variables ----- */
+
+$fontFamily: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+$fontColor: #303030;
+$fontColorLight: #5d5d5d;
+
+$websiteMainColorLighter: #00b8c2;
+$websiteMainColor: #617186;
+$websiteMainColorDarker: #405059;
+
+$hyperlinkColor: #8ccfc9;
+$secondaryTextColor: $websiteMainColor;
+$secondaryTextButtonMainFontColor: #626262;
+$textButtonMainFontColor: #00949a;
+$textButtonBackgroundColor: $websiteMainColorLighter;
+
+$invertedFontColor: #ffffff;
+
+$paymentModalBackgroundColor: #ffffff;
+$paymentModalBoxShadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+$paymentModalHeaderDividerColor: rgba(0, 0, 0, 0.1);
+
+$tagColor: #77a7ff;
+
+$socialMediaFacebookBackgroundColor: #3a5a99;
+$socialMediaTwitterBackgroundColor: #55acee;
+$referralUrlCopyButtonBoxShadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+$referralUrlCopyButtonHeaderColor: rgba(0, 0, 0, 0.5);
+$referralUrlCopyButtonBackgroundColor: #f2f2f2;
+$referralUrlCopyButtonHoverBackgroundColor: #c4e9e9;
+$referralUrlCopyButtonActiveBackgroundColor: #9abec9;
+
+/* ------ General CSS ------ */
+
+* {
+  color: $fontColor;
+  font-family: $fontFamily;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.payment-modal {
+  position: relative;
+  padding: 40px 0;
+  margin: 5% auto;
+  width: 700px;
+  max-width: 700px;
+  background: $paymentModalBackgroundColor;
+  border-radius: 10px;
+  box-shadow: $paymentModalBoxShadow;
+}
+
+.payment-modal-header-section {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid $paymentModalHeaderDividerColor;
+}
+
+.payment-modal-header {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+.payment-modal-body-header {
+  padding: 20px 0 0 0;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.payment-modal-feature-title {
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: $websiteMainColor;
+}
+
+.payment-modal-body-container {
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+.payment-modal-tag {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 1px 5px;
+  border: 2px solid $tagColor;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 700;
+  color: $tagColor;
+}
+
+.payment-modal-feature-image-container {
+  width: 180px;
+  text-align: center;
+}
+
+.payment-modal-feature-row {
+  width: 100%;
+  margin: 28px auto;
+}
+
+.payment-modal-bottom-section {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0 40px 0;
+  text-align: center;
+}
+
+.payment-modal-payment-button {
+  padding: 10px 20px;
+  margin: 0 auto;
+  background: $websiteMainColor;
+  color: $invertedFontColor;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.referral-view-text-link {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+  color: $secondaryTextButtonMainFontColor;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.upgrade-to-premium-button {
+  padding: 10px 20px;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+  background-color: $textButtonBackgroundColor;
+  color: white;
+  width: 400px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.cell-image.more-colors-image {
+  background-image: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/svg/more-colors.svg");
+  height: 54px;
+  margin-bottom: 9px;
+}
+
+.cell-image.nested-collections-image {
+  background-image: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/svg/nested-collections.svg");
+}
+
+.cell-image.export-premium-image {
+  background-image: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/png/export_premium.png");
+}
+
+.cell-image.collaborate-image {
+  background-image: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/png/collaborate.png");
+}
+
+.cell-image.image-clipping-image {
+  background-image: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/svg/image-clipping.svg");
+}
+
+.cell-image.more-storage-image {
+  background-image: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/svg/more-storage.svg");
+  height: 54px;
+}
+
+.cell-image {
+  width: 100%;
+  height: 80px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.login-button {
+  width: 210px;
+  border-radius: 2px;
+  padding: 10px 15px;
+  border: 1px solid $textButtonBackgroundColor;
+  background: $textButtonBackgroundColor;
+  color: $invertedFontColor;
+  font-size: 14px;
+  text-align: center;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  color: $invertedFontColor;
+  background: #00bfd2;
+}
+
+.login-button:active {
+  color: $invertedFontColor;
+  background: #617186;
+}
+
+.login-text {
+  margin: 20px auto 0 auto;
+  color: #848484;
+  font-family: $fontFamily;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 24px;
+}

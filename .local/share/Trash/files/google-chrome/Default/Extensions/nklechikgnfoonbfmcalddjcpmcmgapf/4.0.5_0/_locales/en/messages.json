@@ -1,0 +1,198 @@
+{
+   "abort": {
+      "description": "Disable Printliminator, but save undo history.",
+      "message": "Disable Printliminator, but save undo history"
+   },
+   "addStylize": {
+      "description": "Add print stylesheet",
+      "message": "Add Print\u003Cbr>Styles"
+   },
+   "altClickRemove": {
+      "description": "Alt-click highlight to remove everything expect the item",
+      "message": "Alt-click to remove opposite"
+   },
+   "clickToRemove": {
+      "description": "Click highlight to remove item",
+      "message": "Just click stuff on page to remove"
+   },
+   "commandButtons": {
+      "description": "Command buttons: undo, stylize, remove graphics & print",
+      "message": "Other Useful Superpowers"
+   },
+   "descriptionColumn": {
+      "description": "Description of key action",
+      "message": "Description"
+   },
+   "downDescription": {
+      "description": "Find first visible child element of highlight",
+      "message": "Find content of highlighted box"
+   },
+   "fontDown": {
+      "description": "Use keyNumpad- to decrease font size",
+      "message": "Decrease font-size by 1"
+   },
+   "fontReset": {
+      "description": "Reset font size to original",
+      "message": "Reset font-size"
+   },
+   "fontUp": {
+      "description": "Use keyNumpad+ to increase font size",
+      "message": "Increase font-size by 1"
+   },
+   "fullWidth": {
+      "description": "Make highlighted element full width & add blue outline",
+      "message": "Set box width to 100% &amp; margins to zero (highlight turns blue)"
+   },
+   "hideKeyboardCommands": {
+      "description": "Close list of keyboard commands",
+      "message": "Hide Keyboard Commands"
+   },
+   "keyAlt": {
+      "description": "Alt-key used with mouse-click",
+      "message": "Alt"
+   },
+   "keyBackspace": {
+      "description": "Press backspace to undo last action",
+      "message": "Backspace"
+   },
+   "keyColumn": {
+      "description": "Key name column",
+      "message": "Key"
+   },
+   "keyDownArrow": {
+      "description": "Down arrow key text added to title",
+      "message": "Down Arrow"
+   },
+   "keyEnter": {
+      "description": "Press enter to remove highlight",
+      "message": "Enter"
+   },
+   "keyEsc": {
+      "description": "Escape key to close Printliminator",
+      "message": "Esc"
+   },
+   "keyEscTitle": {
+      "description": "Escape key full name",
+      "message": "Escape"
+   },
+   "keyF1": {
+      "description": "F1 key name",
+      "message": "F1"
+   },
+   "keyF1Title": {
+      "description": "F1 key used to toggle messages",
+      "message": "Function One"
+   },
+   "keyLeftArrow": {
+      "description": "Left arrow text added to title",
+      "message": "Left Arrow"
+   },
+   "keyNumpad": {
+      "description": "Numpad key text description",
+      "message": "Numpad"
+   },
+   "keyNumpadAsterisk": {
+      "description": "",
+      "message": "Numpad Asterisk (Multiply)"
+   },
+   "keyNumpadMinus": {
+      "description": "Numpad- key",
+      "message": "Numpad Minus"
+   },
+   "keyNumpadPlus": {
+      "description": "Numpad+ key",
+      "message": "Numpad Plus"
+   },
+   "keyPS": {
+      "description": "Print Screen key (abbreviation)",
+      "message": "PrtScn"
+   },
+   "keyPSTitle": {
+      "description": "Print Screen key full name added to title",
+      "message": "Print Screen"
+   },
+   "keyPageDown": {
+      "description": "Page down key",
+      "message": "PageDown"
+   },
+   "keyPageUp": {
+      "description": "Page up key",
+      "message": "PageUp"
+   },
+   "keyRightArrow": {
+      "description": "Right arrow text added to title",
+      "message": "Right Arrow"
+   },
+   "keyShift": {
+      "description": "Shift-key used with mouse-click",
+      "message": "Shift"
+   },
+   "keyUpArrow": {
+      "description": "Up arrow key text added to title",
+      "message": "Up Arrow"
+   },
+   "leftDescription": {
+      "description": "",
+      "message": "Find previous box inside same wrapper"
+   },
+   "mouseLeftClick": {
+      "description": "left mouse click",
+      "message": "left-click on mouse"
+   },
+   "orText": {
+      "description": "or text",
+      "message": "or"
+   },
+   "printPage": {
+      "description": "Print the current page",
+      "message": "Print Page"
+   },
+   "printliminatorDescription": {
+      "description": "Extension Description",
+      "message": "A simple tool to make websites print better."
+   },
+   "printliminatorName": {
+      "description": "Extension name",
+      "message": "The Printliminator"
+   },
+   "removeGraphics": {
+      "description": "Removes all images, iframes and video from the page",
+      "message": "Remove\u003Cbr>Graphics"
+   },
+   "removeHighlight": {
+      "description": "Remove highlighted box",
+      "message": "Remove the highlighted box"
+   },
+   "removeOpposite": {
+      "description": "Remove opposite of highlight",
+      "message": "Remove everything but highlighted box"
+   },
+   "rightDescription": {
+      "description": "Find next visible sibling element of highlight",
+      "message": "Find next box inside same wrapper"
+   },
+   "sendToPrint": {
+      "description": "Print the page",
+      "message": "Send to\u003Cbr>print"
+   },
+   "toggleMessages": {
+      "description": "Action message display is toggled by the F1 key",
+      "message": "Toggle action messages"
+   },
+   "undoAction": {
+      "description": "Undo last action",
+      "message": "Undo last action"
+   },
+   "undoLast": {
+      "description": "Undo the last action",
+      "message": "Undo\u003Cbr>Last"
+   },
+   "upDescription": {
+      "description": "Find parent element of current highlight",
+      "message": "Find wrapper of highlighted box"
+   },
+   "viewKeyboardCommands": {
+      "description": "Open a list of keyboard commands",
+      "message": "View Keyboard Commands"
+   }
+}

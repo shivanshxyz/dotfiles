@@ -1,0 +1,5 @@
+2021/04/13-13:14:23.055 d96 Reusing MANIFEST /home/shivanshxyz/.config/google-chrome/Default/IndexedDB/https_linuxandubuntu.os.tc_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/13-13:14:31.373 d94 Level-0 table #5: started
+2021/04/13-13:14:31.378 d94 Level-0 table #5: 8530 bytes OK
+2021/04/13-13:14:31.381 d94 Delete type=0 #3
+2021/04/13-13:14:31.382 d94 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,253 @@
+/* ----- Variables ----- */
+/* ----- Import ----- */
+.social-media-share-button {
+  cursor: pointer;
+}
+
+.social-media-share-button.facebook {
+  background: #3a5a99;
+}
+
+.social-media-share-button.twitter {
+  background: #55acee;
+}
+
+.social-media-share-button-text {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.referral-url-copy-button {
+  background: #f2f2f2;
+  border-radius: 4px;
+  margin-top: 15px;
+  text-align: center;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  overflow-x: hidden;
+  transition: all 0.05s ease;
+  cursor: pointer;
+}
+
+.referral-url-copy-button-header {
+  font-size: 14px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.referral-url-copy-button-header:hover {
+  background: #c4e9e9;
+}
+
+.referral-url-copy-button-header:active {
+  background: #9abec9;
+}
+
+.referral-url-copy-button-text {
+  width: 360px;
+  padding: 10px 0 10px 10px;
+  border: 1px solid #ffffff;
+  font-size: 16px;
+  cursor: text;
+  outline: none;
+}
+
+.referral-url-copy-button-text:active,
+.referral-url-copy-button-text:focus {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.referral-view-text-link {
+  text-align: center;
+  font-size: 12px;
+  color: #626262;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.referral-view-text-link:hover,
+.referral-view-text-link:active {
+  color: #405059;
+}
+
+/* ------ Grid ------ */
+.col-3 {
+  width: 210px;
+  display: table-cell;
+  vertical-align: text-top;
+}
+
+/* ------ General CSS ------ */
+* {
+  color: #303030;
+  font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.social-share-modal {
+  position: relative;
+  padding: 40px 0;
+  margin: 5% auto;
+  width: 700px;
+  max-width: 700px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.social-share-modal-header-section {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.social-share-modal-header {
+  font-weight: 800;
+  font-size: 24px;
+  text-align: center;
+}
+
+.social-share-modal-cross-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 35px;
+  height: 35px;
+  opacity: 0.3;
+  cursor: pointer;
+  background-image: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/svg/cross-icon.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-share-modal-cross-icon:hover {
+  opacity: 0.5;
+}
+
+.social-share-modal-cross-icon:active {
+  opacity: 0.6;
+}
+
+.social-share-modal-subheader {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px 0;
+  color: #828282;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.social-share-modal-body-header {
+  padding: 20px 0 0 0;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.social-share-modal-feature-title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #617186;
+}
+
+.social-share-modal-body-container {
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+.social-share-modal-tag {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 1px 5px;
+  border: 2px solid #77a7ff;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #77a7ff;
+}
+
+.social-share-modal-learn-more-button {
+  margin-left: 25px;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.social-share-modal-learn-more-button > a {
+  color: #00949a;
+}
+
+.social-share-modal-learn-more-button:hover,
+.social-share-modal-learn-more-button:active {
+  text-decoration: underline;
+}
+
+.social-share-modal-subscribe-premium-link {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #00949a;
+  cursor: pointer;
+}
+
+.social-share-modal-subscribe-premium-link > a {
+  color: #00949a;
+}
+
+.social-share-modal-subscribe-premium-link:hover,
+.social-share-modal-subscribe-premium-link:active {
+  text-decoration: underline;
+}
+
+.fb-post-image {
+  background-image: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/png/facebook-share-post.png");
+  background-size: cover;
+}
+
+.cell-image.more-colors-image {
+  background-image: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/svg/more-colors.svg");
+  height: 50px;
+  margin-bottom: 4px;
+}
+
+.cell-image.nested-collections-image {
+  background-image: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/svg/nested-collections.svg");
+}
+
+.cell-image.export-premium-image {
+  background-image: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/png/export_premium.png");
+}
+
+.cell-image.collaborate-image {
+  background-image: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/png/collaborate.png");
+}
+
+.cell-image.image-clipping-image {
+  background-image: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/svg/image-clipping.svg");
+}
+
+.cell-image.more-storage-image {
+  background-image: url("chrome-extension://cbnaodkpfinfiipjblikofhlhlcickei/static/images/svg/more-storage.svg");
+  height: 54px;
+}
+
+.cell-image {
+  width: 100%;
+  height: 72px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

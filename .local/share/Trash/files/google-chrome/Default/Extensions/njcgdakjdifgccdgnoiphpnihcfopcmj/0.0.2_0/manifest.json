@@ -1,0 +1,18 @@
+{
+   "author": "Eduardo Ruiz",
+   "description": "Gruvbox Dark theme for Chrome Devtools",
+   "devtools_page": "devtools.html",
+   "homepage_url": "https://github.com/eduarbo/chrome-devtools-gruvbox-dark-theme",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "96": "images/icon96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAppWeELSz13FhmSJgYS9NLDEHAfRyyas0w/MbmFuzxiRCkY5zSUZwyj6EZbb7sNoO1+DswzaoORQBMJE+bmFZK6vQqgWvJ3rM1Z8Xse6kzZd6Nbr6lfwX5GT14z/QJxKNVaw/2wN/hU1OvnzR5cz1uJfa1EjFxXknkzw+T3wvVRnaJ6+DaLdTNhOrzmGSMXudINpf4ah1mKj/a2oKFlfE7VzJB/lNa4RFDZlmJFwnrKEAUTGrGz9rMwGkvsZgfdYlRog5FcjweFn66rD4nLqVft4bB2phTpZEMDxfOj8JByZlALwTr7hZs/8wR+e5UYjhqXLdgEZSREJKH0H8556fZwIDAQAB",
+   "manifest_version": 2,
+   "name": "DevTools Theme: Gruvbox Dark",
+   "short_name": "Gruvbox Dark Devtools",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.2"
+}
