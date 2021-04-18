@@ -9,7 +9,7 @@ font pango: Noto Sans 10, FontAwesome 10
 floating_modifier $super
 
 #autostart
-exec_always --no-startup-id feh --bg-fill ~/wallpapers/15.jpg
+exec_always --no-startup-id feh --bg-fill ~/wallpapers/18.jpg
 exec_always --no-startup-id xsettingsd &
 exec_always --no-startup-id compton -b
 exec_always --no-startup-id nm-applet
@@ -20,7 +20,7 @@ exec_always --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authenticati
 exec_always --no-startup-id bash .config/polybar/blocks/launch.sh
 
 # start a terminal
-bindsym $super+Return exec alacritty
+bindsym $super+Return exec terminator
 
 # start dmenu (a program launcher)
 bindsym $super+Shift+d exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=8'"
@@ -155,7 +155,7 @@ bindsym $super+r mode "resize"
 
 
 # window rules, you can find the window class using xprop
-for_window [class=".*"] border pixel 3
+for_window [class=".*"] border pixel 4
 gaps inner 6
 gaps outer 4
 
@@ -170,7 +170,7 @@ for_window [class=URxvt|Firefox|Geany|Evince|Soffice|libreoffice*|mpv|Ghb|Xfburn
 for_window [class=Xfburn|GParted|System-config-printer.py|Lxtask|Pavucontrol|Exo-helper*|Lxrandr|Arandr] focus
 
 # colour of border, background, text, indicator, and child_border
-client.focused              #bf616a #2f343f #d8dee8 #bf616a #d8dee8
+client.focused              #bf616a #2f343f #d8dee8 #bf616a #b57614
 client.focused_inactive     #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.unfocused            #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.urgent               #2f343f #2f343f #d8dee8 #2f343f #2f343f

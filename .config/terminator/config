@@ -1,11 +1,13 @@
 [global_config]
   focus = system
+  hide_from_taskbar = True
   title_transmit_bg_color = "#d30102"
 [keybindings]
   paste = <Primary>v
 [profiles]
   [[default]]
     background_color = "#282828"
+    background_darkness = 0.96
     background_type = transparent
     cursor_color = "#7c6f64"
     font = Fira Code weight=453 14
@@ -16,8 +18,6 @@
     login_shell = True
     use_system_font = False
     copy_on_selection = True
-  [[gruvbox-dark]]
-    cursor_color = "#aaaaaa"
 [layouts]
   [[default]]
     [[[child1]]]
